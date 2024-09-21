@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2011년 대비 연간 수익률 차트</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <style>
+        #chart {
+            max-width: 800px;
+            margin: 35px auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="chart"></div>
+
+    <script>
+        // Fetching the content of 1.txt file
+        fetch('1.txt')
+        .then(response => response.text())
+        .then(text => {
+            const data = JSON.parse(text);
+            
+            // 데이터를 년도 순으로 정렬
+            const sortedData = data.sort((a, b) => a.year - b.year);
+
+            const options = {
+                chart: {
+                    type: 'line',
+                    height: 350
+                },
+                series: [{
+                    name: '2011년 대비 수익률',
+                    data: sortedData.map(item => item.return_2011 * 100) // 백분율로 변환
+                }],
+                xaxis: {
+                    categories: sortedData.map(item => item.year.toString()),
+                    title: {
+                        text: '년도'
+                    }
+                },
+                yaxis: {
+                    title: {
+                        text: '수익률 (%)'
+                    },
+                    labels: {
+                        formatter: function (value) {
+                            return value.toFixed(2) + '%';
+                        }
+                    }
+                },
+                title: {
+                    text: '2011년 대비 연간 수익률',
+                    align: 'left'
+                },
+                tooltip: {
+                    y: {
+                        formatter: function (value) {
+                            return value.toFixed(2) + '%';
+                        }
+                    }
+                }
+            };
+
+            const chart = new ApexCharts(document.querySelector("#chart"), options);
+            chart.render();
+        });
+    </script>
+</body>
+</html>
