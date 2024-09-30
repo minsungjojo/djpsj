@@ -14,13 +14,31 @@
 // 11.txt 파일의 데이터를 가져와 차트를 생성하는 함수
 async function createChart() {
     try {
-        // 11.txt 파일 데이터 가져오기
+        // GitHub Pages에 업로드된 11.txt 파일의 URL을 넣으세요
         const response = await fetch('11.txt');
+        
+        // 파일이 성공적으로 로드되었는지 확인
+        if (!response.ok) {
+            throw new Error('네트워크 응답에 문제가 있습니다: ' + response.statusText);
+        }
+
         const text = await response.text();
         
         // JSON 문자열을 개별 객체로 파싱
-        const dataArray = text.trim().split('\n').map(line => JSON.parse(line));
+        const dataArray = text.trim().split('\n').map(line => {
+            try {
+                return JSON.parse(line);
+            } catch (e) {
+                console.error('JSON 파싱 오류:', e);
+                return null;
+            }
+        }).filter(item => item !== null);
         
+        // 데이터가 제대로 로드되었는지 확인
+        if (dataArray.length === 0) {
+            throw new Error('데이터가 비어 있습니다.');
+        }
+
         // 차트에 사용할 데이터 추출
         const dates = dataArray.map(entry => entry.day);
         const btcPrices = dataArray.map(entry => entry.BTC_price);
