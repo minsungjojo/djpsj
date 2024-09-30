@@ -3,83 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ApexChart 예제</title>
+    <title>ApexCharts를 사용한 BTC 차트</title>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body>
+    <div id="btcChart"></div>
 
-<div id="chart"></div>
-
-<script>
-// 11.txt 파일의 데이터를 가져와 차트를 생성하는 함수
-async function createChart() {
-    try {
-        // GitHub Pages에 업로드된 11.txt 파일의 URL을 넣으세요
-        const response = await fetch('11.txt');
-        
-        // 파일이 성공적으로 로드되었는지 확인
-        if (!response.ok) {
-            throw new Error('네트워크 응답에 문제가 있습니다: ' + response.statusText);
-        }
-
-        const text = await response.text();
-        
-        // JSON 문자열을 개별 객체로 파싱
-        const dataArray = text.trim().split('\n').map(line => {
+    <script>
+        // 11.txt에서 데이터를 가져와 파싱하는 함수
+        async function fetchData() {
             try {
-                return JSON.parse(line);
-            } catch (e) {
-                console.error('JSON 파싱 오류:', e);
-                return null;
+                const response = await fetch('11.txt');
+                const textData = await response.text();
+                
+                // 파일 내용을 줄 단위로 분리하고 각 줄을 JSON 객체로 파싱
+                const dataLines = textData.trim().split('\n').map(line => JSON.parse(line));
+                
+                return dataLines;
+            } catch (error) {
+                console.error('데이터를 가져오거나 파싱하는 중 오류 발생:', error);
             }
-        }).filter(item => item !== null);
-        
-        // 데이터가 제대로 로드되었는지 확인
-        if (dataArray.length === 0) {
-            throw new Error('데이터가 비어 있습니다.');
         }
 
-        // 차트에 사용할 데이터 추출
-        const dates = dataArray.map(entry => entry.day);
-        const btcPrices = dataArray.map(entry => entry.BTC_price);
-        const usdBalances = dataArray.map(entry => entry.USD_Balance);
-
-        // 차트 생성
-        const options = {
-            chart: {
-                type: 'line',
-                height: 350
-            },
-            series: [
-                {
-                    name: 'BTC 가격',
-                    data: btcPrices
-                },
-                {
-                    name: 'USD 잔액',
-                    data: usdBalances
-                }
-            ],
-            xaxis: {
-                categories: dates,
-                type: 'datetime'
-            },
-            title: {
-                text: '시간에 따른 BTC 가격 및 USD 잔액'
+        // ApexCharts를 사용하여 차트를 생성하는 함수
+        async function createChart() {
+            const data = await fetchData();
+            
+            if (!data) {
+                return;
             }
-        };
 
-        const chart = new ApexCharts(document.querySelector("#chart"), options);
-        chart.render();
+            // 라벨(날짜)과 데이터셋(BTC 가격, 잔액, USD 잔액) 추출
+            const labels = data.map(item => new Date(item.day).toLocaleDateString());
+            const btcPrices = data.map(item => item.BTC_price);
+            const btcBalances = data.map(item => item.BTC_Balance);
+            const usdBalances = data.map(item => item.USD_Balance);
 
-    } catch (error) {
-        console.error('데이터를 가져오는 중 오류가 발생했습니다:', error);
-    }
-}
+            // 차트 생성
+            const options = {
+                chart: {
+                    type: 'line',
+                    height: 400
+                },
+                series: [
+                    {
+                        name: 'BTC 가격',
+                        data: btcPrices
+                    },
+                    {
+                        name: 'BTC 잔액',
+                        data: btcBalances
+                    },
+                    {
+                        name: 'USD 잔액',
+                        data: usdBalances
+                    }
+                ],
+                xaxis: {
+                    categories: labels,
+                    title: {
+                        text: '날짜'
+                    }
+                },
+                yaxis: {
+                    title: {
+                        text: '값'
+                    }
+                },
+                stroke: {
+                    curve: 'smooth'
+                },
+                title: {
+                    text: '시간에 따른 BTC 가격, 잔액, USD 잔액',
+                    align: 'center'
+                }
+            };
 
-// 차트 생성 함수 호출
-createChart();
-</script>
+            const chart = new ApexCharts(document.querySelector("#btcChart"), options);
+            chart.render();
+        }
 
+        // 페이지 로드 시 차트 생성
+        createChart();
+    </script>
 </body>
 </html>
