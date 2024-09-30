@@ -1,28 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ApexCharts Example</title>
+    <title>BTC 및 USD 잔액 변화</title>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body>
     <div id="chart"></div>
     <script>
-        // Step 1: Fetch the Dataset from 1.txt
+        // Step 1: 11.txt 파일에서 데이터 가져오기
         fetch('11.txt')
-            .then(response => response.text()) // Fetch file as text
+            .then(response => response.text())
             .then(text => {
-                // Split text into lines and parse each as a JSON object
-                const data = text.trim().split('\n').map(line => JSON.parse(line));
-                
-                // Step 2: Process the dataset
+                // 텍스트를 줄 단위로 나누고 각 줄을 JSON 객체로 파싱
+                const data = text.trim().split('\n').map(line => {
+                    try {
+                        return JSON.parse(line);
+                    } catch (error) {
+                        console.error('JSON parsing error:', error);
+                        return null;
+                    }
+                }).filter(item => item !== null); // 유효한 데이터만 필터링
+
+                // Step 2: 데이터 처리
                 const categories = data.map(entry => entry.day);
                 const BTCPrices = data.map(entry => entry.BTC_price);
                 const BTCBalances = data.map(entry => entry.BTC_Balance);
                 const USDBalances = data.map(entry => entry.USD_Balance);
 
-                // Step 3: Configure the ApexCharts Options
+                // Step 3: ApexCharts 옵션 설정
                 var options = {
                     chart: {
                         type: 'line',
@@ -30,27 +37,27 @@
                     },
                     series: [
                         {
-                            name: 'BTC Price',
+                            name: 'BTC 가격',
                             data: BTCPrices
                         },
                         {
-                            name: 'BTC Balance',
+                            name: 'BTC 잔액',
                             data: BTCBalances
                         },
                         {
-                            name: 'USD Balance',
+                            name: 'USD 잔액',
                             data: USDBalances
                         }
                     ],
                     xaxis: {
                         categories: categories,
                         title: {
-                            text: 'Date'
+                            text: '날짜'
                         }
                     },
                     yaxis: {
                         title: {
-                            text: 'Values'
+                            text: '값'
                         },
                         labels: {
                             formatter: function (value) {
@@ -59,16 +66,16 @@
                         }
                     },
                     title: {
-                        text: 'BTC and USD Balances Over Time',
+                        text: 'BTC 및 USD 잔액 변화',
                         align: 'center'
                     }
                 };
 
-                // Step 4: Render the Chart
+                // Step 4: 차트 렌더링
                 var chart = new ApexCharts(document.querySelector("#chart"), options);
                 chart.render();
             })
-            .catch(error => console.error('Error fetching the dataset:', error));
+            .catch(error => console.error('데이터셋을 가져오는 중 오류 발생:', error));
     </script>
 </body>
 </html>
