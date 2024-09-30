@@ -3,88 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ApexCharts를 사용한 BTC 차트</title>
+    <title>ApexChart 예제</title>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body>
-    <div id="btcChart"></div>
+    <div id="chart"></div>
 
     <script>
-        // 11.txt에서 데이터를 가져와 파싱하는 함수
-        async function fetchData() {
-            try {
-                const response = await fetch('11.txt');
-                const textData = await response.text();
-                
-                // 파일 전체 내용을 JSON 배열로 파싱
-                const data = JSON.parse(textData);
-                
-                return data;
-            } catch (error) {
-                console.error('데이터를 가져오거나 파싱하는 중 오류 발생:', error);
-            }
-        }
+        // 11.txt 파일을 fetch로 불러오기
+        fetch('11.txt')
+            .then(response => response.text())
+            .then(text => {
+                // 각 줄을 개별 JSON 객체로 파싱
+                const data = text.trim().split('\n').map(line => JSON.parse(line));
 
-        // ApexCharts를 사용하여 차트를 생성하는 함수
-        async function createChart() {
-            const data = await fetchData();
-            
-            if (!data) {
-                return;
-            }
-
-            // 라벨(날짜)과 데이터셋(BTC 가격, 잔액, USD 잔액) 추출
-            const labels = data.map(item => new Date(item.day).toLocaleDateString());
-            const btcPrices = data.map(item => item.BTC_price);
-            const btcBalances = data.map(item => item.BTC_Balance);
-            const usdBalances = data.map(item => item.USD_Balance);
-
-            // 차트 생성
-            const options = {
-                chart: {
-                    type: 'line',
-                    height: 400
-                },
-                series: [
-                    {
-                        name: 'BTC 가격',
-                        data: btcPrices
+                // ApexCharts를 위한 옵션 설정
+                const options = {
+                    chart: {
+                        type: 'line',
+                        height: 350
                     },
-                    {
-                        name: 'BTC 잔액',
-                        data: btcBalances
+                    series: [
+                        {
+                            name: 'BTC 가격',
+                            data: data.map(item => [new Date(item.day).getTime(), item.BTC_price])
+                        },
+                        {
+                            name: 'USD 잔액',
+                            data: data.map(item => [new Date(item.day).getTime(), item.USD_Balance])
+                        }
+                    ],
+                    xaxis: {
+                        type: 'datetime',
+                        labels: {
+                            format: 'yyyy-MM-dd'
+                        }
                     },
-                    {
-                        name: 'USD 잔액',
-                        data: usdBalances
-                    }
-                ],
-                xaxis: {
-                    categories: labels,
+                    yaxis: [
+                        {
+                            title: {
+                                text: 'BTC 가격',
+                            }
+                        },
+                        {
+                            opposite: true,
+                            title: {
+                                text: 'USD 잔액',
+                            }
+                        }
+                    ],
                     title: {
-                        text: '날짜'
+                        text: 'BTC 가격 및 USD 잔액 추이',
+                        align: 'center'
                     }
-                },
-                yaxis: {
-                    title: {
-                        text: '값'
-                    }
-                },
-                stroke: {
-                    curve: 'smooth'
-                },
-                title: {
-                    text: '시간에 따른 BTC 가격, 잔액, USD 잔액',
-                    align: 'center'
-                }
-            };
+                };
 
-            const chart = new ApexCharts(document.querySelector("#btcChart"), options);
-            chart.render();
-        }
-
-        // 페이지 로드 시 차트 생성
-        createChart();
+                // 차트 생성
+                const chart = new ApexCharts(document.querySelector("#chart"), options);
+                chart.render();
+            })
+            .catch(error => console.error('Error fetching the data:', error));
     </script>
 </body>
 </html>
