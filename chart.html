@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApexCharts Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+    <div id="chart"></div>
+    <script>
+        // Step 1: Fetch the Dataset from 1.txt
+        fetch('11.txt')
+            .then(response => response.text()) // Fetch file as text
+            .then(text => {
+                // Split text into lines and parse each as a JSON object
+                const data = text.trim().split('\n').map(line => JSON.parse(line));
+                
+                // Step 2: Process the dataset
+                const categories = data.map(entry => entry.day);
+                const BTCPrices = data.map(entry => entry.BTC_price);
+                const BTCBalances = data.map(entry => entry.BTC_Balance);
+                const USDBalances = data.map(entry => entry.USD_Balance);
+
+                // Step 3: Configure the ApexCharts Options
+                var options = {
+                    chart: {
+                        type: 'line',
+                        height: 350
+                    },
+                    series: [
+                        {
+                            name: 'BTC Price',
+                            data: BTCPrices
+                        },
+                        {
+                            name: 'BTC Balance',
+                            data: BTCBalances
+                        },
+                        {
+                            name: 'USD Balance',
+                            data: USDBalances
+                        }
+                    ],
+                    xaxis: {
+                        categories: categories,
+                        title: {
+                            text: 'Date'
+                        }
+                    },
+                    yaxis: {
+                        title: {
+                            text: 'Values'
+                        },
+                        labels: {
+                            formatter: function (value) {
+                                return value.toFixed(2);
+                            }
+                        }
+                    },
+                    title: {
+                        text: 'BTC and USD Balances Over Time',
+                        align: 'center'
+                    }
+                };
+
+                // Step 4: Render the Chart
+                var chart = new ApexCharts(document.querySelector("#chart"), options);
+                chart.render();
+            })
+            .catch(error => console.error('Error fetching the dataset:', error));
+    </script>
+</body>
+</html>
