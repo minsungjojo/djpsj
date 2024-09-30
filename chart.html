@@ -16,10 +16,10 @@
                 const response = await fetch('11.txt');
                 const textData = await response.text();
                 
-                // 파일 내용을 줄 단위로 분리하고 각 줄을 JSON 객체로 파싱
-                const dataLines = textData.trim().split('\n').map(line => JSON.parse(line));
+                // 파일 전체 내용을 JSON 배열로 파싱
+                const data = JSON.parse(textData);
                 
-                return dataLines;
+                return data;
             } catch (error) {
                 console.error('데이터를 가져오거나 파싱하는 중 오류 발생:', error);
             }
