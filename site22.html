@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ApexCharts Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+
+<div id="chart"></div>
+
+<script>
+// b2.json 파일에서 데이터를 가져오는 함수
+fetch('b2.json')
+    .then(response => response.json())
+    .then(data => {
+        // 날짜 배열 생성
+        var dates = data.map(item => item.date);
+
+        // global_liquidity_index 배열 생성
+        var globalLiquidityIndex = data.map(item => item.global_liquidity_index);
+
+        // btc_usd 배열 생성
+        var btcUsd = data.map(item => item.btc_usd);
+
+        // ApexCharts 옵션 설정
+        var options = {
+            chart: {
+                type: 'line',
+                height: 350
+            },
+            series: [
+                {
+                    name: 'Global Liquidity Index',
+                    data: globalLiquidityIndex
+                },
+                {
+                    name: 'BTC/USD',
+                    data: btcUsd
+                }
+            ],
+            xaxis: {
+                categories: dates,
+                type: 'datetime',
+                labels: {
+                    format: 'yyyy-MM-dd'
+                }
+            },
+            title: {
+                text: 'BTC/USD vs Global Liquidity Index',
+                align: 'center'
+            },
+            yaxis: {
+                labels: {
+                    formatter: function(value) {
+                        return value.toFixed(2);
+                    }
+                }
+            }
+        };
+
+        // 차트 렌더링
+        var chart = new ApexCharts(document.querySelector("#chart"), options);
+        chart.render();
+    })
+    .catch(error => console.error('Error fetching the JSON file:', error));
+
+</script>
+
+</body>
+</html>
