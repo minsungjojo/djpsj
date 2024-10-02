@@ -11,7 +11,7 @@
 
     <script>
         // JSON 파일에서 데이터 가져오기
-        fetch('b3.json') // JSON 파일 경로를 정확히 입력하세요
+        fetch('path/to/b3.json') // JSON 파일 경로를 정확히 입력하세요
             .then(response => response.json())
             .then(data => {
                 // halving 값에 따라 데이터 그룹화
@@ -64,8 +64,9 @@
                         title: {
                             text: 'Indexed Performance'
                         },
-                        min: 0,  // Y축 최소값을 0으로 설정
-                        tickAmount: 20, // Y축 눈금을 세분화하여 세로 길이 확장
+                        min: 0,  
+                        max: undefined, // 최대값을 자동으로 조정
+                        logarithmic: true, // Y축을 로그 스케일로 변경하여 작은 값(0~1000)을 확대
                         labels: {
                             formatter: function(value) {
                                 return value.toFixed(0); // 소수점 제거
@@ -87,6 +88,22 @@
                                 return value.toFixed(2);
                             }
                         }
+                    },
+                    annotations: {
+                        yaxis: [
+                            {
+                                y: 1000,
+                                borderColor: '#FF0000',
+                                label: {
+                                    borderColor: '#FF0000',
+                                    style: {
+                                        color: '#fff',
+                                        background: '#FF0000'
+                                    },
+                                    text: '1000 값 기준선'
+                                }
+                            }
+                        ]
                     },
                     legend: {
                         position: 'top',
