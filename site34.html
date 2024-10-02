@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApexCharts Comparison</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+    <div id="chart"></div>
+
+    <script>
+        // Fetch the data from the JSON file
+        fetch('b3.json') // Replace with the correct path to your b3.json file
+            .then(response => response.json())
+            .then(data => {
+                // Group data by halving
+                const groupedData = {};
+                data.forEach(item => {
+                    if (!groupedData[item.halving]) {
+                        groupedData[item.halving] = [];
+                    }
+                    groupedData[item.halving].push(item);
+                });
+
+                // Sort data in each group by days in ascending order
+                Object.keys(groupedData).forEach(halving => {
+                    groupedData[halving].sort((a, b) => a.days - b.days);
+                });
+
+                // Prepare series for each halving group
+                const series = Object.keys(groupedData).map(halving => {
+                    return {
+                        name: halving,
+                        data: groupedData[halving].map(item => [item.days, item.indexed_performance])
+                    };
+                });
+
+                // Chart options
+                const options = {
+                    chart: {
+                        type: 'line',
+                        height: 350,
+                        zoom: {
+                            enabled: true
+                        }
+                    },
+                    series: series,
+                    xaxis: {
+                        type: 'numeric',
+                        title: {
+                            text: 'Days'
+                        }
+                    },
+                    yaxis: {
+                        title: {
+                            text: 'Indexed Performance'
+                        }
+                    },
+                    title: {
+                        text: 'Indexed Performance Comparison by Halving',
+                        align: 'center'
+                    }
+                };
+
+                // Render the chart
+                const chart = new ApexCharts(document.querySelector("#chart"), options);
+                chart.render();
+            })
+            .catch(error => {
+                console.error('Error loading the JSON data:', error);
+            });
+    </script>
+</body>
+</html>
