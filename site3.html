@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+  <div id="chart"></div>
+
+  <script>
+    // JSON 파일을 가져오는 함수
+    async function fetchData() {
+      try {
+        const response = await fetch('b1.json'); // JSON 파일 경로
+        const data = await response.json();
+
+        // 날짜와 가격을 분리하고 배열을 반전
+        const dates = data.map(item => item.day.split(' ')[0]).reverse();
+        const prices = data.map(item => item.BTC_price).reverse();
+
+        // ApexCharts 설정
+        const options = {
+          chart: {
+            type: 'line',
+            height: 350
+          },
+          series: [{
+            name: 'BTC Price',
+            data: prices
+          }],
+          xaxis: {
+            categories: dates,
+            title: {
+              text: 'Date'
+            }
+          },
+          yaxis: {
+            title: {
+              text: 'Price (USD)'
+            }
+          }
+        };
+
+        // 차트 생성
+        const chart = new ApexCharts(document.querySelector("#chart"), options);
+        chart.render();
+
+      } catch (error) {
+        console.error('Error fetching JSON data:', error);
+      }
+    }
+
+    // 데이터 가져오기 함수 호출
+    fetchData();
+  </script>
+</body>
+</html>
