@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApexCharts 비교</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+    <div id="chart"></div>
+
+    <script>
+        // JSON 파일에서 데이터 가져오기
+        fetch('path/to/b3.json') // JSON 파일 경로를 정확히 입력하세요
+            .then(response => response.json())
+            .then(data => {
+                // halving 값에 따라 데이터 그룹화
+                const groupedData = {};
+                data.forEach(item => {
+                    if (!groupedData[item.halving]) {
+                        groupedData[item.halving] = [];
+                    }
+                    groupedData[item.halving].push(item);
+                });
+
+                // 각 그룹의 데이터를 days를 기준으로 오름차순 정렬
+                Object.keys(groupedData).forEach(halving => {
+                    groupedData[halving].sort((a, b) => a.days - b.days);
+                });
+
+                // 각 halving 그룹을 위한 시리즈 준비
+                const series = Object.keys(groupedData).map(halving => {
+                    return {
+                        name: halving,
+                        data: groupedData[halving].map(item => [item.days, item.indexed_performance])
+                    };
+                });
+
+                // 차트 옵션 설정
+                const options = {
+                    chart: {
+                        type: 'line',
+                        height: 700, // 차트의 높이를 700으로 설정
+                        zoom: {
+                            enabled: false
+                        },
+                        toolbar: {
+                            show: true
+                        }
+                    },
+                    series: series,
+                    xaxis: {
+                        type: 'numeric',
+                        title: {
+                            text: 'Days'
+                        },
+                        labels: {
+                            formatter: function(value) {
+                                return Math.round(value);
+                            }
+                        }
+                    },
+                    yaxis: {
+                        title: {
+                            text: 'Indexed Performance'
+                        },
+                        min: 0,  // Y축 최소값을 0으로 설정하여 차트의 스케일을 개선
+                        labels: {
+                            formatter: function(value) {
+                                return value.toFixed(0); // 소수점 제거
+                            }
+                        }
+                    },
+                    stroke: {
+                        width: 2,
+                        curve: 'smooth' // 곡선을 부드럽게 설정
+                    },
+                    markers: {
+                        size: 0 // 마커를 숨김으로써 참고 차트와 유사하게 표시
+                    },
+                    tooltip: {
+                        shared: true,
+                        intersect: false,
+                        y: {
+                            formatter: function(value) {
+                                return value.toFixed(2);
+                            }
+                        }
+                    },
+                    legend: {
+                        position: 'top',
+                        horizontalAlign: 'center'
+                    },
+                    title: {
+                        text: '500 Days Before/After The Halving',
+                        align: 'center'
+                    }
+                };
+
+                // 차트 렌더링
+                const chart = new ApexCharts(document.querySelector("#chart"), options);
+                chart.render();
+            })
+            .catch(error => {
+                console.error('JSON 데이터를 불러오는 중 오류 발생:', error);
+            });
+    </script>
+</body>
+</html>
