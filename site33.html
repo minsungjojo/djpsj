@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApexCharts with JSON Data</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+    <div id="chart"></div>
+    
+    <script>
+        // Fetch the data from the JSON file
+        fetch('b3.json') // Replace 'path/to/b2.json' with the correct path to your JSON file
+            .then(response => response.json())
+            .then(data => {
+                // Preparing the data for the chart
+                const days = data.map(item => item.days);
+                const indexedPerformance = data.map(item => item.indexed_performance);
+                const halvingName = data[0].halving; // Assuming all entries have the same halving value
+
+                // Chart options
+                const options = {
+                    chart: {
+                        type: 'line',
+                        height: 350
+                    },
+                    series: [{
+                        name: halvingName,
+                        data: indexedPerformance
+                    }],
+                    xaxis: {
+                        categories: days,
+                        title: {
+                            text: 'Days'
+                        }
+                    },
+                    yaxis: {
+                        title: {
+                            text: 'Indexed Performance'
+                        }
+                    },
+                    title: {
+                        text: 'Indexed Performance over Days',
+                        align: 'center'
+                    }
+                };
+
+                // Render the chart
+                const chart = new ApexCharts(document.querySelector("#chart"), options);
+                chart.render();
+            })
+            .catch(error => {
+                console.error('Error loading the JSON data:', error);
+            });
+    </script>
+</body>
+</html>
