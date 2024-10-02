@@ -11,9 +11,12 @@
     
     <script>
         // Fetch the data from the JSON file
-        fetch('b3.json') // Replace 'path/to/b2.json' with the correct path to your JSON file
+        fetch('path/to/b2.json') // Replace 'path/to/b2.json' with the correct path to your JSON file
             .then(response => response.json())
             .then(data => {
+                // Reverse the data order
+                data.reverse();
+
                 // Preparing the data for the chart
                 const days = data.map(item => item.days);
                 const indexedPerformance = data.map(item => item.indexed_performance);
