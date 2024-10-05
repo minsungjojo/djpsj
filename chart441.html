@@ -32,11 +32,16 @@
             });
         }
 
+        // 데이터를 날짜 순서로 정렬하는 함수
+        function 날짜정렬(데이터) {
+            return 데이터.sort((a, b) => new Date(a.month) - new Date(b.month));
+        }
+
         // 데이터를 기반으로 차트를 생성하는 함수
-        function 차트생성(필터링된데이터) {
+        function 차트생성(정렬된데이터) {
             // x축과 y축 데이터 생성
-            var 월별 = 필터링된데이터.map(항목 => new Date(항목.month).toLocaleDateString('ko-KR', { year: 'numeric', month: 'short' }));
-            var 볼륨달러 = 필터링된데이터.map(항목 => 항목.volume_dollar);
+            var 월별 = 정렬된데이터.map(항목 => new Date(항목.month).toLocaleDateString('ko-KR', { year: 'numeric', month: 'short' }));
+            var 볼륨달러 = 정렬된데이터.map(항목 => 항목.volume_dollar);
 
             // ApexCharts 옵션 설정
             var 옵션 = {
@@ -85,7 +90,8 @@
         // 데이터 가져오기 및 차트 생성
         가져오기().then(데이터 => {
             var 필터링된데이터 = 중복제거(데이터);
-            차트생성(필터링된데이터);
+            var 정렬된데이터 = 날짜정렬(필터링된데이터); // 날짜 순서로 정렬
+            차트생성(정렬된데이터);
         }).catch(error => {
             console.error('데이터를 가져오는 중 오류 발생:', error);
         });
