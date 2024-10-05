@@ -3,64 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>일별 트랜잭션 수 차트</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>ApexCharts로 일별 트랜잭션 수 차트 만들기</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body>
-    <h2>일별 트랜잭션 수</h2>
-    <canvas id="transactionChart" width="800" height="400"></canvas>
-    
+    <h2>일별 트랜잭션 수 차트</h2>
+    <!-- 차트를 표시할 div -->
+    <div id="chart"></div>
+
     <script>
-        // b1.json 파일 데이터를 가져와서 차트를 생성하는 함수
+        // b1.json 파일의 데이터를 가져와 ApexCharts로 차트 생성
         async function createChart() {
             try {
-                // b1.json 파일 로드
-                const response = await fetch('b44.json');
+                // JSON 파일 로드
+                const response = await fetch('b1.json');
                 const data = await response.json();
 
                 // day와 transaction_count 데이터 추출
-                const labels = data.map(item => new Date(item.day).toLocaleDateString('ko-KR'));
+                const categories = data.map(item => new Date(item.day).toLocaleDateString('ko-KR'));
                 const transactionCounts = data.map(item => item.transaction_count);
 
-                // Chart.js를 사용하여 차트 생성
-                const ctx = document.getElementById('transactionChart').getContext('2d');
-                new Chart(ctx, {
-                    type: 'line',
-                    data: {
-                        labels: labels,
-                        datasets: [{
-                            label: '일별 트랜잭션 수',
-                            data: transactionCounts,
-                            borderColor: 'rgba(75, 192, 192, 1)',
-                            backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                            borderWidth: 2,
-                            fill: true
-                        }]
+                // ApexCharts 옵션 설정
+                const options = {
+                    chart: {
+                        type: 'line', // 라인 차트 설정
+                        height: 400,
                     },
-                    options: {
-                        scales: {
-                            x: {
-                                title: {
-                                    display: true,
-                                    text: '날짜'
-                                }
-                            },
-                            y: {
-                                title: {
-                                    display: true,
-                                    text: '트랜잭션 수'
-                                },
-                                beginAtZero: true
-                            }
-                        },
-                        plugins: {
-                            legend: {
-                                display: true,
-                                position: 'top'
-                            }
+                    series: [{
+                        name: '트랜잭션 수',
+                        data: transactionCounts
+                    }],
+                    xaxis: {
+                        categories: categories, // x축에 날짜 표시
+                        title: {
+                            text: '날짜'
                         }
-                    }
-                });
+                    },
+                    yaxis: {
+                        title: {
+                            text: '트랜잭션 수'
+                        }
+                    },
+                    title: {
+                        text: '일별 트랜잭션 수',
+                        align: 'center'
+                    },
+                    stroke: {
+                        curve: 'smooth' // 곡선형 라인
+                    },
+                    markers: {
+                        size: 4, // 데이터 포인트 마커 크기
+                        colors: ['#FF4560'],
+                    },
+                    colors: ['#00E396'] // 라인 색상 설정
+                };
+
+                // ApexCharts 차트 생성
+                const chart = new ApexCharts(document.querySelector("#chart"), options);
+                chart.render();
             } catch (error) {
                 console.error('Error loading the JSON data:', error);
             }
