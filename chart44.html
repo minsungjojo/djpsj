@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>일별 트랜잭션 수 차트</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h2>일별 트랜잭션 수</h2>
+    <canvas id="transactionChart" width="800" height="400"></canvas>
+    
+    <script>
+        // b1.json 파일 데이터를 가져와서 차트를 생성하는 함수
+        async function createChart() {
+            try {
+                // b1.json 파일 로드
+                const response = await fetch('b44.json');
+                const data = await response.json();
+
+                // day와 transaction_count 데이터 추출
+                const labels = data.map(item => new Date(item.day).toLocaleDateString('ko-KR'));
+                const transactionCounts = data.map(item => item.transaction_count);
+
+                // Chart.js를 사용하여 차트 생성
+                const ctx = document.getElementById('transactionChart').getContext('2d');
+                new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: '일별 트랜잭션 수',
+                            data: transactionCounts,
+                            borderColor: 'rgba(75, 192, 192, 1)',
+                            backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                            borderWidth: 2,
+                            fill: true
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            x: {
+                                title: {
+                                    display: true,
+                                    text: '날짜'
+                                }
+                            },
+                            y: {
+                                title: {
+                                    display: true,
+                                    text: '트랜잭션 수'
+                                },
+                                beginAtZero: true
+                            }
+                        },
+                        plugins: {
+                            legend: {
+                                display: true,
+                                position: 'top'
+                            }
+                        }
+                    }
+                });
+            } catch (error) {
+                console.error('Error loading the JSON data:', error);
+            }
+        }
+
+        // 페이지 로드 시 차트 생성 함수 호출
+        window.onload = createChart;
+    </script>
+</body>
+</html>
