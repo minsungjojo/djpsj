@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApexCharts 월간 볼륨 차트</title>
+    <!-- ApexCharts CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+    <!-- 차트 컨테이너 -->
+    <div id="chart" style="max-width: 650px; margin: 35px auto;"></div>
+
+    <script>
+        // JSON 파일에서 데이터를 가져오는 함수
+        async function 가져오기() {
+            const 응답 = await fetch('b441.json'); // b441.json 파일 경로 지정
+            const 데이터 = await 응답.json(); // JSON 데이터를 객체로 변환
+            return 데이터;
+        }
+
+        // 중복된 날짜를 제거하는 함수
+        function 중복제거(데이터) {
+            const 고유날짜 = {};
+            return 데이터.filter(항목 => {
+                const 날짜 = 항목.month.split(" ")[0]; // UTC 제거 후 날짜만 비교
+                if (!고유날짜[날짜]) { // 날짜가 없을 경우만 추가
+                    고유날짜[날짜] = true;
+                    return true;
+                }
+                return false;
+            });
+        }
+
+        // 데이터를 기반으로 차트를 생성하는 함수
+        function 차트생성(필터링된데이터) {
+            // x축과 y축 데이터 생성
+            var 월별 = 필터링된데이터.map(항목 => new Date(항목.month).toLocaleDateString('ko-KR', { year: 'numeric', month: 'short' }));
+            var 볼륨달러 = 필터링된데이터.map(항목 => 항목.volume_dollar);
+
+            // ApexCharts 옵션 설정
+            var 옵션 = {
+                chart: {
+                    type: 'line',
+                    height: 350
+                },
+                series: [{
+                    name: '볼륨 (달러)',
+                    data: 볼륨달러
+                }],
+                xaxis: {
+                    categories: 월별,
+                    title: {
+                        text: '월'
+                    }
+                },
+                yaxis: {
+                    labels: {
+                        formatter: function (값) {
+                            return "₩" + 값.toLocaleString(); // 달러 대신 원화로 표시
+                        }
+                    },
+                    title: {
+                        text: '볼륨 (₩)'
+                    }
+                },
+                title: {
+                    text: '월별 볼륨 달러 차트',
+                    align: 'center'
+                },
+                tooltip: {
+                    y: {
+                        formatter: function (값) {
+                            return "₩" + 값.toLocaleString();
+                        }
+                    }
+                }
+            };
+
+            // 차트 생성 및 렌더링
+            var 차트 = new ApexCharts(document.querySelector("#chart"), 옵션);
+            차트.render();
+        }
+
+        // 데이터 가져오기 및 차트 생성
+        가져오기().then(데이터 => {
+            var 필터링된데이터 = 중복제거(데이터);
+            차트생성(필터링된데이터);
+        }).catch(error => {
+            console.error('데이터를 가져오는 중 오류 발생:', error);
+        });
+    </script>
+</body>
+</html>
