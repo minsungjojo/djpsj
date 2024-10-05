@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApexCharts 예제 - 날짜순 정렬</title>
+    <!-- ApexCharts 라이브러리 추가 -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <!-- jQuery 라이브러리 추가 (AJAX 요청에 사용) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <!-- 차트가 표시될 영역 -->
+    <div id="chart"></div>
+
+    <!-- 차트를 렌더링하는 스크립트 -->
+    <script>
+        // JSON 파일 경로
+        const jsonFilePath = 'b442.json';
+
+        // JSON 데이터를 비동기로 불러와서 차트를 생성하는 함수
+        $.getJSON(jsonFilePath, function(data) {
+            // JSON 데이터를 날짜순으로 정렬
+            let sortedData = data.sort((a, b) => new Date(a.day) - new Date(b.day));
+
+            // JSON 데이터를 차트 형식에 맞게 변환
+            let chartData = sortedData.map(item => {
+                return { x: new Date(item.day).getTime(), y: item.Volume_per_users };
+            });
+
+            // 차트 옵션 설정
+            var options = {
+                chart: {
+                    type: 'line',  // 차트 유형: 선형 그래프
+                    height: 350
+                },
+                series: [{
+                    name: '사용자당 볼륨',  // 데이터 시리즈 이름
+                    data: chartData  // JSON에서 불러온 데이터 사용
+                }],
+                xaxis: {
+                    type: 'datetime',  // X축 유형: 날짜 시간
+                    title: {
+                        text: '날짜'  // X축 제목
+                    }
+                },
+                yaxis: {
+                    title: {
+                        text: '사용자당 볼륨'  // Y축 제목
+                    }
+                },
+                title: {
+                    text: '날짜별 사용자당 볼륨 변화',  // 그래프 제목
+                    align: 'center'  // 제목 정렬
+                }
+            };
+
+            // 차트를 렌더링합니다.
+            var chart = new ApexCharts(document.querySelector("#chart"), options);
+            chart.render();
+        });
+    </script>
+</body>
+</html>
