@@ -62,11 +62,11 @@
                 yaxis: {
                     labels: {
                         formatter: function (값) {
-                            return "₩" + 값.toLocaleString(); // 달러 대신 원화로 표시
+                            return "$" + 값.toLocaleString(); // 달러로 표시
                         }
                     },
                     title: {
-                        text: '볼륨 (₩)'
+                        text: '볼륨 ($)'
                     }
                 },
                 title: {
@@ -76,7 +76,7 @@
                 tooltip: {
                     y: {
                         formatter: function (값) {
-                            return "₩" + 값.toLocaleString();
+                            return "$" + 값.toLocaleString();
                         }
                     }
                 }
