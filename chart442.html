@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ApexCharts 예제 - 날짜 한국어 표시</title>
+    <title>ApexCharts 예제 - 날짜 한국어 표시 (년도/월만)</title>
     <!-- ApexCharts 라이브러리 추가 -->
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <!-- jQuery 라이브러리 추가 (AJAX 요청에 사용) -->
@@ -41,10 +41,10 @@
                 xaxis: {
                     type: 'datetime',  // X축 유형: 날짜 시간
                     labels: {
-                        // X축의 날짜 라벨 형식을 한국어로 설정
+                        // X축의 날짜 라벨 형식을 한국어로 설정 (년도/월)
                         formatter: function(value) {
                             const date = new Date(value);
-                            return date.getFullYear() + '년 ' + (date.getMonth() + 1) + '월 ' + date.getDate() + '일';
+                            return date.getFullYear() + '년 ' + (date.getMonth() + 1) + '월';
                         }
                     },
                     title: {
@@ -58,10 +58,10 @@
                 },
                 tooltip: {
                     x: {
-                        // 툴팁에서 표시되는 날짜 형식을 한국어로 설정
+                        // 툴팁에서 표시되는 날짜 형식을 년도/월로 설정
                         formatter: function(value) {
                             const date = new Date(value);
-                            return date.getFullYear() + '년 ' + (date.getMonth() + 1) + '월 ' + date.getDate() + '일';
+                            return date.getFullYear() + '년 ' + (date.getMonth() + 1) + '월';
                         }
                     }
                 },
