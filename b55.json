@@ -1,0 +1,102 @@
+[
+    {
+        "plain_issuer": "BlackRock",
+        "issuer": "<a href='https://www.blackrock.com/us/financial-professionals/investment-strategies/bitcoin-investing' target='_blank'>BlackRock</a>",
+        "tvl": "2.8757211195358E5",
+        "usd_value": 17547506485.351475,
+        "percentage_of_total": 0.3400275203050161,
+        "etf_ticker": "IBIT",
+        "percentage_fee": "0.0025",
+        "address_source": "<a href='https://platform.arkhamintelligence.com/explorer/entity/blackrock' target='_blank'>🟠</a>"
+    },
+    {
+        "plain_issuer": "Grayscale",
+        "issuer": "<a href='https://etfs.grayscale.com/gbtc' target='_blank'>Grayscale</a>",
+        "tvl": "2.8675879243486986E5",
+        "usd_value": 17497878134.97954,
+        "percentage_of_total": 0.3390658449280681,
+        "etf_ticker": "GBTC",
+        "percentage_fee": "0.0150",
+        "address_source": "<a href='https://platform.arkhamintelligence.com/explorer/entity/grayscale' target='_blank'>🟠</a>"
+    },
+    {
+        "plain_issuer": "Fidelity",
+        "issuer": "<a href='https://www.fidelity.com/etfs/fbtc' target='_blank'>Fidelity</a>",
+        "tvl": "1.5550669282992E5",
+        "usd_value": 9488940643.135303,
+        "percentage_of_total": 0.1838723330805001,
+        "etf_ticker": "FBTC",
+        "percentage_fee": "0.0025",
+        "address_source": "<a href='https://platform.arkhamintelligence.com/explorer/entity/fidelity' target='_blank'>🟠</a>"
+    },
+    {
+        "plain_issuer": "21Shares",
+        "issuer": "<a href='https://21shares.com/en-US/product/ARKB' target='_blank'>21Shares</a>",
+        "tvl": "4.856402130038002E4",
+        "usd_value": 2963352297.7385387,
+        "percentage_of_total": 0.057422479623037134,
+        "etf_ticker": "ARKB",
+        "percentage_fee": "0.0021",
+        "address_source": "<a href='https://platform.arkhamintelligence.com/explorer/entity/ark-invest' target='_blank'>🟠</a> <a href='https://data.chain.link/feeds/ethereum/mainnet/arkb-por' target='_blank'>🔵</a>"
+    },
+    {
+        "plain_issuer": "Bitwise",
+        "issuer": "<a href='https://bitbetf.com/' target='_blank'>Bitwise</a>",
+        "tvl": "3.623416926021999E4",
+        "usd_value": 2210990891.1739936,
+        "percentage_of_total": 0.042843565880455195,
+        "etf_ticker": "BITB",
+        "percentage_fee": "0.0020",
+        "address_source": "<a href='https://bitbetf.com/' target='_blank'>🟢</a>"
+    },
+    {
+        "plain_issuer": "VanEck",
+        "issuer": "<a href='https://www.vaneck.com/us/en/investments/bitcoin-trust-hodl/overview/' target='_blank'>VanEck</a>",
+        "tvl": "1.0011870102759996E4",
+        "usd_value": 610919307.7353636,
+        "percentage_of_total": 0.011838113722261543,
+        "etf_ticker": "HODL",
+        "percentage_fee": "0.0025",
+        "address_source": "<a href='https://platform.arkhamintelligence.com/explorer/entity/vaneck' target='_blank'>🟠</a>"
+    },
+    {
+        "plain_issuer": "Invesco",
+        "issuer": "<a href='https://www.invesco.com/us/en/etf/galaxy-bitcoin-btco.html' target='_blank'>Invesco</a>",
+        "tvl": "7.630000065520008E3",
+        "usd_value": 465578788.9979981,
+        "percentage_of_total": 0.009021771911681997,
+        "etf_ticker": "BTCO",
+        "percentage_fee": "0.0025",
+        "address_source": "<a href='https://platform.arkhamintelligence.com/explorer/entity/invesco' target='_blank'>🟠</a>"
+    },
+    {
+        "plain_issuer": "Valkyrie",
+        "issuer": "<a href='https://valkyrieinvest.com/brrr/' target='_blank'>Valkyrie</a>",
+        "tvl": "7.017674405740003E3",
+        "usd_value": 428214983.4010521,
+        "percentage_of_total": 0.008297753249720307,
+        "etf_ticker": "BRRR",
+        "percentage_fee": "0.0025",
+        "address_source": "<a href='https://platform.arkhamintelligence.com/explorer/entity/valkyrie' target='_blank'>🟠</a>"
+    },
+    {
+        "plain_issuer": "Franklin Templeton",
+        "issuer": "<a href='https://www.franklintempleton.com/strategies/bitcoin-etf' target='_blank'>Franklin Templeton</a>",
+        "tvl": "5.16199847581E3",
+        "usd_value": 314982565.9946883,
+        "percentage_of_total": 0.006103587478021079,
+        "etf_ticker": "EZBC",
+        "percentage_fee": "0.0019",
+        "address_source": "<a href='https://platform.arkhamintelligence.com/explorer/entity/franklin-templeton' target='_blank'>🟠</a>"
+    },
+    {
+        "plain_issuer": "WisdomTree",
+        "issuer": "<a href='https://www.wisdomtree.com/investments/etfs/crypto/btcw' target='_blank'>WisdomTree</a>",
+        "tvl": "1.274543154869999E3",
+        "usd_value": 77771986.0385899,
+        "percentage_of_total": 0.0015070298212440509,
+        "etf_ticker": "BTCW",
+        "percentage_fee": "0.0030",
+        "address_source": "<a href='https://platform.arkhamintelligence.com/explorer/entity/wisdomtree' target='_blank'>🟠</a>"
+    }
+]
