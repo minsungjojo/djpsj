@@ -22,7 +22,7 @@
                 // ApexCharts 옵션 설정
                 const options = {
                     series: [{
-                        name: 'TVL (단위: 10진수)',
+                        name: 'TVL (비트코인 갯수)', // TVL (단위: 비트코인 갯수) 라벨 적용
                         data: tvlValues
                     }],
                     chart: {
@@ -49,7 +49,7 @@
                     },
                     yaxis: {
                         title: {
-                            text: 'TVL (10진수)'
+                            text: 'TVL (비트코인 갯수)'  // y축 라벨 수정
                         },
                         labels: {
                             formatter: function (value) {
@@ -63,7 +63,7 @@
                     tooltip: {
                         y: {
                             formatter: function (value) {
-                                return value.toLocaleString(); // 툴팁에도 10진수 형식으로 표시
+                                return value.toLocaleString() + ' BTC'; // 툴팁에도 비트코인 갯수로 표시
                             }
                         }
                     }
