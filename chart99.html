@@ -7,7 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body>
-    <div id="chart"></div>
+    <div id="chart" style="max-width: 800px; margin: 35px auto;"></div>
     
     <script>
         // b99.json 파일에서 데이터를 가져와서 차트 생성
@@ -22,12 +22,13 @@
                 const options = {
                     chart: {
                         type: 'bar',
-                        height: 400
+                        height: 600 // 차트의 세로 길이 증가
                     },
                     series: [{
-                        name: '연 수익률 (%)', // y축 데이터 이름을 '연 수익률 (%)'로 변경
+                        name: '연 수익률 (%)',
                         data: seriesData
                     }],
+                    colors: ['#008FFB', '#00E396', '#FEB019', '#FF4560', '#775DD0', '#546E7A', '#26A69A', '#D10CE8'], // 각 막대의 색상
                     xaxis: {
                         categories: categories,
                         title: {
@@ -47,6 +48,16 @@
                     title: {
                         text: '테마별 연 수익률 (%)', // 제목을 '테마별 연 수익률 (%)'로 변경
                         align: 'center'
+                    },
+                    plotOptions: {
+                        bar: {
+                            distributed: true, // 각 막대에 다른 색을 적용하기 위한 옵션
+                            borderRadius: 4,
+                            horizontal: false
+                        }
+                    },
+                    legend: {
+                        show: false // 범례 숨김
                     }
                 };
 
