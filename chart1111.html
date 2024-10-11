@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApexCharts 예제</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+
+    <h2>MTD 성과별 내러티브</h2>
+    <div id="chart"></div>
+
+    <script>
+        var options = {
+            chart: {
+                type: 'bar'
+            },
+            series: [{
+                name: 'MTD 성과',
+                data: [
+                    (0.05875370209274438 * 100).toFixed(1), 
+                    (0.027475002658210502 * 100).toFixed(1), 
+                    (0.017215747409451435 * 100).toFixed(1)
+                ]
+            }],
+            xaxis: {
+                categories: ['밈', '갬블-Fi', 'NFTs']
+            },
+            colors: ['#008FFB', '#00E396', '#FEB019'],  // 각 막대에 다른 색상 적용
+            title: {
+                text: '내러티브별 MTD 성과 (%)',
+                align: 'center'
+            }
+        }
+
+        var chart = new ApexCharts(document.querySelector("#chart"), options);
+        chart.render();
+    </script>
+
+</body>
+</html>
