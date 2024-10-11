@@ -7,7 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body>
-    <h1>날짜별 금액 흐름 차트 (막대형)</h1>
+    <h1>날짜별 금액 흐름 차트 (막대형, 어두운 색)</h1>
     <div id="chart"></div>
 
     <script>
@@ -44,13 +44,14 @@
 
             var options = {
                 chart: {
-                    type: 'bar', // 막대 차트로 변경
+                    type: 'bar', // 막대 차트
                     height: 350
                 },
                 series: [{
                     name: '금액 흐름(USD)',
                     data: seriesData
                 }],
+                colors: ['#4a4a4a'], // 막대 색상을 어두운 색으로 변경
                 xaxis: {
                     type: 'datetime', // x축을 날짜로 설정
                     title: {
@@ -67,8 +68,18 @@
                         }
                     }
                 },
+                plotOptions: {
+                    bar: {
+                        dataLabels: {
+                            position: 'top' // 데이터 레이블 위치 설정
+                        }
+                    }
+                },
+                dataLabels: {
+                    enabled: false // 막대 위에 숫자를 표시하지 않음
+                },
                 title: {
-                    text: '날짜별 금액 흐름 차트 (막대형)',
+                    text: '날짜별 금액 흐름 차트 (막대형, 어두운 색)',
                     align: 'center'
                 },
                 legend: {
