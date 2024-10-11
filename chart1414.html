@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApexCharts 예제</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+    <h1>2024-08-05 금액 흐름 합계</h1>
+    <div id="chart"></div>
+
+    <script>
+        // b1414.json 파일에서 데이터를 가져오는 함수
+        async function fetchData() {
+            const response = await fetch('b1414.json');
+            const data = await response.json();
+
+            return data;
+        }
+
+        // 데이터를 가져와서 차트를 그리는 함수
+        async function renderChart() {
+            const data = await fetchData();
+
+            // 2024-08-05의 amount_usd_net_flow 값을 합산 (null은 0으로 처리)
+            let totalAmount = 0;
+            data.forEach(item => {
+                if (item.time === "2024-08-05 00:00:00.000 UTC" && item.amount_usd_net_flow !== null) {
+                    totalAmount += item.amount_usd_net_flow;
+                }
+            });
+
+            var options = {
+                chart: {
+                    type: 'bar', // 막대 차트
+                    height: 350
+                },
+                series: [{
+                    name: '2024-08-05 금액 흐름 합계',
+                    data: [totalAmount]
+                }],
+                xaxis: {
+                    categories: ['2024-08-05'], // 날짜 표시
+                    title: {
+                        text: '날짜'
+                    }
+                },
+                yaxis: {
+                    title: {
+                        text: '금액 흐름(USD)'
+                    },
+                    labels: {
+                        formatter: function (val) {
+                            return val.toFixed(2) + " USD"; // y축 라벨 형식
+                        }
+                    }
+                },
+                title: {
+                    text: '2024-08-05 금액 흐름 합계',
+                    align: 'center'
+                }
+            };
+
+            var chart = new ApexCharts(document.querySelector("#chart"), options);
+            chart.render();
+        }
+
+        // 페이지 로드 시 차트를 렌더링
+        renderChart();
+    </script>
+</body>
+</html>
