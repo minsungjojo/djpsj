@@ -12,30 +12,54 @@
     <div id="chart"></div>
 
     <script>
-        var options = {
-            chart: {
-                type: 'bar'
-            },
-            series: [{
-                name: 'MTD 성과',
-                data: [
-                    (0.05875370209274438 * 100).toFixed(1), 
-                    (0.027475002658210502 * 100).toFixed(1), 
-                    (0.017215747409451435 * 100).toFixed(1)
-                ]
-            }],
-            xaxis: {
-                categories: ['밈', '갬블-Fi', 'NFTs']
-            },
-            colors: ['#008FFB', '#00E396', '#FEB019'],  // 각 막대에 다른 색상 적용
-            title: {
-                text: '내러티브별 MTD 성과 (%)',
-                align: 'center'
-            }
+        // JSON 파일에서 데이터를 가져오는 함수
+        function loadJSON(callback) {
+            var xobj = new XMLHttpRequest();
+            xobj.overrideMimeType("application/json");
+            xobj.open('GET', 'b1111.json', true); // b1111.json 파일을 불러옴
+            xobj.onreadystatechange = function () {
+                if (xobj.readyState == 4 && xobj.status == "200") {
+                    callback(JSON.parse(xobj.responseText));
+                }
+            };
+            xobj.send(null);
         }
 
-        var chart = new ApexCharts(document.querySelector("#chart"), options);
-        chart.render();
+        // 데이터를 로드한 후 차트를 생성하는 함수
+        loadJSON(function(response) {
+            var data = response;
+
+            // mtd_perf 값을 100을 곱하고 소숫점 1자리까지 남김
+            var mtdPerfData = data.map(function(item) {
+                return (item.mtd_perf * 100).toFixed(1);
+            });
+
+            // narrative 값을 가져옴
+            var categories = data.map(function(item) {
+                return item.narrative;
+            });
+
+            var options = {
+                chart: {
+                    type: 'bar'
+                },
+                series: [{
+                    name: 'MTD 성과',
+                    data: mtdPerfData
+                }],
+                xaxis: {
+                    categories: categories
+                },
+                colors: ['#008FFB', '#00E396', '#FEB019'],  // 각 막대에 다른 색상 적용
+                title: {
+                    text: '내러티브별 MTD 성과 (%)',
+                    align: 'center'
+                }
+            }
+
+            var chart = new ApexCharts(document.querySelector("#chart"), options);
+            chart.render();
+        });
     </script>
 
 </body>
