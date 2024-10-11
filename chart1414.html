@@ -7,7 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body>
-    <h1>발행사별 금액 흐름 차트</h1>
+    <h1>날짜별 금액 흐름 차트</h1>
     <div id="chart"></div>
 
     <script>
@@ -22,27 +22,24 @@
         async function renderChart() {
             const data = await fetchData();
 
-            // 발행사별 데이터를 날짜별로 그룹화
-            const seriesData = {};
+            // 날짜별로 금액 흐름을 합산
+            const dateWiseData = {};
             data.forEach(item => {
-                const issuer = item.issuer;
                 const date = item.time.split(" ")[0]; // 날짜 부분만 추출 (yyyy-mm-dd)
 
-                if (!seriesData[issuer]) {
-                    seriesData[issuer] = [];
+                // 날짜가 처음 등장하면 초기화
+                if (!dateWiseData[date]) {
+                    dateWiseData[date] = 0;
                 }
-                
-                // amount_usd_net_flow 값이 null이면 0으로 처리
-                seriesData[issuer].push({
-                    x: date,
-                    y: item.amount_usd_net_flow !== null ? item.amount_usd_net_flow : 0
-                });
+
+                // amount_usd_net_flow 값이 null이면 0으로 처리하고 합산
+                dateWiseData[date] += item.amount_usd_net_flow !== null ? item.amount_usd_net_flow : 0;
             });
 
-            // 시리즈 데이터를 발행사별로 정리
-            const series = Object.keys(seriesData).map(issuer => ({
-                name: issuer,
-                data: seriesData[issuer]
+            // 시리즈 데이터를 날짜별로 정리
+            const seriesData = Object.keys(dateWiseData).map(date => ({
+                x: date,
+                y: dateWiseData[date]
             }));
 
             var options = {
@@ -50,7 +47,10 @@
                     type: 'line', // 선형 차트
                     height: 350
                 },
-                series: series, // 발행사별 데이터 시리즈
+                series: [{
+                    name: '금액 흐름(USD)',
+                    data: seriesData
+                }],
                 xaxis: {
                     type: 'datetime', // x축을 날짜로 설정
                     title: {
@@ -68,11 +68,11 @@
                     }
                 },
                 title: {
-                    text: '발행사별 금액 흐름 차트',
+                    text: '날짜별 금액 흐름 차트',
                     align: 'center'
                 },
                 legend: {
-                    position: 'top'
+                    show: false // 범례 숨김
                 }
             };
 
