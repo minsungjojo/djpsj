@@ -17,8 +17,11 @@
         fetch('b1010.json')
             .then(response => response.json())
             .then(data => {
-                // JSON 데이터에서 필요한 정보 추출
-                const seriesData = data.map(item => {
+                // JSON 데이터를 quarter_perf 값에 따라 내림차순으로 정렬
+                const sortedData = data.sort((a, b) => b.quarter_perf - a.quarter_perf);
+
+                // 정렬된 데이터를 시리즈 데이터로 변환
+                const seriesData = sortedData.map(item => {
                     return {
                         x: item.narrative,
                         y: (item.quarter_perf * 100).toFixed(1) // 100을 곱하고 소수점 한 자리까지만 표현
