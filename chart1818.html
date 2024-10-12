@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스택형 막대 차트</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+    <h1>토큰 언급 성장률</h1>
+    <div id="chart"></div>
+
+    <script>
+        // JSON 파일에서 데이터를 가져옵니다
+        fetch('b1818.json') // JSON 파일 경로를 설정하세요.
+            .then(response => response.json())
+            .then(data => {
+                // 심볼을 범주로 사용
+                const categories = data.map(item => item.symbol);
+
+                // 'mention_growth' 값을 시리즈로 설정
+                const series = [{
+                    name: '언급 성장률',
+                    data: data.map(item => item.mention_growth * 100) // 퍼센트로 변환
+                }];
+
+                // ApexCharts 설정
+                const options = {
+                    chart: {
+                        type: 'bar',
+                        height: 700,  
+                        stacked: true,
+                        stackType: '100%'
+                    },
+                    series: series,
+                    xaxis: {
+                        categories: categories,
+                        title: {
+                            text: '토큰'
+                        },
+                        labels: {
+                            rotate: -45
+                        }
+                    },
+                    yaxis: {
+                        title: {
+                            text: '성장률 (%)'
+                        },
+                        labels: {
+                            formatter: function (val) {
+                                return val.toFixed(0) + '%';
+                            }
+                        }
+                    },
+                    colors: ['#87CEEB'],  // 단일 색상 설정
+                    title: {
+                        text: '토큰 언급 성장률',
+                        align: 'center'
+                    },
+                    tooltip: {
+                        y: {
+                            formatter: function (val) {
+                                return val.toFixed(2) + "%";
+                            }
+                        }
+                    },
+                    fill: {
+                        opacity: 1
+                    },
+                    legend: {
+                        position: 'right',
+                        offsetY: 40
+                    },
+                    dataLabels: {
+                        enabled: false 
+                    }
+                };
+
+                // 차트 생성 및 렌더링
+                const chart = new ApexCharts(document.querySelector("#chart"), options);
+                chart.render();
+            })
+            .catch(error => console.error('데이터를 가져오는 중 오류가 발생했습니다:', error));
+    </script>
+</body>
+</html>
