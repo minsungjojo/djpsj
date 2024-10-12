@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stacked Area Chart - TVL Data</title>
+    <title>스택형 영역 차트 - TVL 데이터</title>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body>
 
-    <h1>TVL 데이터 (Stacked Area Chart)</h1>
+    <h1>TVL 데이터 (스택형 영역 차트)</h1>
     <div id="chart"></div>
 
     <script>
-        // JSON 데이터를 가져오고 차트에 반영하는 함수
+        // JSON 데이터를 가져오고 차트를 생성하는 함수
         async function getDataAndRenderChart() {
             try {
-                // b1515.json 파일을 가져옴
+                // b1515.json 파일을 불러옴
                 const response = await fetch('b1515.json');
                 const data = await response.json();
 
-                // 발행자별로 데이터를 정리
+                // 발행자별 데이터를 정리
                 const seriesData = {};
 
                 data.forEach(entry => {
@@ -33,24 +33,26 @@
                     seriesData[issuer].push({ x: time, y: tvl });
                 });
 
-                // 각 발행자의 데이터를 날짜 기준으로 정렬
+                // 각 발행자의 데이터를 시간 순서대로 정렬
                 Object.keys(seriesData).forEach(issuer => {
                     seriesData[issuer].sort((a, b) => a.x - b.x);
                 });
 
-                // ApexCharts용 시리즈 데이터 생성
+                // ApexCharts 시리즈 데이터 생성
                 const series = Object.keys(seriesData).map(issuer => ({
                     name: issuer,
                     data: seriesData[issuer]
                 }));
 
-                // 차트 옵션
+                // 차트 옵션 설정
                 var options = {
                     chart: {
                         type: 'area',
                         stacked: true,
                         height: 350
                     },
+                    // 색상을 더 진하게 설정
+                    colors: ['#1E90FF', '#FF6347', '#3CB371', '#FFD700', '#FF4500', '#32CD32', '#6A5ACD', '#FF69B4', '#00CED1', '#FF8C00', '#8A2BE2'],
                     series: series,
                     xaxis: {
                         type: 'datetime',
@@ -64,11 +66,14 @@
                         }
                     },
                     title: {
-                        text: 'Bitcoin ETFs Onchain Holdings',
+                        text: '비트코인 ETF 온체인 보유량',
                         align: 'center'
                     },
                     legend: {
-                        position: 'right'
+                        position: 'right',
+                        title: {
+                            text: '발행자'
+                        }
                     },
                     tooltip: {
                         shared: true,
@@ -79,7 +84,7 @@
                     }
                 };
 
-                // 차트를 렌더링
+                // 차트 렌더링
                 var chart = new ApexCharts(document.querySelector("#chart"), options);
                 chart.render();
             } catch (error) {
