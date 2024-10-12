@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stacked Area Chart - TVL Data</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+
+    <h1>TVL 데이터 (Stacked Area Chart)</h1>
+    <div id="chart"></div>
+
+    <script>
+        // JSON 데이터를 가져오고 차트에 반영하는 함수
+        async function getDataAndRenderChart() {
+            try {
+                // b1515.json 파일을 가져옴
+                const response = await fetch('b1515.json');
+                const data = await response.json();
+
+                // 발행자별로 데이터를 정리
+                const seriesData = {};
+
+                data.forEach(entry => {
+                    const issuer = entry.issuer;
+                    const time = new Date(entry.time);
+                    const tvl = entry.tvl;
+
+                    if (!seriesData[issuer]) {
+                        seriesData[issuer] = [];
+                    }
+                    seriesData[issuer].push({ x: time, y: tvl });
+                });
+
+                // ApexCharts용 시리즈 데이터 생성
+                const series = Object.keys(seriesData).map(issuer => ({
+                    name: issuer,
+                    data: seriesData[issuer]
+                }));
+
+                // 차트 옵션
+                var options = {
+                    chart: {
+                        type: 'area',
+                        stacked: true,
+                        height: 350
+                    },
+                    series: series,
+                    xaxis: {
+                        type: 'datetime',
+                        title: {
+                            text: '날짜'
+                        }
+                    },
+                    yaxis: {
+                        title: {
+                            text: 'TVL (단위: USD)'
+                        }
+                    },
+                    title: {
+                        text: 'Bitcoin ETFs Onchain Holdings',
+                        align: 'center'
+                    },
+                    legend: {
+                        position: 'right'
+                    },
+                    tooltip: {
+                        shared: true,
+                        intersect: false
+                    },
+                    dataLabels: {
+                        enabled: false // 차트 위에 숫자가 표시되지 않도록 설정
+                    }
+                };
+
+                // 차트를 렌더링
+                var chart = new ApexCharts(document.querySelector("#chart"), options);
+                chart.render();
+            } catch (error) {
+                console.error('데이터를 불러오는 중 오류가 발생했습니다:', error);
+            }
+        }
+
+        // 페이지가 로드되면 차트를 생성
+        getDataAndRenderChart();
+    </script>
+
+</body>
+</html>
