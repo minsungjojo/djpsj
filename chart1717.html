@@ -70,10 +70,14 @@
                         align: 'center'
                     },
                     tooltip: {
+                        shared: true, // 툴팁에서 모든 내러티브를 동시에 표시
                         y: {
                             formatter: function (val) {
-                                return val + " 회";
+                                return val.toFixed(2) + "%";  // 비율을 소수점 2자리로 표시
                             }
+                        },
+                        x: {
+                            format: 'dd MMM yyyy'  // 날짜 포맷 지정
                         }
                     },
                     fill: {
