@@ -15,8 +15,8 @@
         fetch('b1717.json') // JSON 파일 경로를 설정하세요.
             .then(response => response.json())
             .then(data => {
-                // 내러티브 별로 데이터를 분류합니다.
-                const categories = [...new Set(data.map(item => item.date))];
+                // 날짜를 순서대로 정렬
+                const categories = [...new Set(data.map(item => item.date))].sort((a, b) => new Date(a) - new Date(b));
 
                 const narratives = ['DEX', 'Runes', 'L1', 'L2', 'AI', 'LRT', 'Perpetuals'];
                 const series = narratives.map(narrative => {
@@ -33,7 +33,7 @@
                 const options = {
                     chart: {
                         type: 'bar',
-                        height: 350,
+                        height: 700,  // 차트 세로 길이를 2배로 늘림
                         stacked: true,
                         stackType: '100%'
                     },
@@ -42,7 +42,18 @@
                         categories: categories,
                         title: {
                             text: '날짜'
-                        }
+                        },
+                        labels: {
+                            rotate: -45,  // 레이블 회전 각도 (가독성을 위해 약간 기울입니다)
+                            datetimeFormatter: {
+                                year: 'yyyy',
+                                month: 'MMM'
+                            },
+                            showDuplicates: false,  // 중복 날짜 레이블 표시 방지
+                            hideOverlappingLabels: true,  // 겹치는 레이블 숨김
+                            trim: true,  // 긴 레이블은 잘라냄
+                        },
+                        tickAmount: Math.floor(categories.length / 6),  // 6개로 간격 조정
                     },
                     yaxis: {
                         title: {
