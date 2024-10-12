@@ -51,7 +51,11 @@
                         stacked: true,
                         height: 350
                     },
-                    // 색상을 더 진하게 설정
+                    // 색상을 더 진하게 설정 (투명도를 없앰)
+                    fill: {
+                        type: 'solid',
+                        opacity: 1  // 불투명하게 설정
+                    },
                     colors: ['#1E90FF', '#FF6347', '#3CB371', '#FFD700', '#FF4500', '#32CD32', '#6A5ACD', '#FF69B4', '#00CED1', '#FF8C00', '#8A2BE2'],
                     series: series,
                     xaxis: {
