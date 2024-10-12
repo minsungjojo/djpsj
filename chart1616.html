@@ -52,6 +52,14 @@
                     type: 'datetime',
                     title: {
                         text: '날짜'
+                    },
+                    labels: {
+                        datetimeFormatter: {
+                            year: 'yyyy년',
+                            month: 'MM월',
+                            day: 'dd일',
+                            hour: 'HH시'
+                        }
                     }
                 },
                 yaxis: {
@@ -62,6 +70,30 @@
                 title: {
                     text: 'BlackRock의 USD 순자금 흐름 (2024)',
                     align: 'center'
+                },
+                tooltip: {
+                    x: {
+                        format: 'yy-MM-dd'  // 툴팁에서 날짜 표시 형식
+                    }
+                },
+                plotOptions: {
+                    bar: {
+                        colors: {
+                            ranges: [{
+                                from: -Infinity,
+                                to: 0,
+                                color: '#4a4a4a'  // 어두운 회색으로 설정
+                            }, {
+                                from: 0,
+                                to: Infinity,
+                                color: '#1f1f1f'  // 더 어두운 회색으로 설정
+                            }]
+                        },
+                        dataLabels: {
+                            position: 'top',  // 데이터 라벨 위치를 위쪽으로 설정
+                            enabled: false   // 바 내부 숫자 표시 비활성화
+                        }
+                    }
                 }
             };
 
