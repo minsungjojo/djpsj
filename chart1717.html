@@ -70,9 +70,13 @@
                         align: 'center'
                     },
                     tooltip: {
+                        enabled: true,
+                        shared: true,  // 여러 내러티브의 값을 함께 표시
                         y: {
-                            formatter: function (val) {
-                                return val + " 회";
+                            formatter: function (val, { seriesIndex, w }) {
+                                const total = w.globals.stackedSeriesTotals[w.globals.seriesIndex];
+                                const percentage = (val / total * 100).toFixed(1);
+                                return `${percentage}% (${val} 회)`;
                             }
                         }
                     },
