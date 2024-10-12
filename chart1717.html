@@ -35,10 +35,7 @@
                         type: 'bar',
                         height: 700,  // 차트 세로 길이를 2배로 늘림
                         stacked: true,
-                        stackType: '100%',
-                        toolbar: {
-                            show: true  // 툴바 추가
-                        }
+                        stackType: '100%'
                     },
                     series: series,
                     xaxis: {
@@ -73,10 +70,13 @@
                         align: 'center'
                     },
                     tooltip: {
-                        shared: true,  // 툴팁에서 모든 내러티브를 보여줌
+                        shared: true,
                         y: {
-                            formatter: function (val) {
-                                return val.toFixed(1) + "%";  // 백분율로 표시
+                            formatter: function (val, { seriesIndex, dataPointIndex, w }) {
+                                // 전체 합을 구한 후 백분율 계산
+                                const total = w.globals.stackedSeriesTotals[dataPointIndex];
+                                const percentage = (val / total) * 100;
+                                return percentage.toFixed(1) + "%";  // 백분율로 표시
                             }
                         }
                     },
