@@ -7,7 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body>
-    <h2>BlackRock USD 순자금 흐름</h2>
+    <h2>BlackRock USD 순자금 흐름 (바 차트)</h2>
     <div id="chart"></div>
 
     <script>
@@ -41,7 +41,7 @@
 
             const options = {
                 chart: {
-                    type: 'line',
+                    type: 'bar',  // 바 차트로 설정
                     height: 350
                 },
                 series: [{
