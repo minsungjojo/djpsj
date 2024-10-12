@@ -35,7 +35,10 @@
                         type: 'bar',
                         height: 700,  // 차트 세로 길이를 2배로 늘림
                         stacked: true,
-                        stackType: '100%'
+                        stackType: '100%',
+                        toolbar: {
+                            show: true  // 툴바 추가
+                        }
                     },
                     series: series,
                     xaxis: {
@@ -70,13 +73,10 @@
                         align: 'center'
                     },
                     tooltip: {
-                        enabled: true,
-                        shared: true,  // 여러 내러티브의 값을 함께 표시
+                        shared: true,  // 툴팁에서 모든 내러티브를 보여줌
                         y: {
-                            formatter: function (val, { seriesIndex, w }) {
-                                const total = w.globals.stackedSeriesTotals[w.globals.seriesIndex];
-                                const percentage = (val / total * 100).toFixed(1);
-                                return `${percentage}% (${val} 회)`;
+                            formatter: function (val) {
+                                return val.toFixed(1) + "%";  // 백분율로 표시
                             }
                         }
                     },
