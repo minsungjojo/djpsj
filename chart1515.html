@@ -33,6 +33,11 @@
                     seriesData[issuer].push({ x: time, y: tvl });
                 });
 
+                // 각 발행자의 데이터를 날짜 기준으로 정렬
+                Object.keys(seriesData).forEach(issuer => {
+                    seriesData[issuer].sort((a, b) => a.x - b.x);
+                });
+
                 // ApexCharts용 시리즈 데이터 생성
                 const series = Object.keys(seriesData).map(issuer => ({
                     name: issuer,
