@@ -64,12 +64,7 @@
                             text: '날짜'
                         },
                         labels: {
-                            datetimeFormatter: {
-                                year: 'yyyy년',
-                                month: 'MM월',
-                                day: 'dd일',
-                                hour: 'HH:mm'
-                            }
+                            format: 'yyyy-MM-dd'  // 날짜 형식을 'YYYY-MM-DD'로 설정
                         }
                     },
                     yaxis: {
@@ -89,7 +84,10 @@
                     },
                     tooltip: {
                         shared: true,
-                        intersect: false
+                        intersect: false,
+                        x: {
+                            format: 'yyyy-MM-dd'  // 툴팁 날짜 형식을 'YYYY-MM-DD'로 설정
+                        }
                     },
                     dataLabels: {
                         enabled: false // 차트 위에 숫자가 표시되지 않도록 설정
