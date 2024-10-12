@@ -18,7 +18,7 @@
                 // 날짜를 순서대로 정렬
                 const categories = [...new Set(data.map(item => item.date))].sort((a, b) => new Date(a) - new Date(b));
 
-                const narratives = ['Runes', 'DEX', 'L1', 'L2', 'AI', 'LRT', 'Perpetuals'];
+                const narratives = ['L1','Runes', 'L2', 'DEX', 'AI', 'LRT', 'Perpetuals'];
                 
                 // 각 날짜별로 데이터를 합산하여 퍼센트 계산
                 const series = narratives.map(narrative => {
