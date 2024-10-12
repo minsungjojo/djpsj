@@ -1,0 +1,6337 @@
+[
+    {
+        "count": 14,
+        "date": "2024-05-18",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 5,
+        "date": "2024-07-04",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 594,
+        "date": "2024-09-17",
+        "narrative": "LRT"
+    },
+    {
+        "count": 1,
+        "date": "2024-06-03",
+        "narrative": "AI"
+    },
+    {
+        "count": 2,
+        "date": "2024-08-11",
+        "narrative": "AI"
+    },
+    {
+        "count": 134,
+        "date": "2024-08-03",
+        "narrative": "L2"
+    },
+    {
+        "count": 3648,
+        "date": "2024-07-05",
+        "narrative": "L1"
+    },
+    {
+        "count": 2960,
+        "date": "2024-10-01",
+        "narrative": "L1"
+    },
+    {
+        "count": 136,
+        "date": "2024-04-13",
+        "narrative": "Runes"
+    },
+    {
+        "count": 3,
+        "date": "2024-08-25",
+        "narrative": "DEX"
+    },
+    {
+        "count": 5,
+        "date": "2024-10-03",
+        "narrative": "DEX"
+    },
+    {
+        "count": 256,
+        "date": "2024-04-17",
+        "narrative": "Runes"
+    },
+    {
+        "count": 3,
+        "date": "2024-08-03",
+        "narrative": "Runes"
+    },
+    {
+        "count": 9,
+        "date": "2024-06-19",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 2,
+        "date": "2024-07-06",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 1,
+        "date": "2024-05-20",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1381,
+        "date": "2024-06-22",
+        "narrative": "L1"
+    },
+    {
+        "count": 1965,
+        "date": "2024-08-10",
+        "narrative": "L1"
+    },
+    {
+        "count": 2147,
+        "date": "2024-08-13",
+        "narrative": "L1"
+    },
+    {
+        "count": 2272,
+        "date": "2024-09-29",
+        "narrative": "L1"
+    },
+    {
+        "count": 37,
+        "date": "2024-04-13",
+        "narrative": "LRT"
+    },
+    {
+        "count": 9,
+        "date": "2024-05-09",
+        "narrative": "LRT"
+    },
+    {
+        "count": 4,
+        "date": "2024-06-21",
+        "narrative": "DEX"
+    },
+    {
+        "count": 60,
+        "date": "2024-05-07",
+        "narrative": "L2"
+    },
+    {
+        "count": 798,
+        "date": "2024-06-28",
+        "narrative": "L2"
+    },
+    {
+        "count": 1770,
+        "date": "2024-08-26",
+        "narrative": "L1"
+    },
+    {
+        "count": 98,
+        "date": "2024-08-07",
+        "narrative": "Runes"
+    },
+    {
+        "count": 115,
+        "date": "2024-05-11",
+        "narrative": "Runes"
+    },
+    {
+        "count": 102,
+        "date": "2024-06-08",
+        "narrative": "Runes"
+    },
+    {
+        "count": 23,
+        "date": "2024-07-02",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1,
+        "date": "2024-07-30",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1248,
+        "date": "2024-06-15",
+        "narrative": "L2"
+    },
+    {
+        "count": 41,
+        "date": "2024-05-24",
+        "narrative": "L2"
+    },
+    {
+        "count": 1460,
+        "date": "2024-09-24",
+        "narrative": "L2"
+    },
+    {
+        "count": 68,
+        "date": "2024-07-21",
+        "narrative": "Runes"
+    },
+    {
+        "count": 101,
+        "date": "2024-09-11",
+        "narrative": "Runes"
+    },
+    {
+        "count": 7,
+        "date": "2024-09-26",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 1,
+        "date": "2024-05-10",
+        "narrative": "AI"
+    },
+    {
+        "count": 17918,
+        "date": "2024-09-23",
+        "narrative": "AI"
+    },
+    {
+        "count": 773,
+        "date": "2024-08-24",
+        "narrative": "LRT"
+    },
+    {
+        "count": 13,
+        "date": "2024-09-29",
+        "narrative": "AI"
+    },
+    {
+        "count": 135,
+        "date": "2024-05-05",
+        "narrative": "DEX"
+    },
+    {
+        "count": 3,
+        "date": "2024-08-31",
+        "narrative": "DEX"
+    },
+    {
+        "count": 2,
+        "date": "2024-05-11",
+        "narrative": "L2"
+    },
+    {
+        "count": 4,
+        "date": "2024-08-02",
+        "narrative": "AI"
+    },
+    {
+        "count": 15,
+        "date": "2024-09-22",
+        "narrative": "L2"
+    },
+    {
+        "count": 5,
+        "date": "2024-05-22",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 37,
+        "date": "2024-07-19",
+        "narrative": "LRT"
+    },
+    {
+        "count": 38,
+        "date": "2024-05-04",
+        "narrative": "AI"
+    },
+    {
+        "count": 1859,
+        "date": "2024-05-17",
+        "narrative": "AI"
+    },
+    {
+        "count": 119,
+        "date": "2024-05-15",
+        "narrative": "Runes"
+    },
+    {
+        "count": 24,
+        "date": "2024-09-30",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 519,
+        "date": "2024-09-04",
+        "narrative": "LRT"
+    },
+    {
+        "count": 4,
+        "date": "2024-08-12",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1904,
+        "date": "2024-05-31",
+        "narrative": "L1"
+    },
+    {
+        "count": 82,
+        "date": "2024-09-24",
+        "narrative": "Runes"
+    },
+    {
+        "count": 2,
+        "date": "2024-06-10",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 1,
+        "date": "2024-07-28",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 3,
+        "date": "2024-05-17",
+        "narrative": "LRT"
+    },
+    {
+        "count": 30,
+        "date": "2024-06-14",
+        "narrative": "LRT"
+    },
+    {
+        "count": 4727,
+        "date": "2024-04-20",
+        "narrative": "L1"
+    },
+    {
+        "count": 4,
+        "date": "2024-04-26",
+        "narrative": "LRT"
+    },
+    {
+        "count": 6,
+        "date": "2024-06-01",
+        "narrative": "LRT"
+    },
+    {
+        "count": 86,
+        "date": "2024-06-25",
+        "narrative": "LRT"
+    },
+    {
+        "count": 28,
+        "date": "2024-07-27",
+        "narrative": "AI"
+    },
+    {
+        "count": 2,
+        "date": "2024-05-06",
+        "narrative": "AI"
+    },
+    {
+        "count": 71,
+        "date": "2024-05-11",
+        "narrative": "DEX"
+    },
+    {
+        "count": 12,
+        "date": "2024-07-15",
+        "narrative": "DEX"
+    },
+    {
+        "count": 263,
+        "date": "2024-07-13",
+        "narrative": "L2"
+    },
+    {
+        "count": 2560,
+        "date": "2024-07-09",
+        "narrative": "L1"
+    },
+    {
+        "count": 93,
+        "date": "2024-07-25",
+        "narrative": "Runes"
+    },
+    {
+        "count": 51,
+        "date": "2024-06-16",
+        "narrative": "AI"
+    },
+    {
+        "count": 98,
+        "date": "2024-04-30",
+        "narrative": "Runes"
+    },
+    {
+        "count": 8,
+        "date": "2024-08-25",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 12,
+        "date": "2024-06-23",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 6,
+        "date": "2024-05-26",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 16,
+        "date": "2024-04-22",
+        "narrative": "DEX"
+    },
+    {
+        "count": 2020,
+        "date": "2024-05-16",
+        "narrative": "L1"
+    },
+    {
+        "count": 2,
+        "date": "2024-08-05",
+        "narrative": "LRT"
+    },
+    {
+        "count": 3,
+        "date": "2024-05-23",
+        "narrative": "AI"
+    },
+    {
+        "count": 141,
+        "date": "2024-09-16",
+        "narrative": "L2"
+    },
+    {
+        "count": 2147,
+        "date": "2024-04-12",
+        "narrative": "L1"
+    },
+    {
+        "count": 5,
+        "date": "2024-05-02",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 3550,
+        "date": "2024-07-14",
+        "narrative": "AI"
+    },
+    {
+        "count": 6,
+        "date": "2024-04-11",
+        "narrative": "DEX"
+    },
+    {
+        "count": 6,
+        "date": "2024-08-31",
+        "narrative": "L2"
+    },
+    {
+        "count": 1336,
+        "date": "2024-06-03",
+        "narrative": "L1"
+    },
+    {
+        "count": 2114,
+        "date": "2024-08-30",
+        "narrative": "L1"
+    },
+    {
+        "count": 76,
+        "date": "2024-07-06",
+        "narrative": "Runes"
+    },
+    {
+        "count": 15,
+        "date": "2024-09-02",
+        "narrative": "LRT"
+    },
+    {
+        "count": 11,
+        "date": "2024-05-13",
+        "narrative": "LRT"
+    },
+    {
+        "count": 12,
+        "date": "2024-04-30",
+        "narrative": "LRT"
+    },
+    {
+        "count": 3,
+        "date": "2024-06-05",
+        "narrative": "AI"
+    },
+    {
+        "count": 161,
+        "date": "2024-04-24",
+        "narrative": "L2"
+    },
+    {
+        "count": 12,
+        "date": "2024-09-20",
+        "narrative": "L2"
+    },
+    {
+        "count": 3,
+        "date": "2024-09-10",
+        "narrative": "AI"
+    },
+    {
+        "count": 13,
+        "date": "2024-06-15",
+        "narrative": "DEX"
+    },
+    {
+        "count": 364,
+        "date": "2024-07-04",
+        "narrative": "L2"
+    },
+    {
+        "count": 92,
+        "date": "2024-08-14",
+        "narrative": "L2"
+    },
+    {
+        "count": 67,
+        "date": "2024-08-25",
+        "narrative": "L2"
+    },
+    {
+        "count": 2234,
+        "date": "2024-05-27",
+        "narrative": "L1"
+    },
+    {
+        "count": 106,
+        "date": "2024-09-04",
+        "narrative": "Runes"
+    },
+    {
+        "count": 92,
+        "date": "2024-06-23",
+        "narrative": "Runes"
+    },
+    {
+        "count": 77,
+        "date": "2024-09-17",
+        "narrative": "Runes"
+    },
+    {
+        "count": 25,
+        "date": "2024-09-28",
+        "narrative": "LRT"
+    },
+    {
+        "count": 2,
+        "date": "2024-09-15",
+        "narrative": "LRT"
+    },
+    {
+        "count": 402,
+        "date": "2024-08-12",
+        "narrative": "L2"
+    },
+    {
+        "count": 140,
+        "date": "2024-05-28",
+        "narrative": "Runes"
+    },
+    {
+        "count": 40,
+        "date": "2024-04-15",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 26,
+        "date": "2024-04-13",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 7,
+        "date": "2024-09-20",
+        "narrative": "DEX"
+    },
+    {
+        "count": 49,
+        "date": "2024-05-05",
+        "narrative": "L2"
+    },
+    {
+        "count": 1739,
+        "date": "2024-07-22",
+        "narrative": "L1"
+    },
+    {
+        "count": 1465,
+        "date": "2024-08-17",
+        "narrative": "L1"
+    },
+    {
+        "count": 228,
+        "date": "2024-04-26",
+        "narrative": "Runes"
+    },
+    {
+        "count": 9,
+        "date": "2024-06-25",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 2,
+        "date": "2024-07-08",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 16,
+        "date": "2024-06-08",
+        "narrative": "LRT"
+    },
+    {
+        "count": 2,
+        "date": "2024-07-25",
+        "narrative": "LRT"
+    },
+    {
+        "count": 13,
+        "date": "2024-05-26",
+        "narrative": "LRT"
+    },
+    {
+        "count": 1,
+        "date": "2024-04-28",
+        "narrative": "DEX"
+    },
+    {
+        "count": 163,
+        "date": "2024-08-27",
+        "narrative": "L2"
+    },
+    {
+        "count": 1860,
+        "date": "2024-05-12",
+        "narrative": "L1"
+    },
+    {
+        "count": 1,
+        "date": "2024-09-30",
+        "narrative": "Runes"
+    },
+    {
+        "count": 77,
+        "date": "2024-07-19",
+        "narrative": "Runes"
+    },
+    {
+        "count": 10,
+        "date": "2024-08-16",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 9,
+        "date": "2024-08-29",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 4,
+        "date": "2024-04-17",
+        "narrative": "LRT"
+    },
+    {
+        "count": 17,
+        "date": "2024-07-12",
+        "narrative": "LRT"
+    },
+    {
+        "count": 3,
+        "date": "2024-09-22",
+        "narrative": "DEX"
+    },
+    {
+        "count": 2080,
+        "date": "2024-05-25",
+        "narrative": "L1"
+    },
+    {
+        "count": 1247,
+        "date": "2024-06-07",
+        "narrative": "L1"
+    },
+    {
+        "count": 14,
+        "date": "2024-05-09",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 19,
+        "date": "2024-07-21",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 1,
+        "date": "2024-09-24",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 4,
+        "date": "2024-08-07",
+        "narrative": "LRT"
+    },
+    {
+        "count": 80,
+        "date": "2024-05-18",
+        "narrative": "L2"
+    },
+    {
+        "count": 65,
+        "date": "2024-08-01",
+        "narrative": "Runes"
+    },
+    {
+        "count": 53,
+        "date": "2024-10-06",
+        "narrative": "AI"
+    },
+    {
+        "count": 7,
+        "date": "2024-08-15",
+        "narrative": "AI"
+    },
+    {
+        "count": 3,
+        "date": "2024-06-19",
+        "narrative": "DEX"
+    },
+    {
+        "count": 3,
+        "date": "2024-05-24",
+        "narrative": "DEX"
+    },
+    {
+        "count": 40,
+        "date": "2024-07-15",
+        "narrative": "L2"
+    },
+    {
+        "count": 18,
+        "date": "2024-06-21",
+        "narrative": "L2"
+    },
+    {
+        "count": 3,
+        "date": "2024-06-06",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 9,
+        "date": "2024-05-15",
+        "narrative": "LRT"
+    },
+    {
+        "count": 31,
+        "date": "2024-08-20",
+        "narrative": "LRT"
+    },
+    {
+        "count": 2,
+        "date": "2024-05-28",
+        "narrative": "LRT"
+    },
+    {
+        "count": 25,
+        "date": "2024-04-25",
+        "narrative": "AI"
+    },
+    {
+        "count": 30,
+        "date": "2024-10-03",
+        "narrative": "L2"
+    },
+    {
+        "count": 29,
+        "date": "2024-07-17",
+        "narrative": "L2"
+    },
+    {
+        "count": 117,
+        "date": "2024-05-22",
+        "narrative": "Runes"
+    },
+    {
+        "count": 171,
+        "date": "2024-05-02",
+        "narrative": "Runes"
+    },
+    {
+        "count": 4,
+        "date": "2024-09-11",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 1,
+        "date": "2024-09-21",
+        "narrative": "LRT"
+    },
+    {
+        "count": 7,
+        "date": "2024-07-20",
+        "narrative": "AI"
+    },
+    {
+        "count": 11,
+        "date": "2024-08-27",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1713,
+        "date": "2024-08-19",
+        "narrative": "L1"
+    },
+    {
+        "count": 113,
+        "date": "2024-09-28",
+        "narrative": "Runes"
+    },
+    {
+        "count": 16,
+        "date": "2024-05-11",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 6,
+        "date": "2024-10-07",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 17,
+        "date": "2024-07-06",
+        "narrative": "LRT"
+    },
+    {
+        "count": 76,
+        "date": "2024-08-09",
+        "narrative": "AI"
+    },
+    {
+        "count": 3,
+        "date": "2024-07-11",
+        "narrative": "DEX"
+    },
+    {
+        "count": 31,
+        "date": "2024-07-30",
+        "narrative": "L2"
+    },
+    {
+        "count": 1601,
+        "date": "2024-04-29",
+        "narrative": "L1"
+    },
+    {
+        "count": 4,
+        "date": "2024-08-03",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 4,
+        "date": "2024-09-13",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 1290,
+        "date": "2024-06-20",
+        "narrative": "L1"
+    },
+    {
+        "count": 1665,
+        "date": "2024-09-01",
+        "narrative": "L1"
+    },
+    {
+        "count": 3564,
+        "date": "2024-09-27",
+        "narrative": "L1"
+    },
+    {
+        "count": 179,
+        "date": "2024-04-22",
+        "narrative": "L2"
+    },
+    {
+        "count": 2034,
+        "date": "2024-07-03",
+        "narrative": "L1"
+    },
+    {
+        "count": 2903,
+        "date": "2024-09-12",
+        "narrative": "L1"
+    },
+    {
+        "count": 2552,
+        "date": "2024-09-14",
+        "narrative": "L1"
+    },
+    {
+        "count": 4,
+        "date": "2024-06-10",
+        "narrative": "LRT"
+    },
+    {
+        "count": 2,
+        "date": "2024-05-18",
+        "narrative": "DEX"
+    },
+    {
+        "count": 96,
+        "date": "2024-09-07",
+        "narrative": "L2"
+    },
+    {
+        "count": 1158,
+        "date": "2024-10-05",
+        "narrative": "L2"
+    },
+    {
+        "count": 2820,
+        "date": "2024-04-16",
+        "narrative": "L1"
+    },
+    {
+        "count": 1712,
+        "date": "2024-08-06",
+        "narrative": "L1"
+    },
+    {
+        "count": 124,
+        "date": "2024-05-24",
+        "narrative": "Runes"
+    },
+    {
+        "count": 101,
+        "date": "2024-07-13",
+        "narrative": "Runes"
+    },
+    {
+        "count": 15,
+        "date": "2024-05-20",
+        "narrative": "LRT"
+    },
+    {
+        "count": 2,
+        "date": "2024-05-09",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1791,
+        "date": "2024-08-02",
+        "narrative": "L1"
+    },
+    {
+        "count": 150,
+        "date": "2024-06-05",
+        "narrative": "Runes"
+    },
+    {
+        "count": 4,
+        "date": "2024-04-11",
+        "narrative": "LRT"
+    },
+    {
+        "count": 5660,
+        "date": "2024-07-22",
+        "narrative": "AI"
+    },
+    {
+        "count": 22,
+        "date": "2024-05-12",
+        "narrative": "AI"
+    },
+    {
+        "count": 27,
+        "date": "2024-05-31",
+        "narrative": "L2"
+    },
+    {
+        "count": 1,
+        "date": "2024-07-17",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 9,
+        "date": "2024-08-29",
+        "narrative": "LRT"
+    },
+    {
+        "count": 1255,
+        "date": "2024-08-25",
+        "narrative": "L1"
+    },
+    {
+        "count": 1,
+        "date": "2024-04-25",
+        "narrative": "Runes"
+    },
+    {
+        "count": 1,
+        "date": "2024-06-27",
+        "narrative": "AI"
+    },
+    {
+        "count": 5,
+        "date": "2024-06-24",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1387,
+        "date": "2024-06-11",
+        "narrative": "L1"
+    },
+    {
+        "count": 2,
+        "date": "2024-04-27",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 22,
+        "date": "2024-05-27",
+        "narrative": "LRT"
+    },
+    {
+        "count": 101,
+        "date": "2024-10-02",
+        "narrative": "LRT"
+    },
+    {
+        "count": 11,
+        "date": "2024-06-04",
+        "narrative": "AI"
+    },
+    {
+        "count": 15,
+        "date": "2024-04-13",
+        "narrative": "L2"
+    },
+    {
+        "count": 1744,
+        "date": "2024-07-25",
+        "narrative": "L1"
+    },
+    {
+        "count": 5687,
+        "date": "2024-09-23",
+        "narrative": "L1"
+    },
+    {
+        "count": 308,
+        "date": "2024-04-18",
+        "narrative": "Runes"
+    },
+    {
+        "count": 77,
+        "date": "2024-09-03",
+        "narrative": "Runes"
+    },
+    {
+        "count": 6,
+        "date": "2024-05-07",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 8,
+        "date": "2024-08-28",
+        "narrative": "LRT"
+    },
+    {
+        "count": 5,
+        "date": "2024-05-27",
+        "narrative": "AI"
+    },
+    {
+        "count": 30,
+        "date": "2024-04-13",
+        "narrative": "AI"
+    },
+    {
+        "count": 9,
+        "date": "2024-06-08",
+        "narrative": "DEX"
+    },
+    {
+        "count": 772,
+        "date": "2024-07-26",
+        "narrative": "L2"
+    },
+    {
+        "count": 2348,
+        "date": "2024-06-15",
+        "narrative": "L1"
+    },
+    {
+        "count": 86,
+        "date": "2024-09-22",
+        "narrative": "Runes"
+    },
+    {
+        "count": 106,
+        "date": "2024-06-28",
+        "narrative": "Runes"
+    },
+    {
+        "count": 97,
+        "date": "2024-06-04",
+        "narrative": "Runes"
+    },
+    {
+        "count": 11,
+        "date": "2024-08-09",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 532,
+        "date": "2024-05-09",
+        "narrative": "AI"
+    },
+    {
+        "count": 16,
+        "date": "2024-05-16",
+        "narrative": "DEX"
+    },
+    {
+        "count": 325,
+        "date": "2024-06-30",
+        "narrative": "L2"
+    },
+    {
+        "count": 1711,
+        "date": "2024-05-19",
+        "narrative": "L1"
+    },
+    {
+        "count": 1,
+        "date": "2024-10-08",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 6,
+        "date": "2024-05-04",
+        "narrative": "LRT"
+    },
+    {
+        "count": 3,
+        "date": "2024-09-20",
+        "narrative": "LRT"
+    },
+    {
+        "count": 24,
+        "date": "2024-04-15",
+        "narrative": "LRT"
+    },
+    {
+        "count": 10,
+        "date": "2024-04-17",
+        "narrative": "AI"
+    },
+    {
+        "count": 1484,
+        "date": "2024-06-14",
+        "narrative": "L1"
+    },
+    {
+        "count": 2623,
+        "date": "2024-07-29",
+        "narrative": "L1"
+    },
+    {
+        "count": 204,
+        "date": "2024-06-16",
+        "narrative": "Runes"
+    },
+    {
+        "count": 1,
+        "date": "2024-05-19",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 2868,
+        "date": "2024-06-12",
+        "narrative": "AI"
+    },
+    {
+        "count": 2161,
+        "date": "2024-07-17",
+        "narrative": "L1"
+    },
+    {
+        "count": 19,
+        "date": "2024-05-17",
+        "narrative": "DEX"
+    },
+    {
+        "count": 16,
+        "date": "2024-06-27",
+        "narrative": "L2"
+    },
+    {
+        "count": 3,
+        "date": "2024-08-06",
+        "narrative": "AI"
+    },
+    {
+        "count": 2,
+        "date": "2024-04-13",
+        "narrative": "DEX"
+    },
+    {
+        "count": 13,
+        "date": "2024-06-30",
+        "narrative": "DEX"
+    },
+    {
+        "count": 5,
+        "date": "2024-05-05",
+        "narrative": "LRT"
+    },
+    {
+        "count": 5,
+        "date": "2024-07-29",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 5,
+        "date": "2024-06-07",
+        "narrative": "LRT"
+    },
+    {
+        "count": 10,
+        "date": "2024-07-26",
+        "narrative": "AI"
+    },
+    {
+        "count": 8,
+        "date": "2024-06-08",
+        "narrative": "L2"
+    },
+    {
+        "count": 70,
+        "date": "2024-08-18",
+        "narrative": "L2"
+    },
+    {
+        "count": 1687,
+        "date": "2024-07-10",
+        "narrative": "L1"
+    },
+    {
+        "count": 1345,
+        "date": "2024-08-15",
+        "narrative": "Runes"
+    },
+    {
+        "count": 8,
+        "date": "2024-08-07",
+        "narrative": "AI"
+    },
+    {
+        "count": 2733,
+        "date": "2024-07-07",
+        "narrative": "L1"
+    },
+    {
+        "count": 109,
+        "date": "2024-10-06",
+        "narrative": "Runes"
+    },
+    {
+        "count": 10,
+        "date": "2024-05-15",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 1,
+        "date": "2024-07-29",
+        "narrative": "LRT"
+    },
+    {
+        "count": 1,
+        "date": "2024-04-16",
+        "narrative": "DEX"
+    },
+    {
+        "count": 140,
+        "date": "2024-09-17",
+        "narrative": "DEX"
+    },
+    {
+        "count": 17,
+        "date": "2024-08-30",
+        "narrative": "L2"
+    },
+    {
+        "count": 2126,
+        "date": "2024-05-23",
+        "narrative": "L1"
+    },
+    {
+        "count": 90,
+        "date": "2024-08-04",
+        "narrative": "Runes"
+    },
+    {
+        "count": 153,
+        "date": "2024-04-14",
+        "narrative": "Runes"
+    },
+    {
+        "count": 18,
+        "date": "2024-09-23",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 19,
+        "date": "2024-08-18",
+        "narrative": "LRT"
+    },
+    {
+        "count": 88,
+        "date": "2024-04-24",
+        "narrative": "DEX"
+    },
+    {
+        "count": 769,
+        "date": "2024-07-19",
+        "narrative": "L2"
+    },
+    {
+        "count": 95,
+        "date": "2024-05-27",
+        "narrative": "L2"
+    },
+    {
+        "count": 136,
+        "date": "2024-08-26",
+        "narrative": "Runes"
+    },
+    {
+        "count": 2,
+        "date": "2024-09-05",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 16,
+        "date": "2024-07-17",
+        "narrative": "LRT"
+    },
+    {
+        "count": 2,
+        "date": "2024-09-18",
+        "narrative": "AI"
+    },
+    {
+        "count": 2,
+        "date": "2024-05-04",
+        "narrative": "L2"
+    },
+    {
+        "count": 1781,
+        "date": "2024-08-12",
+        "narrative": "L1"
+    },
+    {
+        "count": 2,
+        "date": "2024-06-15",
+        "narrative": "LRT"
+    },
+    {
+        "count": 7,
+        "date": "2024-08-26",
+        "narrative": "AI"
+    },
+    {
+        "count": 1,
+        "date": "2024-08-26",
+        "narrative": "DEX"
+    },
+    {
+        "count": 52,
+        "date": "2024-10-02",
+        "narrative": "L2"
+    },
+    {
+        "count": 70,
+        "date": "2024-05-16",
+        "narrative": "L2"
+    },
+    {
+        "count": 116,
+        "date": "2024-07-12",
+        "narrative": "Runes"
+    },
+    {
+        "count": 1,
+        "date": "2024-07-07",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 61,
+        "date": "2024-05-12",
+        "narrative": "LRT"
+    },
+    {
+        "count": 1,
+        "date": "2024-10-08",
+        "narrative": "LRT"
+    },
+    {
+        "count": 14,
+        "date": "2024-09-09",
+        "narrative": "AI"
+    },
+    {
+        "count": 136,
+        "date": "2024-06-12",
+        "narrative": "L2"
+    },
+    {
+        "count": 1776,
+        "date": "2024-04-27",
+        "narrative": "L1"
+    },
+    {
+        "count": 1696,
+        "date": "2024-07-18",
+        "narrative": "L1"
+    },
+    {
+        "count": 2461,
+        "date": "2024-09-16",
+        "narrative": "L1"
+    },
+    {
+        "count": 197,
+        "date": "2024-05-06",
+        "narrative": "Runes"
+    },
+    {
+        "count": 119,
+        "date": "2024-05-18",
+        "narrative": "Runes"
+    },
+    {
+        "count": 15,
+        "date": "2024-04-20",
+        "narrative": "AI"
+    },
+    {
+        "count": 47,
+        "date": "2024-10-02",
+        "narrative": "AI"
+    },
+    {
+        "count": 5,
+        "date": "2024-09-27",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 10715,
+        "date": "2024-09-06",
+        "narrative": "AI"
+    },
+    {
+        "count": 18,
+        "date": "2024-06-12",
+        "narrative": "DEX"
+    },
+    {
+        "count": 78,
+        "date": "2024-06-04",
+        "narrative": "DEX"
+    },
+    {
+        "count": 99,
+        "date": "2024-05-13",
+        "narrative": "L2"
+    },
+    {
+        "count": 2398,
+        "date": "2024-05-15",
+        "narrative": "L1"
+    },
+    {
+        "count": 91,
+        "date": "2024-05-21",
+        "narrative": "Runes"
+    },
+    {
+        "count": 72,
+        "date": "2024-07-31",
+        "narrative": "Runes"
+    },
+    {
+        "count": 93,
+        "date": "2024-09-18",
+        "narrative": "Runes"
+    },
+    {
+        "count": 106,
+        "date": "2024-09-14",
+        "narrative": "Runes"
+    },
+    {
+        "count": 4,
+        "date": "2024-05-19",
+        "narrative": "LRT"
+    },
+    {
+        "count": 15,
+        "date": "2024-06-19",
+        "narrative": "L2"
+    },
+    {
+        "count": 1650,
+        "date": "2024-08-24",
+        "narrative": "L1"
+    },
+    {
+        "count": 172,
+        "date": "2024-05-29",
+        "narrative": "Runes"
+    },
+    {
+        "count": 355,
+        "date": "2024-09-13",
+        "narrative": "DEX"
+    },
+    {
+        "count": 956,
+        "date": "2024-09-13",
+        "narrative": "L2"
+    },
+    {
+        "count": 2532,
+        "date": "2024-04-15",
+        "narrative": "L1"
+    },
+    {
+        "count": 60,
+        "date": "2024-09-21",
+        "narrative": "Runes"
+    },
+    {
+        "count": 71,
+        "date": "2024-07-05",
+        "narrative": "Runes"
+    },
+    {
+        "count": 16,
+        "date": "2024-07-26",
+        "narrative": "LRT"
+    },
+    {
+        "count": 101,
+        "date": "2024-08-03",
+        "narrative": "DEX"
+    },
+    {
+        "count": 77,
+        "date": "2024-07-28",
+        "narrative": "Runes"
+    },
+    {
+        "count": 4,
+        "date": "2024-04-30",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 21,
+        "date": "2024-07-14",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 9,
+        "date": "2024-07-23",
+        "narrative": "AI"
+    },
+    {
+        "count": 9,
+        "date": "2024-09-09",
+        "narrative": "DEX"
+    },
+    {
+        "count": 77,
+        "date": "2024-08-29",
+        "narrative": "DEX"
+    },
+    {
+        "count": 181,
+        "date": "2024-04-20",
+        "narrative": "L2"
+    },
+    {
+        "count": 2,
+        "date": "2024-08-31",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 3,
+        "date": "2024-09-24",
+        "narrative": "LRT"
+    },
+    {
+        "count": 23,
+        "date": "2024-08-06",
+        "narrative": "LRT"
+    },
+    {
+        "count": 2,
+        "date": "2024-07-23",
+        "narrative": "DEX"
+    },
+    {
+        "count": 4,
+        "date": "2024-08-22",
+        "narrative": "L2"
+    },
+    {
+        "count": 2131,
+        "date": "2024-08-31",
+        "narrative": "L1"
+    },
+    {
+        "count": 4,
+        "date": "2024-08-17",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 6,
+        "date": "2024-04-11",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 10,
+        "date": "2024-10-05",
+        "narrative": "LRT"
+    },
+    {
+        "count": 3,
+        "date": "2024-08-14",
+        "narrative": "DEX"
+    },
+    {
+        "count": 16,
+        "date": "2024-06-27",
+        "narrative": "DEX"
+    },
+    {
+        "count": 87,
+        "date": "2024-09-09",
+        "narrative": "L2"
+    },
+    {
+        "count": 88,
+        "date": "2024-07-08",
+        "narrative": "Runes"
+    },
+    {
+        "count": 116,
+        "date": "2024-06-24",
+        "narrative": "Runes"
+    },
+    {
+        "count": 40,
+        "date": "2024-09-12",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 1637,
+        "date": "2024-06-21",
+        "narrative": "L1"
+    },
+    {
+        "count": 1,
+        "date": "2024-04-21",
+        "narrative": "Runes"
+    },
+    {
+        "count": 94,
+        "date": "2024-05-17",
+        "narrative": "Runes"
+    },
+    {
+        "count": 8,
+        "date": "2024-07-11",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 4,
+        "date": "2024-05-08",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 1,
+        "date": "2024-06-26",
+        "narrative": "AI"
+    },
+    {
+        "count": 2,
+        "date": "2024-07-04",
+        "narrative": "AI"
+    },
+    {
+        "count": 6,
+        "date": "2024-08-22",
+        "narrative": "AI"
+    },
+    {
+        "count": 24,
+        "date": "2024-06-23",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1997,
+        "date": "2024-05-11",
+        "narrative": "L1"
+    },
+    {
+        "count": 108,
+        "date": "2024-06-01",
+        "narrative": "Runes"
+    },
+    {
+        "count": 9,
+        "date": "2024-07-25",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 13,
+        "date": "2024-05-01",
+        "narrative": "LRT"
+    },
+    {
+        "count": 3,
+        "date": "2024-05-31",
+        "narrative": "DEX"
+    },
+    {
+        "count": 10,
+        "date": "2024-08-28",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 10,
+        "date": "2024-08-21",
+        "narrative": "LRT"
+    },
+    {
+        "count": 71,
+        "date": "2024-05-12",
+        "narrative": "L2"
+    },
+    {
+        "count": 13,
+        "date": "2024-06-14",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 1,
+        "date": "2024-06-22",
+        "narrative": "LRT"
+    },
+    {
+        "count": 169,
+        "date": "2024-05-10",
+        "narrative": "Runes"
+    },
+    {
+        "count": 104,
+        "date": "2024-06-27",
+        "narrative": "Runes"
+    },
+    {
+        "count": 7,
+        "date": "2024-06-18",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 27,
+        "date": "2024-05-30",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 535,
+        "date": "2024-09-09",
+        "narrative": "LRT"
+    },
+    {
+        "count": 5,
+        "date": "2024-08-03",
+        "narrative": "AI"
+    },
+    {
+        "count": 8,
+        "date": "2024-06-20",
+        "narrative": "DEX"
+    },
+    {
+        "count": 95,
+        "date": "2024-08-06",
+        "narrative": "L2"
+    },
+    {
+        "count": 24,
+        "date": "2024-06-20",
+        "narrative": "L2"
+    },
+    {
+        "count": 308,
+        "date": "2024-07-22",
+        "narrative": "L2"
+    },
+    {
+        "count": 4198,
+        "date": "2024-05-07",
+        "narrative": "L1"
+    },
+    {
+        "count": 557,
+        "date": "2024-08-09",
+        "narrative": "Runes"
+    },
+    {
+        "count": 113,
+        "date": "2024-09-08",
+        "narrative": "Runes"
+    },
+    {
+        "count": 64,
+        "date": "2024-07-11",
+        "narrative": "AI"
+    },
+    {
+        "count": 3121,
+        "date": "2024-09-02",
+        "narrative": "L1"
+    },
+    {
+        "count": 3,
+        "date": "2024-05-31",
+        "narrative": "LRT"
+    },
+    {
+        "count": 4,
+        "date": "2024-06-03",
+        "narrative": "LRT"
+    },
+    {
+        "count": 72,
+        "date": "2024-06-11",
+        "narrative": "AI"
+    },
+    {
+        "count": 1,
+        "date": "2024-05-01",
+        "narrative": "AI"
+    },
+    {
+        "count": 229,
+        "date": "2024-05-25",
+        "narrative": "DEX"
+    },
+    {
+        "count": 2933,
+        "date": "2024-07-02",
+        "narrative": "L1"
+    },
+    {
+        "count": 1,
+        "date": "2024-04-12",
+        "narrative": "DEX"
+    },
+    {
+        "count": 19,
+        "date": "2024-07-05",
+        "narrative": "L2"
+    },
+    {
+        "count": 101,
+        "date": "2024-05-16",
+        "narrative": "Runes"
+    },
+    {
+        "count": 10,
+        "date": "2024-06-26",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 15,
+        "date": "2024-04-20",
+        "narrative": "LRT"
+    },
+    {
+        "count": 50,
+        "date": "2024-05-07",
+        "narrative": "LRT"
+    },
+    {
+        "count": 2343,
+        "date": "2024-05-13",
+        "narrative": "L1"
+    },
+    {
+        "count": 1251,
+        "date": "2024-06-08",
+        "narrative": "L1"
+    },
+    {
+        "count": 3152,
+        "date": "2024-07-06",
+        "narrative": "L1"
+    },
+    {
+        "count": 109,
+        "date": "2024-06-13",
+        "narrative": "Runes"
+    },
+    {
+        "count": 4,
+        "date": "2024-09-03",
+        "narrative": "AI"
+    },
+    {
+        "count": 7,
+        "date": "2024-07-01",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1638,
+        "date": "2024-08-16",
+        "narrative": "L1"
+    },
+    {
+        "count": 1418,
+        "date": "2024-08-29",
+        "narrative": "L1"
+    },
+    {
+        "count": 3,
+        "date": "2024-09-29",
+        "narrative": "Runes"
+    },
+    {
+        "count": 1,
+        "date": "2024-07-28",
+        "narrative": "AI"
+    },
+    {
+        "count": 13,
+        "date": "2024-06-24",
+        "narrative": "AI"
+    },
+    {
+        "count": 23,
+        "date": "2024-06-22",
+        "narrative": "L2"
+    },
+    {
+        "count": 3929,
+        "date": "2024-09-26",
+        "narrative": "L1"
+    },
+    {
+        "count": 145,
+        "date": "2024-06-17",
+        "narrative": "Runes"
+    },
+    {
+        "count": 70,
+        "date": "2024-05-08",
+        "narrative": "L2"
+    },
+    {
+        "count": 21,
+        "date": "2024-05-25",
+        "narrative": "L2"
+    },
+    {
+        "count": 224,
+        "date": "2024-09-01",
+        "narrative": "L2"
+    },
+    {
+        "count": 83,
+        "date": "2024-09-05",
+        "narrative": "Runes"
+    },
+    {
+        "count": 5,
+        "date": "2024-06-20",
+        "narrative": "LRT"
+    },
+    {
+        "count": 13,
+        "date": "2024-05-02",
+        "narrative": "AI"
+    },
+    {
+        "count": 27,
+        "date": "2024-07-16",
+        "narrative": "L2"
+    },
+    {
+        "count": 3134,
+        "date": "2024-09-28",
+        "narrative": "L1"
+    },
+    {
+        "count": 2,
+        "date": "2024-05-27",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 21,
+        "date": "2024-04-15",
+        "narrative": "AI"
+    },
+    {
+        "count": 2,
+        "date": "2024-10-08",
+        "narrative": "L2"
+    },
+    {
+        "count": 17,
+        "date": "2024-07-18",
+        "narrative": "L2"
+    },
+    {
+        "count": 336,
+        "date": "2024-04-19",
+        "narrative": "Runes"
+    },
+    {
+        "count": 3,
+        "date": "2024-06-05",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 6,
+        "date": "2024-08-06",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 6,
+        "date": "2024-10-02",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 76,
+        "date": "2024-04-11",
+        "narrative": "AI"
+    },
+    {
+        "count": 3,
+        "date": "2024-09-17",
+        "narrative": "AI"
+    },
+    {
+        "count": 1639,
+        "date": "2024-07-23",
+        "narrative": "L1"
+    },
+    {
+        "count": 22,
+        "date": "2024-07-22",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 9,
+        "date": "2024-06-30",
+        "narrative": "LRT"
+    },
+    {
+        "count": 6,
+        "date": "2024-09-12",
+        "narrative": "LRT"
+    },
+    {
+        "count": 1,
+        "date": "2024-10-08",
+        "narrative": "DEX"
+    },
+    {
+        "count": 631,
+        "date": "2024-08-11",
+        "narrative": "L2"
+    },
+    {
+        "count": 3432,
+        "date": "2024-05-05",
+        "narrative": "L1"
+    },
+    {
+        "count": 99,
+        "date": "2024-06-09",
+        "narrative": "Runes"
+    },
+    {
+        "count": 20,
+        "date": "2024-04-29",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 2,
+        "date": "2024-09-29",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 3,
+        "date": "2024-09-01",
+        "narrative": "DEX"
+    },
+    {
+        "count": 6,
+        "date": "2024-05-19",
+        "narrative": "DEX"
+    },
+    {
+        "count": 23,
+        "date": "2024-07-01",
+        "narrative": "L2"
+    },
+    {
+        "count": 1440,
+        "date": "2024-06-06",
+        "narrative": "L1"
+    },
+    {
+        "count": 2321,
+        "date": "2024-09-15",
+        "narrative": "L1"
+    },
+    {
+        "count": 92,
+        "date": "2024-07-20",
+        "narrative": "Runes"
+    },
+    {
+        "count": 2,
+        "date": "2024-10-07",
+        "narrative": "AI"
+    },
+    {
+        "count": 3,
+        "date": "2024-08-17",
+        "narrative": "DEX"
+    },
+    {
+        "count": 66,
+        "date": "2024-05-21",
+        "narrative": "L2"
+    },
+    {
+        "count": 3,
+        "date": "2024-06-14",
+        "narrative": "L2"
+    },
+    {
+        "count": 2227,
+        "date": "2024-04-22",
+        "narrative": "L1"
+    },
+    {
+        "count": 2050,
+        "date": "2024-05-09",
+        "narrative": "L1"
+    },
+    {
+        "count": 1119,
+        "date": "2024-06-19",
+        "narrative": "L1"
+    },
+    {
+        "count": 1869,
+        "date": "2024-08-10",
+        "narrative": "Runes"
+    },
+    {
+        "count": 31,
+        "date": "2024-05-23",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 42,
+        "date": "2024-04-14",
+        "narrative": "AI"
+    },
+    {
+        "count": 7455,
+        "date": "2024-08-18",
+        "narrative": "AI"
+    },
+    {
+        "count": 988,
+        "date": "2024-09-03",
+        "narrative": "L2"
+    },
+    {
+        "count": 126,
+        "date": "2024-05-04",
+        "narrative": "Runes"
+    },
+    {
+        "count": 110,
+        "date": "2024-05-20",
+        "narrative": "Runes"
+    },
+    {
+        "count": 16,
+        "date": "2024-05-14",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 2,
+        "date": "2024-06-09",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 11,
+        "date": "2024-06-13",
+        "narrative": "AI"
+    },
+    {
+        "count": 1417,
+        "date": "2024-06-05",
+        "narrative": "L1"
+    },
+    {
+        "count": 2728,
+        "date": "2024-09-06",
+        "narrative": "L1"
+    },
+    {
+        "count": 2659,
+        "date": "2024-10-02",
+        "narrative": "L1"
+    },
+    {
+        "count": 4147,
+        "date": "2024-07-18",
+        "narrative": "AI"
+    },
+    {
+        "count": 141,
+        "date": "2024-05-22",
+        "narrative": "DEX"
+    },
+    {
+        "count": 10,
+        "date": "2024-05-02",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1161,
+        "date": "2024-06-09",
+        "narrative": "L1"
+    },
+    {
+        "count": 89,
+        "date": "2024-09-02",
+        "narrative": "Runes"
+    },
+    {
+        "count": 715,
+        "date": "2024-04-22",
+        "narrative": "Runes"
+    },
+    {
+        "count": 111,
+        "date": "2024-07-04",
+        "narrative": "Runes"
+    },
+    {
+        "count": 1,
+        "date": "2024-08-12",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 1,
+        "date": "2024-09-07",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 8,
+        "date": "2024-04-21",
+        "narrative": "AI"
+    },
+    {
+        "count": 72,
+        "date": "2024-07-26",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1,
+        "date": "2024-10-05",
+        "narrative": "DEX"
+    },
+    {
+        "count": 3,
+        "date": "2024-09-11",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1,
+        "date": "2024-07-28",
+        "narrative": "L2"
+    },
+    {
+        "count": 7,
+        "date": "2024-07-07",
+        "narrative": "L2"
+    },
+    {
+        "count": 116,
+        "date": "2024-06-12",
+        "narrative": "Runes"
+    },
+    {
+        "count": 10,
+        "date": "2024-07-05",
+        "narrative": "AI"
+    },
+    {
+        "count": 2,
+        "date": "2024-09-24",
+        "narrative": "DEX"
+    },
+    {
+        "count": 2,
+        "date": "2024-04-15",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1,
+        "date": "2024-07-13",
+        "narrative": "DEX"
+    },
+    {
+        "count": 23,
+        "date": "2024-09-02",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 1,
+        "date": "2024-08-27",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 3,
+        "date": "2024-04-26",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 591,
+        "date": "2024-09-13",
+        "narrative": "LRT"
+    },
+    {
+        "count": 1,
+        "date": "2024-07-03",
+        "narrative": "AI"
+    },
+    {
+        "count": 1,
+        "date": "2024-08-08",
+        "narrative": "DEX"
+    },
+    {
+        "count": 17,
+        "date": "2024-05-20",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 14,
+        "date": "2024-07-23",
+        "narrative": "LRT"
+    },
+    {
+        "count": 31,
+        "date": "2024-06-01",
+        "narrative": "AI"
+    },
+    {
+        "count": 1,
+        "date": "2024-10-07",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1,
+        "date": "2024-07-24",
+        "narrative": "DEX"
+    },
+    {
+        "count": 126,
+        "date": "2024-06-10",
+        "narrative": "Runes"
+    },
+    {
+        "count": 124,
+        "date": "2024-09-15",
+        "narrative": "Runes"
+    },
+    {
+        "count": 6,
+        "date": "2024-08-16",
+        "narrative": "LRT"
+    },
+    {
+        "count": 3,
+        "date": "2024-08-24",
+        "narrative": "AI"
+    },
+    {
+        "count": 25,
+        "date": "2024-04-23",
+        "narrative": "AI"
+    },
+    {
+        "count": 8,
+        "date": "2024-04-12",
+        "narrative": "AI"
+    },
+    {
+        "count": 4830,
+        "date": "2024-10-08",
+        "narrative": "AI"
+    },
+    {
+        "count": 107,
+        "date": "2024-07-30",
+        "narrative": "Runes"
+    },
+    {
+        "count": 15,
+        "date": "2024-09-22",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 1195,
+        "date": "2024-06-29",
+        "narrative": "L1"
+    },
+    {
+        "count": 21,
+        "date": "2024-09-09",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 4,
+        "date": "2024-08-01",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 18,
+        "date": "2024-07-21",
+        "narrative": "LRT"
+    },
+    {
+        "count": 3,
+        "date": "2024-05-08",
+        "narrative": "AI"
+    },
+    {
+        "count": 50,
+        "date": "2024-08-21",
+        "narrative": "L2"
+    },
+    {
+        "count": 87,
+        "date": "2024-06-02",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 12,
+        "date": "2024-06-25",
+        "narrative": "DEX"
+    },
+    {
+        "count": 84,
+        "date": "2024-05-29",
+        "narrative": "L2"
+    },
+    {
+        "count": 2988,
+        "date": "2024-04-18",
+        "narrative": "L1"
+    },
+    {
+        "count": 1549,
+        "date": "2024-07-20",
+        "narrative": "L1"
+    },
+    {
+        "count": 73,
+        "date": "2024-06-23",
+        "narrative": "LRT"
+    },
+    {
+        "count": 13,
+        "date": "2024-07-31",
+        "narrative": "AI"
+    },
+    {
+        "count": 3581,
+        "date": "2024-04-19",
+        "narrative": "L1"
+    },
+    {
+        "count": 6,
+        "date": "2024-09-28",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 3,
+        "date": "2024-07-29",
+        "narrative": "AI"
+    },
+    {
+        "count": 94,
+        "date": "2024-09-17",
+        "narrative": "L2"
+    },
+    {
+        "count": 1886,
+        "date": "2024-08-23",
+        "narrative": "L1"
+    },
+    {
+        "count": 94,
+        "date": "2024-07-10",
+        "narrative": "Runes"
+    },
+    {
+        "count": 6,
+        "date": "2024-09-15",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 48,
+        "date": "2024-07-27",
+        "narrative": "LRT"
+    },
+    {
+        "count": 8,
+        "date": "2024-06-24",
+        "narrative": "L2"
+    },
+    {
+        "count": 2697,
+        "date": "2024-06-22",
+        "narrative": "AI"
+    },
+    {
+        "count": 1,
+        "date": "2024-05-14",
+        "narrative": "L2"
+    },
+    {
+        "count": 270,
+        "date": "2024-05-09",
+        "narrative": "Runes"
+    },
+    {
+        "count": 209,
+        "date": "2024-07-02",
+        "narrative": "Runes"
+    },
+    {
+        "count": 4,
+        "date": "2024-10-04",
+        "narrative": "LRT"
+    },
+    {
+        "count": 12,
+        "date": "2024-06-06",
+        "narrative": "LRT"
+    },
+    {
+        "count": 161,
+        "date": "2024-07-08",
+        "narrative": "DEX"
+    },
+    {
+        "count": 19,
+        "date": "2024-06-28",
+        "narrative": "DEX"
+    },
+    {
+        "count": 13,
+        "date": "2024-06-04",
+        "narrative": "L2"
+    },
+    {
+        "count": 24,
+        "date": "2024-06-15",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 1,
+        "date": "2024-05-01",
+        "narrative": "DEX"
+    },
+    {
+        "count": 2236,
+        "date": "2024-05-03",
+        "narrative": "L1"
+    },
+    {
+        "count": 6,
+        "date": "2024-05-17",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 14,
+        "date": "2024-08-14",
+        "narrative": "LRT"
+    },
+    {
+        "count": 3242,
+        "date": "2024-08-01",
+        "narrative": "AI"
+    },
+    {
+        "count": 1,
+        "date": "2024-05-15",
+        "narrative": "AI"
+    },
+    {
+        "count": 20,
+        "date": "2024-07-16",
+        "narrative": "DEX"
+    },
+    {
+        "count": 63,
+        "date": "2024-07-06",
+        "narrative": "L2"
+    },
+    {
+        "count": 237,
+        "date": "2024-06-15",
+        "narrative": "Runes"
+    },
+    {
+        "count": 19,
+        "date": "2024-08-26",
+        "narrative": "LRT"
+    },
+    {
+        "count": 34,
+        "date": "2024-09-10",
+        "narrative": "LRT"
+    },
+    {
+        "count": 43,
+        "date": "2024-07-06",
+        "narrative": "AI"
+    },
+    {
+        "count": 17,
+        "date": "2024-04-27",
+        "narrative": "AI"
+    },
+    {
+        "count": 72,
+        "date": "2024-04-21",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1061,
+        "date": "2024-09-21",
+        "narrative": "L2"
+    },
+    {
+        "count": 105,
+        "date": "2024-08-17",
+        "narrative": "L2"
+    },
+    {
+        "count": 47,
+        "date": "2024-09-30",
+        "narrative": "L2"
+    },
+    {
+        "count": 28,
+        "date": "2024-05-26",
+        "narrative": "L2"
+    },
+    {
+        "count": 1,
+        "date": "2024-05-30",
+        "narrative": "Runes"
+    },
+    {
+        "count": 19,
+        "date": "2024-09-21",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 12,
+        "date": "2024-06-10",
+        "narrative": "AI"
+    },
+    {
+        "count": 11,
+        "date": "2024-05-26",
+        "narrative": "AI"
+    },
+    {
+        "count": 3,
+        "date": "2024-06-13",
+        "narrative": "L2"
+    },
+    {
+        "count": 1842,
+        "date": "2024-08-11",
+        "narrative": "L1"
+    },
+    {
+        "count": 1,
+        "date": "2024-04-21",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 13,
+        "date": "2024-04-28",
+        "narrative": "LRT"
+    },
+    {
+        "count": 2,
+        "date": "2024-10-06",
+        "narrative": "LRT"
+    },
+    {
+        "count": 1,
+        "date": "2024-04-30",
+        "narrative": "AI"
+    },
+    {
+        "count": 15,
+        "date": "2024-04-27",
+        "narrative": "L2"
+    },
+    {
+        "count": 1842,
+        "date": "2024-08-14",
+        "narrative": "L1"
+    },
+    {
+        "count": 3,
+        "date": "2024-06-04",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 2,
+        "date": "2024-06-27",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 32,
+        "date": "2024-04-28",
+        "narrative": "AI"
+    },
+    {
+        "count": 46,
+        "date": "2024-05-26",
+        "narrative": "DEX"
+    },
+    {
+        "count": 5,
+        "date": "2024-04-30",
+        "narrative": "DEX"
+    },
+    {
+        "count": 281,
+        "date": "2024-07-09",
+        "narrative": "DEX"
+    },
+    {
+        "count": 2278,
+        "date": "2024-07-27",
+        "narrative": "L1"
+    },
+    {
+        "count": 2,
+        "date": "2024-08-23",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 6,
+        "date": "2024-07-24",
+        "narrative": "AI"
+    },
+    {
+        "count": 146,
+        "date": "2024-08-01",
+        "narrative": "L2"
+    },
+    {
+        "count": 274,
+        "date": "2024-04-11",
+        "narrative": "Runes"
+    },
+    {
+        "count": 5,
+        "date": "2024-06-12",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 1,
+        "date": "2024-06-28",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 5,
+        "date": "2024-05-10",
+        "narrative": "LRT"
+    },
+    {
+        "count": 1520,
+        "date": "2024-06-28",
+        "narrative": "L1"
+    },
+    {
+        "count": 1717,
+        "date": "2024-07-13",
+        "narrative": "L1"
+    },
+    {
+        "count": 2709,
+        "date": "2024-09-09",
+        "narrative": "L1"
+    },
+    {
+        "count": 66,
+        "date": "2024-07-11",
+        "narrative": "Runes"
+    },
+    {
+        "count": 241,
+        "date": "2024-04-16",
+        "narrative": "Runes"
+    },
+    {
+        "count": 10,
+        "date": "2024-04-24",
+        "narrative": "LRT"
+    },
+    {
+        "count": 2,
+        "date": "2024-05-18",
+        "narrative": "LRT"
+    },
+    {
+        "count": 22,
+        "date": "2024-08-09",
+        "narrative": "LRT"
+    },
+    {
+        "count": 399,
+        "date": "2024-08-08",
+        "narrative": "AI"
+    },
+    {
+        "count": 67,
+        "date": "2024-10-02",
+        "narrative": "Runes"
+    },
+    {
+        "count": 32,
+        "date": "2024-05-16",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 28,
+        "date": "2024-05-03",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 30,
+        "date": "2024-04-19",
+        "narrative": "LRT"
+    },
+    {
+        "count": 4,
+        "date": "2024-09-26",
+        "narrative": "LRT"
+    },
+    {
+        "count": 9,
+        "date": "2024-07-09",
+        "narrative": "AI"
+    },
+    {
+        "count": 4,
+        "date": "2024-07-29",
+        "narrative": "DEX"
+    },
+    {
+        "count": 4,
+        "date": "2024-08-05",
+        "narrative": "DEX"
+    },
+    {
+        "count": 355,
+        "date": "2024-07-12",
+        "narrative": "L2"
+    },
+    {
+        "count": 941,
+        "date": "2024-08-28",
+        "narrative": "L2"
+    },
+    {
+        "count": 85,
+        "date": "2024-07-17",
+        "narrative": "Runes"
+    },
+    {
+        "count": 131,
+        "date": "2024-06-30",
+        "narrative": "Runes"
+    },
+    {
+        "count": 16,
+        "date": "2024-07-09",
+        "narrative": "L2"
+    },
+    {
+        "count": 2564,
+        "date": "2024-07-16",
+        "narrative": "L1"
+    },
+    {
+        "count": 10,
+        "date": "2024-06-30",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 49,
+        "date": "2024-09-04",
+        "narrative": "AI"
+    },
+    {
+        "count": 84,
+        "date": "2024-06-21",
+        "narrative": "Runes"
+    },
+    {
+        "count": 92,
+        "date": "2024-10-05",
+        "narrative": "Runes"
+    },
+    {
+        "count": 119,
+        "date": "2024-09-09",
+        "narrative": "Runes"
+    },
+    {
+        "count": 219,
+        "date": "2024-05-07",
+        "narrative": "Runes"
+    },
+    {
+        "count": 8,
+        "date": "2024-04-22",
+        "narrative": "LRT"
+    },
+    {
+        "count": 4,
+        "date": "2024-06-16",
+        "narrative": "LRT"
+    },
+    {
+        "count": 2,
+        "date": "2024-05-21",
+        "narrative": "LRT"
+    },
+    {
+        "count": 1,
+        "date": "2024-09-30",
+        "narrative": "AI"
+    },
+    {
+        "count": 3,
+        "date": "2024-06-13",
+        "narrative": "DEX"
+    },
+    {
+        "count": 266,
+        "date": "2024-09-04",
+        "narrative": "L2"
+    },
+    {
+        "count": 5,
+        "date": "2024-07-24",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 3,
+        "date": "2024-04-30",
+        "narrative": "L2"
+    },
+    {
+        "count": 96,
+        "date": "2024-05-15",
+        "narrative": "L2"
+    },
+    {
+        "count": 1927,
+        "date": "2024-05-20",
+        "narrative": "L1"
+    },
+    {
+        "count": 2051,
+        "date": "2024-07-24",
+        "narrative": "L1"
+    },
+    {
+        "count": 1717,
+        "date": "2024-08-22",
+        "narrative": "L1"
+    },
+    {
+        "count": 21,
+        "date": "2024-10-08",
+        "narrative": "Runes"
+    },
+    {
+        "count": 5,
+        "date": "2024-05-06",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 12,
+        "date": "2024-04-18",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 5,
+        "date": "2024-06-01",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 1,
+        "date": "2024-08-15",
+        "narrative": "LRT"
+    },
+    {
+        "count": 12,
+        "date": "2024-07-05",
+        "narrative": "DEX"
+    },
+    {
+        "count": 2692,
+        "date": "2024-08-27",
+        "narrative": "L1"
+    },
+    {
+        "count": 9,
+        "date": "2024-08-24",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 23,
+        "date": "2024-07-19",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 3,
+        "date": "2024-09-06",
+        "narrative": "LRT"
+    },
+    {
+        "count": 11,
+        "date": "2024-09-25",
+        "narrative": "AI"
+    },
+    {
+        "count": 89,
+        "date": "2024-05-21",
+        "narrative": "AI"
+    },
+    {
+        "count": 11939,
+        "date": "2024-09-14",
+        "narrative": "AI"
+    },
+    {
+        "count": 116,
+        "date": "2024-08-21",
+        "narrative": "DEX"
+    },
+    {
+        "count": 2,
+        "date": "2024-09-03",
+        "narrative": "DEX"
+    },
+    {
+        "count": 15,
+        "date": "2024-05-14",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1722,
+        "date": "2024-06-13",
+        "narrative": "L1"
+    },
+    {
+        "count": 2615,
+        "date": "2024-09-05",
+        "narrative": "L1"
+    },
+    {
+        "count": 2771,
+        "date": "2024-09-08",
+        "narrative": "L1"
+    },
+    {
+        "count": 2,
+        "date": "2024-06-06",
+        "narrative": "Runes"
+    },
+    {
+        "count": 77,
+        "date": "2024-08-29",
+        "narrative": "Runes"
+    },
+    {
+        "count": 1,
+        "date": "2024-09-01",
+        "narrative": "AI"
+    },
+    {
+        "count": 1334,
+        "date": "2024-06-02",
+        "narrative": "L1"
+    },
+    {
+        "count": 241,
+        "date": "2024-08-20",
+        "narrative": "Runes"
+    },
+    {
+        "count": 5,
+        "date": "2024-04-22",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 149,
+        "date": "2024-06-27",
+        "narrative": "LRT"
+    },
+    {
+        "count": 9,
+        "date": "2024-09-30",
+        "narrative": "LRT"
+    },
+    {
+        "count": 9,
+        "date": "2024-05-25",
+        "narrative": "AI"
+    },
+    {
+        "count": 1,
+        "date": "2024-06-18",
+        "narrative": "AI"
+    },
+    {
+        "count": 5,
+        "date": "2024-07-12",
+        "narrative": "AI"
+    },
+    {
+        "count": 132,
+        "date": "2024-05-29",
+        "narrative": "DEX"
+    },
+    {
+        "count": 264,
+        "date": "2024-09-05",
+        "narrative": "DEX"
+    },
+    {
+        "count": 9,
+        "date": "2024-10-07",
+        "narrative": "L2"
+    },
+    {
+        "count": 100,
+        "date": "2024-08-16",
+        "narrative": "Runes"
+    },
+    {
+        "count": 216,
+        "date": "2024-05-26",
+        "narrative": "Runes"
+    },
+    {
+        "count": 1,
+        "date": "2024-06-08",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 188,
+        "date": "2024-05-13",
+        "narrative": "Runes"
+    },
+    {
+        "count": 3,
+        "date": "2024-08-21",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 128,
+        "date": "2024-08-17",
+        "narrative": "AI"
+    },
+    {
+        "count": 1,
+        "date": "2024-08-30",
+        "narrative": "AI"
+    },
+    {
+        "count": 2,
+        "date": "2024-07-28",
+        "narrative": "DEX"
+    },
+    {
+        "count": 3,
+        "date": "2024-09-19",
+        "narrative": "LRT"
+    },
+    {
+        "count": 14,
+        "date": "2024-08-28",
+        "narrative": "AI"
+    },
+    {
+        "count": 10,
+        "date": "2024-06-12",
+        "narrative": "LRT"
+    },
+    {
+        "count": 105,
+        "date": "2024-04-28",
+        "narrative": "L2"
+    },
+    {
+        "count": 1479,
+        "date": "2024-06-26",
+        "narrative": "L1"
+    },
+    {
+        "count": 27,
+        "date": "2024-09-16",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 163,
+        "date": "2024-08-04",
+        "narrative": "L2"
+    },
+    {
+        "count": 81,
+        "date": "2024-06-19",
+        "narrative": "Runes"
+    },
+    {
+        "count": 148,
+        "date": "2024-09-13",
+        "narrative": "Runes"
+    },
+    {
+        "count": 3,
+        "date": "2024-10-04",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 2,
+        "date": "2024-07-10",
+        "narrative": "LRT"
+    },
+    {
+        "count": 2,
+        "date": "2024-05-01",
+        "narrative": "L2"
+    },
+    {
+        "count": 1450,
+        "date": "2024-06-17",
+        "narrative": "L1"
+    },
+    {
+        "count": 1217,
+        "date": "2024-06-30",
+        "narrative": "L1"
+    },
+    {
+        "count": 8,
+        "date": "2024-08-03",
+        "narrative": "LRT"
+    },
+    {
+        "count": 27,
+        "date": "2024-08-01",
+        "narrative": "DEX"
+    },
+    {
+        "count": 120,
+        "date": "2024-07-12",
+        "narrative": "DEX"
+    },
+    {
+        "count": 20,
+        "date": "2024-09-02",
+        "narrative": "L2"
+    },
+    {
+        "count": 125,
+        "date": "2024-04-14",
+        "narrative": "L2"
+    },
+    {
+        "count": 252,
+        "date": "2024-05-30",
+        "narrative": "LRT"
+    },
+    {
+        "count": 88,
+        "date": "2024-10-01",
+        "narrative": "DEX"
+    },
+    {
+        "count": 19,
+        "date": "2024-07-24",
+        "narrative": "L2"
+    },
+    {
+        "count": 50,
+        "date": "2024-06-07",
+        "narrative": "AI"
+    },
+    {
+        "count": 8,
+        "date": "2024-09-28",
+        "narrative": "DEX"
+    },
+    {
+        "count": 472,
+        "date": "2024-07-08",
+        "narrative": "L2"
+    },
+    {
+        "count": 92,
+        "date": "2024-08-05",
+        "narrative": "Runes"
+    },
+    {
+        "count": 4,
+        "date": "2024-07-02",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 6,
+        "date": "2024-05-05",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 11,
+        "date": "2024-05-11",
+        "narrative": "LRT"
+    },
+    {
+        "count": 371,
+        "date": "2024-06-11",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1,
+        "date": "2024-09-18",
+        "narrative": "DEX"
+    },
+    {
+        "count": 91,
+        "date": "2024-07-11",
+        "narrative": "L2"
+    },
+    {
+        "count": 1886,
+        "date": "2024-10-05",
+        "narrative": "L1"
+    },
+    {
+        "count": 7,
+        "date": "2024-09-19",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 2,
+        "date": "2024-07-16",
+        "narrative": "AI"
+    },
+    {
+        "count": 4144,
+        "date": "2024-07-01",
+        "narrative": "AI"
+    },
+    {
+        "count": 16,
+        "date": "2024-08-08",
+        "narrative": "L2"
+    },
+    {
+        "count": 22,
+        "date": "2024-07-15",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 5,
+        "date": "2024-07-13",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 1,
+        "date": "2024-08-22",
+        "narrative": "LRT"
+    },
+    {
+        "count": 15,
+        "date": "2024-06-14",
+        "narrative": "AI"
+    },
+    {
+        "count": 6,
+        "date": "2024-09-21",
+        "narrative": "AI"
+    },
+    {
+        "count": 3920,
+        "date": "2024-08-10",
+        "narrative": "DEX"
+    },
+    {
+        "count": 8,
+        "date": "2024-09-07",
+        "narrative": "DEX"
+    },
+    {
+        "count": 5,
+        "date": "2024-09-02",
+        "narrative": "DEX"
+    },
+    {
+        "count": 84,
+        "date": "2024-07-23",
+        "narrative": "Runes"
+    },
+    {
+        "count": 115,
+        "date": "2024-09-26",
+        "narrative": "Runes"
+    },
+    {
+        "count": 19,
+        "date": "2024-07-30",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 9,
+        "date": "2024-04-15",
+        "narrative": "L2"
+    },
+    {
+        "count": 2,
+        "date": "2024-04-11",
+        "narrative": "L2"
+    },
+    {
+        "count": 303,
+        "date": "2024-06-25",
+        "narrative": "L2"
+    },
+    {
+        "count": 704,
+        "date": "2024-05-06",
+        "narrative": "DEX"
+    },
+    {
+        "count": 443,
+        "date": "2024-05-12",
+        "narrative": "DEX"
+    },
+    {
+        "count": 12,
+        "date": "2024-04-25",
+        "narrative": "L2"
+    },
+    {
+        "count": 1780,
+        "date": "2024-08-03",
+        "narrative": "L1"
+    },
+    {
+        "count": 116,
+        "date": "2024-09-16",
+        "narrative": "Runes"
+    },
+    {
+        "count": 823,
+        "date": "2024-09-29",
+        "narrative": "LRT"
+    },
+    {
+        "count": 44,
+        "date": "2024-05-24",
+        "narrative": "LRT"
+    },
+    {
+        "count": 12080,
+        "date": "2024-09-12",
+        "narrative": "AI"
+    },
+    {
+        "count": 4,
+        "date": "2024-09-15",
+        "narrative": "AI"
+    },
+    {
+        "count": 1632,
+        "date": "2024-08-08",
+        "narrative": "L1"
+    },
+    {
+        "count": 98,
+        "date": "2024-09-23",
+        "narrative": "Runes"
+    },
+    {
+        "count": 95,
+        "date": "2024-07-07",
+        "narrative": "DEX"
+    },
+    {
+        "count": 118,
+        "date": "2024-09-27",
+        "narrative": "L2"
+    },
+    {
+        "count": 1563,
+        "date": "2024-10-06",
+        "narrative": "L1"
+    },
+    {
+        "count": 87,
+        "date": "2024-07-14",
+        "narrative": "Runes"
+    },
+    {
+        "count": 170,
+        "date": "2024-05-05",
+        "narrative": "Runes"
+    },
+    {
+        "count": 2,
+        "date": "2024-09-06",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 9,
+        "date": "2024-08-08",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 11,
+        "date": "2024-07-31",
+        "narrative": "LRT"
+    },
+    {
+        "count": 1394,
+        "date": "2024-06-04",
+        "narrative": "L1"
+    },
+    {
+        "count": 2811,
+        "date": "2024-09-22",
+        "narrative": "L1"
+    },
+    {
+        "count": 6,
+        "date": "2024-07-10",
+        "narrative": "AI"
+    },
+    {
+        "count": 2,
+        "date": "2024-04-26",
+        "narrative": "DEX"
+    },
+    {
+        "count": 455,
+        "date": "2024-07-25",
+        "narrative": "L2"
+    },
+    {
+        "count": 179,
+        "date": "2024-09-12",
+        "narrative": "L2"
+    },
+    {
+        "count": 2103,
+        "date": "2024-05-10",
+        "narrative": "L1"
+    },
+    {
+        "count": 9,
+        "date": "2024-08-14",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 1333,
+        "date": "2024-06-27",
+        "narrative": "L1"
+    },
+    {
+        "count": 6,
+        "date": "2024-06-09",
+        "narrative": "LRT"
+    },
+    {
+        "count": 8,
+        "date": "2024-08-23",
+        "narrative": "AI"
+    },
+    {
+        "count": 2052,
+        "date": "2024-06-16",
+        "narrative": "L1"
+    },
+    {
+        "count": 13,
+        "date": "2024-09-11",
+        "narrative": "AI"
+    },
+    {
+        "count": 160,
+        "date": "2024-09-12",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1185,
+        "date": "2024-05-22",
+        "narrative": "L2"
+    },
+    {
+        "count": 1942,
+        "date": "2024-04-24",
+        "narrative": "L1"
+    },
+    {
+        "count": 1767,
+        "date": "2024-06-12",
+        "narrative": "L1"
+    },
+    {
+        "count": 2,
+        "date": "2024-05-29",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 22,
+        "date": "2024-09-25",
+        "narrative": "LRT"
+    },
+    {
+        "count": 5,
+        "date": "2024-10-03",
+        "narrative": "LRT"
+    },
+    {
+        "count": 3,
+        "date": "2024-04-27",
+        "narrative": "DEX"
+    },
+    {
+        "count": 13,
+        "date": "2024-09-16",
+        "narrative": "DEX"
+    },
+    {
+        "count": 21,
+        "date": "2024-07-06",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1888,
+        "date": "2024-05-18",
+        "narrative": "L1"
+    },
+    {
+        "count": 1051,
+        "date": "2024-08-18",
+        "narrative": "Runes"
+    },
+    {
+        "count": 87,
+        "date": "2024-07-15",
+        "narrative": "Runes"
+    },
+    {
+        "count": 1,
+        "date": "2024-07-23",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 47,
+        "date": "2024-07-01",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 46,
+        "date": "2024-08-19",
+        "narrative": "AI"
+    },
+    {
+        "count": 24,
+        "date": "2024-07-10",
+        "narrative": "DEX"
+    },
+    {
+        "count": 2928,
+        "date": "2024-09-07",
+        "narrative": "L1"
+    },
+    {
+        "count": 98,
+        "date": "2024-07-26",
+        "narrative": "Runes"
+    },
+    {
+        "count": 25,
+        "date": "2024-08-11",
+        "narrative": "LRT"
+    },
+    {
+        "count": 5,
+        "date": "2024-08-12",
+        "narrative": "LRT"
+    },
+    {
+        "count": 3,
+        "date": "2024-09-27",
+        "narrative": "AI"
+    },
+    {
+        "count": 4,
+        "date": "2024-05-03",
+        "narrative": "DEX"
+    },
+    {
+        "count": 13,
+        "date": "2024-07-25",
+        "narrative": "DEX"
+    },
+    {
+        "count": 22,
+        "date": "2024-09-15",
+        "narrative": "L2"
+    },
+    {
+        "count": 20,
+        "date": "2024-04-20",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 10,
+        "date": "2024-08-27",
+        "narrative": "LRT"
+    },
+    {
+        "count": 1,
+        "date": "2024-07-07",
+        "narrative": "AI"
+    },
+    {
+        "count": 1,
+        "date": "2024-09-15",
+        "narrative": "DEX"
+    },
+    {
+        "count": 310,
+        "date": "2024-09-27",
+        "narrative": "DEX"
+    },
+    {
+        "count": 18,
+        "date": "2024-05-02",
+        "narrative": "L2"
+    },
+    {
+        "count": 1926,
+        "date": "2024-04-25",
+        "narrative": "L1"
+    },
+    {
+        "count": 107,
+        "date": "2024-09-19",
+        "narrative": "Runes"
+    },
+    {
+        "count": 2,
+        "date": "2024-05-15",
+        "narrative": "DEX"
+    },
+    {
+        "count": 22,
+        "date": "2024-06-10",
+        "narrative": "L2"
+    },
+    {
+        "count": 75,
+        "date": "2024-08-31",
+        "narrative": "Runes"
+    },
+    {
+        "count": 5,
+        "date": "2024-09-03",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 3,
+        "date": "2024-09-18",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 1,
+        "date": "2024-04-29",
+        "narrative": "DEX"
+    },
+    {
+        "count": 28,
+        "date": "2024-07-21",
+        "narrative": "L2"
+    },
+    {
+        "count": 51,
+        "date": "2024-04-29",
+        "narrative": "L2"
+    },
+    {
+        "count": 61,
+        "date": "2024-10-04",
+        "narrative": "Runes"
+    },
+    {
+        "count": 23,
+        "date": "2024-05-13",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 2,
+        "date": "2024-06-02",
+        "narrative": "LRT"
+    },
+    {
+        "count": 10,
+        "date": "2024-04-18",
+        "narrative": "AI"
+    },
+    {
+        "count": 19,
+        "date": "2024-09-18",
+        "narrative": "L2"
+    },
+    {
+        "count": 24,
+        "date": "2024-08-19",
+        "narrative": "L2"
+    },
+    {
+        "count": 3757,
+        "date": "2024-05-06",
+        "narrative": "L1"
+    },
+    {
+        "count": 83,
+        "date": "2024-08-23",
+        "narrative": "Runes"
+    },
+    {
+        "count": 3,
+        "date": "2024-07-09",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 7,
+        "date": "2024-06-13",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 2464,
+        "date": "2024-06-25",
+        "narrative": "AI"
+    },
+    {
+        "count": 10,
+        "date": "2024-06-01",
+        "narrative": "DEX"
+    },
+    {
+        "count": 194,
+        "date": "2024-04-23",
+        "narrative": "L2"
+    },
+    {
+        "count": 96,
+        "date": "2024-07-31",
+        "narrative": "L2"
+    },
+    {
+        "count": 100,
+        "date": "2024-08-06",
+        "narrative": "Runes"
+    },
+    {
+        "count": 4,
+        "date": "2024-04-25",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 39,
+        "date": "2024-06-17",
+        "narrative": "LRT"
+    },
+    {
+        "count": 125,
+        "date": "2024-07-18",
+        "narrative": "LRT"
+    },
+    {
+        "count": 11,
+        "date": "2024-09-16",
+        "narrative": "LRT"
+    },
+    {
+        "count": 19,
+        "date": "2024-05-11",
+        "narrative": "AI"
+    },
+    {
+        "count": 20,
+        "date": "2024-08-24",
+        "narrative": "DEX"
+    },
+    {
+        "count": 2044,
+        "date": "2024-04-13",
+        "narrative": "L1"
+    },
+    {
+        "count": 37,
+        "date": "2024-10-01",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 52,
+        "date": "2024-09-16",
+        "narrative": "AI"
+    },
+    {
+        "count": 4,
+        "date": "2024-08-19",
+        "narrative": "DEX"
+    },
+    {
+        "count": 74,
+        "date": "2024-06-22",
+        "narrative": "DEX"
+    },
+    {
+        "count": 31,
+        "date": "2024-06-29",
+        "narrative": "LRT"
+    },
+    {
+        "count": 382,
+        "date": "2024-07-20",
+        "narrative": "LRT"
+    },
+    {
+        "count": 34,
+        "date": "2024-04-29",
+        "narrative": "AI"
+    },
+    {
+        "count": 2,
+        "date": "2024-04-18",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1619,
+        "date": "2024-05-29",
+        "narrative": "L1"
+    },
+    {
+        "count": 1898,
+        "date": "2024-07-01",
+        "narrative": "L1"
+    },
+    {
+        "count": 112,
+        "date": "2024-08-16",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1946,
+        "date": "2024-08-07",
+        "narrative": "L1"
+    },
+    {
+        "count": 105,
+        "date": "2024-06-25",
+        "narrative": "Runes"
+    },
+    {
+        "count": 2,
+        "date": "2024-07-31",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 43,
+        "date": "2024-08-20",
+        "narrative": "AI"
+    },
+    {
+        "count": 29,
+        "date": "2024-08-05",
+        "narrative": "AI"
+    },
+    {
+        "count": 2160,
+        "date": "2024-06-24",
+        "narrative": "L1"
+    },
+    {
+        "count": 132,
+        "date": "2024-06-14",
+        "narrative": "Runes"
+    },
+    {
+        "count": 16,
+        "date": "2024-08-07",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 12,
+        "date": "2024-08-04",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 27,
+        "date": "2024-07-16",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 4,
+        "date": "2024-04-24",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 6059,
+        "date": "2024-08-16",
+        "narrative": "AI"
+    },
+    {
+        "count": 25,
+        "date": "2024-07-21",
+        "narrative": "DEX"
+    },
+    {
+        "count": 931,
+        "date": "2024-05-30",
+        "narrative": "L2"
+    },
+    {
+        "count": 14,
+        "date": "2024-07-10",
+        "narrative": "L2"
+    },
+    {
+        "count": 2767,
+        "date": "2024-07-28",
+        "narrative": "L1"
+    },
+    {
+        "count": 3092,
+        "date": "2024-09-18",
+        "narrative": "L1"
+    },
+    {
+        "count": 3,
+        "date": "2024-07-08",
+        "narrative": "AI"
+    },
+    {
+        "count": 9,
+        "date": "2024-07-27",
+        "narrative": "DEX"
+    },
+    {
+        "count": 81,
+        "date": "2024-04-21",
+        "narrative": "L2"
+    },
+    {
+        "count": 2664,
+        "date": "2024-09-13",
+        "narrative": "L1"
+    },
+    {
+        "count": 112,
+        "date": "2024-06-03",
+        "narrative": "Runes"
+    },
+    {
+        "count": 6,
+        "date": "2024-04-19",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 1,
+        "date": "2024-07-05",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 40,
+        "date": "2024-07-03",
+        "narrative": "LRT"
+    },
+    {
+        "count": 11,
+        "date": "2024-07-02",
+        "narrative": "AI"
+    },
+    {
+        "count": 32,
+        "date": "2024-06-24",
+        "narrative": "LRT"
+    },
+    {
+        "count": 2,
+        "date": "2024-08-31",
+        "narrative": "AI"
+    },
+    {
+        "count": 14,
+        "date": "2024-05-29",
+        "narrative": "AI"
+    },
+    {
+        "count": 1,
+        "date": "2024-06-09",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1115,
+        "date": "2024-09-23",
+        "narrative": "L2"
+    },
+    {
+        "count": 11,
+        "date": "2024-09-25",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 4227,
+        "date": "2024-08-13",
+        "narrative": "AI"
+    },
+    {
+        "count": 255,
+        "date": "2024-10-04",
+        "narrative": "DEX"
+    },
+    {
+        "count": 490,
+        "date": "2024-08-13",
+        "narrative": "L2"
+    },
+    {
+        "count": 156,
+        "date": "2024-04-18",
+        "narrative": "L2"
+    },
+    {
+        "count": 2086,
+        "date": "2024-05-14",
+        "narrative": "L1"
+    },
+    {
+        "count": 1,
+        "date": "2024-09-14",
+        "narrative": "LRT"
+    },
+    {
+        "count": 14,
+        "date": "2024-10-04",
+        "narrative": "AI"
+    },
+    {
+        "count": 8,
+        "date": "2024-09-19",
+        "narrative": "DEX"
+    },
+    {
+        "count": 74,
+        "date": "2024-09-19",
+        "narrative": "L2"
+    },
+    {
+        "count": 2439,
+        "date": "2024-05-24",
+        "narrative": "L1"
+    },
+    {
+        "count": 3,
+        "date": "2024-05-25",
+        "narrative": "LRT"
+    },
+    {
+        "count": 10,
+        "date": "2024-06-09",
+        "narrative": "AI"
+    },
+    {
+        "count": 2,
+        "date": "2024-09-08",
+        "narrative": "AI"
+    },
+    {
+        "count": 228,
+        "date": "2024-09-04",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1,
+        "date": "2024-09-08",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1510,
+        "date": "2024-04-28",
+        "narrative": "L1"
+    },
+    {
+        "count": 351,
+        "date": "2024-04-23",
+        "narrative": "Runes"
+    },
+    {
+        "count": 2,
+        "date": "2024-10-03",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 3,
+        "date": "2024-08-10",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 1827,
+        "date": "2024-07-12",
+        "narrative": "L1"
+    },
+    {
+        "count": 10,
+        "date": "2024-05-21",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 29,
+        "date": "2024-05-03",
+        "narrative": "AI"
+    },
+    {
+        "count": 89,
+        "date": "2024-08-24",
+        "narrative": "Runes"
+    },
+    {
+        "count": 71,
+        "date": "2024-08-02",
+        "narrative": "Runes"
+    },
+    {
+        "count": 26,
+        "date": "2024-07-02",
+        "narrative": "LRT"
+    },
+    {
+        "count": 30,
+        "date": "2024-07-01",
+        "narrative": "LRT"
+    },
+    {
+        "count": 45,
+        "date": "2024-05-14",
+        "narrative": "LRT"
+    },
+    {
+        "count": 13,
+        "date": "2024-09-11",
+        "narrative": "LRT"
+    },
+    {
+        "count": 5910,
+        "date": "2024-07-25",
+        "narrative": "AI"
+    },
+    {
+        "count": 1,
+        "date": "2024-08-13",
+        "narrative": "DEX"
+    },
+    {
+        "count": 173,
+        "date": "2024-05-08",
+        "narrative": "Runes"
+    },
+    {
+        "count": 8,
+        "date": "2024-10-06",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 10,
+        "date": "2024-04-28",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 11,
+        "date": "2024-07-13",
+        "narrative": "LRT"
+    },
+    {
+        "count": 15,
+        "date": "2024-07-02",
+        "narrative": "L2"
+    },
+    {
+        "count": 18,
+        "date": "2024-07-12",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 11,
+        "date": "2024-06-16",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 29,
+        "date": "2024-09-08",
+        "narrative": "LRT"
+    },
+    {
+        "count": 5,
+        "date": "2024-10-07",
+        "narrative": "LRT"
+    },
+    {
+        "count": 31,
+        "date": "2024-08-23",
+        "narrative": "DEX"
+    },
+    {
+        "count": 5737,
+        "date": "2024-07-21",
+        "narrative": "AI"
+    },
+    {
+        "count": 2,
+        "date": "2024-05-07",
+        "narrative": "DEX"
+    },
+    {
+        "count": 275,
+        "date": "2024-06-17",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1,
+        "date": "2024-04-12",
+        "narrative": "Runes"
+    },
+    {
+        "count": 111,
+        "date": "2024-06-11",
+        "narrative": "Runes"
+    },
+    {
+        "count": 18,
+        "date": "2024-09-11",
+        "narrative": "L2"
+    },
+    {
+        "count": 1221,
+        "date": "2024-08-23",
+        "narrative": "L2"
+    },
+    {
+        "count": 6,
+        "date": "2024-05-31",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 1,
+        "date": "2024-04-21",
+        "narrative": "LRT"
+    },
+    {
+        "count": 17,
+        "date": "2024-07-24",
+        "narrative": "LRT"
+    },
+    {
+        "count": 13,
+        "date": "2024-09-19",
+        "narrative": "AI"
+    },
+    {
+        "count": 12,
+        "date": "2024-05-30",
+        "narrative": "AI"
+    },
+    {
+        "count": 105,
+        "date": "2024-05-19",
+        "narrative": "Runes"
+    },
+    {
+        "count": 106,
+        "date": "2024-07-07",
+        "narrative": "Runes"
+    },
+    {
+        "count": 7,
+        "date": "2024-08-22",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 3,
+        "date": "2024-06-02",
+        "narrative": "DEX"
+    },
+    {
+        "count": 103,
+        "date": "2024-09-08",
+        "narrative": "L2"
+    },
+    {
+        "count": 28,
+        "date": "2024-05-03",
+        "narrative": "L2"
+    },
+    {
+        "count": 104,
+        "date": "2024-09-20",
+        "narrative": "Runes"
+    },
+    {
+        "count": 6,
+        "date": "2024-09-10",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 9,
+        "date": "2024-05-03",
+        "narrative": "LRT"
+    },
+    {
+        "count": 39,
+        "date": "2024-04-18",
+        "narrative": "LRT"
+    },
+    {
+        "count": 13,
+        "date": "2024-07-03",
+        "narrative": "DEX"
+    },
+    {
+        "count": 708,
+        "date": "2024-10-04",
+        "narrative": "L2"
+    },
+    {
+        "count": 2787,
+        "date": "2024-04-17",
+        "narrative": "L1"
+    },
+    {
+        "count": 2467,
+        "date": "2024-09-03",
+        "narrative": "L1"
+    },
+    {
+        "count": 18,
+        "date": "2024-05-10",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 4,
+        "date": "2024-07-07",
+        "narrative": "LRT"
+    },
+    {
+        "count": 42,
+        "date": "2024-07-20",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 14,
+        "date": "2024-04-14",
+        "narrative": "LRT"
+    },
+    {
+        "count": 11,
+        "date": "2024-09-29",
+        "narrative": "DEX"
+    },
+    {
+        "count": 108,
+        "date": "2024-09-14",
+        "narrative": "DEX"
+    },
+    {
+        "count": 2,
+        "date": "2024-05-27",
+        "narrative": "DEX"
+    },
+    {
+        "count": 65,
+        "date": "2024-08-02",
+        "narrative": "L2"
+    },
+    {
+        "count": 3046,
+        "date": "2024-07-15",
+        "narrative": "L1"
+    },
+    {
+        "count": 243,
+        "date": "2024-04-29",
+        "narrative": "Runes"
+    },
+    {
+        "count": 85,
+        "date": "2024-06-29",
+        "narrative": "Runes"
+    },
+    {
+        "count": 130,
+        "date": "2024-09-12",
+        "narrative": "Runes"
+    },
+    {
+        "count": 10,
+        "date": "2024-05-14",
+        "narrative": "AI"
+    },
+    {
+        "count": 166,
+        "date": "2024-05-17",
+        "narrative": "L2"
+    },
+    {
+        "count": 80,
+        "date": "2024-09-14",
+        "narrative": "L2"
+    },
+    {
+        "count": 3951,
+        "date": "2024-09-24",
+        "narrative": "L1"
+    },
+    {
+        "count": 1,
+        "date": "2024-05-03",
+        "narrative": "Runes"
+    },
+    {
+        "count": 565,
+        "date": "2024-07-03",
+        "narrative": "L2"
+    },
+    {
+        "count": 3,
+        "date": "2024-04-20",
+        "narrative": "Runes"
+    },
+    {
+        "count": 14,
+        "date": "2024-08-13",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 2,
+        "date": "2024-07-18",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1962,
+        "date": "2024-07-30",
+        "narrative": "L1"
+    },
+    {
+        "count": 7,
+        "date": "2024-04-16",
+        "narrative": "LRT"
+    },
+    {
+        "count": 1,
+        "date": "2024-08-21",
+        "narrative": "AI"
+    },
+    {
+        "count": 97,
+        "date": "2024-09-24",
+        "narrative": "AI"
+    },
+    {
+        "count": 11,
+        "date": "2024-06-01",
+        "narrative": "L2"
+    },
+    {
+        "count": 3230,
+        "date": "2024-07-04",
+        "narrative": "L1"
+    },
+    {
+        "count": 1965,
+        "date": "2024-08-05",
+        "narrative": "L1"
+    },
+    {
+        "count": 20,
+        "date": "2024-08-15",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 17,
+        "date": "2024-06-04",
+        "narrative": "LRT"
+    },
+    {
+        "count": 6,
+        "date": "2024-08-18",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1,
+        "date": "2024-06-03",
+        "narrative": "L2"
+    },
+    {
+        "count": 1675,
+        "date": "2024-08-20",
+        "narrative": "L1"
+    },
+    {
+        "count": 55,
+        "date": "2024-08-13",
+        "narrative": "LRT"
+    },
+    {
+        "count": 1,
+        "date": "2024-05-24",
+        "narrative": "AI"
+    },
+    {
+        "count": 1,
+        "date": "2024-06-07",
+        "narrative": "DEX"
+    },
+    {
+        "count": 82,
+        "date": "2024-05-04",
+        "narrative": "DEX"
+    },
+    {
+        "count": 4,
+        "date": "2024-05-06",
+        "narrative": "L2"
+    },
+    {
+        "count": 35,
+        "date": "2024-06-07",
+        "narrative": "L2"
+    },
+    {
+        "count": 1043,
+        "date": "2024-08-24",
+        "narrative": "L2"
+    },
+    {
+        "count": 254,
+        "date": "2024-08-19",
+        "narrative": "Runes"
+    },
+    {
+        "count": 4,
+        "date": "2024-06-22",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 6,
+        "date": "2024-07-13",
+        "narrative": "AI"
+    },
+    {
+        "count": 184,
+        "date": "2024-07-29",
+        "narrative": "L2"
+    },
+    {
+        "count": 12,
+        "date": "2024-04-17",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 2,
+        "date": "2024-08-30",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 12,
+        "date": "2024-07-17",
+        "narrative": "DEX"
+    },
+    {
+        "count": 79,
+        "date": "2024-06-02",
+        "narrative": "L2"
+    },
+    {
+        "count": 36,
+        "date": "2024-08-05",
+        "narrative": "L2"
+    },
+    {
+        "count": 1428,
+        "date": "2024-09-29",
+        "narrative": "L2"
+    },
+    {
+        "count": 2389,
+        "date": "2024-04-14",
+        "narrative": "L1"
+    },
+    {
+        "count": 3533,
+        "date": "2024-09-21",
+        "narrative": "L1"
+    },
+    {
+        "count": 9,
+        "date": "2024-08-01",
+        "narrative": "LRT"
+    },
+    {
+        "count": 3,
+        "date": "2024-07-28",
+        "narrative": "LRT"
+    },
+    {
+        "count": 60,
+        "date": "2024-05-22",
+        "narrative": "LRT"
+    },
+    {
+        "count": 51,
+        "date": "2024-04-26",
+        "narrative": "AI"
+    },
+    {
+        "count": 1752,
+        "date": "2024-06-01",
+        "narrative": "L1"
+    },
+    {
+        "count": 174,
+        "date": "2024-04-27",
+        "narrative": "Runes"
+    },
+    {
+        "count": 194,
+        "date": "2024-04-26",
+        "narrative": "L2"
+    },
+    {
+        "count": 1,
+        "date": "2024-06-29",
+        "narrative": "L2"
+    },
+    {
+        "count": 55,
+        "date": "2024-08-16",
+        "narrative": "L2"
+    },
+    {
+        "count": 2877,
+        "date": "2024-10-03",
+        "narrative": "L1"
+    },
+    {
+        "count": 3,
+        "date": "2024-07-27",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 110,
+        "date": "2024-07-16",
+        "narrative": "LRT"
+    },
+    {
+        "count": 3,
+        "date": "2024-09-26",
+        "narrative": "DEX"
+    },
+    {
+        "count": 3,
+        "date": "2024-08-09",
+        "narrative": "DEX"
+    },
+    {
+        "count": 82,
+        "date": "2024-09-26",
+        "narrative": "L2"
+    },
+    {
+        "count": 1988,
+        "date": "2024-07-31",
+        "narrative": "L1"
+    },
+    {
+        "count": 111,
+        "date": "2024-06-07",
+        "narrative": "Runes"
+    },
+    {
+        "count": 84,
+        "date": "2024-08-21",
+        "narrative": "Runes"
+    },
+    {
+        "count": 3,
+        "date": "2024-08-11",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 20,
+        "date": "2024-06-17",
+        "narrative": "AI"
+    },
+    {
+        "count": 45,
+        "date": "2024-06-29",
+        "narrative": "AI"
+    },
+    {
+        "count": 160,
+        "date": "2024-06-09",
+        "narrative": "L2"
+    },
+    {
+        "count": 161,
+        "date": "2024-07-29",
+        "narrative": "Runes"
+    },
+    {
+        "count": 1,
+        "date": "2024-09-17",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 4,
+        "date": "2024-07-05",
+        "narrative": "LRT"
+    },
+    {
+        "count": 13,
+        "date": "2024-05-06",
+        "narrative": "LRT"
+    },
+    {
+        "count": 10,
+        "date": "2024-04-19",
+        "narrative": "AI"
+    },
+    {
+        "count": 1,
+        "date": "2024-06-10",
+        "narrative": "DEX"
+    },
+    {
+        "count": 3,
+        "date": "2024-06-24",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 3,
+        "date": "2024-06-20",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 5,
+        "date": "2024-08-19",
+        "narrative": "LRT"
+    },
+    {
+        "count": 1105,
+        "date": "2024-05-01",
+        "narrative": "Runes"
+    },
+    {
+        "count": 15,
+        "date": "2024-05-24",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 9,
+        "date": "2024-04-14",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 11,
+        "date": "2024-09-07",
+        "narrative": "LRT"
+    },
+    {
+        "count": 9,
+        "date": "2024-08-20",
+        "narrative": "L2"
+    },
+    {
+        "count": 84,
+        "date": "2024-08-25",
+        "narrative": "Runes"
+    },
+    {
+        "count": 4,
+        "date": "2024-09-03",
+        "narrative": "LRT"
+    },
+    {
+        "count": 9,
+        "date": "2024-05-02",
+        "narrative": "LRT"
+    },
+    {
+        "count": 2010,
+        "date": "2024-05-21",
+        "narrative": "L1"
+    },
+    {
+        "count": 2799,
+        "date": "2024-07-08",
+        "narrative": "L1"
+    },
+    {
+        "count": 3317,
+        "date": "2024-09-10",
+        "narrative": "L1"
+    },
+    {
+        "count": 5,
+        "date": "2024-09-18",
+        "narrative": "LRT"
+    },
+    {
+        "count": 1,
+        "date": "2024-08-08",
+        "narrative": "LRT"
+    },
+    {
+        "count": 16,
+        "date": "2024-06-02",
+        "narrative": "AI"
+    },
+    {
+        "count": 2,
+        "date": "2024-09-30",
+        "narrative": "DEX"
+    },
+    {
+        "count": 39,
+        "date": "2024-06-06",
+        "narrative": "L2"
+    },
+    {
+        "count": 267,
+        "date": "2024-04-15",
+        "narrative": "Runes"
+    },
+    {
+        "count": 3,
+        "date": "2024-04-25",
+        "narrative": "LRT"
+    },
+    {
+        "count": 29,
+        "date": "2024-06-28",
+        "narrative": "LRT"
+    },
+    {
+        "count": 17,
+        "date": "2024-06-05",
+        "narrative": "LRT"
+    },
+    {
+        "count": 134,
+        "date": "2024-06-06",
+        "narrative": "DEX"
+    },
+    {
+        "count": 2765,
+        "date": "2024-09-17",
+        "narrative": "L1"
+    },
+    {
+        "count": 102,
+        "date": "2024-06-22",
+        "narrative": "Runes"
+    },
+    {
+        "count": 82,
+        "date": "2024-08-28",
+        "narrative": "Runes"
+    },
+    {
+        "count": 8,
+        "date": "2024-05-28",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 100,
+        "date": "2024-06-17",
+        "narrative": "L2"
+    },
+    {
+        "count": 4048,
+        "date": "2024-09-25",
+        "narrative": "L1"
+    },
+    {
+        "count": 87,
+        "date": "2024-05-29",
+        "narrative": "LRT"
+    },
+    {
+        "count": 63,
+        "date": "2024-09-26",
+        "narrative": "AI"
+    },
+    {
+        "count": 17,
+        "date": "2024-08-20",
+        "narrative": "DEX"
+    },
+    {
+        "count": 2,
+        "date": "2024-05-30",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1,
+        "date": "2024-06-03",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1883,
+        "date": "2024-05-17",
+        "narrative": "L1"
+    },
+    {
+        "count": 1736,
+        "date": "2024-10-07",
+        "narrative": "L1"
+    },
+    {
+        "count": 129,
+        "date": "2024-06-18",
+        "narrative": "Runes"
+    },
+    {
+        "count": 14,
+        "date": "2024-09-22",
+        "narrative": "LRT"
+    },
+    {
+        "count": 14,
+        "date": "2024-04-29",
+        "narrative": "LRT"
+    },
+    {
+        "count": 13,
+        "date": "2024-06-06",
+        "narrative": "AI"
+    },
+    {
+        "count": 1741,
+        "date": "2024-08-04",
+        "narrative": "L1"
+    },
+    {
+        "count": 161,
+        "date": "2024-05-23",
+        "narrative": "Runes"
+    },
+    {
+        "count": 19,
+        "date": "2024-07-08",
+        "narrative": "LRT"
+    },
+    {
+        "count": 11,
+        "date": "2024-05-22",
+        "narrative": "AI"
+    },
+    {
+        "count": 297,
+        "date": "2024-06-14",
+        "narrative": "DEX"
+    },
+    {
+        "count": 2520,
+        "date": "2024-04-21",
+        "narrative": "L1"
+    },
+    {
+        "count": 1580,
+        "date": "2024-08-15",
+        "narrative": "L1"
+    },
+    {
+        "count": 3,
+        "date": "2024-06-11",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 34,
+        "date": "2024-07-26",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 9,
+        "date": "2024-05-23",
+        "narrative": "LRT"
+    },
+    {
+        "count": 6,
+        "date": "2024-06-08",
+        "narrative": "AI"
+    },
+    {
+        "count": 2,
+        "date": "2024-08-07",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1,
+        "date": "2024-04-17",
+        "narrative": "DEX"
+    },
+    {
+        "count": 641,
+        "date": "2024-08-07",
+        "narrative": "L2"
+    },
+    {
+        "count": 15,
+        "date": "2024-04-17",
+        "narrative": "L2"
+    },
+    {
+        "count": 90,
+        "date": "2024-10-03",
+        "narrative": "Runes"
+    },
+    {
+        "count": 246,
+        "date": "2024-04-24",
+        "narrative": "Runes"
+    },
+    {
+        "count": 25,
+        "date": "2024-06-21",
+        "narrative": "LRT"
+    },
+    {
+        "count": 37,
+        "date": "2024-06-18",
+        "narrative": "LRT"
+    },
+    {
+        "count": 5,
+        "date": "2024-09-21",
+        "narrative": "DEX"
+    },
+    {
+        "count": 44,
+        "date": "2024-05-28",
+        "narrative": "L2"
+    },
+    {
+        "count": 40,
+        "date": "2024-08-10",
+        "narrative": "L2"
+    },
+    {
+        "count": 1,
+        "date": "2024-07-14",
+        "narrative": "LRT"
+    },
+    {
+        "count": 17838,
+        "date": "2024-10-01",
+        "narrative": "AI"
+    },
+    {
+        "count": 6,
+        "date": "2024-06-20",
+        "narrative": "AI"
+    },
+    {
+        "count": 815,
+        "date": "2024-06-11",
+        "narrative": "L2"
+    },
+    {
+        "count": 1560,
+        "date": "2024-08-18",
+        "narrative": "L1"
+    },
+    {
+        "count": 34,
+        "date": "2024-08-20",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 7,
+        "date": "2024-08-05",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 2,
+        "date": "2024-05-01",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 13,
+        "date": "2024-06-17",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 17,
+        "date": "2024-09-23",
+        "narrative": "LRT"
+    },
+    {
+        "count": 2,
+        "date": "2024-08-10",
+        "narrative": "AI"
+    },
+    {
+        "count": 104,
+        "date": "2024-08-04",
+        "narrative": "DEX"
+    },
+    {
+        "count": 116,
+        "date": "2024-09-05",
+        "narrative": "L2"
+    },
+    {
+        "count": 2264,
+        "date": "2024-05-04",
+        "narrative": "L1"
+    },
+    {
+        "count": 1594,
+        "date": "2024-05-30",
+        "narrative": "L1"
+    },
+    {
+        "count": 1440,
+        "date": "2024-06-18",
+        "narrative": "L1"
+    },
+    {
+        "count": 6,
+        "date": "2024-10-05",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 2,
+        "date": "2024-05-08",
+        "narrative": "LRT"
+    },
+    {
+        "count": 38,
+        "date": "2024-06-23",
+        "narrative": "AI"
+    },
+    {
+        "count": 1,
+        "date": "2024-07-01",
+        "narrative": "Runes"
+    },
+    {
+        "count": 23,
+        "date": "2024-07-11",
+        "narrative": "LRT"
+    },
+    {
+        "count": 325,
+        "date": "2024-07-30",
+        "narrative": "LRT"
+    },
+    {
+        "count": 4,
+        "date": "2024-05-13",
+        "narrative": "DEX"
+    },
+    {
+        "count": 6,
+        "date": "2024-07-22",
+        "narrative": "DEX"
+    },
+    {
+        "count": 54,
+        "date": "2024-10-01",
+        "narrative": "L2"
+    },
+    {
+        "count": 1734,
+        "date": "2024-05-01",
+        "narrative": "L1"
+    },
+    {
+        "count": 292,
+        "date": "2024-08-14",
+        "narrative": "Runes"
+    },
+    {
+        "count": 155,
+        "date": "2024-08-27",
+        "narrative": "Runes"
+    },
+    {
+        "count": 173,
+        "date": "2024-05-28",
+        "narrative": "DEX"
+    },
+    {
+        "count": 121,
+        "date": "2024-06-23",
+        "narrative": "L2"
+    },
+    {
+        "count": 1,
+        "date": "2024-05-19",
+        "narrative": "L2"
+    },
+    {
+        "count": 1858,
+        "date": "2024-07-26",
+        "narrative": "L1"
+    },
+    {
+        "count": 10,
+        "date": "2024-08-18",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 6,
+        "date": "2024-08-31",
+        "narrative": "LRT"
+    },
+    {
+        "count": 2286,
+        "date": "2024-07-14",
+        "narrative": "L1"
+    },
+    {
+        "count": 1713,
+        "date": "2024-10-04",
+        "narrative": "L1"
+    },
+    {
+        "count": 109,
+        "date": "2024-09-06",
+        "narrative": "Runes"
+    },
+    {
+        "count": 88,
+        "date": "2024-07-27",
+        "narrative": "Runes"
+    },
+    {
+        "count": 45,
+        "date": "2024-07-04",
+        "narrative": "LRT"
+    },
+    {
+        "count": 10,
+        "date": "2024-09-05",
+        "narrative": "AI"
+    },
+    {
+        "count": 1,
+        "date": "2024-09-02",
+        "narrative": "AI"
+    },
+    {
+        "count": 84,
+        "date": "2024-09-28",
+        "narrative": "AI"
+    },
+    {
+        "count": 6,
+        "date": "2024-09-28",
+        "narrative": "L2"
+    },
+    {
+        "count": 408,
+        "date": "2024-08-22",
+        "narrative": "Runes"
+    },
+    {
+        "count": 120,
+        "date": "2024-09-07",
+        "narrative": "Runes"
+    },
+    {
+        "count": 90,
+        "date": "2024-07-16",
+        "narrative": "Runes"
+    },
+    {
+        "count": 12,
+        "date": "2024-07-15",
+        "narrative": "LRT"
+    },
+    {
+        "count": 1697,
+        "date": "2024-08-09",
+        "narrative": "L1"
+    },
+    {
+        "count": 441,
+        "date": "2024-10-08",
+        "narrative": "L1"
+    },
+    {
+        "count": 97,
+        "date": "2024-06-02",
+        "narrative": "Runes"
+    },
+    {
+        "count": 121,
+        "date": "2024-08-06",
+        "narrative": "DEX"
+    },
+    {
+        "count": 3267,
+        "date": "2024-09-19",
+        "narrative": "L1"
+    },
+    {
+        "count": 159,
+        "date": "2024-04-23",
+        "narrative": "LRT"
+    },
+    {
+        "count": 32,
+        "date": "2024-05-19",
+        "narrative": "AI"
+    },
+    {
+        "count": 7,
+        "date": "2024-08-04",
+        "narrative": "AI"
+    },
+    {
+        "count": 1,
+        "date": "2024-08-30",
+        "narrative": "DEX"
+    },
+    {
+        "count": 3,
+        "date": "2024-07-19",
+        "narrative": "DEX"
+    },
+    {
+        "count": 15,
+        "date": "2024-06-26",
+        "narrative": "DEX"
+    },
+    {
+        "count": 4,
+        "date": "2024-07-10",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 1388,
+        "date": "2024-05-16",
+        "narrative": "AI"
+    },
+    {
+        "count": 7,
+        "date": "2024-05-28",
+        "narrative": "AI"
+    },
+    {
+        "count": 454,
+        "date": "2024-08-12",
+        "narrative": "Runes"
+    },
+    {
+        "count": 867,
+        "date": "2024-08-11",
+        "narrative": "Runes"
+    },
+    {
+        "count": 55,
+        "date": "2024-06-19",
+        "narrative": "LRT"
+    },
+    {
+        "count": 16,
+        "date": "2024-07-19",
+        "narrative": "AI"
+    },
+    {
+        "count": 58,
+        "date": "2024-05-31",
+        "narrative": "AI"
+    },
+    {
+        "count": 1,
+        "date": "2024-04-14",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1650,
+        "date": "2024-08-21",
+        "narrative": "L1"
+    },
+    {
+        "count": 4,
+        "date": "2024-05-18",
+        "narrative": "AI"
+    },
+    {
+        "count": 16245,
+        "date": "2024-10-05",
+        "narrative": "AI"
+    },
+    {
+        "count": 1173,
+        "date": "2024-06-05",
+        "narrative": "L2"
+    },
+    {
+        "count": 141,
+        "date": "2024-07-27",
+        "narrative": "L2"
+    },
+    {
+        "count": 1519,
+        "date": "2024-06-10",
+        "narrative": "L1"
+    },
+    {
+        "count": 177,
+        "date": "2024-05-12",
+        "narrative": "Runes"
+    },
+    {
+        "count": 16,
+        "date": "2024-06-03",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 10,
+        "date": "2024-08-02",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 17,
+        "date": "2024-09-23",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1934,
+        "date": "2024-05-02",
+        "narrative": "L1"
+    },
+    {
+        "count": 25,
+        "date": "2024-09-01",
+        "narrative": "LRT"
+    },
+    {
+        "count": 3,
+        "date": "2024-08-11",
+        "narrative": "DEX"
+    },
+    {
+        "count": 118,
+        "date": "2024-06-29",
+        "narrative": "DEX"
+    },
+    {
+        "count": 333,
+        "date": "2024-06-16",
+        "narrative": "L2"
+    },
+    {
+        "count": 195,
+        "date": "2024-04-12",
+        "narrative": "L2"
+    },
+    {
+        "count": 1247,
+        "date": "2024-04-30",
+        "narrative": "L1"
+    },
+    {
+        "count": 22,
+        "date": "2024-05-07",
+        "narrative": "AI"
+    },
+    {
+        "count": 2,
+        "date": "2024-07-30",
+        "narrative": "AI"
+    },
+    {
+        "count": 1,
+        "date": "2024-08-02",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1423,
+        "date": "2024-07-21",
+        "narrative": "L1"
+    },
+    {
+        "count": 117,
+        "date": "2024-09-06",
+        "narrative": "L2"
+    },
+    {
+        "count": 2335,
+        "date": "2024-05-26",
+        "narrative": "L1"
+    },
+    {
+        "count": 66,
+        "date": "2024-08-30",
+        "narrative": "Runes"
+    },
+    {
+        "count": 16,
+        "date": "2024-08-26",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 12,
+        "date": "2024-08-28",
+        "narrative": "DEX"
+    },
+    {
+        "count": 30,
+        "date": "2024-07-14",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1816,
+        "date": "2024-08-01",
+        "narrative": "L1"
+    },
+    {
+        "count": 25,
+        "date": "2024-04-12",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 2,
+        "date": "2024-06-28",
+        "narrative": "AI"
+    },
+    {
+        "count": 2,
+        "date": "2024-09-10",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1,
+        "date": "2024-10-06",
+        "narrative": "DEX"
+    },
+    {
+        "count": 2606,
+        "date": "2024-09-11",
+        "narrative": "L1"
+    },
+    {
+        "count": 2,
+        "date": "2024-05-08",
+        "narrative": "DEX"
+    },
+    {
+        "count": 2,
+        "date": "2024-05-10",
+        "narrative": "DEX"
+    },
+    {
+        "count": 274,
+        "date": "2024-05-10",
+        "narrative": "L2"
+    },
+    {
+        "count": 995,
+        "date": "2024-08-13",
+        "narrative": "Runes"
+    },
+    {
+        "count": 86,
+        "date": "2024-07-18",
+        "narrative": "Runes"
+    },
+    {
+        "count": 36,
+        "date": "2024-04-16",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 1,
+        "date": "2024-08-19",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 10,
+        "date": "2024-05-21",
+        "narrative": "DEX"
+    },
+    {
+        "count": 47,
+        "date": "2024-08-09",
+        "narrative": "L2"
+    },
+    {
+        "count": 77,
+        "date": "2024-10-07",
+        "narrative": "Runes"
+    },
+    {
+        "count": 149,
+        "date": "2024-04-28",
+        "narrative": "Runes"
+    },
+    {
+        "count": 1466,
+        "date": "2024-07-19",
+        "narrative": "L1"
+    },
+    {
+        "count": 72,
+        "date": "2024-07-09",
+        "narrative": "Runes"
+    },
+    {
+        "count": 15,
+        "date": "2024-04-22",
+        "narrative": "AI"
+    },
+    {
+        "count": 4,
+        "date": "2024-08-25",
+        "narrative": "AI"
+    },
+    {
+        "count": 3710,
+        "date": "2024-05-20",
+        "narrative": "AI"
+    },
+    {
+        "count": 1,
+        "date": "2024-08-12",
+        "narrative": "AI"
+    },
+    {
+        "count": 3,
+        "date": "2024-05-23",
+        "narrative": "DEX"
+    },
+    {
+        "count": 126,
+        "date": "2024-06-26",
+        "narrative": "LRT"
+    },
+    {
+        "count": 11,
+        "date": "2024-05-05",
+        "narrative": "AI"
+    },
+    {
+        "count": 1,
+        "date": "2024-06-29",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 1,
+        "date": "2024-09-25",
+        "narrative": "DEX"
+    },
+    {
+        "count": 202,
+        "date": "2024-08-15",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1,
+        "date": "2024-09-14",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 699,
+        "date": "2024-08-23",
+        "narrative": "LRT"
+    },
+    {
+        "count": 2,
+        "date": "2024-08-14",
+        "narrative": "AI"
+    },
+    {
+        "count": 27,
+        "date": "2024-06-18",
+        "narrative": "DEX"
+    },
+    {
+        "count": 13,
+        "date": "2024-07-31",
+        "narrative": "DEX"
+    },
+    {
+        "count": 144,
+        "date": "2024-05-27",
+        "narrative": "Runes"
+    },
+    {
+        "count": 73,
+        "date": "2024-10-01",
+        "narrative": "Runes"
+    },
+    {
+        "count": 5,
+        "date": "2024-04-24",
+        "narrative": "AI"
+    },
+    {
+        "count": 425,
+        "date": "2024-10-02",
+        "narrative": "DEX"
+    },
+    {
+        "count": 117,
+        "date": "2024-07-03",
+        "narrative": "Runes"
+    },
+    {
+        "count": 9,
+        "date": "2024-09-01",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 5,
+        "date": "2024-05-25",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 3,
+        "date": "2024-06-16",
+        "narrative": "DEX"
+    },
+    {
+        "count": 14,
+        "date": "2024-04-23",
+        "narrative": "DEX"
+    },
+    {
+        "count": 4,
+        "date": "2024-08-27",
+        "narrative": "AI"
+    },
+    {
+        "count": 104,
+        "date": "2024-04-25",
+        "narrative": "DEX"
+    },
+    {
+        "count": 3,
+        "date": "2024-04-16",
+        "narrative": "L2"
+    },
+    {
+        "count": 31,
+        "date": "2024-06-26",
+        "narrative": "L2"
+    },
+    {
+        "count": 25,
+        "date": "2024-08-29",
+        "narrative": "L2"
+    },
+    {
+        "count": 2290,
+        "date": "2024-05-28",
+        "narrative": "L1"
+    },
+    {
+        "count": 1695,
+        "date": "2024-07-11",
+        "narrative": "L1"
+    },
+    {
+        "count": 9,
+        "date": "2024-08-04",
+        "narrative": "LRT"
+    },
+    {
+        "count": 7,
+        "date": "2024-04-20",
+        "narrative": "DEX"
+    },
+    {
+        "count": 3180,
+        "date": "2024-05-08",
+        "narrative": "L1"
+    },
+    {
+        "count": 1,
+        "date": "2024-08-02",
+        "narrative": "LRT"
+    },
+    {
+        "count": 843,
+        "date": "2024-10-01",
+        "narrative": "LRT"
+    },
+    {
+        "count": 10,
+        "date": "2024-04-12",
+        "narrative": "LRT"
+    },
+    {
+        "count": 18,
+        "date": "2024-09-10",
+        "narrative": "L2"
+    },
+    {
+        "count": 3456,
+        "date": "2024-09-20",
+        "narrative": "L1"
+    },
+    {
+        "count": 2877,
+        "date": "2024-09-30",
+        "narrative": "L1"
+    },
+    {
+        "count": 9,
+        "date": "2024-06-07",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 19,
+        "date": "2024-07-22",
+        "narrative": "LRT"
+    },
+    {
+        "count": 72,
+        "date": "2024-07-14",
+        "narrative": "L2"
+    },
+    {
+        "count": 729,
+        "date": "2024-08-15",
+        "narrative": "L2"
+    },
+    {
+        "count": 1754,
+        "date": "2024-04-26",
+        "narrative": "L1"
+    },
+    {
+        "count": 3569,
+        "date": "2024-05-22",
+        "narrative": "L1"
+    },
+    {
+        "count": 168,
+        "date": "2024-09-27",
+        "narrative": "Runes"
+    },
+    {
+        "count": 124,
+        "date": "2024-09-10",
+        "narrative": "Runes"
+    },
+    {
+        "count": 1,
+        "date": "2024-06-20",
+        "narrative": "Runes"
+    },
+    {
+        "count": 9,
+        "date": "2024-06-21",
+        "narrative": "AI"
+    },
+    {
+        "count": 22,
+        "date": "2024-07-04",
+        "narrative": "DEX"
+    },
+    {
+        "count": 1042,
+        "date": "2024-05-09",
+        "narrative": "L2"
+    },
+    {
+        "count": 119,
+        "date": "2024-05-23",
+        "narrative": "L2"
+    },
+    {
+        "count": 2040,
+        "date": "2024-04-23",
+        "narrative": "L1"
+    },
+    {
+        "count": 1293,
+        "date": "2024-08-28",
+        "narrative": "L1"
+    },
+    {
+        "count": 84,
+        "date": "2024-09-01",
+        "narrative": "Runes"
+    },
+    {
+        "count": 4,
+        "date": "2024-09-20",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 2,
+        "date": "2024-09-08",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 136,
+        "date": "2024-06-13",
+        "narrative": "LRT"
+    },
+    {
+        "count": 945,
+        "date": "2024-08-25",
+        "narrative": "LRT"
+    },
+    {
+        "count": 9,
+        "date": "2024-04-27",
+        "narrative": "LRT"
+    },
+    {
+        "count": 10,
+        "date": "2024-08-29",
+        "narrative": "AI"
+    },
+    {
+        "count": 532,
+        "date": "2024-07-20",
+        "narrative": "L2"
+    },
+    {
+        "count": 2819,
+        "date": "2024-09-04",
+        "narrative": "L1"
+    },
+    {
+        "count": 4,
+        "date": "2024-04-23",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 2,
+        "date": "2024-08-10",
+        "narrative": "LRT"
+    },
+    {
+        "count": 28,
+        "date": "2024-07-09",
+        "narrative": "LRT"
+    },
+    {
+        "count": 6,
+        "date": "2024-10-03",
+        "narrative": "AI"
+    },
+    {
+        "count": 120,
+        "date": "2024-05-20",
+        "narrative": "L2"
+    },
+    {
+        "count": 126,
+        "date": "2024-05-25",
+        "narrative": "Runes"
+    },
+    {
+        "count": 111,
+        "date": "2024-05-14",
+        "narrative": "Runes"
+    },
+    {
+        "count": 2,
+        "date": "2024-07-03",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 3,
+        "date": "2024-06-21",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 5,
+        "date": "2024-09-13",
+        "narrative": "AI"
+    },
+    {
+        "count": 8,
+        "date": "2024-09-22",
+        "narrative": "AI"
+    },
+    {
+        "count": 23,
+        "date": "2024-08-22",
+        "narrative": "DEX"
+    },
+    {
+        "count": 130,
+        "date": "2024-06-18",
+        "narrative": "L2"
+    },
+    {
+        "count": 11,
+        "date": "2024-07-23",
+        "narrative": "L2"
+    },
+    {
+        "count": 1636,
+        "date": "2024-04-11",
+        "narrative": "L1"
+    },
+    {
+        "count": 72,
+        "date": "2024-07-22",
+        "narrative": "Runes"
+    },
+    {
+        "count": 129,
+        "date": "2024-05-31",
+        "narrative": "Runes"
+    },
+    {
+        "count": 13,
+        "date": "2024-09-25",
+        "narrative": "L2"
+    },
+    {
+        "count": 329,
+        "date": "2024-08-17",
+        "narrative": "Runes"
+    },
+    {
+        "count": 1,
+        "date": "2024-05-04",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 19,
+        "date": "2024-08-30",
+        "narrative": "LRT"
+    },
+    {
+        "count": 63,
+        "date": "2024-06-15",
+        "narrative": "AI"
+    },
+    {
+        "count": 18,
+        "date": "2024-04-16",
+        "narrative": "AI"
+    },
+    {
+        "count": 8,
+        "date": "2024-09-04",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 99,
+        "date": "2024-04-19",
+        "narrative": "DEX"
+    },
+    {
+        "count": 121,
+        "date": "2024-09-25",
+        "narrative": "Runes"
+    },
+    {
+        "count": 105,
+        "date": "2024-06-26",
+        "narrative": "Runes"
+    },
+    {
+        "count": 12,
+        "date": "2024-07-18",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 7,
+        "date": "2024-06-30",
+        "narrative": "AI"
+    },
+    {
+        "count": 1,
+        "date": "2024-09-06",
+        "narrative": "DEX"
+    },
+    {
+        "count": 925,
+        "date": "2024-08-08",
+        "narrative": "Runes"
+    },
+    {
+        "count": 6,
+        "date": "2024-05-12",
+        "narrative": "Perpetuals"
+    },
+    {
+        "count": 26,
+        "date": "2024-05-13",
+        "narrative": "AI"
+    },
+    {
+        "count": 39,
+        "date": "2024-07-17",
+        "narrative": "AI"
+    },
+    {
+        "count": 1146,
+        "date": "2024-10-06",
+        "narrative": "L2"
+    },
+    {
+        "count": 2,
+        "date": "2024-04-19",
+        "narrative": "L2"
+    },
+    {
+        "count": 87,
+        "date": "2024-07-24",
+        "narrative": "Runes"
+    },
+    {
+        "count": 490,
+        "date": "2024-09-05",
+        "narrative": "LRT"
+    },
+    {
+        "count": 143,
+        "date": "2024-06-11",
+        "narrative": "LRT"
+    },
+    {
+        "count": 7,
+        "date": "2024-06-19",
+        "narrative": "AI"
+    },
+    {
+        "count": 1292,
+        "date": "2024-06-23",
+        "narrative": "L1"
+    },
+    {
+        "count": 1896,
+        "date": "2024-06-25",
+        "narrative": "L1"
+    },
+    {
+        "count": 12,
+        "date": "2024-08-17",
+        "narrative": "LRT"
+    },
+    {
+        "count": 11,
+        "date": "2024-09-27",
+        "narrative": "LRT"
+    },
+    {
+        "count": 82,
+        "date": "2024-05-16",
+        "narrative": "LRT"
+    },
+    {
+        "count": 11,
+        "date": "2024-09-07",
+        "narrative": "AI"
+    },
+    {
+        "count": 94,
+        "date": "2024-07-15",
+        "narrative": "AI"
+    },
+    {
+        "count": 25,
+        "date": "2024-09-20",
+        "narrative": "AI"
+    },
+    {
+        "count": 34,
+        "date": "2024-06-05",
+        "narrative": "DEX"
+    },
+    {
+        "count": 13,
+        "date": "2024-07-20",
+        "narrative": "DEX"
+    },
+    {
+        "count": 2,
+        "date": "2024-08-26",
+        "narrative": "L2"
+    }
+]
