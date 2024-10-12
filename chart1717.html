@@ -74,7 +74,10 @@
                         align: 'center'
                     },
                     tooltip: {
-                        shared: true, // 특정 날짜에 대한 모든 내러티브 정보를 툴팁에 표시
+                        enabled: true, // 툴팁을 활성화
+                        shared: true,  // 하나의 포인트에 대해 여러 시리즈의 정보를 함께 표시
+                        followCursor: true, // 커서를 따라다니는 툴팁
+                        intersect: false, // 클릭해야 나타나게 설정
                         y: {
                             formatter: function (val) {
                                 return val.toFixed(2) + "%";  // 비율을 소수점 2자리로 표시
