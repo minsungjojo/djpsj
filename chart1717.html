@@ -19,12 +19,16 @@
                 const categories = [...new Set(data.map(item => item.date))].sort((a, b) => new Date(a) - new Date(b));
 
                 const narratives = ['DEX', 'Runes', 'L1', 'L2', 'AI', 'LRT', 'Perpetuals'];
+                
+                // 각 날짜별로 데이터를 합산하여 퍼센트 계산
                 const series = narratives.map(narrative => {
                     return {
                         name: narrative,
                         data: categories.map(date => {
-                            const entry = data.find(item => item.date === date && item.narrative === narrative);
-                            return entry ? entry.count : 0;
+                            const entriesForDate = data.filter(item => item.date === date);
+                            const totalForDate = entriesForDate.reduce((sum, item) => sum + item.count, 0); // 그 날짜의 총합
+                            const entry = entriesForDate.find(item => item.narrative === narrative);
+                            return entry ? (entry.count / totalForDate) * 100 : 0; // 퍼센트 계산
                         })
                     };
                 });
@@ -35,13 +39,7 @@
                         type: 'bar',
                         height: 700,  // 차트 세로 길이를 2배로 늘림
                         stacked: true,
-                        stackType: '100%',
-                        events: {
-                            dataPointSelection: function(event, chartContext, config) {
-                                // 클릭한 데이터 포인트의 정보를 출력
-                                console.log(config.w.config.series[config.seriesIndex].name, config.w.config.series[config.seriesIndex].data[config.dataPointIndex]);
-                            }
-                        }
+                        stackType: '100%'
                     },
                     series: series,
                     xaxis: {
@@ -76,10 +74,6 @@
                         align: 'center'
                     },
                     tooltip: {
-                        enabled: true, // 툴팁을 활성화
-                        shared: true,  // 하나의 포인트에 대해 여러 시리즈의 정보를 함께 표시
-                        followCursor: true, // 커서를 따라다니는 툴팁
-                        intersect: false, // 클릭해야 나타나게 설정
                         y: {
                             formatter: function (val) {
                                 return val.toFixed(2) + "%";  // 비율을 소수점 2자리로 표시
