@@ -46,16 +46,16 @@
                             text: '날짜'
                         },
                         labels: {
-                            rotate: -45,  // 레이블 회전 각도 (가독성을 위해 약간 기울입니다)
-                            datetimeFormatter: {
-                                year: 'yyyy',
-                                month: 'MMM'
+                            rotate: -45,  // 레이블을 45도 기울임
+                            style: {
+                                fontSize: '12px'  // 레이블의 글꼴 크기를 작게 설정
                             },
-                            showDuplicates: false,  // 중복 날짜 레이블 표시 방지
                             hideOverlappingLabels: true,  // 겹치는 레이블 숨김
-                            trim: true,  // 긴 레이블은 잘라냄
+                            showDuplicates: false,  // 중복된 레이블 숨김
+                            trim: true,  // 긴 레이블 잘라냄
+                            maxHeight: 80  // 레이블의 최대 높이 설정
                         },
-                        tickAmount: Math.floor(categories.length / 6),  // 간격 조정
+                        tickAmount: Math.floor(categories.length / 7)  // 일정 간격으로 레이블 표시
                     },
                     yaxis: {
                         title: {
