@@ -1,0 +1,54 @@
+[
+    {
+        "mention_growth": 0.46808510638297873,
+        "symbol": "Mantle"
+    },
+    {
+        "mention_growth": 0.4444444444444444,
+        "symbol": "SKL"
+    },
+    {
+        "mention_growth": 0.3609467455621302,
+        "symbol": "MATIC"
+    },
+    {
+        "mention_growth": 0.25374105400130126,
+        "symbol": "ARB"
+    },
+    {
+        "mention_growth": 0.1271186440677966,
+        "symbol": "Starknet"
+    },
+    {
+        "mention_growth": 0.08196721311475409,
+        "symbol": "Linea"
+    },
+    {
+        "mention_growth": -0.016951397165938287,
+        "symbol": "Blast"
+    },
+    {
+        "mention_growth": -0.07348893123774786,
+        "symbol": "OP"
+    },
+    {
+        "mention_growth": -0.08080808080808081,
+        "symbol": "Zksync"
+    },
+    {
+        "mention_growth": -0.11666666666666667,
+        "symbol": "METIS"
+    },
+    {
+        "mention_growth": -0.14824810342588987,
+        "symbol": "Base"
+    },
+    {
+        "mention_growth": -0.37383177570093457,
+        "symbol": "STX"
+    },
+    {
+        "mention_growth": -0.4853273137697517,
+        "symbol": "Manta"
+    }
+]
