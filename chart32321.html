@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>거래소별 BTC 보유량 - 스택형 막대 차트</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+    <h1>거래소별 BTC 보유량</h1>
+    <div id="chart"></div>
+
+    <script>
+        // JSON 파일에서 데이터를 가져옵니다
+        fetch('b3232.json') // JSON 파일 경로를 설정하세요.
+            .then(response => response.json())
+            .then(data => {
+                // 날짜별로 정렬된 카테고리 생성
+                const categories = [...new Set(data.map(item => item.day))].sort((a, b) => new Date(a) - new Date(b));
+
+                // 거래소 목록 생성
+                const exchanges = [...new Set(data.map(item => item.exchange))];
+
+                // 거래소별로 데이터 그룹화
+                const series = exchanges.map(exchange => {
+                    return {
+                        name: exchange,
+                        data: categories.map(day => {
+                            const entry = data.find(item => item.day === day && item.exchange === exchange);
+                            return entry ? entry.value : 0;
+                        })
+                    };
+                });
+
+                // ApexCharts 설정
+                const options = {
+                    chart: {
+                        type: 'bar',
+                        height: 700,  // 차트 세로 길이를 늘림
+                        stacked: true
+                    },
+                    series: series,
+                    xaxis: {
+                        type: 'datetime',  // 날짜 데이터를 시간 형식으로 설정
+                        categories: categories,
+                        title: {
+                            text: '날짜'
+                        },
+                        labels: {
+                            rotate: -45,  // 레이블을 45도 기울임
+                            style: {
+                                fontSize: '12px'  // 레이블의 글꼴 크기를 작게 설정
+                            },
+                            hideOverlappingLabels: true,  // 겹치는 레이블 숨김
+                            showDuplicates: false,  // 중복된 레이블 숨김
+                            format: 'yyyy-MM-dd',  // 날짜 형식을 지정 (YYYY-MM-DD 형식)
+                        },
+                        tickAmount: Math.floor(categories.length / 10),  // 간격을 10분의 1로 조정하여 몇 개의 레이블만 표시
+                    },
+                    yaxis: {
+                        title: {
+                            text: 'BTC 보유량'
+                        }
+                    },
+                    colors: ['#FFD700', '#87CEEB', '#FF69B4', '#32CD32', '#FFA07A', '#BA55D3', '#20B2AA', '#F08080', '#FF4500', '#6A5ACD'],
+                    title: {
+                        text: '거래소별 BTC 보유량 - 스택형 막대 차트',
+                        align: 'center'
+                    },
+                    tooltip: {
+                        enabled: true, // 툴팁을 활성화
+                        shared: true,  // 하나의 포인트에 대해 여러 시리즈의 정보를 함께 표시
+                        followCursor: true, // 커서를 따라다니는 툴팁
+                        intersect: false,
+                        y: {
+                            formatter: function (val) {
+                                return val.toFixed(2);  // 값을 소수점 2자리로 표시
+                            }
+                        }
+                    },
+                    fill: {
+                        opacity: 1
+                    },
+                    legend: {
+                        position: 'right',
+                        offsetY: 40
+                    },
+                    dataLabels: {
+                        enabled: false // 데이터 레이블(숫자)을 비활성화
+                    }
+                };
+
+                // 차트 생성 및 렌더링
+                const chart = new ApexCharts(document.querySelector("#chart"), options);
+                chart.render();
+            })
+            .catch(error => console.error('데이터를 가져오는 중 오류가 발생했습니다:', error));
+    </script>
+</body>
+</html>
