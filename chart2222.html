@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>데이터 시각화</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+
+    <div id="chart"></div>
+
+    <script>
+        // b2222.json에서 데이터 가져오기
+        fetch('b2222.json')
+            .then(response => response.json())
+            .then(data => {
+                // inflow, netflow, outflow, time 데이터를 배열로 추출
+                const inflow = data.map(item => item.inflow);
+                const netflow = data.map(item => item.netfolow);
+                const outflow = data.map(item => item.outflow);
+                const time = data.map(item => new Date(item.time).toISOString().split('T')[0]); // 날짜 형식 정리
+
+                // ApexCharts 옵션 설정
+                var options = {
+                    chart: {
+                        type: 'line',
+                        height: 350
+                    },
+                    series: [
+                        {
+                            name: 'Inflow',
+                            data: inflow
+                        },
+                        {
+                            name: 'Netflow',
+                            data: netflow
+                        },
+                        {
+                            name: 'Outflow',
+                            data: outflow
+                        }
+                    ],
+                    xaxis: {
+                        categories: time // JSON 파일에서 추출한 날짜
+                    },
+                    title: {
+                        text: 'Inflow, Netflow, Outflow 데이터',
+                        align: 'center'
+                    }
+                };
+
+                // 차트 렌더링
+                var chart = new ApexCharts(document.querySelector("#chart"), options);
+                chart.render();
+            })
+            .catch(error => console.error('Error fetching data:', error));
+
+    </script>
+
+</body>
+</html>
