@@ -42,7 +42,18 @@
                         }
                     ],
                     xaxis: {
-                        categories: time // JSON 파일에서 추출한 날짜
+                        categories: time, // JSON 파일에서 추출한 날짜
+                        labels: {
+                            show: true,
+                            rotate: -45, // 라벨을 45도 회전하여 겹치지 않도록 설정
+                            style: {
+                                fontSize: '10px' // 글씨 크기 조정
+                            },
+                            // 매 7번째 라벨만 표시
+                            formatter: function(val, index) {
+                                return (index % 7 === 0) ? val : '';
+                            }
+                        }
                     },
                     title: {
                         text: 'Inflow, Netflow, Outflow 데이터',
