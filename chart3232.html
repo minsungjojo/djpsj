@@ -52,10 +52,8 @@
                             },
                             hideOverlappingLabels: true,  // 겹치는 레이블 숨김
                             showDuplicates: false,  // 중복된 레이블 숨김
-                            trim: true,  // 긴 레이블 잘라냄
-                            maxHeight: 80  // 레이블의 최대 높이 설정
                         },
-                        tickAmount: Math.floor(categories.length / 7)  // 일정 간격으로 레이블 표시
+                        tickAmount: Math.floor(categories.length / 10),  // 간격을 10분의 1로 조정하여 몇 개의 레이블만 표시
                     },
                     yaxis: {
                         title: {
