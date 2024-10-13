@@ -52,6 +52,11 @@
                             },
                             hideOverlappingLabels: true,  // 겹치는 레이블 숨김
                             showDuplicates: false,  // 중복된 레이블 숨김
+                            formatter: function (val) {
+                                // 날짜 형식을 YYYY-MM-DD로 표시
+                                const date = new Date(val);
+                                return date.toISOString().slice(0, 10);  // ISO 날짜 형식을 자르고 반환 (YYYY-MM-DD)
+                            },
                         },
                         tickAmount: Math.floor(categories.length / 10),  // 간격을 10분의 1로 조정하여 몇 개의 레이블만 표시
                     },
