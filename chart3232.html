@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>거래소별 BTC 비교 - 바 차트</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+    <div id="chart"></div>
+
+    <script>
+        // 3232.json 파일에서 데이터를 가져오기
+        fetch('3232.json') // 여기에 3232.json 파일의 실제 경로를 입력하세요.
+            .then(response => response.json())
+            .then(data => {
+                // 데이터를 거래소별로 그룹화
+                const exchanges = [...new Set(data.map(item => item.exchange))];
+                const groupedData = exchanges.map(exchange => {
+                    return {
+                        name: exchange,
+                        data: data
+                            .filter(item => item.exchange === exchange)
+                            .map(item => [new Date(item.day).getTime(), item.value])
+                    };
+                });
+
+                // ApexCharts 설정
+                var options = {
+                    chart: {
+                        type: 'bar',
+                        stacked: true,
+                        height: 400,
+                        zoom: {
+                            enabled: false
+                        }
+                    },
+                    series: groupedData,
+                    xaxis: {
+                        type: 'datetime',
+                        title: {
+                            text: '날짜'
+                        }
+                    },
+                    yaxis: {
+                        title: {
+                            text: 'BTC 보유량'
+                        }
+                    },
+                    title: {
+                        text: '거래소별 BTC 비교 - 바 차트',
+                        align: 'center'
+                    },
+                    fill: {
+                        opacity: 1
+                    },
+                    colors: ['#F3B415', '#F27036', '#663F59', '#6A6E94', '#4E88B4', '#00A7C6', '#18D8D8', '#A9D794', '#46AF78', '#A93F55'],
+                    legend: {
+                        position: 'top',
+                        horizontalAlign: 'left'
+                    },
+                    plotOptions: {
+                        bar: {
+                            horizontal: false,
+                            borderRadius: 5
+                        }
+                    }
+                };
+
+                var chart = new ApexCharts(document.querySelector("#chart"), options);
+                chart.render();
+            })
+            .catch(error => console.error('Error fetching data:', error));
+    </script>
+</body>
+</html>
