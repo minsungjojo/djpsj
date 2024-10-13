@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>비트코인 일별 가치</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+    <h1>비트코인 일별 가치</h1>
+    <div id="chart"></div>
+
+    <script>
+        // JSON 파일에서 데이터를 가져오는 함수
+        async function fetchData() {
+            const response = await fetch('b2929.json');  // b2424.json 파일 경로
+            const data = await response.json();
+
+            // JSON 데이터를 ApexCharts 형식에 맞게 변환하고, 소숫점 1자리까지 반올림
+            const seriesData = data.map(entry => ({
+                x: new Date(entry.day),
+                y: parseFloat(entry.value.toFixed(1))  // 소숫점 1자리까지 반올림
+            }));
+
+            // 날짜 순서대로 정렬
+            seriesData.sort((a, b) => a.x - b.x);
+
+            return seriesData;
+        }
+
+        // 차트를 렌더링하는 함수
+        async function renderChart() {
+            const seriesData = await fetchData();
+
+            var options = {
+                chart: {
+                    type: 'line',
+                    height: 350
+                },
+                series: [{
+                    name: '비트코인 가치',
+                    data: seriesData  // 데이터를 차트에 적용
+                }],
+                xaxis: {
+                    type: 'datetime',
+                    labels: {
+                        format: 'yyyy-MM-dd'  // 날짜 형식을 지정하는 부분
+                    },
+                    title: {
+                        text: '날짜'
+                    }
+                },
+                yaxis: {
+                    title: {
+                        text: '가치 (BTC)'
+                    }
+                },
+                tooltip: {
+                    x: {
+                        format: 'yyyy-MM-dd'  // 툴팁의 날짜 형식을 지정하는 부분
+                    }
+                },
+                title: {
+                    text: '2024년 비트코인 일별 가치 변화',
+                    align: 'center'
+                }
+            };
+
+            var chart = new ApexCharts(document.querySelector("#chart"), options);
+            chart.render();
+        }
+
+        // 페이지가 로드되면 차트를 렌더링
+        renderChart();
+    </script>
+</body>
+</html>
