@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monthly Raised Amount Chart</title>
+    <!-- ApexCharts 라이브러리 포함 -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <!-- PapaParse 라이브러리 포함 (CSV 파싱용) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+</head>
+<body>
+    <!-- 차트를 표시할 div -->
+    <div id="chart"></div>
+
+    <script>
+        // CSV 파일 경로
+        const csvFilePath = 'raises.csv';
+
+        // CSV 파일을 파싱하고 차트를 생성하는 함수
+        function generateChartFromCSV() {
+            Papa.parse(csvFilePath, {
+                download: true,
+                header: true,
+                complete: function(results) {
+                    const data = results.data;
+
+                    // 날짜와 모금액만 가져옴
+                    const filteredData = data.map(row => ({
+                        Date: row['Date'],
+                        Amount: parseFloat(row['Amount Raised']) || 0
+                    }));
+
+                    // 월별로 데이터를 그룹화하고 모금액을 합산
+                    const monthlyData = {};
+                    filteredData.forEach(row => {
+                        const date = new Date(row.Date);
+                        const monthYear = `${date.getFullYear()}-${('0' + (date.getMonth() + 1)).slice(-2)}`; // YYYY-MM 형식
+                        
+                        if (!monthlyData[monthYear]) {
+                            monthlyData[monthYear] = 0;
+                        }
+                        monthlyData[monthYear] += row.Amount;
+                    });
+
+                    // 차트에 사용할 데이터 준비
+                    const dates = Object.keys(monthlyData);
+                    const amounts = Object.values(monthlyData);
+
+                    // ApexCharts 옵션 및 차트 생성
+                    var options = {
+                        chart: {
+                            type: 'bar',
+                            height: 350
+                        },
+                        series: [{
+                            name: 'Amount Raised',
+                            data: amounts
+                        }],
+                        xaxis: {
+                            categories: dates,
+                            title: {
+                                text: 'Month'
+                            }
+                        },
+                        yaxis: {
+                            title: {
+                                text: 'Amount Raised (USD)'
+                            }
+                        }
+                    };
+
+                    var chart = new ApexCharts(document.querySelector("#chart"), options);
+                    chart.render();
+                }
+            });
+        }
+
+        // 차트 생성 함수 호출
+        generateChartFromCSV();
+    </script>
+</body>
+</html>
