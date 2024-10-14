@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>일일 트랜잭션 수</title>
+    <title>일일 활성 주소 수</title>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body>
-    <h1>일일 트랜잭션 수</h1>
+    <h1>일일 활성 주소 수</h1>
     <div id="chart"></div>
 
     <script>
-        // b3737.json 파일에서 데이터를 가져오는 함수
+        // b3838.json 파일에서 데이터를 가져오는 함수
         async function fetchData() {
             const response = await fetch('b3838.json'); // JSON 파일 경로
             const data = await response.json();
             
             // 차트에 맞는 형식으로 데이터 변환
             return data.map(item => {
-                return { x: item.date, y: item.daily_total_tx };
+                return { x: item.Date, y: item.Total_Active_Addresses };
             });
         }
 
@@ -32,7 +32,7 @@
                     height: 350
                 },
                 series: [{
-                    name: '일일 총 트랜잭션 수',
+                    name: '일일 활성 주소 수',
                     data: seriesData // 가져온 데이터를 차트에 사용
                 }],
                 xaxis: {
@@ -46,11 +46,11 @@
                 },
                 yaxis: {
                     title: {
-                        text: '트랜잭션 수'
+                        text: '활성 주소 수'
                     }
                 },
                 title: {
-                    text: '일일 총 트랜잭션 수',
+                    text: '일일 활성 주소 수',
                     align: 'center'
                 },
                 stroke: {
