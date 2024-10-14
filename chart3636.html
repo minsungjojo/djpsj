@@ -61,12 +61,26 @@
                             categories: dates,
                             title: {
                                 text: 'Month'
+                            },
+                            labels: {
+                                rotate: -45, // X축 레이블을 45도 회전하여 겹침 방지
+                                maxHeight: 100 // 레이블의 최대 높이를 지정하여 더 잘 보이게 함
                             }
                         },
                         yaxis: {
                             title: {
                                 text: 'Amount Raised (USD)'
                             }
+                        },
+                        plotOptions: {
+                            bar: {
+                                dataLabels: {
+                                    position: 'top' // 데이터 레이블을 막대 위에 표시
+                                }
+                            }
+                        },
+                        dataLabels: {
+                            enabled: false // 숫자(데이터 레이블)를 없앰
                         },
                         title: {
                             text: 'Monthly Raised Amount',
