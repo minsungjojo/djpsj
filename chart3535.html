@@ -74,6 +74,9 @@
                             opacityTo: 0.9,
                             stops: [0, 100]
                         }
+                    },
+                    dataLabels: {
+                        enabled: false // 데이터 레이블을 숨김
                     }
                 };
 
@@ -81,6 +84,4 @@
                 chart.render();
             })
             .catch(error => console.error('Error fetching the JSON file:', error));
-    </script>
-</body>
-</html>
+    </script
