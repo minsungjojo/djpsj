@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>일일 트랜잭션 수</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+    <h1>일일 트랜잭션 수</h1>
+    <div id="chart"></div>
+
+    <script>
+        // b3737.json 파일에서 데이터를 가져오는 함수
+        async function fetchData() {
+            const response = await fetch('b3838.json'); // JSON 파일 경로
+            const data = await response.json();
+            
+            // 차트에 맞는 형식으로 데이터 변환
+            return data.map(item => {
+                return { x: item.date, y: item.daily_total_tx };
+            });
+        }
+
+        // ApexCharts 옵션 설정
+        async function createChart() {
+            const seriesData = await fetchData();
+
+            var options = {
+                chart: {
+                    type: 'line',
+                    height: 350
+                },
+                series: [{
+                    name: '일일 총 트랜잭션 수',
+                    data: seriesData // 가져온 데이터를 차트에 사용
+                }],
+                xaxis: {
+                    type: 'datetime',
+                    title: {
+                        text: '날짜'
+                    },
+                    labels: {
+                        format: 'yyyy-MM-dd' // x축 날짜 형식 설정
+                    }
+                },
+                yaxis: {
+                    title: {
+                        text: '트랜잭션 수'
+                    }
+                },
+                title: {
+                    text: '일일 총 트랜잭션 수',
+                    align: 'center'
+                },
+                stroke: {
+                    curve: 'smooth',
+                    colors: ['#000000'], // 선 색상: 검은색
+                    width: 1 // 선 두께: 1px로 얇게 설정
+                },
+                tooltip: {
+                    x: {
+                        format: 'yyyy-MM-dd' // 마우스 오버 시 날짜 형식 설정
+                    }
+                }
+            };
+
+            var chart = new ApexCharts(document.querySelector("#chart"), options);
+            chart.render();
+        }
+
+        // 차트 생성 함수 호출
+        createChart();
+    </script>
+</body>
+</html>
