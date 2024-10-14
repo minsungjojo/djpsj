@@ -64,7 +64,11 @@
                             },
                             labels: {
                                 rotate: -45, // X축 레이블을 45도 회전하여 겹침 방지
-                                maxHeight: 100 // 레이블의 최대 높이를 지정하여 더 잘 보이게 함
+                                maxHeight: 100, // 레이블의 최대 높이를 지정하여 더 잘 보이게 함
+                                formatter: function(value, timestamp, index) {
+                                    // 3달에 하나씩만 레이블 표시
+                                    return (index % 3 === 0) ? value : '';
+                                }
                             }
                         },
                         yaxis: {
