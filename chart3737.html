@@ -39,6 +39,9 @@
                     type: 'datetime',
                     title: {
                         text: '날짜'
+                    },
+                    labels: {
+                        format: 'yyyy-MM-dd' // x축 날짜 형식 설정
                     }
                 },
                 yaxis: {
@@ -54,6 +57,11 @@
                     curve: 'smooth',
                     colors: ['#000000'], // 선 색상: 검은색
                     width: 1 // 선 두께: 1px로 얇게 설정
+                },
+                tooltip: {
+                    x: {
+                        format: 'yyyy-MM-dd' // 마우스 오버 시 날짜 형식 설정
+                    }
                 }
             };
 
