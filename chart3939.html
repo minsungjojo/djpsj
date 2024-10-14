@@ -25,8 +25,12 @@
             .filter(d => d.category === 'Issued')
             .map(d => ({ x: new Date(d.time).getTime(), y: d.supply }));
 
+        // Issued 데이터의 마지막 날짜 구하기
+        const lastIssuedDate = new Date(issuedData[issuedData.length - 1].x);
+
+        // Forecasted 데이터는 Issued 데이터 이후의 날짜부터 시작하도록 설정
         const forecastedData = [
-            { x: new Date("2024-01-01").getTime(), y: 19000000 },
+            { x: new Date(lastIssuedDate).getTime(), y: issuedData[issuedData.length - 1].y },
             { x: new Date("2030-01-01").getTime(), y: 19500000 },
             { x: new Date("2040-01-01").getTime(), y: 20000000 },
             { x: new Date("2050-01-01").getTime(), y: 21000000 },
