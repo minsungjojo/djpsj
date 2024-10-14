@@ -40,7 +40,7 @@
                         data: lastOccurrences
                     }],
                     chart: {
-                        type: 'line',
+                        type: 'area', // area 차트를 설정하여 영역을 채움
                         height: 350
                     },
                     title: {
@@ -64,6 +64,15 @@
                     tooltip: {
                         x: {
                             format: 'yyyy-MM-dd'  // 툴팁에서 날짜 형식을 지정
+                        }
+                    },
+                    fill: {
+                        type: 'gradient', // 영역을 그라디언트로 채움
+                        gradient: {
+                            shadeIntensity: 1,
+                            opacityFrom: 0.7,
+                            opacityTo: 0.9,
+                            stops: [0, 100]
                         }
                     }
                 };
