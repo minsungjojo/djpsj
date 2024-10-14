@@ -3,27 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Average Difficulty Over Time</title>
+    <title>평균 난이도 변화</title>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body>
-    <h1>Average Difficulty Over Time</h1>
+    <h1>평균 난이도 변화</h1>
     <div id="chart"></div>
 
     <script>
-        // Fetch data from b4040.json file
+        // b4040.json 파일에서 데이터를 가져오는 함수
         async function fetchData() {
-            const response = await fetch('b4040.json'); // JSON file path
+            const response = await fetch('b4040.json'); // JSON 파일 경로
             const data = await response.json();
             
-            // Transform data to the format required by ApexCharts
+            // 차트에 맞는 형식으로 데이터 변환
             return data.map(item => ({
-                x: new Date(item.date), // Convert date string to Date object
-                y: item.avgdifficulty   // Use avgdifficulty as y-axis value
+                x: new Date(item.date), // 날짜 문자열을 Date 객체로 변환
+                y: item.avgdifficulty   // avgdifficulty 값을 y축 값으로 사용
             }));
         }
 
-        // ApexCharts configuration
+        // ApexCharts 옵션 설정
         async function createChart() {
             const seriesData = await fetchData();
 
@@ -33,35 +33,35 @@
                     height: 350
                 },
                 series: [{
-                    name: 'Average Difficulty',
+                    name: '평균 난이도',
                     data: seriesData
                 }],
                 xaxis: {
                     type: 'datetime',
                     title: {
-                        text: 'Date'
+                        text: '날짜'
                     },
                     labels: {
-                        format: 'yyyy-MM-dd' // Format x-axis as date
+                        format: 'yyyy-MM-dd' // x축 날짜 형식 설정
                     }
                 },
                 yaxis: {
                     title: {
-                        text: 'Average Difficulty'
+                        text: '평균 난이도'
                     }
                 },
                 title: {
-                    text: 'Average Difficulty Over Time',
+                    text: '평균 난이도 변화',
                     align: 'center'
                 },
                 stroke: {
                     curve: 'smooth',
-                    colors: ['#000000'], // Set the line color to black
-                    width: 1 // Set the line width to 1px
+                    colors: ['#000000'], // 선 색상: 검은색
+                    width: 1 // 선 두께: 1px로 설정
                 },
                 tooltip: {
                     x: {
-                        format: 'yyyy-MM-dd' // Tooltip date format
+                        format: 'yyyy-MM-dd' // 마우스 오버 시 날짜 형식 설정
                     }
                 }
             };
@@ -70,7 +70,7 @@
             chart.render();
         }
 
-        // Create the chart
+        // 차트 생성 함수 호출
         createChart();
     </script>
 </body>
