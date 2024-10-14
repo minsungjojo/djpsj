@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binance 출금 금액 차트</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+    <h1>Binance 출금 금액 차트</h1>
+    <div id="chart"></div>
+
+    <script>
+        // b3535.json 파일을 가져와 차트에 표시하는 함수
+        fetch('b3535.json')
+            .then(response => response.json())
+            .then(data => {
+                // 데이터를 날짜별로 정렬하고 가장 마지막 데이터를 선택
+                let sortedData = data.sort((a, b) => new Date(a.day) - new Date(b.day));
+                let lastOccurrences = [];
+                let seenDays = new Set();
+                
+                // 각 날짜의 마지막 출금 데이터를 필터링
+                for (let i = sortedData.length - 1; i >= 0; i--) {
+                    if (!seenDays.has(sortedData[i].day)) {
+                        lastOccurrences.push({
+                            x: sortedData[i].day,
+                            y: sortedData[i].withdraw_amount
+                        });
+                        seenDays.add(sortedData[i].day);
+                    }
+                }
+                
+                // 차트에 사용할 데이터
+                lastOccurrences.reverse(); // 날짜 순으로 정렬
+
+                var options = {
+                    series: [{
+                        name: '출금 금액',
+                        data: lastOccurrences
+                    }],
+                    chart: {
+                        type: 'line',
+                        height: 350
+                    },
+                    title: {
+                        text: 'Binance 출금 금액 (일별)',
+                        align: 'center'
+                    },
+                    xaxis: {
+                        type: 'datetime',
+                        labels: {
+                            format: 'yyyy-MM-dd'  // 날짜 형식을 지정
+                        },
+                        title: {
+                            text: '날짜'
+                        }
+                    },
+                    yaxis: {
+                        title: {
+                            text: '출금 금액 (USD)'
+                        }
+                    },
+                    tooltip: {
+                        x: {
+                            format: 'yyyy-MM-dd'  // 툴팁에서 날짜 형식을 지정
+                        }
+                    }
+                };
+
+                var chart = new ApexCharts(document.querySelector("#chart"), options);
+                chart.render();
+            })
+            .catch(error => console.error('Error fetching the JSON file:', error));
+    </script>
+</body>
+</html>
