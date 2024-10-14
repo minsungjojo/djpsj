@@ -76,13 +76,8 @@
                         }
                     },
                     fill: {
-                        type: 'gradient', // 영역을 그라디언트로 채움
-                        gradient: {
-                            shadeIntensity: 1,
-                            opacityFrom: 0.5, // 영역 불투명도 설정
-                            opacityTo: 0.9,
-                            stops: [0, 100]
-                        }
+                        type: 'solid', // 영역을 단색으로 채움
+                        opacity: 0.5 // 투명도 설정
                     },
                     dataLabels: {
                         enabled: false // 데이터 레이블을 숨김
