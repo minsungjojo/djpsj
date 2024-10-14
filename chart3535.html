@@ -77,15 +77,18 @@
                     },
                     fill: {
                         type: 'solid', // 영역을 단색으로 채움
-                        opacity: 0.5 // 투명도 설정
+                        opacity: 0.7, // 투명도 설정
+                        colors: ['#2a2a2a'] // 영역의 색상 설정 (어두운 색)
                     },
                     stroke: {
                         curve: 'smooth', // 부드러운 선
-                        width: 1 // 선의 두께를 1로 설정
+                        width: 2, // 선의 두께
+                        colors: ['#1a1a1a'] // 선의 색상을 어두운 색으로 설정
                     },
                     dataLabels: {
                         enabled: false // 데이터 레이블을 숨김
-                    }
+                    },
+                    colors: ['#1a1a1a'] // 차트 기본 색상 (선 및 영역)
                 };
 
                 var chart = new ApexCharts(document.querySelector("#chart"), options);
