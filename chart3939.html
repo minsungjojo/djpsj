@@ -13,7 +13,7 @@
 <script>
     // JSON 파일 데이터를 가져오는 함수
     async function fetchData() {
-        const response = await fetch('b3939.json');
+        const response = await fetch('/mnt/data/b3939.json');
         const data = await response.json();
         return data;
     }
@@ -75,7 +75,8 @@
                 }
             },
             fill: {
-                opacity: 1 // 투명도를 없앱니다.
+                type: 'solid', // 투명도를 제거하고 채우기 유형을 solid로 설정
+                opacity: 1 // 완전한 불투명도로 설정
             },
             stroke: {
                 width: 0 // 차트 선을 보이지 않게 설정합니다.
