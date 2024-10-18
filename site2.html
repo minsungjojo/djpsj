@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>비트코인 가격 및 글로벌 유동성 지수 차트</title>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body>
@@ -14,6 +15,9 @@
         async function fetchData() {
             const response = await fetch('b2.json');  // b2.json 파일을 현재 위치에 두고 사용
             const data = await response.json();
+
+            // 데이터를 날짜 순으로 정렬
+            data.sort((a, b) => new Date(a.date) - new Date(b.date));
 
             // btc_usd와 global_liquidity_index 데이터를 차트 형식에 맞게 변환
             const btcData = data.map(item => ({
@@ -33,7 +37,7 @@
                     height: 350
                 },
                 stroke: {
-                    width: 1 // 선의 두께를 1로 설정
+                    width: 1.3 // 선의 두께를 1로 설정
                 },
                 series: [{
                     name: 'BTC/USD 가격',
@@ -59,6 +63,18 @@
                         text: '글로벌 유동성 지수'
                     }
                 }],
+                tooltip: {
+                    x: {
+                        formatter: function(val) {
+                            // 툴팁에 날짜를 yyyy-MM-dd 형식으로 변환
+                            let date = new Date(val);
+                            let year = date.getFullYear();
+                            let month = ('0' + (date.getMonth() + 1)).slice(-2); // 월을 2자리로
+                            let day = ('0' + date.getDate()).slice(-2); // 일을 2자리로
+                            return `${year}-${month}-${day}`;
+                        }
+                    }
+                },
                 title: {
                     text: '비트코인 가격 및 글로벌 유동성 지수',
                     align: 'center'
