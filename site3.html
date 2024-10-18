@@ -48,15 +48,15 @@
                     title: {
                         text: 'BTC 잔액'
                     },
-                    min: Math.min(...btcBalances) - 1000,
-                    max: Math.max(...btcBalances) + 1000
+                    min: Math.min(...btcBalances), // BTC 잔액에서 가장 작은 값
+                    max: Math.max(...btcBalances)  // BTC 잔액에서 가장 큰 값
                 }, {
                     opposite: true,
                     title: {
                         text: 'USD 잔액'
                     },
-                    min: Math.min(...usdBalances) - 1000000000,
-                    max: Math.max(...usdBalances) + 1000000000
+                    min: Math.min(...usdBalances), // USD 잔액에서 가장 작은 값
+                    max: Math.max(...usdBalances)  // USD 잔액에서 가장 큰 값
                 }],
                 title: {
                     text: 'BTC와 USD 잔액 비교',
