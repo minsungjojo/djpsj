@@ -1,98 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
-    <title>ApexCharts 예제</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>비트코인 가격 및 글로벌 유동성 지수 차트</title>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body>
+    <h1>비트코인 가격 및 글로벌 유동성 지수</h1>
+    <div id="chart"></div>
 
-<div id="chart"></div>
+    <script>
+        // b2.json 파일에서 데이터를 가져오는 함수
+        async function fetchData() {
+            const response = await fetch('b2.json');  // b2.json 파일을 현재 위치에 두고 사용
+            const data = await response.json();
 
-<script>
-// b2.json 파일에서 데이터를 가져오는 함수
-fetch('b2.json')
-    .then(response => response.json()) // JSON 데이터를 비동기적으로 가져옴
-    .then(data => {
-        // 필요한 데이터만 추출
-        var filteredData = data.map(item => ({
-            date: item.date, // 날짜
-            global_liquidity_index: item.global_liquidity_index, // 전 세계 유동성 지수
-            btc_usd: item.btc_usd // 비트코인 가격 (BTC/USD)
-        }));
+            // btc_usd와 global_liquidity_index 데이터를 차트 형식에 맞게 변환
+            const btcData = data.map(item => ({
+                x: new Date(item.date),
+                y: item.btc_usd
+            }));
 
-        // 날짜 배열 생성
-        var dates = filteredData.map(item => item.date);
+            const liquidityData = data.map(item => ({
+                x: new Date(item.date),
+                y: item.global_liquidity_index
+            }));
 
-        // 전 세계 유동성 지수 배열 생성
-        var globalLiquidityIndex = filteredData.map(item => item.global_liquidity_index);
-
-        // 비트코인 가격 (BTC/USD) 배열 생성
-        var btcUsd = filteredData.map(item => item.btc_usd);
-
-        // ApexCharts 옵션 설정
-        var options = {
-            chart: {
-                type: 'line', // 라인 차트
-                height: 350 // 차트 높이 설정
-            },
-            series: [
-                {
-                    name: '전 세계 유동성 지수', // 라벨 설정
-                    data: globalLiquidityIndex, // 유동성 지수 데이터
-                    type: 'line' // 라인형 차트 설정
+            // ApexCharts 설정
+            var options = {
+                chart: {
+                    type: 'line',
+                    height: 350
+                },
+                series: [{
+                    name: 'BTC/USD 가격',
+                    data: btcData
                 },
                 {
-                    name: 'BTC/USD', // 라벨 설정
-                    data: btcUsd, // 비트코인 가격 데이터
-                    type: 'line' // 라인형 차트 설정
-                }
-            ],
-            xaxis: {
-                categories: dates, // x축에 날짜 데이터를 사용
-                type: 'datetime', // 날짜 타입으로 설정
-                labels: {
-                    format: 'yyyy-MM-dd' // 날짜 형식 설정
-                }
-            },
-            yaxis: [
-                {
-                    seriesName: '전 세계 유동성 지수', // y축 첫 번째 설정
+                    name: '글로벌 유동성 지수',
+                    data: liquidityData
+                }],
+                xaxis: {
+                    type: 'datetime',
                     title: {
-                        text: '전 세계 유동성 지수' // y축 제목 설정
-                    },
-                    labels: {
-                        formatter: function (value) {
-                            return value.toFixed(2); // 소수점 두 자리로 표시
-                        }
+                        text: '날짜'
                     }
                 },
-                {
-                    opposite: true, // y축 오른쪽에 표시
-                    seriesName: 'BTC/USD', // y축 두 번째 설정
+                yaxis: [{
                     title: {
-                        text: 'BTC/USD' // y축 제목 설정
-                    },
-                    labels: {
-                        formatter: function (value) {
-                            return value.toFixed(2); // 소수점 두 자리로 표시
-                        }
+                        text: 'BTC/USD 가격'
                     }
+                }, {
+                    opposite: true,
+                    title: {
+                        text: '글로벌 유동성 지수'
+                    }
+                }],
+                title: {
+                    text: '비트코인 가격 및 글로벌 유동성 지수',
+                    align: 'center'
                 }
-            ],
-            tooltip: {
-                x: {
-                    format: 'yyyy-MM-dd' // 툴팁에 날짜 형식을 'yyyy-MM-dd'로 설정
-                }
-            }
-        };
+            };
 
-        // 차트 렌더링
-        var chart = new ApexCharts(document.querySelector("#chart"), options);
-        chart.render();
-    })
-    .catch(error => console.error('JSON 파일을 가져오는 중 오류 발생:', error));
+            // 차트 렌더링
+            var chart = new ApexCharts(document.querySelector("#chart"), options);
+            chart.render();
+        }
 
-</script>
-
+        // 페이지 로드 시 데이터를 가져오고 차트를 생성
+        fetchData();
+    </script>
 </body>
 </html>
