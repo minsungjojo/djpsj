@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>비트코인 가격 및 글로벌 유동성 지수 차트</title>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body>
@@ -32,6 +31,9 @@
                 chart: {
                     type: 'line',
                     height: 350
+                },
+                stroke: {
+                    width: 1 // 선의 두께를 1로 설정
                 },
                 series: [{
                     name: 'BTC/USD 가격',
