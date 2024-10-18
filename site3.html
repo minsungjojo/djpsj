@@ -26,7 +26,10 @@
             var options = {
                 chart: {
                     type: 'line',
-                    height: 350
+                    height: 350,
+                    toolbar: {
+                        show: true
+                    }
                 },
                 series: [{
                     name: 'BTC 잔액',
@@ -58,6 +61,11 @@
                 title: {
                     text: 'BTC와 USD 잔액 비교',
                     align: 'center'
+                },
+                tooltip: {
+                    enabled: true, // 툴팁을 활성화
+                    shared: true,  // 두 개의 시리즈를 함께 표시
+                    intersect: false // 교차 시점에서 툴팁을 표시
                 }
             };
 
