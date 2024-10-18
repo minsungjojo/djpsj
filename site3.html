@@ -33,14 +33,16 @@
                 },
                 series: [{
                     name: 'BTC 잔액',
+                    type: 'line',
                     data: btcBalances
                 }, {
                     name: 'USD 잔액',
-                    data: usdBalances
+                    type: 'line',
+                    data: usdBalances,
+                    yaxis: 1
                 }],
                 xaxis: {
-                    categories: days,
-                    type: 'category'
+                    categories: days
                 },
                 yaxis: [{
                     title: {
@@ -60,23 +62,10 @@
                     text: 'BTC와 USD 잔액 비교',
                     align: 'center'
                 },
-                stroke: {
-                    curve: 'smooth', // 부드러운 곡선
-                    width: 2
-                },
-                markers: {
-                    size: 5, // 마커 크기 설정
-                    hover: {
-                        size: 7
-                    }
-                },
                 tooltip: {
-                    enabled: true, // 툴팁 활성화
-                    shared: true,  // 두 시리즈를 함께 보여줌
-                    followCursor: true, // 마우스 커서가 있는 곳에서 툴팁을 표시
-                    x: {
-                        format: 'yyyy-MM-dd' // 날짜 형식
-                    }
+                    enabled: true, // 툴팁을 활성화
+                    shared: true,  // 두 개의 시리즈를 함께 표시
+                    intersect: false // 교차 시점에서 툴팁을 표시
                 }
             };
 
