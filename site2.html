@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ApexCharts Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+
+<div id="chart"></div>
+
+<script>
+// b2.json 파일에서 데이터를 가져오는 함수
+fetch('b2.json')
+    .then(response => response.json())
+    .then(data => {
+        // 필요한 데이터만 추출
+        var filteredData = data.map(item => ({
+            date: item.date,
+            global_liquidity_index: item.global_liquidity_index,
+            btc_usd: item.btc_usd
+        }));
+
+        // 날짜 배열 생성
+        var dates = filteredData.map(item => item.date);
+
+        // global_liquidity_index 배열 생성
+        var globalLiquidityIndex = filteredData.map(item => item.global_liquidity_index);
+
+        // btc_usd 배열 생성
+        var btcUsd = filteredData.map(item => item.btc_usd);
+
+        // ApexCharts 옵션 설정
+        var options = {
+            chart: {
+                type: 'line',
+                height: 350
+            },
+            series: [
+                {
+                    name: 'Global Liquidity Index',
+                    data: globalLiquidityIndex,
+                    type: 'line'
+                },
+                {
+                    name: 'BTC/USD',
+                    data: btcUsd,
+                    type: 'line'
+                }
+            ],
+            xaxis: {
+                categories: dates,
+                type: 'datetime',
+                labels: {
+                    format: 'yyyy-MM-dd'
+                }
+            },
+            yaxis: [
+                {
+                    seriesName: 'Global Liquidity Index',
+                    title: {
+                        text: 'Global Liquidity Index'
+                    },
+                    labels: {
+                        formatter: function (value) {
+                            return value.toFixed(2);
+                        }
+                    }
+                },
+                {
+                    opposite: true,
+                    seriesName: 'BTC/USD',
+                    title: {
+                        text: 'BTC/USD'
+                    },
+                    labels: {
+                        formatter: function (value) {
+                            return value.toFixed(2);
+                        }
+                    }
+                }
+            ],
+            title: {
+                text: 'BTC/USD vs Global Liquidity Index',
+                align: 'center'
+            }
+        };
+
+        // 차트 렌더링
+        var chart = new ApexCharts(document.querySelector("#chart"), options);
+        chart.render();
+    })
+    .catch(error => console.error('Error fetching the JSON file:', error));
+
+</script>
+
+</body>
+</html>
