@@ -1,56 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
-  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTC와 USD 잔액 차트</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body>
-  <div id="chart"></div>
+    <h1>BTC와 USD 잔액 비교 차트</h1>
+    <div id="chart"></div>
 
-  <script>
-    // JSON 파일을 가져오는 함수
-    async function fetchData() {
-      try {
-        const response = await fetch('b1.json'); // JSON 파일 경로
-        const data = await response.json();
+    <script>
+        // JSON 파일에서 데이터 로드
+        fetch('/mnt/data/b1.json')
+        .then(response => response.json())
+        .then(data => {
+            // 날짜 데이터를 Date 객체로 변환하여 정렬
+            data.sort((a, b) => new Date(a.day) - new Date(b.day));
 
-        // 날짜와 가격을 분리하고 배열을 반전
-        const dates = data.map(item => item.day.split(' ')[0]).reverse();
-        const prices = data.map(item => item.BTC_price).reverse();
+            // 날짜, BTC 잔액, USD 잔액을 배열로 분리
+            let days = data.map(entry => entry.day);
+            let btcBalances = data.map(entry => entry.BTC_Balance);
+            let usdBalances = data.map(entry => entry.USD_Balance);
 
-        // ApexCharts 설정
-        const options = {
-          chart: {
-            type: 'line',
-            height: 350
-          },
-          series: [{
-            name: 'BTC Price',
-            data: prices
-          }],
-          xaxis: {
-            categories: dates,
-            title: {
-              text: 'Date'
-            }
-          },
-          yaxis: {
-            title: {
-              text: 'Price (USD)'
-            }
-          }
-        };
+            var options = {
+                chart: {
+                    type: 'line',
+                    height: 350
+                },
+                series: [{
+                    name: 'BTC 잔액',
+                    type: 'line',
+                    data: btcBalances
+                }, {
+                    name: 'USD 잔액',
+                    type: 'line',
+                    data: usdBalances,
+                    yaxis: 1
+                }],
+                xaxis: {
+                    categories: days
+                },
+                yaxis: [{
+                    title: {
+                        text: 'BTC 잔액'
+                    },
+                    min: Math.min(...btcBalances) - 1000,
+                    max: Math.max(...btcBalances) + 1000
+                }, {
+                    opposite: true,
+                    title: {
+                        text: 'USD 잔액'
+                    },
+                    min: Math.min(...usdBalances) - 1000000000,
+                    max: Math.max(...usdBalances) + 1000000000
+                }],
+                title: {
+                    text: 'BTC와 USD 잔액 비교',
+                    align: 'center'
+                }
+            };
 
-        // 차트 생성
-        const chart = new ApexCharts(document.querySelector("#chart"), options);
-        chart.render();
-
-      } catch (error) {
-        console.error('Error fetching JSON data:', error);
-      }
-    }
-
-    // 데이터 가져오기 함수 호출
-    fetchData();
-  </script>
+            var chart = new ApexCharts(document.querySelector("#chart"), options);
+            chart.render();
+        })
+        .catch(error => console.error('Error:', error));
+    </script>
 </body>
 </html>
