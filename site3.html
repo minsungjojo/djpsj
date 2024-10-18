@@ -42,7 +42,11 @@
                     yaxis: 1
                 }],
                 xaxis: {
-                    categories: days
+                    categories: days,
+                    type: 'datetime', // x축을 날짜 시간으로 처리
+                    labels: {
+                        format: 'yyyy-MM-dd' // x축에 날짜 형식으로 표시
+                    }
                 },
                 yaxis: [{
                     title: {
@@ -65,7 +69,10 @@
                 tooltip: {
                     enabled: true, // 툴팁을 활성화
                     shared: true,  // 두 개의 시리즈를 함께 표시
-                    intersect: false // 교차 시점에서 툴팁을 표시
+                    intersect: false, // 교차 시점에서 툴팁을 표시
+                    x: {
+                        format: 'yyyy-MM-dd' // 툴팁에 표시되는 날짜 형식
+                    }
                 }
             };
 
