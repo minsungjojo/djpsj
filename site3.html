@@ -19,7 +19,7 @@
             data.sort((a, b) => new Date(a.day) - new Date(b.day));
 
             // 날짜, BTC 잔액, USD 잔액을 배열로 분리
-            let days = data.map(entry => entry.day);
+            let days = data.map(entry => entry.day.split(' ')[0]);  // 날짜에서 시간 제거
             let btcBalances = data.map(entry => entry.BTC_Balance);
             let usdBalances = data.map(entry => entry.USD_Balance);
 
@@ -39,7 +39,10 @@
                     yaxis: 1
                 }],
                 xaxis: {
-                    categories: days
+                    categories: days,
+                    title: {
+                        text: '날짜'
+                    }
                 },
                 yaxis: [{
                     title: {
