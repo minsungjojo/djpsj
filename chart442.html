@@ -62,16 +62,15 @@
                 },
                 tooltip: {
                     x: {
-                        // 툴팁에서 표시되는 날짜 형식을 년도/월로 설정
+                        // 툴팁에서 날짜 형식을 yyyy-MM-dd로 설정
                         formatter: function(value) {
                             const date = new Date(value);
-                            return date.getFullYear() + '년 ' + (date.getMonth() + 1) + '월';
+                            const year = date.getFullYear();
+                            const month = ('0' + (date.getMonth() + 1)).slice(-2);  // 두 자리수 월
+                            const day = ('0' + date.getDate()).slice(-2);  // 두 자리수 일
+                            return `${year}-${month}-${day}`;
                         }
                     }
-                },
-                title: {
-                    text: '날짜별 사용자당 볼륨 변화',  // 그래프 제목
-                    align: 'center'  // 제목 정렬
                 }
             };
 
