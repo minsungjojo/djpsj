@@ -7,7 +7,6 @@
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body>
-    <h1>비트코인 일별 가치</h1>
     <div id="chart"></div>
 
     <script>
@@ -41,6 +40,10 @@
                     name: '비트코인 가치',
                     data: seriesData  // 데이터를 차트에 적용
                 }],
+                stroke: {
+                    width: 3,  // 선의 두께 설정
+                    colors: ['#333333']  // 어두운 색상 설정 (검정에 가까운 색)
+                },
                 xaxis: {
                     type: 'datetime',
                     labels: {
@@ -59,10 +62,6 @@
                     x: {
                         format: 'yyyy-MM-dd'  // 툴팁의 날짜 형식을 지정하는 부분
                     }
-                },
-                title: {
-                    text: '2024년 비트코인 일별 가치 변화',
-                    align: 'center'
                 }
             };
 
