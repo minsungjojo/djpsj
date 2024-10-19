@@ -7,7 +7,6 @@
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body>
-    <h1>Binance 출금 금액 차트</h1>
     <div id="chart"></div>
 
     <script>
@@ -52,10 +51,6 @@
                         type: 'area', // area 차트를 설정하여 영역을 채움
                         height: 350
                     },
-                    title: {
-                        text: 'Binance 출금 금액 (일별)',
-                        align: 'center'
-                    },
                     xaxis: {
                         type: 'datetime',
                         labels: {
@@ -81,7 +76,7 @@
                         colors: ['#2a2a2a'] // 영역의 색상 설정 (어두운 색)
                     },
                     stroke: {
-                        curve: 'smooth', // 부드러운 선
+                         // 부드러운 선
                         width: 2, // 선의 두께
                         colors: ['#1a1a1a'] // 선의 색상을 어두운 색으로 설정
                     },
