@@ -45,10 +45,6 @@
                             text: '연 수익률 (%)' // Y축 제목을 '연 수익률 (%)'로 변경
                         }
                     },
-                    title: {
-                        text: '테마별 연 수익률 (%)', // 제목을 '테마별 연 수익률 (%)'로 변경
-                        align: 'center'
-                    },
                     plotOptions: {
                         bar: {
                             distributed: true, // 각 막대에 다른 색을 적용하기 위한 옵션
@@ -58,6 +54,12 @@
                     },
                     legend: {
                         show: false // 범례 숨김
+                    },
+                    dataLabels: {
+                        enabled: false // 막대 위에 숫자 표시를 숨김
+                    },
+                    title: {
+                        text: '' // 제목을 빈 값으로 설정하여 제거
                     }
                 };
 
