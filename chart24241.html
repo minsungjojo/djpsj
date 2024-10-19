@@ -36,7 +36,11 @@
                     type: 'line',
                     height: 350
                 },
-                colors: ['#000000'],  // 차트 선을 검정색으로 설정
+                stroke: {
+                      // 선을 부드러운 곡선으로 설정
+                    width: 3,  // 선의 두께 설정
+                    colors: ['#333333']  // 어두운 색상 설정 (검정에 가까운 색)
+                },
                 series: [{
                     name: '비트코인 가치',
                     data: seriesData  // 데이터를 차트에 적용
