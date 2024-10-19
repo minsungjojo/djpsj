@@ -7,7 +7,6 @@
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body>
-    <h1>내러티브 소셜 시장 점유율</h1>
     <div id="chart"></div>
 
     <script>
@@ -33,8 +32,8 @@
                     };
                 });
 
-                // 밝은 색상 설정
-                const colors = ['#FFD700', '#87CEEB', '#FF69B4', '#32CD32', '#FFA07A', '#BA55D3', '#20B2AA'];
+                // 진한 색상 설정
+                const colors = ['#FF8C00', '#4682B4', '#FF1493', '#228B22', '#FF4500', '#9400D3', '#008080'];
 
                 // ApexCharts 설정
                 const options = {
@@ -72,11 +71,7 @@
                             }
                         }
                     },
-                    colors: colors,  // 밝은 색상 배열 적용
-                    title: {
-                        text: '내러티브 소셜 시장 점유율',
-                        align: 'center'
-                    },
+                    colors: colors,  // 진한 색상 배열 적용
                     tooltip: {
                         enabled: true, // 툴팁을 활성화
                         shared: true,  // 하나의 포인트에 대해 여러 시리즈의 정보를 함께 표시
