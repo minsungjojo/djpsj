@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>비트코인 일별 가치</title>
+    <title></title> <!-- 타이틀 삭제 -->
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body>
-    <h1>비트코인 일별 가치</h1>
-    <div id="chart"></div>
+    <div id="chart"></div> <!-- <h1> 태그 삭제 -->
 
     <script>
         // JSON 파일에서 데이터를 가져오는 함수
@@ -41,6 +40,11 @@
                     name: '비트코인 가치',
                     data: seriesData  // 데이터를 차트에 적용
                 }],
+                stroke: {
+                    // 선을 부드러운 곡선으로 설정
+                    width: 3,  // 선의 두께 설정
+                    colors: ['#333333']  // 어두운 색상 설정 (검정에 가까운 색)
+                },
                 xaxis: {
                     type: 'datetime',
                     labels: {
@@ -59,10 +63,6 @@
                     x: {
                         format: 'yyyy-MM-dd'  // 툴팁의 날짜 형식을 지정하는 부분
                     }
-                },
-                title: {
-                    text: '2024년 비트코인 일별 가치 변화',
-                    align: 'center'
                 }
             };
 
