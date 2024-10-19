@@ -8,7 +8,6 @@
 </head>
 <body>
 
-    <h2>MTD 성과별 내러티브</h2>
     <div id="chart"></div>
 
     <script>
@@ -42,7 +41,7 @@
             var options = {
                 chart: {
                     type: 'bar',
-                    height: 900 // 차트의 높이를 200px로 설정하여 절반으로 줄임
+                    height: 900 // 차트의 높이를 900px로 설정
                 },
                 series: [{
                     name: 'MTD 성과',
@@ -51,11 +50,7 @@
                 xaxis: {
                     categories: categories
                 },
-                colors: ['#008FFB', '#00E396', '#FEB019'],  // 각 막대에 다른 색상 적용
-                title: {
-                    text: '내러티브별 MTD 성과 (%)',
-                    align: 'center'
-                }
+                colors: ['#008FFB', '#00E396', '#FEB019']  // 각 막대에 다른 색상 적용
             }
 
             var chart = new ApexCharts(document.querySelector("#chart"), options);
