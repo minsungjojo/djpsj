@@ -8,7 +8,8 @@
 </head>
 <body>
 
-    <h2>암호화폐 언급 증가율 (퍼센트)</h2>
+    <!-- <h2>암호화폐 언급 증가율 (퍼센트)</h2> --> <!-- 제목을 주석 처리 -->
+
     <div id="chart"></div>
 
     <script>
@@ -42,9 +43,6 @@
                 xaxis: {
                     categories: categories
                 },
-                title: {
-                    text: '암호화폐 언급 증가율 (%)'
-                },
                 yaxis: {
                     title: {
                         text: '언급 증가율 (%)'
@@ -55,6 +53,12 @@
                         formatter: function(val) {
                             return val + "%";  // 툴팁에 % 추가
                         }
+                    }
+                },
+                colors: ['#333333'],  // 어두운 색상 설정 (어두운 회색)
+                plotOptions: {
+                    bar: {
+                        distributed: true // 각각의 바에 색상 적용 가능
                     }
                 }
             };
