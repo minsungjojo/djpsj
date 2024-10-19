@@ -34,16 +34,10 @@
                     type: 'bar',
                     height: 350
                 },
+                colors: ['#333'], // 모든 바를 어두운 회색(#333)으로 설정
                 plotOptions: {
                     bar: {
-                        horizontal: true,
-                        colors: {
-                            ranges: [{
-                                from: 0,
-                                to: 100,
-                                color: '#333' // 어두운 색상 설정
-                            }]
-                        }
+                        horizontal: true
                     }
                 },
                 dataLabels: {
