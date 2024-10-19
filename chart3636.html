@@ -44,8 +44,11 @@
                     });
 
                     // 차트에 사용할 데이터 준비
-                    const dates = Object.keys(monthlyData);
+                    let dates = Object.keys(monthlyData);
                     const amounts = Object.values(monthlyData);
+
+                    // 날짜를 오름차순으로 정렬
+                    dates = dates.sort((a, b) => new Date(a + '-01') - new Date(b + '-01'));
 
                     // ApexCharts 옵션 및 차트 생성
                     var options = {
@@ -57,6 +60,7 @@
                             name: '모금액',
                             data: amounts
                         }],
+                        colors: ['#343a40'], // 어두운 색상 (검정에 가까운 회색)
                         xaxis: {
                             categories: dates,
                             title: {
