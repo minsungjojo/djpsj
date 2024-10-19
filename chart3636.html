@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monthly Raised Amount Chart</title>
+    <title>월별 모금액 차트</title>
     <!-- ApexCharts 라이브러리 포함 -->
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <!-- PapaParse 라이브러리 포함 (CSV 파싱용) -->
@@ -54,13 +54,13 @@
                             height: 350
                         },
                         series: [{
-                            name: 'Amount Raised',
+                            name: '모금액',
                             data: amounts
                         }],
                         xaxis: {
                             categories: dates,
                             title: {
-                                text: 'Month'
+                                text: '월'
                             },
                             tickAmount: Math.floor(dates.length / 3), // X축에 간격을 두고 날짜 레이블 표시
                             labels: {
@@ -70,7 +70,7 @@
                         },
                         yaxis: {
                             title: {
-                                text: 'Amount Raised (USD)'
+                                text: '모금액 (USD)'
                             }
                         },
                         plotOptions: {
@@ -82,10 +82,6 @@
                         },
                         dataLabels: {
                             enabled: false // 숫자(데이터 레이블)를 없앰
-                        },
-                        title: {
-                            text: 'Monthly Raised Amount',
-                            align: 'center'
                         }
                     };
 
