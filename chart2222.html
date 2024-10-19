@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>데이터 시각화</title>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body>
@@ -34,13 +33,17 @@
                         },
                         {
                             name: 'Netflow',
-                            data: netflow
+                            data: netflow,
+                            stroke: {
+                                width: 4 // Netflow의 선을 더 굵게 설정
+                            }
                         },
                         {
                             name: 'Outflow',
                             data: outflow
                         }
                     ],
+                    colors: ['#008FFB', '#FF4560', '#00E396'], // Netflow의 색상을 중간에 두드러지게 설정
                     xaxis: {
                         categories: time, // JSON 파일에서 추출한 날짜
                         labels: {
@@ -55,9 +58,12 @@
                             }
                         }
                     },
-                    title: {
-                        text: 'Inflow, Netflow, Outflow 데이터',
-                        align: 'center'
+                    stroke: {
+                        curve: 'smooth', // 부드러운 선으로 표시
+                        width: [2, 4, 2] // inflow, netflow, outflow의 선 두께 설정 (netflow가 더 굵음)
+                    },
+                    markers: {
+                        size: [0, 6, 0] // netflow에만 마커를 추가
                     }
                 };
 
