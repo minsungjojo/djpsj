@@ -1,89 +1,112 @@
-<script>
-    // CSV 파일을 파싱하고 차트를 생성하는 함수
-    function generateChartFromCSV() {
-        Papa.parse(csvFilePath, {
-            download: true,
-            header: true,
-            complete: function(results) {
-                const data = results.data;
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>월별 모금액 차트</title>
+    <!-- ApexCharts 라이브러리 포함 -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <!-- PapaParse 라이브러리 포함 (CSV 파싱용) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+</head>
+<body>
+    <!-- 차트를 표시할 div -->
+    <div id="chart"></div>
 
-                // 날짜와 모금액만 가져옴
-                const filteredData = data.map(row => {
-                    const parsedDate = new Date(row['Date']); // 날짜 형식 확인
-                    const amount = parseFloat(row['Amount Raised']) || 0;
+    <script>
+        // CSV 파일 경로
+        const csvFilePath = 'raises.csv';
 
-                    // 유효한 날짜인지 확인
-                    if (!isNaN(parsedDate.getTime())) {
-                        return {
-                            Date: parsedDate,
-                            Amount: amount
-                        };
-                    }
-                    return null;
-                }).filter(row => row !== null); // 유효하지 않은 데이터를 제외
+        // CSV 파일을 파싱하고 차트를 생성하는 함수
+        function generateChartFromCSV() {
+            Papa.parse(csvFilePath, {
+                download: true,
+                header: true,
+                complete: function(results) {
+                    const data = results.data;
 
-                // 월별로 데이터를 그룹화하고 모금액을 합산
-                const monthlyData = {};
-                filteredData.forEach(row => {
-                    const monthYear = `${row.Date.getFullYear()}-${('0' + (row.Date.getMonth() + 1)).slice(-2)}`; // YYYY-MM 형식
-                    if (!monthlyData[monthYear]) {
-                        monthlyData[monthYear] = 0;
-                    }
-                    monthlyData[monthYear] += row.Amount;
-                });
+                    // 날짜와 모금액만 가져옴
+                    const filteredData = data.map(row => {
+                        const parsedDate = new Date(row['Date']); // 날짜 형식 확인
+                        const amount = parseFloat(row['Amount Raised']) || 0;
 
-                // 차트에 사용할 데이터 준비
-                let dates = Object.keys(monthlyData);
-                const amounts = Object.values(monthlyData);
+                        // 유효한 날짜인지 확인
+                        if (!isNaN(parsedDate.getTime())) {
+                            return {
+                                Date: parsedDate,
+                                Amount: amount
+                            };
+                        }
+                        return null;
+                    }).filter(row => row !== null); // 유효하지 않은 데이터를 제외
 
-                // 날짜를 오름차순으로 정렬
-                dates = dates.sort((a, b) => new Date(a + '-01') - new Date(b + '-01'));
+                    // 월별로 데이터를 그룹화하고 모금액을 합산
+                    const monthlyData = {};
+                    filteredData.forEach(row => {
+                        const monthYear = `${row.Date.getFullYear()}-${('0' + (row.Date.getMonth() + 1)).slice(-2)}`; // YYYY-MM 형식
+                        if (!monthlyData[monthYear]) {
+                            monthlyData[monthYear] = 0;
+                        }
+                        monthlyData[monthYear] += row.Amount;
+                    });
 
-                // ApexCharts 옵션 및 차트 생성
-                var options = {
-                    chart: {
-                        type: 'bar',
-                        height: 350
-                    },
-                    series: [{
-                        name: '모금액',
-                        data: amounts
-                    }],
-                    colors: ['#343a40'],
-                    xaxis: {
-                        categories: dates,
-                        title: {
-                            text: '월'
+                    // 차트에 사용할 데이터 준비
+                    let dates = Object.keys(monthlyData);
+                    const amounts = Object.values(monthlyData);
+
+                    // 날짜를 오름차순으로 정렬
+                    dates = dates.sort((a, b) => new Date(a + '-01') - new Date(b + '-01'));
+
+                    // ApexCharts 옵션 및 차트 생성
+                    var options = {
+                        chart: {
+                            type: 'bar',
+                            height: 350
                         },
-                        tickAmount: Math.floor(dates.length / 3),
-                        labels: {
-                            rotate: -45,
-                            maxHeight: 100
-                        }
-                    },
-                    yaxis: {
-                        title: {
-                            text: '모금액 (USD)'
-                        }
-                    },
-                    plotOptions: {
-                        bar: {
-                            dataLabels: {
-                                position: 'top'
+                        series: [{
+                            name: '모금액',
+                            data: amounts
+                        }],
+                        colors: ['#343a40'],
+                        xaxis: {
+                            categories: dates,
+                            title: {
+                                text: '월'
+                            },
+                            tickAmount: Math.floor(dates.length / 3),
+                            labels: {
+                                rotate: -45,
+                                maxHeight: 100
                             }
+                        },
+                        yaxis: {
+                            title: {
+                                text: '모금액 (USD)'
+                            }
+                        },
+                        plotOptions: {
+                            bar: {
+                                dataLabels: {
+                                    position: 'top'
+                                }
+                            }
+                        },
+                        dataLabels: {
+                            enabled: false
                         }
-                    },
-                    dataLabels: {
-                        enabled: false
-                    }
-                };
+                    };
 
-                var chart = new ApexCharts(document.querySelector("#chart"), options);
-                chart.render();
-            }
-        });
-    }
+                    var chart = new ApexCharts(document.querySelector("#chart"), options);
+                    chart.render();
+                },
+                error: function(error) {
+                    console.error('CSV 파일을 로드하는 중 오류가 발생했습니다:', error);
+                }
+            });
+        }
 
-    // 차트 생성 함수 호출
-    generateChartFromCSV();
-</script>
+        // 차트 생성 함수 호출
+        generateChartFromCSV();
+    </script>
+</body>
+</html>
