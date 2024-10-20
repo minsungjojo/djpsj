@@ -1,0 +1,2202 @@
+[
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-05-27 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-05-20 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-09-16 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-05-13 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-08-26 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-01-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-09-09 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-04-01 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-04-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-05-06 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-05-06 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-09-30 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-04-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": -707242587.8058145,
+        "issuer": "BlackRock",
+        "time": "2024-04-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-05-27 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-07-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-05-06 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-09-09 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-05-13 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-01-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-03-11 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-04-01 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-06-17 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-08-12 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-07-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-01-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-03-11 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-06-17 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-10-07 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-03-25 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-09-02 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-07-01 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-07-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-07-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-02-26 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-09-23 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-09-30 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-06-10 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-07-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-04-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-02-19 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-03-11 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-06-24 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-03-18 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-08-19 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-08-19 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": 525240198.1784883,
+        "issuer": "BlackRock",
+        "time": "2024-05-13 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": -218195341.68822595,
+        "issuer": "BlackRock",
+        "time": "2024-04-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-06-24 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-09-30 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-01-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-08-26 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-02-19 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-09-30 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-06-03 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-09-02 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-09-16 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-03-25 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-04-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-05-27 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-05-06 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-06-03 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-01-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-05-06 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": 329595416.5385248,
+        "issuer": "BlackRock",
+        "time": "2024-05-27 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-02-12 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-08-05 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-06-03 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-07-01 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-08-05 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-03-18 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-04-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-06-24 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-06-10 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-09-23 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-01-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-05-27 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": 16737002.756615482,
+        "issuer": "BlackRock",
+        "time": "2024-10-07 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-04-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-04-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-04-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-04-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-06-17 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-04-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-05-13 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-05-13 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-09-16 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-07-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-08-26 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-06-17 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-07-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-06-03 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": 1045330442.5510714,
+        "issuer": "BlackRock",
+        "time": "2024-05-20 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-02-19 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-05-27 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": 540804972.2184043,
+        "issuer": "BlackRock",
+        "time": "2024-01-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-10-07 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-01-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-03-18 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-04-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-02-26 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-04-01 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-08-26 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-05-06 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": 658165500.3987837,
+        "issuer": "BlackRock",
+        "time": "2024-02-19 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": -368221682.0704486,
+        "issuer": "BlackRock",
+        "time": "2024-09-02 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-07-01 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-03-04 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-04-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-03-11 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-09-02 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-03-11 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-06-10 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-07-01 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-02-12 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-09-16 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-07-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-10-07 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": 304686622.1828563,
+        "issuer": "BlackRock",
+        "time": "2024-08-19 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-04-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-09-30 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-01-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-02-19 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-07-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-10-07 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-09-30 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-07-01 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-02-26 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-09-09 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-06-24 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-07-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": 1063368638.9135131,
+        "issuer": "BlackRock",
+        "time": "2024-07-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-10-07 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-04-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": 2583554195.684568,
+        "issuer": "BlackRock",
+        "time": "2024-03-11 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-07-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-06-17 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-07-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-07-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-03-25 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-06-10 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-04-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-07-01 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-09-30 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-01-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": -230570686.70223558,
+        "issuer": "BlackRock",
+        "time": "2024-06-24 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": 2193573726.8097367,
+        "issuer": "BlackRock",
+        "time": "2024-02-26 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-06-24 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-03-18 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": -238612789.32218683,
+        "issuer": "BlackRock",
+        "time": "2024-06-10 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-07-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-02-26 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-05-20 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-02-05 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-03-18 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-08-19 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-08-12 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-02-12 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-01-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-02-26 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": 744597884.8283077,
+        "issuer": "BlackRock",
+        "time": "2024-09-23 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-01-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-01-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-03-18 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": -631134187.877199,
+        "issuer": "BlackRock",
+        "time": "2024-03-18 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-10-07 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-04-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-09-09 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-02-26 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-08-12 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-05-27 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-08-26 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-05-06 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-02-12 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-05-20 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-04-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-09-02 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-06-10 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-06-10 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-07-01 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-07-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-04-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-08-12 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-01-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-07-01 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-01-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-05-20 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-04-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": -396893551.6431446,
+        "issuer": "BlackRock",
+        "time": "2024-04-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": 715795777.2882396,
+        "issuer": "BlackRock",
+        "time": "2024-01-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-01-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": 701814450.3456231,
+        "issuer": "BlackRock",
+        "time": "2024-01-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-04-01 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-04-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-10-07 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": 430950104.5865518,
+        "issuer": "BlackRock",
+        "time": "2024-04-01 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-05-20 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-06-24 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": 1782027401.428884,
+        "issuer": "BlackRock",
+        "time": "2024-06-03 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-01-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-03-25 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-04-01 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": 2534937261.1744213,
+        "issuer": "BlackRock",
+        "time": "2024-02-12 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-05-20 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-07-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-08-12 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-02-05 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-01-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-05-20 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-08-19 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-09-09 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-02-12 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-04-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-06-10 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-07-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-01-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-02-05 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-09-09 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-07-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-04-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-03-11 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-02-05 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-03-18 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-04-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": 537134952.9358984,
+        "issuer": "BlackRock",
+        "time": "2024-05-06 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-08-05 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": 622824817.1693207,
+        "issuer": "BlackRock",
+        "time": "2024-03-25 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-05-27 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": 763611442.5047932,
+        "issuer": "BlackRock",
+        "time": "2024-02-05 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-02-12 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-02-05 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-06-03 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-02-12 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-02-26 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-04-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-05-13 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-10-07 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-09-02 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-08-12 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-09-16 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-02-26 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-04-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-09-09 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-04-01 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-09-16 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-09-16 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-07-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-07-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-07-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": 13796527.115733698,
+        "issuer": "BlackRock",
+        "time": "2024-09-09 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-08-05 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-01-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-05-06 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-06-17 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-03-04 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-01-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-09-16 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-02-05 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-03-25 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-08-19 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-09-30 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": -85778553.49940945,
+        "issuer": "BlackRock",
+        "time": "2024-08-05 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-01-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-06-24 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-01-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-09-23 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-02-05 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-08-05 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-08-12 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-08-05 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-09-16 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-08-26 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": 278071911.93241423,
+        "issuer": "BlackRock",
+        "time": "2024-07-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-03-04 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-07-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-01-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-06-03 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-10-07 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-09-30 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-02-05 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-03-25 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-06-03 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-08-19 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-02-12 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-05-06 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-05-13 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-04-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-05-20 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-05-13 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-07-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-06-17 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-03-18 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-02-26 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-08-05 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": 852661811.6843475,
+        "issuer": "BlackRock",
+        "time": "2024-07-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-07-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": 249216169.72577643,
+        "issuer": "BlackRock",
+        "time": "2024-04-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-06-03 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-09-09 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-08-19 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-04-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-01-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-02-05 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-01-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-09-09 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-04-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-06-10 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-07-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-08-05 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-03-25 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-07-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-09-30 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-03-04 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-09-02 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-06-17 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-02-12 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-07-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-05-27 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-08-19 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-07-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-04-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-05-20 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-01-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": 195595749.67320588,
+        "issuer": "BlackRock",
+        "time": "2024-07-01 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-04-01 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-09-23 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-03-11 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-09-23 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-09-23 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-08-12 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-02-05 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-07-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-04-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-03-04 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-07-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-04-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-02-19 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-02-26 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-08-05 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-03-25 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-09-02 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-09-16 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": -447511444.3624072,
+        "issuer": "BlackRock",
+        "time": "2024-01-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-08-26 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-04-01 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-06-03 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-09-02 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-05-13 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-04-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-03-18 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-01-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": 338990689.4823116,
+        "issuer": "BlackRock",
+        "time": "2024-09-30 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-07-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-01-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-05-20 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-07-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-03-25 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-07-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-01-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-04-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-04-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-06-24 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-07-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-01-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-09-23 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-08-26 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-08-12 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-02-19 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-04-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-08-19 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-01-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-06-03 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-03-11 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-01-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-07-01 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-06-24 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-05-13 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-03-04 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-04-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-03-04 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-05-27 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-06-10 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-08-19 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-05-27 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": 119133300.17045495,
+        "issuer": "BlackRock",
+        "time": "2024-08-26 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": -63906555.24548377,
+        "issuer": "BlackRock",
+        "time": "2024-08-12 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-06-10 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": 899044692.5536063,
+        "issuer": "BlackRock",
+        "time": "2024-07-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-02-12 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-01-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-06-17 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-02-19 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-07-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-03-18 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-08-12 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-02-19 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": -241905492.59942132,
+        "issuer": "BlackRock",
+        "time": "2024-06-17 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-01-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-09-09 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Bitwise",
+        "time": "2024-08-26 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": 551703416.3843076,
+        "issuer": "BlackRock",
+        "time": "2024-09-16 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-09-02 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-02-19 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-09-23 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-06-24 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-01-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-07-15 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-05-06 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-09-23 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-01-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-04-01 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-09-23 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-08-26 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-05-13 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-08-05 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-09-02 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-03-04 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-04-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-03-25 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": 1905366844.148768,
+        "issuer": "BlackRock",
+        "time": "2024-03-04 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-04-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-07-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Fidelity",
+        "time": "2024-03-04 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-07-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-04-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-01-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-10-07 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Franklin Templeton",
+        "time": "2024-07-01 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-06-17 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-04-01 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "VanEck",
+        "time": "2024-04-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale Mini",
+        "time": "2024-03-04 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-01-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-07-08 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-01-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Invesco",
+        "time": "2024-07-29 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "21Shares",
+        "time": "2024-01-22 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "WisdomTree",
+        "time": "2024-03-11 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Grayscale",
+        "time": "2024-03-11 00:00:00.000 UTC"
+    },
+    {
+        "amount_usd_net_flow": null,
+        "issuer": "Valkyrie",
+        "time": "2024-02-19 00:00:00.000 UTC"
+    }
+]
