@@ -1,0 +1,126 @@
+[
+    {
+        "mtd_perf": 0.05875370209274438,
+        "narrative": "Memes"
+    },
+    {
+        "mtd_perf": 0.027475002658210502,
+        "narrative": "Gamble-Fi"
+    },
+    {
+        "mtd_perf": 0.017215747409451435,
+        "narrative": "NFTs"
+    },
+    {
+        "mtd_perf": -0.013971295616831851,
+        "narrative": "Appchain"
+    },
+    {
+        "mtd_perf": -0.017878425946132998,
+        "narrative": "BTC"
+    },
+    {
+        "mtd_perf": -0.02385357304116339,
+        "narrative": "CEX"
+    },
+    {
+        "mtd_perf": -0.023853573041163395,
+        "narrative": "L1s"
+    },
+    {
+        "mtd_perf": -0.025124135028688845,
+        "narrative": "FriendTech"
+    },
+    {
+        "mtd_perf": -0.03703417193681843,
+        "narrative": "Identity"
+    },
+    {
+        "mtd_perf": -0.037205279436057594,
+        "narrative": "Bitcoin Narrative"
+    },
+    {
+        "mtd_perf": -0.05261782758150995,
+        "narrative": "AI"
+    },
+    {
+        "mtd_perf": -0.054939131644063735,
+        "narrative": "RWA"
+    },
+    {
+        "mtd_perf": -0.05617294375655659,
+        "narrative": "Privacy"
+    },
+    {
+        "mtd_perf": -0.06890892196587246,
+        "narrative": "LSD L2"
+    },
+    {
+        "mtd_perf": -0.0708179166952516,
+        "narrative": "Money Markets"
+    },
+    {
+        "mtd_perf": -0.07525168269711142,
+        "narrative": "DeFi 1.0"
+    },
+    {
+        "mtd_perf": -0.07674621088132813,
+        "narrative": "Oracles"
+    },
+    {
+        "mtd_perf": -0.07922637813855973,
+        "narrative": "L2s"
+    },
+    {
+        "mtd_perf": -0.08297849469910269,
+        "narrative": "DEX"
+    },
+    {
+        "mtd_perf": -0.08313632541014437,
+        "narrative": "Derivatives"
+    },
+    {
+        "mtd_perf": -0.08950779163422143,
+        "narrative": "Game-Fi"
+    },
+    {
+        "mtd_perf": -0.10066134757646283,
+        "narrative": "DePIN"
+    },
+    {
+        "mtd_perf": -0.1101406918021952,
+        "narrative": "DeFi 2.0"
+    },
+    {
+        "mtd_perf": -0.12632612693744447,
+        "narrative": "Ordinals"
+    },
+    {
+        "mtd_perf": -0.12851180395708842,
+        "narrative": "Real Yield"
+    },
+    {
+        "mtd_perf": -0.13103837863806803,
+        "narrative": "LSD L1"
+    },
+    {
+        "mtd_perf": -0.13572009542158808,
+        "narrative": "Account Abstractions"
+    },
+    {
+        "mtd_perf": -0.14377141926483866,
+        "narrative": "LRT"
+    },
+    {
+        "mtd_perf": -0.14555767574793044,
+        "narrative": "Wallets"
+    },
+    {
+        "mtd_perf": -0.1475185739659676,
+        "narrative": "Options"
+    },
+    {
+        "mtd_perf": -0.2744511637980791,
+        "narrative": "DeSCI"
+    }
+]
