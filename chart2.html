@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>비트코인 차트</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+    <div id="chart"></div>
+
+    <script>
+        // b2.json 파일에서 데이터를 가져오는 함수
+        async function fetchData() {
+            const response = await fetch('b2.json');  // b2.json 파일을 현재 위치에 두고 사용
+            const data = await response.json();
+
+            // 데이터를 날짜 순으로 정렬
+            data.sort((a, b) => new Date(a.date) - new Date(b.date));
+
+            // btc_usd와 global_liquidity_index 데이터를 차트 형식에 맞게 변환
+            const btcData = data.map(item => ({
+                x: new Date(item.date),
+                y: item.btc_usd
+            }));
+
+            const liquidityData = data.map(item => ({
+                x: new Date(item.date),
+                y: item.global_liquidity_index
+            }));
+
+            // ApexCharts 설정
+            var options = {
+                chart: {
+                    type: 'line',
+                    height: 350
+                },
+                stroke: {
+                    width: 1 // 선의 두께를 1로 설정
+                },
+                series: [{
+                    name: 'BTC/USD 가격',
+                    data: btcData
+                },
+                {
+                    name: '글로벌 유동성 지수',
+                    data: liquidityData
+                }],
+                xaxis: {
+                    type: 'datetime',
+                    title: {
+                        text: '날짜'  // x축 제목 유지
+                    }
+                },
+                yaxis: [{
+                    title: {
+                        text: 'BTC/USD 가격'  // y축 제목 유지 (BTC/USD 가격)
+                    }
+                }, {
+                    opposite: true,
+                    title: {
+                        text: '글로벌 유동성 지수'  // y축 제목 유지 (글로벌 유동성 지수)
+                    }
+                }],
+                tooltip: {
+                    x: {
+                        formatter: function(val) {
+                            // 툴팁에 날짜를 yyyy-MM-dd 형식으로 변환
+                            let date = new Date(val);
+                            let year = date.getFullYear();
+                            let month = ('0' + (date.getMonth() + 1)).slice(-2); // 월을 2자리로
+                            let day = ('0' + date.getDate()).slice(-2); // 일을 2자리로
+                            return `${year}-${month}-${day}`;
+                        }
+                    }
+                }
+            };
+
+            // 차트 렌더링
+            var chart = new ApexCharts(document.querySelector("#chart"), options);
+            chart.render();
+        }
+
+        // 페이지 로드 시 데이터를 가져오고 차트를 생성
+        fetchData();
+    </script>
+</body>
+</html>
