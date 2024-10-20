@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApexCharts 예제 - 날짜 한국어 표시 (년도/월만)</title>
+    <!-- ApexCharts 라이브러리 추가 -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <!-- jQuery 라이브러리 추가 (AJAX 요청에 사용) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <!-- 차트가 표시될 영역 -->
+    <div id="chart"></div>
+
+    <!-- 차트를 렌더링하는 스크립트 -->
+    <script>
+        // JSON 파일 경로
+        const jsonFilePath = 'b6.json';
+
+        // JSON 데이터를 비동기로 불러와서 차트를 생성하는 함수
+        $.getJSON(jsonFilePath, function(data) {
+            // JSON 데이터를 날짜순으로 정렬
+            let sortedData = data.sort((a, b) => new Date(a.day) - new Date(b.day));
+
+            // JSON 데이터를 차트 형식에 맞게 변환
+            let chartData = sortedData.map(item => {
+                return { x: new Date(item.day).getTime(), y: item.Volume_per_users };
+            });
+
+            // 차트 옵션 설정
+            var options = {
+                chart: {
+                    type: 'line',  // 차트 유형: 선형 그래프
+                    height: 350
+                },
+                series: [{
+                    name: '사용자당 볼륨',  // 데이터 시리즈 이름
+                    data: chartData  // JSON에서 불러온 데이터 사용
+                }],
+                stroke: {
+                    width: 1,  // 선 굵기: 1
+                    colors: ['#333333']  // 선 색상: 어두운 회색 (#333333)
+                },
+                xaxis: {
+                    type: 'datetime',  // X축 유형: 날짜 시간
+                    labels: {
+                        // X축의 날짜 라벨 형식을 한국어로 설정 (년도/월)
+                        formatter: function(value) {
+                            const date = new Date(value);
+                            return date.getFullYear() + '년 ' + (date.getMonth() + 1) + '월';
+                        }
+                    },
+                    title: {
+                        text: '날짜'  // X축 제목
+                    }
+                },
+                yaxis: {
+                    title: {
+                        text: '사용자당 볼륨'  // Y축 제목
+                    }
+                },
+                tooltip: {
+                    x: {
+                        // 툴팁에서 날짜 형식을 yyyy-MM-dd로 설정
+                        formatter: function(value) {
+                            const date = new Date(value);
+                            const year = date.getFullYear();
+                            const month = ('0' + (date.getMonth() + 1)).slice(-2);  // 두 자리수 월
+                            const day = ('0' + date.getDate()).slice(-2);  // 두 자리수 일
+                            return `${year}-${month}-${day}`;
+                        }
+                    }
+                }
+            };
+
+            // 차트를 렌더링합니다.
+            var chart = new ApexCharts(document.querySelector("#chart"), options);
+            chart.render();
+        });
+    </script>
+</body>
+</html>
