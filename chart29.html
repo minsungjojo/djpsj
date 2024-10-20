@@ -7,7 +7,6 @@
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body>
-    <h1>거래소별 BTC 보유량</h1>
     <div id="chart"></div>
 
     <script>
@@ -15,18 +14,25 @@
         fetch('b29.json') // JSON 파일 경로를 설정하세요.
             .then(response => response.json())
             .then(data => {
+                // 현재 날짜에서 3개월 전의 날짜를 계산
+                const threeMonthsAgo = new Date();
+                threeMonthsAgo.setMonth(threeMonthsAgo.getMonth() - 3);
+
+                // 3개월 이내의 데이터만 필터링
+                const filteredData = data.filter(item => new Date(item.day) >= threeMonthsAgo);
+
                 // 날짜별로 정렬된 카테고리 생성
-                const categories = [...new Set(data.map(item => item.day))].sort((a, b) => new Date(a) - new Date(b));
+                const categories = [...new Set(filteredData.map(item => item.day))].sort((a, b) => new Date(a) - new Date(b));
 
                 // 거래소 목록 생성
-                const exchanges = [...new Set(data.map(item => item.exchange))];
+                const exchanges = [...new Set(filteredData.map(item => item.exchange))];
 
                 // 거래소별로 데이터 그룹화
                 const series = exchanges.map(exchange => {
                     return {
                         name: exchange,
                         data: categories.map(day => {
-                            const entry = data.find(item => item.day === day && item.exchange === exchange);
+                            const entry = filteredData.find(item => item.day === day && item.exchange === exchange);
                             return entry ? entry.value : 0;
                         })
                     };
@@ -63,10 +69,6 @@
                         }
                     },
                     colors: ['#FFD700', '#87CEEB', '#FF69B4', '#32CD32', '#FFA07A', '#BA55D3', '#20B2AA', '#F08080', '#FF4500', '#6A5ACD'],
-                    title: {
-                        text: '거래소별 BTC 보유량 - 스택형 막대 차트',
-                        align: 'center'
-                    },
                     tooltip: {
                         enabled: true, // 툴팁을 활성화
                         shared: true,  // 하나의 포인트에 대해 여러 시리즈의 정보를 함께 표시
