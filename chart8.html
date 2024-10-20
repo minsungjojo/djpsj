@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>테마별 연 수익률 차트</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+    <div id="chart" style="max-width: 800px; margin: 35px auto;"></div>
+    
+    <script>
+        // b99.json 파일에서 데이터를 가져와서 차트 생성
+        fetch('b8.json')
+            .then(response => response.json())
+            .then(chartData => {
+                // 데이터를 받아온 후 연 수익률(%)로 변환
+                const categories = chartData.map(data => data.narrative);
+                const seriesData = chartData.map(data => (data.ytd_perf * 100).toFixed(2)); // 퍼센트로 변환하고 소수점 2자리로 고정
+
+                // 차트 옵션 설정
+                const options = {
+                    chart: {
+                        type: 'bar',
+                        height: 600 // 차트의 세로 길이 증가
+                    },
+                    series: [{
+                        name: '연 수익률 (%)',
+                        data: seriesData
+                    }],
+                    colors: ['#008FFB', '#00E396', '#FEB019', '#FF4560', '#775DD0', '#546E7A', '#26A69A', '#D10CE8'], // 각 막대의 색상
+                    xaxis: {
+                        categories: categories,
+                        title: {
+                            text: '테마' // X축 제목을 '테마'로 변경
+                        }
+                    },
+                    yaxis: {
+                        labels: {
+                            formatter: function (value) {
+                                return value + "%"; // y축 라벨에 퍼센트 표시 추가
+                            }
+                        },
+                        title: {
+                            text: '연 수익률 (%)' // Y축 제목을 '연 수익률 (%)'로 변경
+                        }
+                    },
+                    plotOptions: {
+                        bar: {
+                            distributed: true, // 각 막대에 다른 색을 적용하기 위한 옵션
+                            borderRadius: 4,
+                            horizontal: false
+                        }
+                    },
+                    legend: {
+                        show: false // 범례 숨김
+                    },
+                    dataLabels: {
+                        enabled: false // 막대 위에 숫자 표시를 숨김
+                    },
+                    title: {
+                        text: '' // 제목을 빈 값으로 설정하여 제거
+                    }
+                };
+
+                // 차트 생성
+                const chart = new ApexCharts(document.querySelector("#chart"), options);
+                chart.render();
+            })
+            .catch(error => {
+                console.error('데이터를 불러오는 중 오류가 발생했습니다:', error);
+            });
+    </script>
+</body>
+</html>
