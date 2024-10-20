@@ -1,0 +1,506 @@
+[
+    {
+        "block_subsidy": 28743.75,
+        "dt": "2023-12-01 00:00:00.000 UTC",
+        "ordinal_fees": 2106.2709266500187,
+        "txn_fees": 5807.440789629987
+    },
+    {
+        "block_subsidy": 27737.5,
+        "dt": "2023-11-01 00:00:00.000 UTC",
+        "ordinal_fees": 1059.0663394200155,
+        "txn_fees": 2815.4168930699866
+    },
+    {
+        "block_subsidy": 29193.75,
+        "dt": "2023-10-01 00:00:00.000 UTC",
+        "ordinal_fees": 27.334810250000743,
+        "txn_fees": 677.6795821999991
+    },
+    {
+        "block_subsidy": 27662.5,
+        "dt": "2023-09-01 00:00:00.000 UTC",
+        "ordinal_fees": 169.56140847999998,
+        "txn_fees": 832.88595517
+    },
+    {
+        "block_subsidy": 28256.25,
+        "dt": "2023-08-01 00:00:00.000 UTC",
+        "ordinal_fees": 75.33259191000013,
+        "txn_fees": 538.461239979999
+    },
+    {
+        "block_subsidy": 28131.25,
+        "dt": "2023-07-01 00:00:00.000 UTC",
+        "ordinal_fees": 73.73670205000161,
+        "txn_fees": 564.9755513199973
+    },
+    {
+        "block_subsidy": 26956.25,
+        "dt": "2023-06-01 00:00:00.000 UTC",
+        "ordinal_fees": 180.23004131000175,
+        "txn_fees": 1216.0674961699992
+    },
+    {
+        "block_subsidy": 28825,
+        "dt": "2023-05-01 00:00:00.000 UTC",
+        "ordinal_fees": 1390.8918749400063,
+        "txn_fees": 3147.1268162699907
+    },
+    {
+        "block_subsidy": 26931.25,
+        "dt": "2023-04-01 00:00:00.000 UTC",
+        "ordinal_fees": 77.01009079999882,
+        "txn_fees": 735.54413967
+    },
+    {
+        "block_subsidy": 29212.5,
+        "dt": "2023-03-01 00:00:00.000 UTC",
+        "ordinal_fees": 91.29218966999994,
+        "txn_fees": 842.2819434599993
+    },
+    {
+        "block_subsidy": 26306.25,
+        "dt": "2023-02-01 00:00:00.000 UTC",
+        "ordinal_fees": 58.92269562000002,
+        "txn_fees": 541.9592877599988
+    },
+    {
+        "block_subsidy": 29537.5,
+        "dt": "2023-01-01 00:00:00.000 UTC",
+        "ordinal_fees": 0.15721117999999992,
+        "txn_fees": 401.9213287900007
+    },
+    {
+        "block_subsidy": 27581.25,
+        "dt": "2022-12-01 00:00:00.000 UTC",
+        "ordinal_fees": 8.019e-05,
+        "txn_fees": 551.3086322700009
+    },
+    {
+        "block_subsidy": 26137.5,
+        "dt": "2022-11-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 711.8009686500019
+    },
+    {
+        "block_subsidy": 29643.75,
+        "dt": "2022-10-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 378.6091546499994
+    },
+    {
+        "block_subsidy": 27331.25,
+        "dt": "2022-09-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 437.71211857000003
+    },
+    {
+        "block_subsidy": 29043.75,
+        "dt": "2022-08-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 409.7007040500012
+    },
+    {
+        "block_subsidy": 27131.25,
+        "dt": "2022-07-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 561.1823068300006
+    },
+    {
+        "block_subsidy": 26862.5,
+        "dt": "2022-06-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 481.4256208400002
+    },
+    {
+        "block_subsidy": 27968.75,
+        "dt": "2022-05-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 517.7009734599997
+    },
+    {
+        "block_subsidy": 27612.5,
+        "dt": "2022-04-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 312.2041936699992
+    },
+    {
+        "block_subsidy": 28387.5,
+        "dt": "2022-03-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 361.06953702999976
+    },
+    {
+        "block_subsidy": 25606.25,
+        "dt": "2022-02-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 314.1894648399998
+    },
+    {
+        "block_subsidy": 29118.75,
+        "dt": "2022-01-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 337.8222683899987
+    },
+    {
+        "block_subsidy": 28675,
+        "dt": "2021-12-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 396.37347461999906
+    },
+    {
+        "block_subsidy": 27356.25,
+        "dt": "2021-11-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 404.5182502399992
+    },
+    {
+        "block_subsidy": 29262.5,
+        "dt": "2021-10-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 473.9555075599997
+    },
+    {
+        "block_subsidy": 28000,
+        "dt": "2021-09-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 417.3989429599985
+    },
+    {
+        "block_subsidy": 30275,
+        "dt": "2021-08-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 408.6197071399995
+    },
+    {
+        "block_subsidy": 27318.75,
+        "dt": "2021-07-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 812.8401363999974
+    },
+    {
+        "block_subsidy": 22112.5,
+        "dt": "2021-06-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 1176.8013997199967
+    },
+    {
+        "block_subsidy": 27643.75,
+        "dt": "2021-05-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 2626.8946036800044
+    },
+    {
+        "block_subsidy": 25456.25,
+        "dt": "2021-04-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 4378.407557340012
+    },
+    {
+        "block_subsidy": 28718.75,
+        "dt": "2021-03-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 3049.381142329999
+    },
+    {
+        "block_subsidy": 25500,
+        "dt": "2021-02-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 4009.1871323299947
+    },
+    {
+        "block_subsidy": 28968.75,
+        "dt": "2021-01-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 3307.556288209992
+    },
+    {
+        "block_subsidy": 28212.5,
+        "dt": "2020-12-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 3056.081705909998
+    },
+    {
+        "block_subsidy": 27912.5,
+        "dt": "2020-11-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 3442.4782355500024
+    },
+    {
+        "block_subsidy": 26256.25,
+        "dt": "2020-10-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 3482.1934666299953
+    },
+    {
+        "block_subsidy": 28318.75,
+        "dt": "2020-09-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 2472.936323789999
+    },
+    {
+        "block_subsidy": 28256.25,
+        "dt": "2020-08-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 3373.0961369399997
+    },
+    {
+        "block_subsidy": 28681.25,
+        "dt": "2020-07-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 2545.6654894699964
+    },
+    {
+        "block_subsidy": 28431.25,
+        "dt": "2020-06-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 1257.4682758199997
+    },
+    {
+        "block_subsidy": 36512.5,
+        "dt": "2020-05-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 3252.3989296399964
+    },
+    {
+        "block_subsidy": 56412.49999932,
+        "dt": "2020-04-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 814.108594170002
+    },
+    {
+        "block_subsidy": 53187.49999927,
+        "dt": "2020-03-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 1250.6654035899985
+    },
+    {
+        "block_subsidy": 51925,
+        "dt": "2020-02-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 744.1388902000032
+    },
+    {
+        "block_subsidy": 59212.5,
+        "dt": "2020-01-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 618.5512651900013
+    },
+    {
+        "block_subsidy": 57537.5,
+        "dt": "2019-12-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 633.329188360003
+    },
+    {
+        "block_subsidy": 53075,
+        "dt": "2019-11-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 951.4261922499995
+    },
+    {
+        "block_subsidy": 56550,
+        "dt": "2019-10-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 894.4741301700014
+    },
+    {
+        "block_subsidy": 57937.5,
+        "dt": "2019-09-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 924.9627356899989
+    },
+    {
+        "block_subsidy": 58450,
+        "dt": "2019-08-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 1338.4825960000012
+    },
+    {
+        "block_subsidy": 59625,
+        "dt": "2019-07-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 1945.0529307100016
+    },
+    {
+        "block_subsidy": 56487.5,
+        "dt": "2019-06-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 3706.1684452200016
+    },
+    {
+        "block_subsidy": 59012.5,
+        "dt": "2019-05-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 4337.198312439986
+    },
+    {
+        "block_subsidy": 54225,
+        "dt": "2019-04-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 2684.631553239984
+    },
+    {
+        "block_subsidy": 56875,
+        "dt": "2019-03-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 988.0474308800017
+    },
+    {
+        "block_subsidy": 51562.49999925,
+        "dt": "2019-02-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 749.3103691099988
+    },
+    {
+        "block_subsidy": 56562.49999921,
+        "dt": "2019-01-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 634.6270917000026
+    },
+    {
+        "block_subsidy": 54687.49999924,
+        "dt": "2018-12-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 699.4590391700021
+    },
+    {
+        "block_subsidy": 48374.99999706,
+        "dt": "2018-11-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 871.721504949997
+    },
+    {
+        "block_subsidy": 54737.499998499996,
+        "dt": "2018-10-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 545.354407510001
+    },
+    {
+        "block_subsidy": 55237.49999088,
+        "dt": "2018-09-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 618.85673826
+    },
+    {
+        "block_subsidy": 60037.49998273,
+        "dt": "2018-08-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 694.2508477100026
+    },
+    {
+        "block_subsidy": 58074.99971944001,
+        "dt": "2018-07-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 669.3124670599977
+    },
+    {
+        "block_subsidy": 57493.74999029,
+        "dt": "2018-06-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 1043.1605924899977
+    },
+    {
+        "block_subsidy": 58962.49999856,
+        "dt": "2018-05-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 1009.5467843399969
+    },
+    {
+        "block_subsidy": 57625,
+        "dt": "2018-04-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 992.1775142199988
+    },
+    {
+        "block_subsidy": 58187.49999856,
+        "dt": "2018-03-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 1017.5918951299963
+    },
+    {
+        "block_subsidy": 54612.49999851,
+        "dt": "2018-02-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 2494.118564499997
+    },
+    {
+        "block_subsidy": 63187.49999925,
+        "dt": "2018-01-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 15049.273564319956
+    },
+    {
+        "block_subsidy": 62849.999999210006,
+        "dt": "2017-12-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 19119.572891279906
+    },
+    {
+        "block_subsidy": 54674.99999928,
+        "dt": "2017-11-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 9964.339083910008
+    },
+    {
+        "block_subsidy": 60225,
+        "dt": "2017-10-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 5456.648732249997
+    },
+    {
+        "block_subsidy": 60687.5,
+        "dt": "2017-09-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 5263.209248870001
+    },
+    {
+        "block_subsidy": 55074.999999240004,
+        "dt": "2017-08-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 8450.02564604999
+    },
+    {
+        "block_subsidy": 61075,
+        "dt": "2017-07-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 6441.598130559978
+    },
+    {
+        "block_subsidy": 55887.5,
+        "dt": "2017-06-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 12536.83760024998
+    },
+    {
+        "block_subsidy": 60649.99999999999,
+        "dt": "2017-05-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 11665.453364610044
+    },
+    {
+        "block_subsidy": 55475,
+        "dt": "2017-04-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 6372.379689740001
+    },
+    {
+        "block_subsidy": 57900,
+        "dt": "2017-03-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 7096.759087069997
+    },
+    {
+        "block_subsidy": 53187.5,
+        "dt": "2017-02-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 4501.424931779969
+    },
+    {
+        "block_subsidy": 61400.00000000001,
+        "dt": "2017-01-01 00:00:00.000 UTC",
+        "ordinal_fees": 0,
+        "txn_fees": 3502.4376765099655
+    }
+]
