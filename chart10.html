@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>분기 성과 차트</title>
+    <!-- ApexCharts 라이브러리 불러오기 -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+    <!-- 차트를 표시할 요소 -->
+    <div id="chart"></div>
+
+    <script>
+        // JSON 파일에서 데이터 로드
+        fetch('b10.json')
+            .then(response => response.json())
+            .then(data => {
+                // JSON 데이터를 quarter_perf 값에 따라 내림차순으로 정렬
+                const sortedData = data.sort((a, b) => b.quarter_perf - a.quarter_perf);
+
+                // 정렬된 데이터를 시리즈 데이터로 변환
+                const seriesData = sortedData.map(item => {
+                    return {
+                        x: item.narrative,
+                        y: (item.quarter_perf * 100).toFixed(1) // 100을 곱하고 소수점 한 자리까지만 표현
+                    };
+                });
+
+                // 차트에 사용할 데이터 설정
+                var options = {
+                    series: [{
+                        name: '분기 성과',
+                        data: seriesData
+                    }],
+                    chart: {
+                        type: 'bar', // 바 차트 형식
+                        height: 350
+                    },
+                    plotOptions: {
+                        bar: {
+                            horizontal: true, // 수평형 바 차트
+                        }
+                    },
+                    dataLabels: {
+                        enabled: true, // 데이터 레이블 표시
+                        formatter: function (val) {
+                            return val + '%'; // 퍼센트 형식으로 표시
+                        }
+                    },
+                    xaxis: {
+                        categories: seriesData.map(item => item.x), // 카테고리 설정
+                        title: {
+                            text: '분기 성과 (%)'
+                        }
+                    },
+                    yaxis: {
+                        title: {
+                            text: '내러티브' // Y축 제목
+                        }
+                    }
+                };
+
+                // ApexCharts 차트를 생성하여 HTML 요소에 렌더링
+                var chart = new ApexCharts(document.querySelector("#chart"), options);
+                chart.render();
+            })
+            .catch(error => console.error('데이터 로드 실패:', error));
+    </script>
+</body>
+</html>

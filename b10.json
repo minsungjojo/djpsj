@@ -1,0 +1,50 @@
+[
+    {
+        "narrative": "L1s",
+        "quarter_perf": 0.06789951862844684
+    },
+    {
+        "narrative": "CEX",
+        "quarter_perf": 0.02435527538685763
+    },
+    {
+        "narrative": "RWA",
+        "quarter_perf": 0.015299343496856077
+    },
+    {
+        "narrative": "Memes",
+        "quarter_perf": 0.008288065718307897
+    },
+    {
+        "narrative": "AI",
+        "quarter_perf": -0.0006694261029768454
+    },
+    {
+        "narrative": "DeFi 1.0",
+        "quarter_perf": -0.016391884968663523
+    },
+    {
+        "narrative": "Privacy",
+        "quarter_perf": -0.03486522250637466
+    },
+    {
+        "narrative": "Oracles",
+        "quarter_perf": -0.03994087334675174
+    },
+    {
+        "narrative": "Game-Fi",
+        "quarter_perf": -0.10305693336561252
+    },
+    {
+        "narrative": "DeFi 2.0",
+        "quarter_perf": -0.17572872119774385
+    },
+    {
+        "narrative": "L2s",
+        "quarter_perf": -0.1843671367831958
+    },
+    {
+        "narrative": "Real Yield",
+        "quarter_perf": -0.24903789750211344
+    }
+]
