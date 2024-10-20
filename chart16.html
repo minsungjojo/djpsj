@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>암호화폐 언급 증가율 (퍼센트)</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+
+    <!-- <h2>암호화폐 언급 증가율 (퍼센트)</h2> --> <!-- 제목을 주석 처리 -->
+
+    <div id="chart"></div>
+
+    <script>
+        // JSON 파일에서 데이터를 로드하는 함수
+        async function fetchData() {
+            const response = await fetch('b16.json');  // b1818.json 파일 로드
+            const data = await response.json();
+            return data;
+        }
+
+        // 데이터를 가져와서 차트를 그리는 함수
+        fetchData().then(function(data) {
+            // mention_growth 값을 100 곱하고 소수점 1자리로 변환한 배열 생성
+            var mentionGrowthData = data.map(function(item) {
+                return (item.mention_growth * 100).toFixed(1);  // 100을 곱하고 소수점 1자리까지 반올림
+            }).reverse();  // 데이터 순서 뒤집기
+
+            // 암호화폐 심볼 배열 생성
+            var categories = data.map(function(item) {
+                return item.symbol;
+            }).reverse();  // 카테고리 순서 뒤집기
+
+            var options = {
+                chart: {
+                    type: 'bar'
+                },
+                series: [{
+                    name: '언급 증가율 (%)',
+                    data: mentionGrowthData
+                }],
+                xaxis: {
+                    categories: categories
+                },
+                yaxis: {
+                    title: {
+                        text: '언급 증가율 (%)'
+                    }
+                },
+                tooltip: {
+                    y: {
+                        formatter: function(val) {
+                            return val + "%";  // 툴팁에 % 추가
+                        }
+                    }
+                },
+                colors: ['#333333'],  // 어두운 색상 설정 (어두운 회색)
+                plotOptions: {
+                    bar: {
+                        distributed: true // 각각의 바에 색상 적용 가능
+                    }
+                }
+            };
+
+            var chart = new ApexCharts(document.querySelector("#chart"), options);
+            chart.render();
+        }).catch(function(error) {
+            console.error('JSON 파일을 로드하는 중 오류 발생:', error);
+        });
+    </script>
+
+</body>
+</html>

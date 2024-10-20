@@ -1,0 +1,86 @@
+[
+    {
+        "mention_growth": 0.6428571428571429,
+        "symbol": "$NEAR"
+    },
+    {
+        "mention_growth": 0.5263157894736842,
+        "symbol": "KAVA"
+    },
+    {
+        "mention_growth": 0.14136125654450263,
+        "symbol": "ETC"
+    },
+    {
+        "mention_growth": 0.0040650406504065045,
+        "symbol": "RUNE"
+    },
+    {
+        "mention_growth": -0.16570305272895466,
+        "symbol": "ADA"
+    },
+    {
+        "mention_growth": -0.1885897614730088,
+        "symbol": "SEI"
+    },
+    {
+        "mention_growth": -0.2226267529665588,
+        "symbol": "BTC"
+    },
+    {
+        "mention_growth": -0.23076923076923078,
+        "symbol": "FTM"
+    },
+    {
+        "mention_growth": -0.24785276073619633,
+        "symbol": "XRP"
+    },
+    {
+        "mention_growth": -0.249153456270894,
+        "symbol": "SOL"
+    },
+    {
+        "mention_growth": -0.25876870247731176,
+        "symbol": "SUI"
+    },
+    {
+        "mention_growth": -0.27159904534606205,
+        "symbol": "GNO"
+    },
+    {
+        "mention_growth": -0.28768699654775604,
+        "symbol": "BNB"
+    },
+    {
+        "mention_growth": -0.2923408845738943,
+        "symbol": "CELO"
+    },
+    {
+        "mention_growth": -0.29364282002425085,
+        "symbol": "ETH"
+    },
+    {
+        "mention_growth": -0.33067729083665337,
+        "symbol": "EOS"
+    },
+    {
+        "mention_growth": -0.35693215339233036,
+        "symbol": "TRX"
+    },
+    {
+        "mention_growth": -0.421875,
+        "symbol": "ICP"
+    },
+    {
+        "mention_growth": -0.42857142857142855,
+        "symbol": "KUJI"
+    },
+    {
+        "mention_growth": -0.48291361173095315,
+        "symbol": "APT"
+    },
+    {
+        "mention_growth": -0.6086956521739131,
+        "symbol": "AVAX"
+    }
+]
