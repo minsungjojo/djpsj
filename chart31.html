@@ -54,8 +54,18 @@
                     let dates = Object.keys(monthlyData);
                     const amounts = Object.values(monthlyData);
 
-                    // 날짜를 오름차순으로 정렬
-                    dates = dates.sort((a, b) => new Date(a + '-01') - new Date(b + '-01'));
+                    // 날짜와 모금액을 함께 묶어서 정렬
+                    const dateAmountPairs = dates.map((date, index) => ({
+                        date,
+                        amount: amounts[index]
+                    }));
+
+                    // 날짜에 따라 오름차순으로 정렬
+                    dateAmountPairs.sort((a, b) => new Date(a.date + '-01') - new Date(b.date + '-01'));
+
+                    // 정렬된 결과를 다시 분리
+                    dates = dateAmountPairs.map(pair => pair.date);
+                    const sortedAmounts = dateAmountPairs.map(pair => pair.amount);
 
                     // ApexCharts 옵션 및 차트 생성
                     var options = {
@@ -65,7 +75,7 @@
                         },
                         series: [{
                             name: '모금액',
-                            data: amounts
+                            data: sortedAmounts
                         }],
                         colors: ['#343a40'],
                         xaxis: {
