@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</head>
+<body>
+    <div id="chart"></div>
+
+    <script>
+        // 암호화된 JSON 파일을 fetch로 가져오기
+        fetch('b1.json')
+            .then(response => response.json())
+            .then(encryptedData => {
+                const encryptionKey = '12345678901234567890123456789012'; // 암호화에 사용한 키
+
+                // 암호화된 데이터에서 IV와 content를 분리
+                const iv = CryptoJS.enc.Hex.parse(encryptedData.iv);
+                const encryptedContent = CryptoJS.enc.Hex.parse(encryptedData.content);
+
+                // 복호화
+                const decrypted = CryptoJS.AES.decrypt(
+                    { ciphertext: encryptedContent },
+                    CryptoJS.enc.Utf8.parse(encryptionKey),
+                    { iv: iv, mode: CryptoJS.mode.CBC, padding: CryptoJS.pad.Pkcs7 }
+                );
+
+                const originalData = decrypted.toString(CryptoJS.enc.Utf8);
+                const data = JSON.parse(originalData); // 복호화된 JSON 데이터
+
+                // 차트 데이터 추출
+                const days = data.map(entry => entry.day);
+                const btcBalances = data.map(entry => entry.BTC_Balance);
+                const usdBalances = data.map(entry => entry.USD_Balance);
+
+                // 차트 옵션 설정
+                const options = {
+                    chart: { type: 'line', height: 350 },
+                    series: [
+                        { name: 'BTC 잔액', data: btcBalances },
+                        { name: 'USD 잔액', data: usdBalances }
+                    ],
+                    xaxis: { categories: days, type: 'datetime' },
+                    yaxis: [{ title: { text: 'BTC 잔액' } }, { opposite: true, title: { text: 'USD 잔액' } }]
+                };
+
+                // 차트 생성
+                const chart = new ApexCharts(document.querySelector("#chart"), options);
+                chart.render();
+            })
+            .catch(error => console.error('Error:', error));
+    </script>
+</body>
+</html>
