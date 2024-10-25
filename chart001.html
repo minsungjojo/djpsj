@@ -11,7 +11,7 @@
 
     <script>
         // JSON 파일에서 데이터 로드
-        fetch('https://d9c5tz5ija.execute-api.us-east-2.amazonaws.com/chartdataapi')
+        fetch('https://d9c5tz5ija.execute-api.us-east-2.amazonaws.com/chartdataapi/getchartdata')
         .then(response => response.json())
         .then(data => {
             // 날짜 데이터를 Date 객체로 변환하여 정렬
