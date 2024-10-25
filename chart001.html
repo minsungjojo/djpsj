@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+    <!-- <h1>BTC와 USD 잔액 비교 차트</h1> -->
+    <div id="chart"></div>
+
+    <script>
+        // JSON 파일에서 데이터 로드
+        fetch('https://zwke1bq4sl.execute-api.us-east-2.amazonaws.com/b1.json')
+        .then(response => response.json())
+        .then(data => {
+            // 날짜 데이터를 Date 객체로 변환하여 정렬
+            data.sort((a, b) => new Date(a.day) - new Date(b.day));
+
+            // 날짜, BTC 잔액, USD 잔액을 배열로 분리
+            let days = data.map(entry => entry.day);
+            let btcBalances = data.map(entry => entry.BTC_Balance);
+            let usdBalances = data.map(entry => entry.USD_Balance);
+
+            var options = {
+                chart: {
+                    type: 'line',
+                    height: 350,
+                    toolbar: {
+                        show: true, // 상단의 툴바를 표시
+                        tools: {
+                            download: false // 다운로드 버튼 비활성화
+                        }
+                    }
+                },
+                series: [{
+                    name: 'BTC 잔액',
+                    type: 'line',
+                    data: btcBalances
+                }, {
+                    name: 'USD 잔액',
+                    type: 'line',
+                    data: usdBalances,
+                    yaxis: 1
+                }],
+                xaxis: {
+                    categories: days,
+                    type: 'datetime', // x축을 날짜 시간으로 처리
+                    labels: {
+                        format: 'yyyy-MM-dd' // x축에 날짜 형식으로 표시
+                    }
+                },
+                yaxis: [{
+                    title: {
+                        text: 'BTC 잔액'
+                    },
+                    min: Math.min(...btcBalances), // BTC 잔액에서 가장 작은 값
+                    max: Math.max(...btcBalances)  // BTC 잔액에서 가장 큰 값
+                }, {
+                    opposite: true,
+                    title: {
+                        text: 'USD 잔액'
+                    },
+                    min: Math.min(...usdBalances), // USD 잔액에서 가장 작은 값
+                    max: Math.max(...usdBalances)  // USD 잔액에서 가장 큰 값
+                }],
+                tooltip: {
+                    enabled: true, // 툴팁을 활성화
+                    shared: true,  // 두 개의 시리즈를 함께 표시
+                    intersect: false, // 교차 시점에서 툴팁을 표시
+                    x: {
+                        format: 'yyyy-MM-dd' // 툴팁에 표시되는 날짜 형식
+                    }
+                }
+            };
+
+            var chart = new ApexCharts(document.querySelector("#chart"), options);
+            chart.render();
+        })
+        .catch(error => console.error('Error:', error));
+    </script>
+</body>
+</html>
