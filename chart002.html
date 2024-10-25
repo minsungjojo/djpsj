@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+    <div id="chart"></div>
+
+    <script>
+        // WebSocket 설정
+        const socket = new WebSocket('wss://mm0ytllyvl.execute-api.us-east-2.amazonaws.com/datadataplus/');
+
+        socket.onopen = () => {
+            console.log('WebSocket 연결 성공');
+
+            // 서버에 데이터를 요청 (예: getChartData 액션)
+            socket.send(JSON.stringify({ action: 'getChartData' }));
+        };
+
+        socket.onmessage = (event) => {
+            const data = JSON.parse(event.data);
+
+            // 날짜 데이터를 Date 객체로 변환하여 정렬
+            data.sort((a, b) => new Date(a.day) - new Date(b.day));
+
+            // 날짜, BTC 잔액, USD 잔액을 배열로 분리
+            let days = data.map(entry => entry.day);
+            let btcBalances = data.map(entry => entry.BTC_Balance);
+            let usdBalances = data.map(entry => entry.USD_Balance);
+
+            var options = {
+                chart: {
+                    type: 'line',
+                    height: 350,
+                    toolbar: {
+                        show: true,
+                        tools: {
+                            download: false // 다운로드 버튼 비활성화
+                        }
+                    }
+                },
+                series: [{
+                    name: 'BTC 잔액',
+                    type: 'line',
+                    data: btcBalances
+                }, {
+                    name: 'USD 잔액',
+                    type: 'line',
+                    data: usdBalances,
+                    yaxis: 1
+                }],
+                xaxis: {
+                    categories: days,
+                    type: 'datetime',
+                    labels: {
+                        format: 'yyyy-MM-dd'
+                    }
+                },
+                yaxis: [{
+                    title: {
+                        text: 'BTC 잔액'
+                    },
+                    min: Math.min(...btcBalances),
+                    max: Math.max(...btcBalances)
+                }, {
+                    opposite: true,
+                    title: {
+                        text: 'USD 잔액'
+                    },
+                    min: Math.min(...usdBalances),
+                    max: Math.max(...usdBalances)
+                }],
+                tooltip: {
+                    enabled: true,
+                    shared: true,
+                    intersect: false,
+                    x: {
+                        format: 'yyyy-MM-dd'
+                    }
+                }
+            };
+
+            var chart = new ApexCharts(document.querySelector("#chart"), options);
+            chart.render();
+        };
+
+        socket.onclose = () => {
+            console.log('WebSocket 연결이 종료되었습니다');
+        };
+
+        socket.onerror = (error) => {
+            console.error('WebSocket 에러:', error);
+        };
+    </script>
+</body>
+</html>
