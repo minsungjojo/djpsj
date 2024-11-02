@@ -142,4 +142,9 @@
             };
 
             var chart = new ApexCharts(document.querySelector("#chart"), options);
-            chart.render(
+            chart.render();
+        })
+        .catch(error => console.error('Error:', error));
+    </script>
+</body>
+</html>
