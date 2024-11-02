@@ -6,7 +6,6 @@
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body>
-    <!-- <h1>BTC와 USD 잔액 비교 차트</h1> -->
     <div id="chart"></div>
 
     <script>
@@ -26,7 +25,7 @@
                 chart: {
                     type: 'line',
                     height: 350,
-                    background: '#000000', // 검은 배경 색 설정
+                    background: '#000000',
                     toolbar: {
                         show: true,
                         tools: {
@@ -50,7 +49,7 @@
                     labels: {
                         format: 'yyyy-MM-dd',
                         style: {
-                            colors: '#FFFFFF' // x축 레이블 색상 흰색
+                            colors: '#FFFFFF'
                         }
                     }
                 },
@@ -58,14 +57,17 @@
                     title: {
                         text: 'BTC 잔액',
                         style: {
-                            color: '#FFFFFF' // y축 제목 색상 흰색
+                            color: '#FFFFFF'
                         }
                     },
                     min: Math.min(...btcBalances),
                     max: Math.max(...btcBalances),
                     labels: {
+                        formatter: function (value) {
+                            return value.toFixed(1); // 소수점 1자리까지 표시
+                        },
                         style: {
-                            colors: '#FFFFFF' // y축 레이블 색상 흰색
+                            colors: '#FFFFFF'
                         }
                     }
                 }, {
@@ -73,14 +75,17 @@
                     title: {
                         text: 'USD 잔액',
                         style: {
-                            color: '#FFFFFF' // y축 제목 색상 흰색
+                            color: '#FFFFFF'
                         }
                     },
                     min: Math.min(...usdBalances),
                     max: Math.max(...usdBalances),
                     labels: {
+                        formatter: function (value) {
+                            return value.toFixed(1); // 소수점 1자리까지 표시
+                        },
                         style: {
-                            colors: '#FFFFFF' // y축 레이블 색상 흰색
+                            colors: '#FFFFFF'
                         }
                     }
                 }],
@@ -94,7 +99,7 @@
                 },
                 legend: {
                     labels: {
-                        colors: '#FFFFFF' // 범례 텍스트 색상 흰색
+                        colors: '#FFFFFF'
                     }
                 }
             };
