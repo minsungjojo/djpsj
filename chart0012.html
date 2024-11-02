@@ -36,7 +36,7 @@
                 chart: {
                     type: 'bar',
                     height: 700,
-                    width: '90%',  // 차트 너비 줄이기
+                    width: '90%',
                     background: '#000',
                     toolbar: {
                         show: true
@@ -47,7 +47,8 @@
                 },
                 grid: {
                     padding: {
-                        left: 10  // 왼쪽 패딩 감소
+                        left: 10,  // 왼쪽 패딩 감소
+                        right: 10  // 오른쪽 패딩 감소
                     }
                 },
                 series: [{
@@ -83,6 +84,7 @@
                 yaxis: {
                     title: {
                         text: '금액 흐름(USD)',
+                        offsetX: -20, // 제목을 왼쪽으로 이동하여 더 잘 보이게 하기
                         style: {
                             color: '#FFF',
                             fontSize: '40px'
@@ -96,8 +98,7 @@
                             colors: '#FFF',
                             fontSize: '23px'
                         },
-                        align: 'left',
-                        minWidth: 150
+                        minWidth: 90, // y축 레이블의 최소 너비를 늘려 공간 확보
                     }
                 },
                 plotOptions: {
