@@ -7,7 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body style="background-color: #000; display: flex; justify-content: center;">
-    <div id="chart" style="width: 95%; padding-left: 50px;"></div>
+    <div id="chart" style="width: 95%;"></div>
 
     <script>
         async function fetchData() {
@@ -43,11 +43,15 @@
                     },
                     animations: {
                         enabled: false
+                    },
+                    margin: {
+                        left: 50 // 왼쪽 마진을 늘려서 Y축 레이블이 잘리지 않도록 설정
                     }
                 },
                 grid: {
                     padding: {
-                        left: 50  // 왼쪽 패딩 증가
+                        left: 30,  // 왼쪽 패딩 추가
+                        right: 20  // 오른쪽에도 여유를 주기 위해 약간 추가
                     }
                 },
                 series: [{
@@ -86,8 +90,7 @@
                         style: {
                             color: '#FFF',
                             fontSize: '40px'
-                        },
-                        offsetX: -10
+                        }
                     },
                     labels: {
                         formatter: function (val) {
@@ -97,17 +100,8 @@
                             colors: '#FFF',
                             fontSize: '23px'
                         },
-                        align: 'right',  // 오른쪽 정렬로 변경
-                        minWidth: 200,   // 최소 너비 증가
-                        offsetX: -10     // 좌측으로 이동
-                    },
-                    tickAmount: 6,       // y축 눈금 개수 조정
-                    floating: false,     // y축 고정
-                    axisBorder: {
-                        show: true
-                    },
-                    axisTicks: {
-                        show: true
+                        align: 'left',  // 왼쪽 정렬
+                        minWidth: 200   // 최소 너비를 200으로 설정하여 잘리지 않도록 조정
                     }
                 },
                 plotOptions: {
