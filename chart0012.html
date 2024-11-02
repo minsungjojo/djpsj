@@ -7,7 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body style="background-color: #000;">
-    <div id="chart" style="width: 95%; margin-left: 2%;"></div>
+    <div id="chart" style="width: 90%; margin-left: 2%;"></div>
 
     <script>
         async function fetchData() {
@@ -36,7 +36,7 @@
                 chart: {
                     type: 'bar',
                     height: 700,
-                    width: '100%',
+                    width: '90%',  // 차트 너비 줄이기
                     background: '#000',
                     toolbar: {
                         show: true
@@ -47,7 +47,7 @@
                 },
                 grid: {
                     padding: {
-                        left: 50  // 왼쪽 패딩 증가
+                        left: 10  // 왼쪽 패딩 감소
                     }
                 },
                 series: [{
@@ -96,8 +96,8 @@
                             colors: '#FFF',
                             fontSize: '23px'
                         },
-                        align: 'left',  // 왼쪽 정렬
-                        minWidth: 150   // 최소 너비 설정
+                        align: 'left',
+                        minWidth: 150
                     }
                 },
                 plotOptions: {
