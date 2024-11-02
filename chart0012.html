@@ -56,12 +56,14 @@
                     type: 'datetime', // x축을 날짜로 설정
                     title: {
                         text: '날짜',
+                        offsetY: 20, // x축 제목 위치 조정
                         style: {
                             color: '#FFF',
                             fontSize: '40px' // x축 제목 글자 크기 설정
                         }
                     },
                     labels: {
+                        rotate: -45, // 라벨 각도 조정
                         style: {
                             colors: '#FFF', // x축 라벨 색상
                             fontSize: '23px' // x축 라벨 글자 크기 설정
@@ -78,6 +80,7 @@
                 yaxis: {
                     title: {
                         text: '금액 흐름(USD)',
+                        offsetX: -10, // y축 제목 위치 조정
                         style: {
                             color: '#FFF',
                             fontSize: '40px' // y축 제목 글자 크기 설정
