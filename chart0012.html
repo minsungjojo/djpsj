@@ -6,8 +6,8 @@
     <title>ApexCharts 예제</title>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
-<body style="background-color: #000;"> <!-- 전체 페이지 배경을 검은색으로 설정 -->
-    <div id="chart"></div>
+<body style="background-color: #000; display: flex; justify-content: center;"> <!-- 전체 페이지 배경을 검은색으로 설정하고 가운데 정렬 -->
+    <div id="chart" style="width: 90%;"></div> <!-- 차트의 가로 너비를 90%로 설정 -->
 
     <script>
         // b1414.json 파일에서 데이터를 가져오는 함수
@@ -45,6 +45,7 @@
                 chart: {
                     type: 'bar', // 막대 차트
                     height: 700, // 차트 세로축을 2배로 늘림
+                    width: '100%', // 차트가 부모 요소의 가로 너비를 따라감
                     background: '#000' // 차트 배경을 검은색으로 설정
                 },
                 series: [{
