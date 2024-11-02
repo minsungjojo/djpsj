@@ -7,7 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body style="background-color: #000;">
-    <div id="chart" style="width: 90%; margin-left: 5%;"></div> <!-- 왼쪽 마진 값을 2%에서 5%로 변경 -->
+    <div id="chart" style="width: 95%; margin-left: 2%;"></div>
 
     <script>
         async function fetchData() {
@@ -36,7 +36,7 @@
                 chart: {
                     type: 'bar',
                     height: 700,
-                    width: '90%',  // 차트 너비 줄이기
+                    width: '100%',
                     background: '#000',
                     toolbar: {
                         show: true
@@ -47,7 +47,7 @@
                 },
                 grid: {
                     padding: {
-                        left: 10  // 왼쪽 패딩 감소
+                        left: 15  // 왼쪽 패딩 추가
                     }
                 },
                 series: [{
@@ -76,7 +76,7 @@
                             const year = date.getFullYear();
                             const month = String(date.getMonth() + 1).padStart(2, '0');
                             const day = String(date.getDate()).padStart(2, '0');
-                            return ${year}-${month}-${day};
+                            return `${year}-${month}-${day}`;
                         }
                     }
                 },
@@ -96,8 +96,8 @@
                             colors: '#FFF',
                             fontSize: '23px'
                         },
-                        align: 'left',
-                        minWidth: 150
+                        align: 'left',  // 왼쪽 정렬
+                        minWidth: 150   // 최소 너비 설정
                     }
                 },
                 plotOptions: {
