@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <style>
-        /* 차트 배경을 검은색으로 설정 */
+        /* 차트 배경과 페이지 배경을 검은색으로 설정 */
         body {
-            background-color: #000000; /* 페이지 전체 배경을 검은색으로 설정 */
+            background-color: #000000; /* 페이지 배경을 검은색으로 설정 */
+            color: #FFFFFF; /* 기본 텍스트 색상을 흰색으로 설정 */
         }
         #chart {
             padding: 20px; /* 차트 주변 여백 */
@@ -57,47 +58,61 @@
                     categories: days,
                     type: 'datetime',
                     labels: {
-                        format: 'yyyy-MM-dd'
+                        format: 'yyyy-MM-dd',
+                        style: {
+                            colors: '#FFFFFF' // x축 레이블을 흰색으로 설정
+                        }
+                    },
+                    axisBorder: {
+                        color: '#FFFFFF' // x축 테두리를 흰색으로 설정
+                    },
+                    axisTicks: {
+                        color: '#FFFFFF' // x축 틱을 흰색으로 설정
                     }
                 },
                 yaxis: [{
                     title: {
-                        text: 'BTC 잔액'
+                        text: 'BTC 잔액',
+                        style: {
+                            color: '#FFFFFF' // y축 제목을 흰색으로 설정
+                        }
                     },
                     min: Math.min(...btcBalances),
                     max: Math.max(...btcBalances),
                     labels: {
                         formatter: function (value) {
                             return value.toFixed(1); // 소수점 1자리까지 표시
+                        },
+                        style: {
+                            colors: '#FFFFFF' // y축 레이블을 흰색으로 설정
                         }
+                    },
+                    axisBorder: {
+                        color: '#FFFFFF' // y축 테두리를 흰색으로 설정
+                    },
+                    axisTicks: {
+                        color: '#FFFFFF' // y축 틱을 흰색으로 설정
                     }
                 }, {
                     opposite: true,
                     title: {
-                        text: 'USD 잔액'
+                        text: 'USD 잔액',
+                        style: {
+                            color: '#FFFFFF' // 반대편 y축 제목을 흰색으로 설정
+                        }
                     },
                     min: Math.min(...usdBalances),
                     max: Math.max(...usdBalances),
                     labels: {
                         formatter: function (value) {
                             return value.toFixed(1); // 소수점 1자리까지 표시
+                        },
+                        style: {
+                            colors: '#FFFFFF' // 반대편 y축 레이블을 흰색으로 설정
                         }
-                    }
-                }],
-                tooltip: {
-                    enabled: true,
-                    shared: true,
-                    intersect: false,
-                    x: {
-                        format: 'yyyy-MM-dd'
-                    }
-                }
-            };
-
-            var chart = new ApexCharts(document.querySelector("#chart"), options);
-            chart.render();
-        })
-        .catch(error => console.error('Error:', error));
-    </script>
-</body>
-</html>
+                    },
+                    axisBorder: {
+                        color: '#FFFFFF' // 반대편 y축 테두리를 흰색으로 설정
+                    },
+                    axisTicks: {
+                      
