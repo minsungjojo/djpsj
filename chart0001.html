@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <style>
+        /* 차트 하단 여백 추가 */
+        #chart {
+            padding-bottom: 50px; /* 차트 하단 여백을 50px로 설정 */
+        }
+    </style>
 </head>
 <body>
     <div id="chart"></div>
@@ -106,7 +112,8 @@
                 legend: {
                     labels: {
                         colors: '#FFFFFF'
-                    }
+                    },
+                    offsetY: 10 // 범례와 차트 간의 간격 추가
                 }
             };
 
