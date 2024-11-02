@@ -40,7 +40,11 @@
                     toolbar: {
                         show: true,
                         tools: {
-                            download: false
+                            zoom: false,        // 확대 버튼 숨기기
+                            zoomin: false,      // 확대 버튼 숨기기
+                            zoomout: false,     // 축소 버튼 숨기기
+                            pan: false,         // 이동 버튼 숨기기
+                            reset: false        // 리셋 버튼 숨기기
                         }
                     }
                 },
@@ -138,9 +142,4 @@
             };
 
             var chart = new ApexCharts(document.querySelector("#chart"), options);
-            chart.render();
-        })
-        .catch(error => console.error('Error:', error));
-    </script>
-</body>
-</html>
+            chart.render(
