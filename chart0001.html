@@ -4,13 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
-    <style>
-        /* 차트 상단과 하단에 여백 추가 */
-        #chart {
-            padding-top: 30px; /* 차트 상단 여백 */
-            padding-bottom: 40px; /* 차트 하단 여백 */
-        }
-    </style>
 </head>
 <body>
     <div id="chart"></div>
@@ -28,6 +21,12 @@
             let btcBalances = data.map(entry => entry.BTC_Balance);
             let usdBalances = data.map(entry => entry.USD_Balance);
 
+            // BTC 및 USD 잔액의 최소 및 최대값에 여유 추가
+            const btcMin = Math.min(...btcBalances) * 0.95;
+            const btcMax = Math.max(...btcBalances) * 1.05;
+            const usdMin = Math.min(...usdBalances) * 0.95;
+            const usdMax = Math.max(...usdBalances) * 1.05;
+
             var options = {
                 chart: {
                     type: 'line',
@@ -37,8 +36,7 @@
                         show: true,
                         tools: {
                             download: false
-                        },
-                        offsetY: 10 // 도구 모음과 차트 간의 간격 추가
+                        }
                     }
                 },
                 series: [{
@@ -68,8 +66,8 @@
                             color: '#FFFFFF'
                         }
                     },
-                    min: Math.min(...btcBalances),
-                    max: Math.max(...btcBalances),
+                    min: btcMin,
+                    max: btcMax,
                     labels: {
                         formatter: function (value) {
                             return value.toFixed(1); // 소수점 1자리까지 표시
@@ -86,8 +84,8 @@
                             color: '#FFFFFF'
                         }
                     },
-                    min: Math.min(...usdBalances),
-                    max: Math.max(...usdBalances),
+                    min: usdMin,
+                    max: usdMax,
                     labels: {
                         formatter: function (value) {
                             return value.toFixed(1); // 소수점 1자리까지 표시
@@ -108,8 +106,7 @@
                 legend: {
                     labels: {
                         colors: '#FFFFFF'
-                    },
-                    offsetY: 10 // 범례와 차트 간의 간격 추가
+                    }
                 }
             };
 
