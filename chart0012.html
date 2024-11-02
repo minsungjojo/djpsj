@@ -35,7 +35,7 @@
             var options = {
                 chart: {
                     type: 'bar',
-                    height: 800,  // 차트 높이 늘리기
+                    height: 900,  // 차트 높이 늘리기
                     width: '100%',  // 차트 너비를 전체로 설정
                     background: '#000',
                     toolbar: {
@@ -47,7 +47,8 @@
                 },
                 grid: {
                     padding: {
-                        left: 20  // 왼쪽 패딩 감소
+                        left: 40,  // 왼쪽 패딩 증가
+                        right: 40  // 오른쪽 패딩 추가
                     }
                 },
                 series: [{
@@ -59,7 +60,7 @@
                     type: 'datetime',
                     title: {
                         text: '날짜',
-                        offsetY: 30,  // 제목 위치 조정
+                        offsetY: 40,  // 제목 위치 조정
                         style: {
                             color: '#FFF',
                             fontSize: '30px'
@@ -83,7 +84,7 @@
                 yaxis: {
                     title: {
                         text: '금액 흐름(USD)',
-                        offsetX: -10,  // 제목을 왼쪽으로 이동
+                        offsetX: -20,  // 제목을 왼쪽으로 더 이동
                         style: {
                             color: '#FFF',
                             fontSize: '30px'
@@ -98,7 +99,7 @@
                             fontSize: '20px'
                         },
                         align: 'left',
-                        minWidth: 100
+                        minWidth: 150
                     }
                 },
                 plotOptions: {
