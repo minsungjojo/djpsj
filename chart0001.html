@@ -24,13 +24,17 @@
             var options = {
                 chart: {
                     type: 'line',
-                    height: 525, // 세로 길이를 1.5배로 설정
+                    height: 525,
                     background: '#000000',
                     toolbar: {
                         show: true,
                         tools: {
                             download: false
                         }
+                    },
+                    padding: {
+                        top: 20, // 윗쪽 여백
+                        bottom: 20 // 아래쪽 여백
                     }
                 },
                 series: [{
