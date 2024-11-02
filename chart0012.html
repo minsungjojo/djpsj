@@ -7,7 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body style="background-color: #000; display: flex; justify-content: center;"> <!-- 전체 페이지 배경을 검은색으로 설정하고 가운데 정렬 -->
-    <div id="chart" style="width: 100vw;"></div> <!-- 차트의 가로 너비를 화면 전체로 설정 -->
+    <div id="chart" style="width: 90%;"></div> <!-- 차트의 가로 너비를 90%로 설정 -->
 
     <script>
         // b1414.json 파일에서 데이터를 가져오는 함수
@@ -57,7 +57,7 @@
                     type: 'datetime', // x축을 날짜로 설정
                     title: {
                         text: '날짜',
-                        offsetY: 60, // x축 제목 위치 아래로 조정
+                        offsetY: 20, // x축 제목 위치 조정
                         style: {
                             color: '#FFF',
                             fontSize: '40px' // x축 제목 글자 크기 설정
@@ -81,7 +81,7 @@
                 yaxis: {
                     title: {
                         text: '금액 흐름(USD)',
-                        offsetX: -80, // y축 제목 위치를 왼쪽으로 조정하여 보이도록 설정
+                        offsetX: -10, // y축 제목 위치 조정
                         style: {
                             color: '#FFF',
                             fontSize: '40px' // y축 제목 글자 크기 설정
@@ -102,13 +102,6 @@
                         dataLabels: {
                             position: 'top' // 데이터 레이블 위치 설정
                         }
-                    }
-                },
-                grid: {
-                    padding: {
-                        left: 100, // 왼쪽에 여유 공간을 더 많이 추가
-                        right: 30, // 오른쪽에 여유 공간 추가
-                        bottom: 60 // 아래쪽에 여유 공간 추가
                     }
                 },
                 dataLabels: {
