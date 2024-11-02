@@ -47,7 +47,7 @@
                 },
                 grid: {
                     padding: {
-                        left: 100  // 왼쪽 패딩을 100으로 설정
+                        left: 60  // 왼쪽 패딩을 줄여 라벨과 차트 간격 조정
                     }
                 },
                 series: [{
@@ -83,7 +83,7 @@
                 yaxis: {
                     title: {
                         text: '금액 흐름(USD)',
-                        offsetX: 20,  // y축 제목을 오른쪽으로 이동
+                        offsetX: 0,  // 제목 위치 조정
                         style: {
                             color: '#FFF',
                             fontSize: '40px'
@@ -97,8 +97,7 @@
                             colors: '#FFF',
                             fontSize: '23px'
                         },
-                        align: 'right',  // 오른쪽 정렬로 변경
-                        offsetX: 0  // y축 라벨을 오른쪽으로 이동
+                        offsetX: -10  // y축 라벨을 왼쪽으로 이동
                     }
                 },
                 plotOptions: {
