@@ -46,7 +46,11 @@
                     type: 'bar', // 막대 차트
                     height: 700, // 차트 세로축을 2배로 늘림
                     width: '100%', // 차트가 부모 요소의 가로 너비를 따라감
-                    background: '#000' // 차트 배경을 검은색으로 설정
+                    background: '#000', // 차트 배경을 검은색으로 설정
+                    margin: {
+                        left: 50, // 왼쪽 여백을 추가하여 y축 제목 여유 공간 확보
+                        bottom: 50 // 아래 여백을 추가하여 x축 제목 여유 공간 확보
+                    }
                 },
                 series: [{
                     name: '금액 흐름(USD)',
@@ -57,7 +61,7 @@
                     type: 'datetime', // x축을 날짜로 설정
                     title: {
                         text: '날짜',
-                        offsetY: 20, // x축 제목 위치 조정
+                        offsetY: 40, // x축 제목 위치 조정
                         style: {
                             color: '#FFF',
                             fontSize: '40px' // x축 제목 글자 크기 설정
@@ -81,7 +85,7 @@
                 yaxis: {
                     title: {
                         text: '금액 흐름(USD)',
-                        offsetX: -10, // y축 제목 위치 조정
+                        offsetX: -30, // y축 제목 위치를 왼쪽으로 조정
                         style: {
                             color: '#FFF',
                             fontSize: '40px' // y축 제목 글자 크기 설정
