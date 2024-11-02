@@ -45,7 +45,8 @@
                             zoomout: true,     // 축소 버튼 표시
                             pan: true,         // 이동 버튼 표시
                             reset: false       // 리셋 버튼 숨기기
-                        }
+                        },
+                        autoSelected: 'pan'   // 초기 마우스 모드를 panning으로 설정
                     }
                 },
                 series: [{
@@ -119,32 +120,4 @@
                         color: '#FFFFFF' // 반대편 y축 테두리를 흰색으로 설정
                     },
                     axisTicks: {
-                        color: '#FFFFFF' // 반대편 y축 틱을 흰색으로 설정
-                    }
-                }],
-                grid: {
-                    borderColor: '#444444' // 그리드선을 어두운 회색으로 설정하여 배경과 조화롭게 만듦
-                },
-                tooltip: {
-                    enabled: true,
-                    shared: true,
-                    intersect: false,
-                    theme: 'dark', // 툴팁을 어두운 테마로 설정
-                    x: {
-                        format: 'yyyy-MM-dd'
-                    }
-                },
-                legend: {
-                    labels: {
-                        colors: '#FFFFFF' // 범례 텍스트를 흰색으로 설정
-                    }
-                }
-            };
-
-            var chart = new ApexCharts(document.querySelector("#chart"), options);
-            chart.render();
-        })
-        .catch(error => console.error('Error:', error));
-    </script>
-</body>
-</html>
+                       
