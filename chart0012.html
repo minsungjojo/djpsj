@@ -6,36 +6,27 @@
     <title>ApexCharts 예제</title>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
-<body style="background-color: #000; display: flex; justify-content: center;"> <!-- 전체 페이지 배경을 검은색으로 설정하고 가운데 정렬 -->
-    <div id="chart" style="width: 90%;"></div> <!-- 차트의 가로 너비를 90%로 설정 -->
+<body style="background-color: #000; display: flex; justify-content: center;">
+    <div id="chart" style="width: 90%;"></div>
 
     <script>
-        // b1414.json 파일에서 데이터를 가져오는 함수
         async function fetchData() {
-            const response = await fetch('b12.json'); // JSON 파일 경로
+            const response = await fetch('b12.json');
             const data = await response.json();
             return data;
         }
 
-        // 데이터를 가져와서 차트를 그리는 함수
         async function renderChart() {
             const data = await fetchData();
-
-            // null이 아닌 날짜 데이터만 필터링
             const filteredData = data.filter(item => item.amount_usd_net_flow !== null);
-
-            // 날짜별로 첫 번째 금액 흐름 데이터만 사용
             const dateWiseData = {};
             filteredData.forEach(item => {
-                const date = item.time.split(" ")[0]; // 날짜 부분만 추출 (yyyy-mm-dd)
-
-                // 각 날짜에 첫 번째로 등장한 금액 흐름만 저장 (나머지는 무시)
+                const date = item.time.split(" ")[0];
                 if (!dateWiseData[date]) {
                     dateWiseData[date] = item.amount_usd_net_flow;
                 }
             });
 
-            // 시리즈 데이터를 날짜별로 정리
             const seriesData = Object.keys(dateWiseData).map(date => ({
                 x: date,
                 y: dateWiseData[date]
@@ -43,31 +34,37 @@
 
             var options = {
                 chart: {
-                    type: 'bar', // 막대 차트
-                    height: 700, // 차트 세로축을 2배로 늘림
-                    width: '100%', // 차트가 부모 요소의 가로 너비를 따라감
-                    background: '#000' // 차트 배경을 검은색으로 설정
+                    type: 'bar',
+                    height: 700,
+                    width: '100%',
+                    background: '#000',
+                    margin: {
+                        left: 80  // 왼쪽 여백 증가
+                    },
+                    toolbar: {
+                        show: true
+                    }
                 },
                 series: [{
                     name: '금액 흐름(USD)',
                     data: seriesData
                 }],
-                colors: ['#ffffff'], // 막대 색상을 흰색으로 변경
+                colors: ['#ffffff'],
                 xaxis: {
-                    type: 'datetime', // x축을 날짜로 설정
+                    type: 'datetime',
                     title: {
                         text: '날짜',
-                        offsetY: 20, // x축 제목 위치 조정
+                        offsetY: 20,
                         style: {
                             color: '#FFF',
-                            fontSize: '40px' // x축 제목 글자 크기 설정
+                            fontSize: '40px'
                         }
                     },
                     labels: {
-                        rotate: -45, // 라벨 각도 조정
+                        rotate: -45,
                         style: {
-                            colors: '#FFF', // x축 라벨 색상
-                            fontSize: '23px' // x축 라벨 글자 크기 설정
+                            colors: '#FFF',
+                            fontSize: '23px'
                         },
                         formatter: function(value) {
                             const date = new Date(value);
@@ -81,34 +78,35 @@
                 yaxis: {
                     title: {
                         text: '금액 흐름(USD)',
-                        offsetX: -10, // y축 제목 위치 조정
+                        offsetX: -10,
                         style: {
                             color: '#FFF',
-                            fontSize: '40px' // y축 제목 글자 크기 설정
+                            fontSize: '40px'
                         }
                     },
                     labels: {
                         formatter: function (val) {
-                            return val.toFixed(2) + " USD"; // y축 라벨 형식
+                            return val.toFixed(2) + " USD";
                         },
                         style: {
-                            colors: '#FFF', // y축 라벨 색상
-                            fontSize: '23px' // y축 라벨 글자 크기 설정
-                        }
+                            colors: '#FFF',
+                            fontSize: '23px'
+                        },
+                        offsetX: -15  // y축 라벨 위치 조정
                     }
                 },
                 plotOptions: {
                     bar: {
                         dataLabels: {
-                            position: 'top' // 데이터 레이블 위치 설정
+                            position: 'top'
                         }
                     }
                 },
                 dataLabels: {
-                    enabled: false // 막대 위에 숫자를 표시하지 않음
+                    enabled: false
                 },
                 legend: {
-                    show: false // 범례 숨김
+                    show: false
                 }
             };
 
@@ -116,7 +114,6 @@
             chart.render();
         }
 
-        // 페이지 로드 시 차트를 렌더링
         renderChart();
     </script>
 </body>
