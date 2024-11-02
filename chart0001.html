@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <style>
-        /* 차트 전체 영역을 검은색으로 설정 */
+        /* 차트 배경을 검은색으로 설정 */
         body {
-            background-color: #000000; /* 페이지 배경 검은색 */
-            color: #FFFFFF; /* 텍스트 색상 흰색 */
+            background-color: #000000; /* 페이지 전체 배경을 검은색으로 설정 */
         }
         #chart {
-            padding: 20px; /* 차트 여백 */
+            padding: 20px; /* 차트 주변 여백 */
+            background-color: #000000; /* 차트 배경을 검은색으로 설정 */
         }
     </style>
 </head>
@@ -31,17 +31,11 @@
             let btcBalances = data.map(entry => entry.BTC_Balance);
             let usdBalances = data.map(entry => entry.USD_Balance);
 
-            // BTC 및 USD 잔액의 최소 및 최대값에 여유 추가
-            const btcMin = Math.min(...btcBalances) * 0.95;
-            const btcMax = Math.max(...btcBalances) * 1.05;
-            const usdMin = Math.min(...usdBalances) * 0.95;
-            const usdMax = Math.max(...usdBalances) * 1.05;
-
             var options = {
                 chart: {
                     type: 'line',
                     height: 525,
-                    background: '#000000',
+                    background: '#000000', // 차트 배경을 검은색으로 설정
                     toolbar: {
                         show: true,
                         tools: {
@@ -63,80 +57,39 @@
                     categories: days,
                     type: 'datetime',
                     labels: {
-                        format: 'yyyy-MM-dd',
-                        style: {
-                            colors: '#FFFFFF' // x축 레이블을 흰색으로 설정
-                        }
-                    },
-                    axisBorder: {
-                        color: '#000000' // x축 테두리를 검은색으로 설정
-                    },
-                    axisTicks: {
-                        color: '#000000' // x축 틱을 검은색으로 설정
+                        format: 'yyyy-MM-dd'
                     }
                 },
                 yaxis: [{
                     title: {
-                        text: 'BTC 잔액',
-                        style: {
-                            color: '#FFFFFF' // y축 제목을 흰색으로 설정
-                        }
+                        text: 'BTC 잔액'
                     },
-                    min: btcMin,
-                    max: btcMax,
+                    min: Math.min(...btcBalances),
+                    max: Math.max(...btcBalances),
                     labels: {
                         formatter: function (value) {
                             return value.toFixed(1); // 소수점 1자리까지 표시
-                        },
-                        style: {
-                            colors: '#FFFFFF' // y축 레이블을 흰색으로 설정
                         }
-                    },
-                    axisBorder: {
-                        color: '#000000' // y축 테두리를 검은색으로 설정
-                    },
-                    axisTicks: {
-                        color: '#000000' // y축 틱을 검은색으로 설정
                     }
                 }, {
                     opposite: true,
                     title: {
-                        text: 'USD 잔액',
-                        style: {
-                            color: '#FFFFFF' // y축 제목을 흰색으로 설정
-                        }
+                        text: 'USD 잔액'
                     },
-                    min: usdMin,
-                    max: usdMax,
+                    min: Math.min(...usdBalances),
+                    max: Math.max(...usdBalances),
                     labels: {
                         formatter: function (value) {
                             return value.toFixed(1); // 소수점 1자리까지 표시
-                        },
-                        style: {
-                            colors: '#FFFFFF' // y축 레이블을 흰색으로 설정
                         }
-                    },
-                    axisBorder: {
-                        color: '#000000' // 반대편 y축 테두리를 검은색으로 설정
-                    },
-                    axisTicks: {
-                        color: '#000000' // 반대편 y축 틱을 검은색으로 설정
                     }
                 }],
-                grid: {
-                    borderColor: '#000000' // 그리드선을 검은색으로 설정
-                },
                 tooltip: {
                     enabled: true,
                     shared: true,
                     intersect: false,
                     x: {
                         format: 'yyyy-MM-dd'
-                    }
-                },
-                legend: {
-                    labels: {
-                        colors: '#FFFFFF' // 범례 텍스트를 흰색으로 설정
                     }
                 }
             };
