@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>비트코인 차트</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <style>
+        /* Custom tooltip styling */
+        .apexcharts-tooltip {
+            font-size: 16px;  /* Increase tooltip font size */
+        }
+    </style>
+</head>
+<body style="background-color: black; color: white;">
+    <div id="chart"></div>
+
+    <script>
+        // b2.json 파일에서 데이터를 가져오는 함수
+        async function fetchData() {
+            const response = await fetch('b2.json');  // b2.json 파일을 현재 위치에 두고 사용
+            const data = await response.json();
+
+            // 데이터를 날짜 순으로 정렬
+            data.sort((a, b) => new Date(a.date) - new Date(b.date));
+
+            // btc_usd와 global_liquidity_index 데이터를 차트 형식에 맞게 변환
+            const btcData = data.map(item => ({
+                x: new Date(item.date),
+                y: Math.round(item.btc_usd)  // BTC/USD 가격을 소수점 없이 반올림하여 정수로 변환
+            }));
+
+            const liquidityData = data.map(item => ({
+                x: new Date(item.date),
+                y: item.global_liquidity_index
+            }));
+
+            // ApexCharts 설정
+            var options = {
+                chart: {
+                    type: 'line',
+                    height: 700,  // 높이를 700으로 설정하여 세로 길이 2배
+                    background: '#000',  // 차트 배경을 검은색으로 설정
+                    toolbar: {
+                        show: false  // 다운로드 버튼을 숨김
+                    }
+                },
+                stroke: {
+                    width: 2, // 선의 두께를 2로 설정
+                    colors: ['#FF5733', '#1E90FF']  // BTC/USD는 주황색, 유동성 지수는 파란색으로 설정
+                },
+                series: [{
+                    name: 'BTC/USD 가격',
+                    data: btcData
+                },
+                {
+                    name: '글로벌 유동성 지수',
+                    data: liquidityData
+                }],
+                xaxis: {
+                    type: 'datetime',
+                    title: {
+                        text: '날짜',
+                        style: { color: '#FFF', fontSize: '16px' }  // x축 제목을 흰색으로 설정하고 폰트 크기를 16px로 설정
+                    },
+                    labels: {
+                        style: { colors: '#FFF', fontSize: '14px' }  // x축 라벨을 흰색으로 설정하고 폰트 크기를 14px로 설정
+                    }
+                },
+                yaxis: [{
+                    title: {
+                        text: 'BTC/USD 가격',
+                        style: { color: '#FFF', fontSize: '16px' }  // y축 제목을 흰색으로 설정하고 폰트 크기를 16px로 설정
+                    },
+                    labels: {
+                        style: { colors: '#FFF', fontSize: '14px' },  // y축 라벨을 흰색으로 설정하고 폰트 크기를 14px로 설정
+                        formatter: function(value) { return Math.round(value); }  // BTC/USD y축 값을 정수로 표시
+                    }
+                }, {
+                    opposite: true,
+                    title: {
+                        text: '글로벌 유동성 지수',
+                        style: { color: '#FFF', fontSize: '16px' }  // 반대쪽 y축 제목을 흰색으로 설정하고 폰트 크기를 16px로 설정
+                    },
+                    labels: {
+                        style: { colors: '#FFF', fontSize: '14px' }  // 반대쪽 y축 라벨을 흰색으로 설정하고 폰트 크기를 14px로 설정
+                    }
+                }],
+                tooltip: {
+                    theme: 'dark',  // 툴팁 테마를 다크 모드로 설정
+                    x: {
+                        formatter: function(val) {
+                            // 툴팁에 날짜를 yyyy-MM-dd 형식으로 변환
+                            let date = new Date(val);
+                            let year = date.getFullYear();
+                            let month = ('0' + (date.getMonth() + 1)).slice(-2); // 월을 2자리로
+                            let day = ('0' + date.getDate()).slice(-2); // 일을 2자리로
+                            return `${year}-${month}-${day}`;
+                        }
+                    }
+                },
+                grid: {
+                    borderColor: '#444'  // 그리드 라인을 회색으로 설정
+                },
+                legend: {
+                    labels: {
+                        colors: '#FFF',  // 범례 텍스트를 흰색으로 설정
+                        fontSize: '16px'  // 범례 텍스트의 폰트 크기를 16px로 설정
+                    }
+                }
+            };
+
+            // 차트 렌더링
+            var chart = new ApexCharts(document.querySelector("#chart"), options);
+            chart.render();
+        }
+
+        // 페이지 로드 시 데이터를 가져오고 차트를 생성
+        fetchData();
+    </script>
+</body>
+</html>
