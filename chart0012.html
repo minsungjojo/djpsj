@@ -39,7 +39,7 @@
                     width: '100%',
                     background: '#000',
                     toolbar: {
-                        show: false // 툴바 숨기기
+                        show: true
                     },
                     animations: {
                         enabled: false
@@ -47,7 +47,7 @@
                 },
                 grid: {
                     padding: {
-                        left: 60
+                        left: 60  // 왼쪽 패딩을 줄여 라벨과 차트 간격 조정
                     }
                 },
                 series: [{
@@ -76,14 +76,14 @@
                             const year = date.getFullYear();
                             const month = String(date.getMonth() + 1).padStart(2, '0');
                             const day = String(date.getDate()).padStart(2, '0');
-                            return `${year}-${month}-${day}`;
+                            return ${year}-${month}-${day};
                         }
                     }
                 },
                 yaxis: {
                     title: {
                         text: '금액 흐름(USD)',
-                        offsetX: -15,
+                        offsetX: -15,  // 제목 위치 조정
                         style: {
                             color: '#FFF',
                             fontSize: '40px'
@@ -97,7 +97,7 @@
                             colors: '#FFF',
                             fontSize: '23px'
                         },
-                        offsetX: 30
+                        offsetX: 30  // y축 라벨을 왼쪽으로 이동
                     }
                 },
                 plotOptions: {
