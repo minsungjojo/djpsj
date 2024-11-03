@@ -47,7 +47,8 @@
                 },
                 grid: {
                     padding: {
-                        left: 60  // 왼쪽 패딩 설정
+                        left: 60,
+                        bottom: 50
                     }
                 },
                 series: [{
@@ -59,7 +60,7 @@
                     type: 'datetime',
                     title: {
                         text: '날짜',
-                        offsetY: 20,
+                        offsetY: 40,  // 날짜 제목을 더 아래로 이동
                         style: {
                             color: '#FFF',
                             fontSize: '40px'
@@ -83,7 +84,7 @@
                 yaxis: {
                     title: {
                         text: '금액 흐름(USD)',
-                        offsetX: -20,  // 제목을 왼쪽으로 이동하여 라벨과 거리 증가
+                        offsetX: -20,
                         style: {
                             color: '#FFF',
                             fontSize: '40px'
@@ -97,7 +98,7 @@
                             colors: '#FFF',
                             fontSize: '23px'
                         },
-                        offsetX: 50  // y축 라벨을 오른쪽으로 이동하여 제목과 거리 증가
+                        offsetX: 50
                     }
                 },
                 plotOptions: {
