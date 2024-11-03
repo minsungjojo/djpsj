@@ -12,13 +12,16 @@
             margin: 0;
             padding: 0;
             display: flex;
-            justify-content: center;
+            flex-direction: column; /* Flex direction set to column */
             align-items: center;
+            justify-content: flex-start; /* Align content to the top */
             height: 100vh;
+            overflow: hidden;
         }
         #chart {
-            width: 90vw; /* Set chart width to 90% of the viewport width */
-            height: 80vh; /* Set chart height to 80% of the viewport height */
+            width: 90vw;
+            height: 60vh;
+            margin-top: 20px; /* Adds a small margin from the top */
         }
     </style>
 </head>
@@ -26,21 +29,18 @@
     <div id="chart"></div>
 
     <script>
-        // JSON 파일을 불러오는 함수
         async function loadJsonData() {
             try {
                 const response = await fetch('b14.json');
                 const jsonData = await response.json();
 
-                // 데이터를 필터링하여 BlackRock의 데이터만 가져옴
                 const filteredData = jsonData
                     .filter(item => item.issuer === "BlackRock" && item.amount_usd_net_flow !== null)
                     .map(item => ({
-                        time: new Date(item.time).getTime(),  // 시간 값을 timestamp로 변환
+                        time: new Date(item.time).getTime(),
                         amount_usd_net_flow: item.amount_usd_net_flow
                     }));
 
-                // 시간 순서대로 정렬
                 filteredData.sort((a, b) => a.time - b.time);
 
                 return filteredData;
@@ -50,15 +50,14 @@
             }
         }
 
-        // ApexCharts 차트를 생성하는 함수
         async function createChart() {
             const data = await loadJsonData();
 
             const options = {
                 chart: {
                     type: 'bar',
-                    width: '100%',  // Chart width set to 100% of the container
-                    height: '100%',  // Chart height set to 100% of the container
+                    width: '100%',
+                    height: '100%',
                     background: '#000000'
                 },
                 series: [{
@@ -69,7 +68,7 @@
                     type: 'datetime',
                     title: {
                         text: '날짜',
-                        style: { color: '#ffffff', fontSize: '25px' }  // X축 제목 크기 증가
+                        style: { color: '#ffffff', fontSize: '20px' }
                     },
                     labels: {
                         datetimeFormatter: {
@@ -78,7 +77,7 @@
                             day: 'dd일',
                             hour: 'HH시'
                         },
-                        style: { colors: '#ffffff', fontSize: '25px' }  // X축 레이블 크기 증가
+                        style: { colors: '#ffffff', fontSize: '15px' }
                     },
                     axisBorder: {
                         color: '#666666'
@@ -90,12 +89,12 @@
                 yaxis: {
                     title: {
                         text: 'USD 순자금 흐름',
-                        style: { color: '#ffffff', fontSize: '25px' }  // Y축 제목 크기 증가
+                        style: { color: '#ffffff', fontSize: '20px' }
                     },
                     labels: {
-                        style: { colors: '#ffffff', fontSize: '25px' },  // Y축 레이블 크기 증가
+                        style: { colors: '#ffffff', fontSize: '15px' },
                         formatter: function(value) {
-                            return Math.round(value);  // 소숫점 없이 정수로 표시
+                            return Math.round(value);
                         }
                     },
                     axisBorder: {
@@ -112,11 +111,11 @@
                     },
                     y: {
                         formatter: function(value) {
-                            return Math.round(value);  // 소숫점 없이 정수로 표시
+                            return Math.round(value);
                         }
                     },
                     style: {
-                        fontSize: '25px',  // 툴팁 폰트 크기 증가
+                        fontSize: '15px',
                         padding: 10
                     }
                 },
@@ -154,17 +153,15 @@
                 legend: {
                     labels: {
                         colors: '#ffffff',
-                        fontSize: '25px'  // 범례 텍스트 크기 증가
+                        fontSize: '20px'
                     }
                 }
             };
 
-            // 차트 생성
             const chart = new ApexCharts(document.querySelector("#chart"), options);
             chart.render();
         }
 
-        // 페이지 로딩 시 차트 생성
         createChart();
     </script>
 </body>
