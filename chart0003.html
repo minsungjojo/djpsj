@@ -92,21 +92,10 @@
                         borderColor: '#333333'
                     },
                     markers: {
-                        size: 0
+                        size: 0 // 동그라미 표시를 없앰
                     },
                     tooltip: {
-                        theme: 'dark',
-                        shared: true,
-                        intersect: false,
-                        x: {
-                            show: true,
-                            formatter: function(value) {
-                                return '날짜: ' + Math.round(value); // 날짜만 표시
-                            }
-                        },
-                        y: {
-                            show: false // y축 데이터 비활성화
-                        }
+                        enabled: false // 툴팁 비활성화
                     },
                     annotations: {
                         yaxis: [
