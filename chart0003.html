@@ -6,15 +6,13 @@
     <title>ApexCharts 비교</title>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
-<body style="background-color: #000000;"> <!-- 페이지 배경을 검은색으로 설정 -->
+<body style="background-color: #000000;">
     <div id="chart"></div>
 
     <script>
-        // JSON 파일에서 데이터 가져오기
         fetch('b3.json') // JSON 파일 경로를 정확히 입력하세요
             .then(response => response.json())
             .then(data => {
-                // halving 값에 따라 데이터 그룹화
                 const groupedData = {};
                 data.forEach(item => {
                     if (!groupedData[item.halving]) {
@@ -23,12 +21,10 @@
                     groupedData[item.halving].push(item);
                 });
 
-                // 각 그룹의 데이터를 days를 기준으로 오름차순 정렬
                 Object.keys(groupedData).forEach(halving => {
                     groupedData[halving].sort((a, b) => a.days - b.days);
                 });
 
-                // 각 halving 그룹을 위한 시리즈 준비
                 const series = Object.keys(groupedData).map(halving => {
                     return {
                         name: halving,
@@ -36,7 +32,6 @@
                     };
                 });
 
-                // 차트 옵션 설정
                 const options = {
                     chart: {
                         type: 'line',
@@ -47,13 +42,13 @@
                         toolbar: {
                             show: true
                         },
-                        background: '#000000' // 차트 배경을 검은색으로 설정
+                        background: '#000000'
                     },
                     series: series,
                     xaxis: {
                         type: 'numeric',
                         title: {
-                            text: '날짜', // x축 제목을 "날짜"로 변경
+                            text: '날짜',
                             style: { color: '#FFFFFF' }
                         },
                         labels: {
@@ -71,7 +66,7 @@
                     },
                     yaxis: {
                         title: {
-                            text: '인덱스 성과', // y축 제목을 "인덱스 성과"로 변경
+                            text: '인덱스 성과',
                             style: { color: '#FFFFFF' }
                         },
                         min: 0,
@@ -102,7 +97,7 @@
                     tooltip: {
                         theme: 'dark',
                         shared: true, // 모든 시리즈의 값을 함께 표시
-                        intersect: false, // 정확한 점에 마우스를 올리지 않아도 툴팁 표시
+                        intersect: false, // 마우스를 정확히 올리지 않아도 툴팁 표시
                         x: {
                             show: true // x축 값 표시
                         },
@@ -137,7 +132,6 @@
                     }
                 };
 
-                // 차트 렌더링
                 const chart = new ApexCharts(document.querySelector("#chart"), options);
                 chart.render();
             })
