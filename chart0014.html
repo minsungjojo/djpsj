@@ -69,7 +69,7 @@
                     type: 'datetime',
                     title: {
                         text: '날짜',
-                        style: { color: '#ffffff', fontSize: '16px' }
+                        style: { color: '#ffffff', fontSize: '25px' }  // X축 제목 크기 증가
                     },
                     labels: {
                         datetimeFormatter: {
@@ -78,7 +78,7 @@
                             day: 'dd일',
                             hour: 'HH시'
                         },
-                        style: { colors: '#ffffff', fontSize: '14px' }
+                        style: { colors: '#ffffff', fontSize: '25px' }  // X축 레이블 크기 증가
                     },
                     axisBorder: {
                         color: '#666666'
@@ -90,10 +90,10 @@
                 yaxis: {
                     title: {
                         text: 'USD 순자금 흐름',
-                        style: { color: '#ffffff', fontSize: '16px' }
+                        style: { color: '#ffffff', fontSize: '25px' }  // Y축 제목 크기 증가
                     },
                     labels: {
-                        style: { colors: '#ffffff', fontSize: '14px' },
+                        style: { colors: '#ffffff', fontSize: '25px' },  // Y축 레이블 크기 증가
                         formatter: function(value) {
                             return Math.round(value);  // 소숫점 없이 정수로 표시
                         }
@@ -116,7 +116,7 @@
                         }
                     },
                     style: {
-                        fontSize: '16px',
+                        fontSize: '25px',  // 툴팁 폰트 크기 증가
                         padding: 10
                     }
                 },
@@ -154,7 +154,7 @@
                 legend: {
                     labels: {
                         colors: '#ffffff',
-                        fontSize: '14px'
+                        fontSize: '25px'  // 범례 텍스트 크기 증가
                     }
                 }
             };
