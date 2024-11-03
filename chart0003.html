@@ -96,15 +96,16 @@
                     },
                     tooltip: {
                         theme: 'dark',
-                        shared: true, // 모든 시리즈의 값을 함께 표시
-                        intersect: false, // 마우스를 정확히 올리지 않아도 툴팁 표시
+                        shared: true,
+                        intersect: false,
                         x: {
-                            show: true // x축 값 표시
+                            show: true,
+                            formatter: function(value) {
+                                return '날짜: ' + Math.round(value); // 날짜만 표시
+                            }
                         },
                         y: {
-                            formatter: function(value) {
-                                return value.toFixed(2); // 소수점 2자리까지 표시
-                            }
+                            show: false // y축 데이터 비활성화
                         }
                     },
                     annotations: {
