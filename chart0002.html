@@ -8,7 +8,7 @@
     <style>
         /* Custom tooltip styling */
         .apexcharts-tooltip {
-            font-size: 16px;  /* Increase tooltip font size */
+            font-size: 22px;  /* Further increase tooltip font size */
         }
     </style>
 </head>
@@ -32,7 +32,7 @@
 
             const liquidityData = data.map(item => ({
                 x: new Date(item.date),
-                y: item.global_liquidity_index
+                y: Math.round(item.global_liquidity_index)  // 글로벌 유동성 지수를 정수로 변환
             }));
 
             // ApexCharts 설정
@@ -61,29 +61,30 @@
                     type: 'datetime',
                     title: {
                         text: '날짜',
-                        style: { color: '#FFF', fontSize: '16px' }  // x축 제목을 흰색으로 설정하고 폰트 크기를 16px로 설정
+                        style: { color: '#FFF', fontSize: '22px' }  // x축 제목을 흰색으로 설정하고 폰트 크기를 22px로 설정
                     },
                     labels: {
-                        style: { colors: '#FFF', fontSize: '14px' }  // x축 라벨을 흰색으로 설정하고 폰트 크기를 14px로 설정
+                        style: { colors: '#FFF', fontSize: '20px' }  // x축 라벨을 흰색으로 설정하고 폰트 크기를 20px로 설정
                     }
                 },
                 yaxis: [{
                     title: {
                         text: 'BTC/USD 가격',
-                        style: { color: '#FFF', fontSize: '16px' }  // y축 제목을 흰색으로 설정하고 폰트 크기를 16px로 설정
+                        style: { color: '#FFF', fontSize: '22px' }  // y축 제목을 흰색으로 설정하고 폰트 크기를 22px로 설정
                     },
                     labels: {
-                        style: { colors: '#FFF', fontSize: '14px' },  // y축 라벨을 흰색으로 설정하고 폰트 크기를 14px로 설정
+                        style: { colors: '#FFF', fontSize: '20px' },  // y축 라벨을 흰색으로 설정하고 폰트 크기를 20px로 설정
                         formatter: function(value) { return Math.round(value); }  // BTC/USD y축 값을 정수로 표시
                     }
                 }, {
                     opposite: true,
                     title: {
                         text: '글로벌 유동성 지수',
-                        style: { color: '#FFF', fontSize: '16px' }  // 반대쪽 y축 제목을 흰색으로 설정하고 폰트 크기를 16px로 설정
+                        style: { color: '#FFF', fontSize: '22px' }  // 반대쪽 y축 제목을 흰색으로 설정하고 폰트 크기를 22px로 설정
                     },
                     labels: {
-                        style: { colors: '#FFF', fontSize: '14px' }  // 반대쪽 y축 라벨을 흰색으로 설정하고 폰트 크기를 14px로 설정
+                        style: { colors: '#FFF', fontSize: '20px' },  // 반대쪽 y축 라벨을 흰색으로 설정하고 폰트 크기를 20px로 설정
+                        formatter: function(value) { return Math.round(value); }  // 글로벌 유동성 지수 y축 값을 정수로 표시
                     }
                 }],
                 tooltip: {
@@ -105,7 +106,7 @@
                 legend: {
                     labels: {
                         colors: '#FFF',  // 범례 텍스트를 흰색으로 설정
-                        fontSize: '16px'  // 범례 텍스트의 폰트 크기를 16px로 설정
+                        fontSize: '22px'  // 범례 텍스트의 폰트 크기를 22px로 설정
                     }
                 }
             };
