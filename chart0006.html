@@ -17,10 +17,13 @@
             padding: 0;
             background-color: black;
             color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         #chart {
-            width: 100%;
-            height: 100vh; /* 화면 높이의 100% 사용 */
+            width: 90%; /* 너비 90% */
+            height: 90vh; /* 높이 90% */
         }
     </style>
 </head>
@@ -47,8 +50,8 @@
             var options = {
                 chart: {
                     type: 'line',  // 차트 유형: 선형 그래프
-                    width: '100%',
-                    height: '100%',
+                    width: '90%',
+                    height: '90%',
                     background: '#000000' // 차트 배경색을 검은색으로 설정
                 },
                 series: [{
