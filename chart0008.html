@@ -86,6 +86,19 @@
                             colors: ['white'] // Set data label color to white
                         }
                     },
+                    tooltip: {
+                        theme: 'dark', // Use dark theme for tooltip
+                        style: {
+                            fontSize: '18px', // Increase tooltip font size
+                            color: '#fff', // Tooltip text color
+                            padding: 10 // Increase padding for a larger tooltip
+                        },
+                        y: {
+                            formatter: function(value) {
+                                return value + '%'; // Display percentage in tooltip
+                            }
+                        }
+                    },
                     title: {
                         text: '',
                         style: {
