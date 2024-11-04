@@ -40,7 +40,7 @@
 
             // JSON 데이터를 차트 형식에 맞게 변환
             let chartData = sortedData.map(item => {
-                return { x: new Date(item.day).getTime(), y: item.Volume_per_users };
+                return { x: new Date(item.day).getTime(), y: parseFloat(item.Volume_per_users).toFixed(2) };
             });
 
             // 차트 옵션 설정
@@ -89,6 +89,9 @@
                         }
                     },
                     labels: {
+                        formatter: function(value) {
+                            return value.toFixed(2); // Y축 라벨 소수점 2자리까지 표기
+                        },
                         style: {
                             colors: '#ffffff', // Y축 라벨 색상 흰색
                             fontSize: '12px'
@@ -97,6 +100,11 @@
                 },
                 tooltip: {
                     theme: 'dark', // 툴팁 배경색을 어둡게 설정
+                    y: {
+                        formatter: function(value) {
+                            return value.toFixed(2); // 툴팁 값 소수점 2자리까지 표기
+                        }
+                    },
                     x: {
                         // 툴팁에서 날짜 형식을 yyyy-MM-dd로 설정
                         formatter: function(value) {
