@@ -18,12 +18,14 @@
             background-color: black;
             color: white;
             display: flex;
+            flex-direction: column; /* 요소를 수직 방향으로 정렬 */
             justify-content: center; /* 수평 중앙 정렬 */
             align-items: center; /* 수직 중앙 정렬 */
         }
         #chart {
             width: 90%; /* 차트 너비 90% */
-            height: 80vh; /* 차트 높이를 화면 높이에 비례하여 설정 */
+            max-width: 800px; /* 차트 최대 너비 설정 */
+            height: 500px; /* 차트 높이 설정 */
         }
     </style>
 </head>
