@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>일일 활성 주소 수</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <style>
+        /* Ensure the chart container fills the entire viewport */
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: black; /* Page background color */
+            color: white; /* Text color */
+            overflow: hidden; /* Prevent scrollbars */
+        }
+        #chart {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="chart"></div>
+
+    <script>
+        // b33.json 파일에서 데이터를 가져오는 함수
+        async function fetchData() {
+            const response = await fetch('b33.json'); // JSON 파일 경로
+            const data = await response.json();
+            
+            // 차트에 맞는 형식으로 데이터 변환
+            return data.map(item => {
+                return { x: item.Date, y: item.Total_Active_Addresses };
+            });
+        }
+
+        // ApexCharts 옵션 설정
+        async function createChart() {
+            const seriesData = await fetchData();
+
+            var options = {
+                chart: {
+                    type: 'line',
+                    width: '100%',
+                    height: '100%',
+                    background: '#000000' // Chart background color to black
+                },
+                series: [{
+                    name: '일일 활성 주소 수',
+                    data: seriesData // 데이터 사용
+                }],
+                xaxis: {
+                    type: 'datetime',
+                    title: {
+                        text: '날짜',
+                        style: { color: '#FFFFFF' } // Title text color to white
+                    },
+                    labels: {
+                        style: { colors: '#FFFFFF' } // X-axis label color to white
+                    }
+                },
+                yaxis: {
+                    title: {
+                        text: '활성 주소 수',
+                        style: { color: '#FFFFFF' } // Y-axis title color to white
+                    },
+                    labels: {
+                        style: { colors: '#FFFFFF' } // Y-axis label color to white
+                    }
+                },
+                stroke: {
+                    colors: ['#00FF00'], // Line color to bright green
+                    width: 2 // Line thickness
+                },
+                tooltip: {
+                    x: {
+                        format: 'yyyy-MM-dd'
+                    },
+                    theme: 'dark' // Tooltip theme to dark
+                },
+                grid: {
+                    borderColor: '#333333' // Grid line color to dark gray
+                },
+                markers: {
+                    size: 4,
+                    colors: ['#FF4500'], // Marker color to bright orange
+                    strokeColors: '#FFFFFF', // Marker border color to white
+                    strokeWidth: 2
+                },
+                title: {
+                    text: '일일 활성 주소 수',
+                    align: 'center',
+                    style: {
+                        fontSize: '18px',
+                        color: '#FFFFFF' // Title color to white
+                    }
+                }
+            };
+
+            var chart = new ApexCharts(document.querySelector("#chart"), options);
+            chart.render();
+        }
+
+        // 차트 생성 함수 호출
+        createChart();
+    </script>
+</body>
+</html>
