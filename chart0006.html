@@ -12,7 +12,7 @@
         /* 페이지와 차트에 대한 기본 스타일 */
         html, body {
             width: 100%;
-            height: 100%;
+            height: 100vh; /* 전체 화면 높이 설정 */
             margin: 0;
             padding: 0;
             background-color: black;
@@ -23,7 +23,7 @@
         }
         #chart {
             width: 90%; /* 너비 90% */
-            height: 80%; /* 높이 80px로 설정 */
+            height: 80vh; /* 높이 80% */
         }
     </style>
 </head>
@@ -49,78 +49,76 @@
             // 차트 옵션 설정
             var options = {
                 chart: {
-                    type: 'line',  // 차트 유형: 선형 그래프
+                    type: 'line',
                     width: '100%',
-                    height: '90%', // 차트 높이를 80으로 설정
-                    background: '#000000' // 차트 배경색을 검은색으로 설정
+                    height: '100%',
+                    background: '#000000'
                 },
                 series: [{
-                    name: '사용자당 볼륨',  // 데이터 시리즈 이름
-                    data: chartData  // JSON에서 불러온 데이터 사용
+                    name: '사용자당 볼륨',
+                    data: chartData
                 }],
                 stroke: {
-                    width: 1,  // 선 굵기: 1
-                    colors: ['#ffffff']  // 선 색상 흰색
+                    width: 1,
+                    colors: ['#ffffff']
                 },
                 xaxis: {
-                    type: 'datetime',  // X축 유형: 날짜 시간
+                    type: 'datetime',
                     labels: {
-                        // X축의 날짜 라벨 형식을 한국어로 설정 (년도/월)
                         formatter: function(value) {
                             const date = new Date(value);
                             return date.getFullYear() + '년 ' + (date.getMonth() + 1) + '월';
                         },
                         style: {
-                            colors: '#ffffff',  // X축 라벨 색상 흰색
+                            colors: '#ffffff',
                             fontSize: '12px'
                         }
                     },
                     title: {
-                        text: '날짜',  // X축 제목
+                        text: '날짜',
                         style: {
-                            color: '#ffffff', // X축 제목 색상 흰색
+                            color: '#ffffff',
                             fontSize: '14px'
                         }
                     }
                 },
                 yaxis: {
                     title: {
-                        text: '사용자당 볼륨',  // Y축 제목
+                        text: '사용자당 볼륨',
                         style: {
-                            color: '#ffffff', // Y축 제목 색상 흰색
+                            color: '#ffffff',
                             fontSize: '14px'
                         }
                     },
                     labels: {
                         formatter: function(value) {
-                            return value.toFixed(2); // Y축 라벨 소수점 2자리까지 표기
+                            return value.toFixed(2);
                         },
                         style: {
-                            colors: '#ffffff', // Y축 라벨 색상 흰색
+                            colors: '#ffffff',
                             fontSize: '12px'
                         }
                     }
                 },
                 tooltip: {
-                    theme: 'dark', // 툴팁 배경색을 어둡게 설정
+                    theme: 'dark',
                     y: {
                         formatter: function(value) {
-                            return value.toFixed(2); // 툴팁 값 소수점 2자리까지 표기
+                            return value.toFixed(2);
                         }
                     },
                     x: {
-                        // 툴팁에서 날짜 형식을 yyyy-MM-dd로 설정
                         formatter: function(value) {
                             const date = new Date(value);
                             const year = date.getFullYear();
-                            const month = ('0' + (date.getMonth() + 1)).slice(-2);  // 두 자리수 월
-                            const day = ('0' + date.getDate()).slice(-2);  // 두 자리수 일
+                            const month = ('0' + (date.getMonth() + 1)).slice(-2);
+                            const day = ('0' + date.getDate()).slice(-2);
                             return `${year}-${month}-${day}`;
                         }
                     }
                 },
                 grid: {
-                    borderColor: '#444444' // 그리드 라인 색상을 어두운 회색으로 설정
+                    borderColor: '#444444'
                 }
             };
 
