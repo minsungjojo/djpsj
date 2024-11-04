@@ -3,109 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ApexCharts로 일별 트랜잭션 수 차트 만들기</title>
+    <title></title>
+    <!-- ApexCharts CDN -->
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
-    <style>
-        /* 차트를 화면에 꽉 채우기 위한 스타일 */
-        body, html {
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #000000;
-            color: #FFFFFF;
-            height: 100%;
-        }
-        #chart {
-            width: 100vw;
-            height: 100vh;
-        }
-    </style>
 </head>
-<body>
-
-    <!-- 차트를 표시할 div -->
-    <div id="chart"></div>
+<body style="background-color: #000; color: #FFF; margin: 0; overflow: hidden;">
+    <div id="chart" style="width: 100vw; height: 100vh;"></div>
 
     <script>
-        // b1.json 파일의 데이터를 가져와 ApexCharts로 차트 생성
-        async function createChart() {
-            try {
-                // JSON 파일 로드
-                const response = await fetch('b4.json');
-                const data = await response.json();
-
-                // day와 transaction_count 데이터 추출
-                const categories = data.map(item => new Date(item.day).toLocaleDateString('ko-KR'));
-                const transactionCounts = data.map(item => item.transaction_count);
-
-                // ApexCharts 옵션 설정
-                const options = {
-                    chart: {
-                        type: 'line', // 라인 차트 설정
-                        height: '100%',
-                        width: '100%',
-                        background: '#000000', // 배경 색상 검은색으로 설정
-                    },
-                    series: [{
-                        name: '트랜잭션 수',
-                        data: transactionCounts
-                    }],
-                    xaxis: {
-                        categories: categories, // x축에 날짜 표시
-                        title: {
-                            text: '날짜',
-                            style: {
-                                color: '#FFFFFF' // x축 제목 글자 색 흰색
-                            }
-                        },
-                        labels: {
-                            style: {
-                                colors: '#FFFFFF' // x축 레이블 색상 흰색
-                            }
-                        }
-                    },
-                    yaxis: {
-                        title: {
-                            text: '트랜잭션 수',
-                            style: {
-                                color: '#FFFFFF' // y축 제목 글자 색 흰색
-                            }
-                        },
-                        labels: {
-                            style: {
-                                colors: '#FFFFFF' // y축 레이블 색상 흰색
-                            }
-                        }
-                    },
-                    stroke: {
-                        curve: 'smooth', // 곡선형 라인
-                        colors: ['#00E396'] // 라인 색상 설정
-                    },
-                    markers: {
-                        size: 4, // 데이터 포인트 마커 크기
-                        colors: ['#FF4560'], // 마커 색상 설정
-                        strokeColors: '#FFFFFF', // 마커 테두리 색 흰색
-                        strokeWidth: 2 // 테두리 두께
-                    },
-                    colors: ['#00E396'], // 라인 색상 설정
-                    grid: {
-                        borderColor: '#333333' // 그리드 색상 짙은 회색으로 설정
-                    },
-                    tooltip: {
-                        theme: 'dark' // 툴팁을 어두운 테마로 설정
-                    }
-                };
-
-                // ApexCharts 차트 생성
-                const chart = new ApexCharts(document.querySelector("#chart"), options);
-                chart.render();
-            } catch (error) {
-                console.error('Error loading the JSON data:', error);
-            }
+        async function 가져오기() {
+            const 응답 = await fetch('b5.json');
+            const 데이터 = await 응답.json();
+            return 데이터;
         }
 
-        // 페이지 로드 시 차트 생성 함수 호출
-        window.onload = createChart;
+        function 중복제거(데이터) {
+            const 고유날짜 = {};
+            return 데이터.filter(항목 => {
+                const 날짜 = 항목.month.split(" ")[0];
+                if (!고유날짜[날짜]) {
+                    고유날짜[날짜] = true;
+                    return true;
+                }
+                return false;
+            });
+        }
+
+        function 날짜정렬(데이터) {
+            return 데이터.sort((a, b) => new Date(a.month) - new Date(b.month));
+        }
+
+        function 차트생성(정렬된데이터) {
+            var 월별 = 정렬된데이터.map(항목 => new Date(항목.month).toLocaleDateString('ko-KR', { year: 'numeric', month: 'short' }));
+            var 볼륨달러 = 정렬된데이터.map(항목 => 항목.volume_dollar);
+
+            var 옵션 = {
+                chart: {
+                    type: 'line',
+                    height: '100%',
+                    width: '100%',
+                    background: '#000',
+                    foreColor: '#FFF'
+                },
+                series: [{
+                    name: '볼륨 (달러)',
+                    data: 볼륨달러
+                }],
+                xaxis: {
+                    categories: 월별,
+                    title: {
+                        text: '월',
+                        style: {
+                            color: '#FFF',
+                            fontSize: '16px'
+                        }
+                    },
+                    labels: {
+                        style: {
+                            colors: '#FFF',
+                            fontSize: '14px'
+                        }
+                    }
+                },
+                yaxis: {
+                    labels: {
+                        formatter: function (값) {
+                            return "$" + 값.toLocaleString();
+                        },
+                        style: {
+                            colors: '#FFF',
+                            fontSize: '14px'
+                        }
+                    },
+                    title: {
+                        text: '볼륨 ($)',
+                        style: {
+                            color: '#FFF',
+                            fontSize: '16px'
+                        }
+                    }
+                },
+                tooltip: {
+                    theme: 'dark',
+                    y: {
+                        formatter: function (값) {
+                            return "$" + 값.toLocaleString();
+                        }
+                    }
+                },
+                colors: ['#00E396'],
+                grid: {
+                    borderColor: '#555',
+                },
+                stroke: {
+                    curve: 'straight' // Change line style to straight
+                },
+                dataLabels: {
+                    enabled: false
+                }
+            };
+
+            var 차트 = new ApexCharts(document.querySelector("#chart"), 옵션);
+            차트.render();
+        }
+
+        가져오기().then(데이터 => {
+            var 필터링된데이터 = 중복제거(데이터);
+            var 정렬된데이터 = 날짜정렬(필터링된데이터);
+            차트생성(정렬된데이터);
+        }).catch(error => {
+            console.error('데이터를 가져오는 중 오류 발생:', error);
+        });
     </script>
 </body>
 </html>
