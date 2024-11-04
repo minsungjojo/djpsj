@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>테마별 연 수익률 차트</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <style>
+        /* Make chart container take up the entire screen */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            background-color: black;
+            color: white;
+            overflow: hidden; /* Prevent scrolling */
+        }
+        #chart {
+            height: 100vh; /* Full viewport height */
+            width: 100vw; /* Full viewport width */
+        }
+    </style>
+</head>
+<body>
+
+    <div id="chart"></div>
+    
+    <script>
+        // Fetch data from b8.json and create chart
+        fetch('b8.json')
+            .then(response => response.json())
+            .then(chartData => {
+                // Process data into annual return percentage
+                const categories = chartData.map(data => data.narrative);
+                const seriesData = chartData.map(data => (data.ytd_perf * 100).toFixed(2)); // Convert to percentage and round to 2 decimals
+
+                // Chart options
+                const options = {
+                    chart: {
+                        type: 'bar',
+                        height: '100%',
+                        width: '100%',
+                        background: '#000' // Set chart background to black
+                    },
+                    series: [{
+                        name: '연 수익률 (%)',
+                        data: seriesData
+                    }],
+                    colors: ['#1E90FF', '#32CD32', '#FFA500', '#FF6347', '#9370DB', '#708090', '#20B2AA', '#9400D3'],
+                    xaxis: {
+                        categories: categories,
+                        title: {
+                            text: '테마',
+                            style: { color: 'white' } // Set x-axis title color to white
+                        },
+                        labels: {
+                            style: { colors: Array(categories.length).fill('white') } // Set x-axis label colors to white
+                        }
+                    },
+                    yaxis: {
+                        labels: {
+                            formatter: function (value) {
+                                return value + "%";
+                            },
+                            style: { colors: 'white' } // Set y-axis label color to white
+                        },
+                        title: {
+                            text: '연 수익률 (%)',
+                            style: { color: 'white' } // Set y-axis title color to white
+                        }
+                    },
+                    plotOptions: {
+                        bar: {
+                            distributed: true,
+                            borderRadius: 4,
+                            horizontal: false
+                        }
+                    },
+                    legend: {
+                        show: false
+                    },
+                    dataLabels: {
+                        enabled: true,
+                        style: {
+                            colors: ['white'] // Set data label color to white
+                        }
+                    },
+                    title: {
+                        text: '',
+                        style: {
+                            color: 'white' // Set title color to white (if any title is added in the future)
+                        }
+                    }
+                };
+
+                // Render chart
+                const chart = new ApexCharts(document.querySelector("#chart"), options);
+                chart.render();
+            })
+            .catch(error => {
+                console.error('데이터를 불러오는 중 오류가 발생했습니다:', error);
+            });
+    </script>
+</body>
+</html>
