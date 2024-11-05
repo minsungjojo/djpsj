@@ -16,7 +16,7 @@
         
         #chart {
             width: 100%;
-            height: 100%;
+            height: 100vh; /* 화면 높이에 맞게 조정 */
         }
     </style>
 </head>
@@ -28,7 +28,6 @@
             const response = await fetch('b21.json');
             const data = await response.json();
 
-            // Ensure data is sorted by date in ascending order
             const seriesData = data
                 .map(entry => ({
                     x: new Date(entry.day),
@@ -63,7 +62,7 @@
                         style: {
                             colors: '#ffffff'
                         },
-                        format: 'yyyy-MM-dd'  // Date format for x-axis labels
+                        format: 'yyyy-MM-dd'
                     },
                     title: {
                         text: '날짜',
@@ -94,7 +93,7 @@
                         color: '#ffcc00'
                     },
                     x: {
-                        format: 'yyyy-MM-dd'  // Date format for tooltip
+                        format: 'yyyy-MM-dd'
                     },
                     y: {
                         formatter: value => `${value} BTC`,
