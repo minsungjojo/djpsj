@@ -57,11 +57,21 @@
                 colors: ['#4CAF50'], // Set bar color to green for better contrast
                 plotOptions: {
                     bar: {
-                        horizontal: true
+                        horizontal: true,
+                        dataLabels: {
+                            position: 'center' // Position labels inside the bars
+                        }
                     }
                 },
                 dataLabels: {
-                    enabled: false
+                    enabled: true,
+                    formatter: function(value) {
+                        return value.toFixed(2) + "%"; // Display value with two decimal places
+                    },
+                    style: {
+                        fontSize: '14px',
+                        colors: ['#fff'] // Set data label color to white for visibility
+                    }
                 },
                 xaxis: {
                     categories: symbols,
@@ -115,7 +125,7 @@
                     },
                     y: {
                         formatter: function(value) {
-                            return value + "%"; // Display percentage format
+                            return value.toFixed(2) + "%"; // Display percentage with two decimal places
                         },
                         title: {
                             formatter: (seriesName) => seriesName,
