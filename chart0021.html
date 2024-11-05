@@ -28,10 +28,13 @@
             const response = await fetch('b21.json');
             const data = await response.json();
 
-            const seriesData = data.map(entry => ({
-                x: new Date(entry.day),
-                y: parseFloat(entry.value.toFixed(1))
-            })).sort((a, b) => a.x - b.x);
+            // Ensure data is sorted by date in ascending order
+            const seriesData = data
+                .map(entry => ({
+                    x: new Date(entry.day),
+                    y: parseFloat(entry.value.toFixed(1))
+                }))
+                .sort((a, b) => a.x - b.x);
 
             return seriesData;
         }
@@ -60,7 +63,7 @@
                         style: {
                             colors: '#ffffff'
                         },
-                        format: 'yyyy-MM-dd'
+                        format: 'yyyy-MM-dd'  // Date format for x-axis labels
                     },
                     title: {
                         text: '날짜',
@@ -91,7 +94,7 @@
                         color: '#ffcc00'
                     },
                     x: {
-                        format: 'yyyy-MM-dd'
+                        format: 'yyyy-MM-dd'  // Date format for tooltip
                     },
                     y: {
                         formatter: value => `${value} BTC`,
