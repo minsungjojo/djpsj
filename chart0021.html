@@ -6,7 +6,6 @@
     <title>비트코인 일별 가치</title>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <style>
-        /* Make the body take up the full viewport height and remove default margin */
         body, html {
             margin: 0;
             padding: 0;
@@ -15,7 +14,6 @@
             color: white;
         }
         
-        /* Set the chart container to take up full height and width */
         #chart {
             width: 100vw;
             height: 100vh;
@@ -26,32 +24,26 @@
     <div id="chart"></div>
 
     <script>
-        // JSON 파일에서 데이터를 가져오는 함수
         async function fetchData() {
-            const response = await fetch('b21.json');  // b21.json 파일 경로
+            const response = await fetch('b21.json');
             const data = await response.json();
 
-            // JSON 데이터를 ApexCharts 형식에 맞게 변환하고, 소숫점 1자리까지 반올림
             const seriesData = data.map(entry => ({
                 x: new Date(entry.day),
-                y: parseFloat(entry.value.toFixed(1))  // 소숫점 1자리까지 반올림
-            }));
-
-            // 날짜 순서대로 정렬
-            seriesData.sort((a, b) => a.x - b.x);
+                y: parseFloat(entry.value.toFixed(1))
+            })).sort((a, b) => a.x - b.x);
 
             return seriesData;
         }
 
-        // 차트를 렌더링하는 함수
         async function renderChart() {
             const seriesData = await fetchData();
 
             var options = {
                 chart: {
                     type: 'line',
-                    height: '100%',  // Full height of viewport
-                    width: '100%',   // Full width of viewport
+                    height: '100%',
+                    width: '100%',
                     background: '#000000'
                 },
                 stroke: {
@@ -129,7 +121,6 @@
             chart.render();
         }
 
-        // 페이지가 로드되면 차트를 렌더링
         renderChart();
     </script>
 </body>
