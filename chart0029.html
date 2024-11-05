@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>거래소별 BTC 보유량 - 스택형 막대 차트</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <style>
+        /* 차트 컨테이너를 화면에 꽉 차게 설정 */
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: #000000;
+            color: #ffffff;
+            overflow: hidden;
+        }
+        #chart {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="chart"></div>
+
+    <script>
+        // JSON 파일에서 데이터를 가져옵니다
+        fetch('b29.json') // JSON 파일 경로를 설정하세요.
+            .then(response => response.json())
+            .then(data => {
+                // 현재 날짜에서 3개월 전의 날짜를 계산
+                const threeMonthsAgo = new Date();
+                threeMonthsAgo.setMonth(threeMonthsAgo.getMonth() - 3);
+
+                // 3개월 이내의 데이터만 필터링
+                const filteredData = data.filter(item => new Date(item.day) >= threeMonthsAgo);
+
+                // 날짜별로 정렬된 카테고리 생성
+                const categories = [...new Set(filteredData.map(item => item.day))].sort((a, b) => new Date(a) - new Date(b));
+
+                // 거래소 목록 생성
+                const exchanges = [...new Set(filteredData.map(item => item.exchange))];
+
+                // 거래소별로 데이터 그룹화
+                const series = exchanges.map(exchange => {
+                    return {
+                        name: exchange,
+                        data: categories.map(day => {
+                            const entry = filteredData.find(item => item.day === day && item.exchange === exchange);
+                            return entry ? entry.value : 0;
+                        })
+                    };
+                });
+
+                // ApexCharts 설정
+                const options = {
+                    chart: {
+                        type: 'bar',
+                        height: '100%',  // 차트 높이를 100%로 설정
+                        width: '100%',   // 차트 너비를 100%로 설정
+                        stacked: true,
+                        background: '#000000' // 차트 배경을 검은색으로 설정
+                    },
+                    series: series,
+                    xaxis: {
+                        type: 'datetime',  // 날짜 데이터를 시간 형식으로 설정
+                        categories: categories,
+                        title: {
+                            text: '날짜',
+                            style: {
+                                color: '#ffffff' // X축 제목 색상
+                            }
+                        },
+                        labels: {
+                            rotate: -45,  // 레이블을 45도 기울임
+                            style: {
+                                fontSize: '12px',  // 레이블의 글꼴 크기를 작게 설정
+                                colors: '#ffffff' // 레이블의 색상을 흰색으로 설정
+                            },
+                            hideOverlappingLabels: true,  // 겹치는 레이블 숨김
+                            showDuplicates: false,  // 중복된 레이블 숨김
+                            format: 'yyyy-MM-dd',  // 날짜 형식을 지정 (YYYY-MM-DD 형식)
+                        },
+                        tickAmount: Math.floor(categories.length / 10),  // 간격을 10분의 1로 조정하여 몇 개의 레이블만 표시
+                    },
+                    yaxis: {
+                        title: {
+                            text: 'BTC 보유량',
+                            style: {
+                                color: '#ffffff' // Y축 제목을 흰색으로 설정
+                            }
+                        },
+                        labels: {
+                            style: {
+                                colors: '#ffffff' // Y축 레이블을 흰색으로 설정
+                            }
+                        }
+                    },
+                    colors: ['#FFD700', '#87CEEB', '#FF69B4', '#32CD32', '#FFA07A', '#BA55D3', '#20B2AA', '#F08080', '#FF4500', '#6A5ACD'],
+                    tooltip: {
+                        enabled: true, // 툴팁을 활성화
+                        shared: true,  // 하나의 포인트에 대해 여러 시리즈의 정보를 함께 표시
+                        followCursor: true, // 커서를 따라다니는 툴팁
+                        intersect: false,
+                        theme: 'dark',  // 툴팁 테마를 다크 모드로 설정
+                        style: {
+                            fontSize: '14px', // 툴팁 글꼴 크기를 키움
+                            padding: 10 // 툴팁 내 여백을 추가하여 크기 증가
+                        },
+                        y: {
+                            formatter: function (val) {
+                                return val.toFixed(2);  // 값을 소수점 2자리로 표시
+                            }
+                        }
+                    },
+                    fill: {
+                        opacity: 1
+                    },
+                    legend: {
+                        position: 'right',
+                        offsetY: 40,
+                        labels: {
+                            colors: '#ffffff' // 범례 레이블을 흰색으로 설정
+                        }
+                    },
+                    dataLabels: {
+                        enabled: false // 데이터 레이블(숫자)을 비활성화
+                    }
+                };
+
+                // 차트 생성 및 렌더링
+                const chart = new ApexCharts(document.querySelector("#chart"), options);
+                chart.render();
+            })
+            .catch(error => console.error('데이터를 가져오는 중 오류가 발생했습니다:', error));
+    </script>
+</body>
+</html>
