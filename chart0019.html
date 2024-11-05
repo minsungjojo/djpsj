@@ -96,4 +96,61 @@
                     },
                     colors: colors,
                     tooltip: {
-                        enabl
+                        enabled: true,
+                        shared: true,
+                        followCursor: true,
+                        intersect: false,
+                        theme: 'dark', // Dark theme for the tooltip
+                        style: {
+                            fontSize: '16px', // Increase tooltip font size
+                            color: '#fff' // Set tooltip text color to white
+                        },
+                        x: {
+                            show: true,
+                            formatter: function(value) {
+                                return '날짜: ' + value; // Display formatted date in tooltip
+                            },
+                            style: {
+                                fontSize: '16px', // Increase tooltip x-axis font size
+                                color: '#fff'
+                            }
+                        },
+                        y: {
+                            formatter: function (val) {
+                                return val.toFixed(2) + "%"; // Show values with two decimal places
+                            },
+                            title: {
+                                formatter: (seriesName) => seriesName,
+                                style: { fontSize: '16px', color: '#fff' } // Increase tooltip title font size and set to white
+                            }
+                        },
+                        marker: {
+                            show: true,
+                            fillColors: colors, // Match marker colors with series colors
+                            width: 10, // Increase marker size for better visibility
+                            height: 10
+                        }
+                    },
+                    fill: {
+                        opacity: 1
+                    },
+                    legend: {
+                        position: 'right',
+                        offsetY: 40,
+                        labels: {
+                            colors: '#fff' // Set legend label color to white
+                        }
+                    },
+                    dataLabels: {
+                        enabled: false // 데이터 레이블(숫자)을 비활성화
+                    }
+                };
+
+                // 차트 생성 및 렌더링
+                const chart = new ApexCharts(document.querySelector("#chart"), options);
+                chart.render();
+            })
+            .catch(error => console.error('데이터를 가져오는 중 오류가 발생했습니다:', error));
+    </script>
+</body>
+</html>
