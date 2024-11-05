@@ -8,6 +8,22 @@
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <!-- PapaParse 라이브러리 포함 (CSV 파싱용) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000; /* Set background color to black */
+            color: #fff; /* Set text color to white for better readability */
+            overflow: hidden; /* Prevent scrolling */
+        }
+        #chart {
+            width: 100vw;
+            height: 100vh;
+            background-color: #222; /* Set a dark background for the chart area */
+        }
+    </style>
 </head>
 <body>
     <!-- 차트를 표시할 div -->
@@ -71,27 +87,44 @@
                     var options = {
                         chart: {
                             type: 'bar',
-                            height: 350
+                            height: '100%',
+                            width: '100%',
+                            background: '#222' // Set chart background to dark color
                         },
                         series: [{
                             name: '모금액',
                             data: sortedAmounts
                         }],
-                        colors: ['#343a40'],
+                        colors: ['#1abc9c'], // Lighter color for bars
                         xaxis: {
                             categories: dates,
                             title: {
-                                text: '월'
+                                text: '월',
+                                style: {
+                                    color: '#fff' // White color for title
+                                }
                             },
-                            tickAmount: Math.floor(dates.length / 3),
                             labels: {
                                 rotate: -45,
-                                maxHeight: 100
+                                maxHeight: 100,
+                                style: {
+                                    colors: '#ccc', // Light gray for x-axis labels
+                                    fontSize: '12px'
+                                }
                             }
                         },
                         yaxis: {
                             title: {
-                                text: '모금액 (USD)'
+                                text: '모금액 (USD)',
+                                style: {
+                                    color: '#fff' // White color for y-axis title
+                                }
+                            },
+                            labels: {
+                                style: {
+                                    colors: '#ccc', // Light gray for y-axis labels
+                                    fontSize: '12px'
+                                }
                             }
                         },
                         plotOptions: {
@@ -102,7 +135,17 @@
                             }
                         },
                         dataLabels: {
-                            enabled: false
+                            enabled: true,
+                            style: {
+                                colors: ['#fff'] // White color for data labels
+                            }
+                        },
+                        tooltip: {
+                            theme: 'dark', // Dark theme for tooltip
+                            style: {
+                                fontSize: '16px', // Larger font size for tooltip text
+                                padding: 10 // Add padding for a more spacious tooltip
+                            }
                         }
                     };
 
