@@ -120,7 +120,7 @@
                         },
                         y: {
                             formatter: function(value) {
-                                return value ? value.toLocaleString() : ''; // Format tooltip values
+                                return value ? value.toFixed(1).toLocaleString() : ''; // Format tooltip values to one decimal place
                             },
                             title: {
                                 formatter: (seriesName) => seriesName,
