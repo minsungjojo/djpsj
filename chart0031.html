@@ -110,8 +110,13 @@
                                 style: {
                                     colors: '#ccc', // Light gray for x-axis labels
                                     fontSize: '12px'
+                                },
+                                formatter: function(value, timestamp, index) {
+                                    // Display only every third label to reduce clutter
+                                    return index % 3 === 0 ? value : '';
                                 }
-                            }
+                            },
+                            tickAmount: Math.floor(dates.length / 3) // Space out the labels
                         },
                         yaxis: {
                             title: {
