@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>암호화폐 언급 성장률</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <style>
+        /* Set the background color to black and text to white */
+        html, body {
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        /* Make the chart div take up the full screen */
+        #chart {
+            height: 100vh;
+            width: 100vw;
+        }
+    </style>
+</head>
+<body>
+    <div id="chart"></div>
+
+    <script>
+        // JSON 파일에서 데이터를 가져오는 함수
+        async function getData() {
+            const response = await fetch('b18.json'); // json 파일 경로
+            const data = await response.json();
+            return data;
+        }
+
+        // 차트를 그리는 함수
+        async function renderChart() {
+            const data = await getData();
+
+            // 언급 성장률에 100을 곱한 데이터를 생성
+            const mentionGrowth = data.map(item => item.mention_growth * 100);
+            const symbols = data.map(item => item.symbol);
+
+            var options = {
+                series: [{
+                    name: '언급 성장률',
+                    data: mentionGrowth
+                }],
+                chart: {
+                    type: 'bar',
+                    height: '100%',
+                    width: '100%',
+                    background: '#000' // Set chart background to black
+                },
+                colors: ['#4CAF50'], // Set bar color to green for better contrast
+                plotOptions: {
+                    bar: {
+                        horizontal: true
+                    }
+                },
+                dataLabels: {
+                    enabled: false
+                },
+                xaxis: {
+                    categories: symbols,
+                    title: {
+                        text: '암호화폐 심볼',
+                        style: {
+                            color: '#fff' // Set axis title color to white
+                        }
+                    },
+                    labels: {
+                        style: {
+                            colors: '#fff' // Set axis label color to white
+                        }
+                    },
+                    axisBorder: {
+                        color: '#555' // Set x-axis border color to dark gray
+                    },
+                    axisTicks: {
+                        color: '#555' // Set x-axis ticks color to dark gray
+                    }
+                },
+                yaxis: {
+                    title: {
+                        text: '성장률 (%)',
+                        style: {
+                            color: '#fff' // Set y-axis title color to white
+                        }
+                    },
+                    labels: {
+                        style: {
+                            colors: '#fff' // Set y-axis label color to white
+                        }
+                    }
+                },
+                grid: {
+                    borderColor: '#333', // Set grid line color to dark gray
+                    strokeDashArray: 4 // Dashed grid lines for subtle effect
+                },
+                tooltip: {
+                    theme: 'dark', // Dark theme for tooltips
+                    style: {
+                        fontSize: '16px', // Increase tooltip font size
+                        fontFamily: 'Arial, sans-serif',
+                        color: '#fff' // Set tooltip text color to white
+                    },
+                    background: {
+                        color: '#222' // Darker background for the tooltip itself
+                    },
+                    marker: {
+                        fillColors: ['#4CAF50'] // Marker color to match bar color
+                    },
+                    y: {
+                        formatter: function(value) {
+                            return value + "%"; // Display percentage format
+                        },
+                        title: {
+                            formatter: (seriesName) => seriesName,
+                            style: {
+                                color: '#4CAF50', // Set tooltip title color to match bar color
+                                fontWeight: 'bold',
+                                fontSize: '16px' // Increase title font size
+                            }
+                        }
+                    }
+                },
+                legend: {
+                    labels: {
+                        colors: '#fff' // Set legend label color to white
+                    }
+                }
+            };
+
+            var chart = new ApexCharts(document.querySelector("#chart"), options);
+            chart.render();
+        }
+
+        // 차트 그리기 실행
+        renderChart();
+    </script>
+</body>
+</html>
