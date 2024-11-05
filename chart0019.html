@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스택형 막대 차트</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <style>
+        /* Make body and chart div fill the viewport */
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000; /* Set the body background to black */
+            color: #fff; /* Set the text color to white for readability */
+            overflow: hidden; /* Prevent scrolling */
+        }
+        
+        #chart {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="chart"></div>
+
+    <script>
+        // JSON 파일에서 데이터를 가져옵니다
+        fetch('b19.json') // JSON 파일 경로를 설정하세요.
+            .then(response => response.json())
+            .then(data => {
+                // 날짜를 순서대로 정렬
+                const categories = [...new Set(data.map(item => item.date))].sort((a, b) => new Date(a) - new Date(b));
+
+                const actions = ['polygon', 'optimism', 'linea', 'starknet', 'mantle', 'blast', 'zksync']; // 주요 암호화폐 action 목록
+
+                // 각 날짜별로 데이터를 합산하여 퍼센트 계산
+                const series = actions.map(action => {
+                    return {
+                        name: action,
+                        data: categories.map(date => {
+                            const entriesForDate = data.filter(item => item.date === date);
+                            const totalForDate = entriesForDate.reduce((sum, item) => sum + item.count, 0); // 그 날짜의 총합
+                            const entry = entriesForDate.find(item => item.action === action);
+                            return entry ? (entry.count / totalForDate) * 100 : 0; // 퍼센트 계산
+                        })
+                    };
+                });
+
+                // 밝은 색상 설정
+                const colors = ['#FFD700', '#87CEEB', '#FF69B4', '#32CD32', '#FFA07A', '#BA55D3', '#20B2AA'];
+
+                // ApexCharts 설정
+                const options = {
+                    chart: {
+                        type: 'bar',
+                        height: '100%',  // Full height for the chart
+                        width: '100%',   // Full width for the chart
+                        stacked: true,
+                        stackType: '100%',
+                        background: '#000' // Chart background set to black
+                    },
+                    series: series,
+                    xaxis: {
+                        categories: categories,
+                        title: {
+                            text: '날짜',
+                            style: { color: '#fff' } // Set x-axis title color to white
+                        },
+                        labels: {
+                            rotate: -45,
+                            style: { colors: Array(categories.length).fill('#fff') }, // Set label color to white
+                            datetimeFormatter: {
+                                year: 'yyyy',
+                                month: 'MMM'
+                            },
+                            showDuplicates: false,
+                            hideOverlappingLabels: true,
+                            trim: true,
+                        },
+                        tickAmount: Math.floor(categories.length / 6),
+                    },
+                    yaxis: {
+                        title: {
+                            text: '비율',
+                            style: { color: '#fff' } // Set y-axis title color to white
+                        },
+                        labels: {
+                            style: { colors: '#fff' }, // Set y-axis label color to white
+                            formatter: function (val) {
+                                return val.toFixed(0) + '%';
+                            }
+                        }
+                    },
+                    colors: colors,
+                    tooltip: {
+                        enabl
