@@ -15,8 +15,8 @@
         }
         
         #chart {
-            width: 100vw;
-            height: 100vh;
+            width: 100%;
+            height: 100%;
         }
     </style>
 </head>
@@ -107,8 +107,9 @@
                         fillColors: ['#ffcc00'],
                     },
                     custom: function({ series, seriesIndex, dataPointIndex, w }) {
+                        const date = new Date(w.globals.seriesX[seriesIndex][dataPointIndex]).toISOString().split('T')[0];
                         return '<div style="padding: 10px; font-size: 16px;">' +
-                               '날짜: ' + w.globals.labels[dataPointIndex] + '<br>' +
+                               '날짜: ' + date + '<br>' +
                                '가치: ' + series[seriesIndex][dataPointIndex] + ' BTC</div>';
                     }
                 },
