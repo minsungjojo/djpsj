@@ -100,7 +100,7 @@
                         color: '#FFFFFF' // Set tooltip text color to white
                     },
                     marker: {
-                        fillColors: ['#1E90FF'] // Tooltip marker color set to blue
+                        fillColors: ['#FFFFFF'] // Tooltip marker color set to white to match bars
                     },
                     y: {
                         formatter: function(val) {
@@ -108,7 +108,7 @@
                         }
                     }
                 },
-                colors: ['#1E90FF'],  // Blue color for bars for contrast
+                colors: ['#FFFFFF'],  // White color for bars
                 plotOptions: {
                     bar: {
                         distributed: true // 각각의 바에 색상 적용 가능
@@ -117,7 +117,7 @@
                 dataLabels: {
                     enabled: true,
                     style: {
-                        colors: ['#fff'] // Data label color set to white
+                        colors: ['#000'] // Data label color set to black for contrast
                     },
                     formatter: function(val) {
                         return val + "%"; // Data label format with "%"
