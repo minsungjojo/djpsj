@@ -35,7 +35,7 @@
         const issuedData = data
             .filter(d => d.category === 'Issued')
             .map(d => ({ x: new Date(d.time).getTime(), y: d.supply }))
-            .sort((a, b) => a.x - b.x); // Sort dates in ascending order
+            .sort((a, b) => a.x - b.x);
 
         const lastIssuedDate = new Date(issuedData[issuedData.length - 1].x);
 
@@ -122,7 +122,8 @@
                 opacity: 1
             },
             stroke: {
-                width: 0
+                curve: 'smooth', // Make the line smooth
+                width: 2 // Slightly reduce the line width for a sleeker look
             },
             dataLabels: {
                 enabled: false
