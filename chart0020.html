@@ -43,4 +43,113 @@
                         height: '100%',
                         width: '100%',
                         background: '#000000' // Set chart background to black
-        
+                    },
+                    series: [
+                        {
+                            name: 'Inflow',
+                            data: inflow
+                        },
+                        {
+                            name: 'Netflow',
+                            data: netflow,
+                            stroke: {
+                                width: 4 // Netflow의 선을 더 굵게 설정
+                            }
+                        },
+                        {
+                            name: 'Outflow',
+                            data: outflow
+                        }
+                    ],
+                    colors: ['#00E6FF', '#FF6B6B', '#66FF66'], // Colors for inflow, netflow, outflow for dark background
+                    xaxis: {
+                        categories: time, // JSON 파일에서 추출한 날짜
+                        labels: {
+                            show: true,
+                            rotate: -45, // Rotate labels to avoid overlap
+                            style: {
+                                fontSize: '10px',
+                                colors: '#FFFFFF' // Set x-axis label color to white
+                            },
+                            // Display only every 7th label
+                            formatter: function(val, index) {
+                                return (index % 7 === 0) ? val : '';
+                            }
+                        },
+                        axisBorder: {
+                            color: '#666666' // Set x-axis border color to dark gray
+                        },
+                        axisTicks: {
+                            color: '#666666' // Set x-axis ticks color to dark gray
+                        }
+                    },
+                    yaxis: {
+                        labels: {
+                            style: {
+                                colors: '#FFFFFF' // Set y-axis label color to white
+                            }
+                        },
+                        axisBorder: {
+                            color: '#666666' // Set y-axis border color to dark gray
+                        },
+                        axisTicks: {
+                            color: '#666666' // Set y-axis ticks color to dark gray
+                        }
+                    },
+                    stroke: {
+                        curve: 'smooth', // Use smooth curve for lines
+                        width: [2, 4, 2] // inflow, netflow, outflow line thickness
+                    },
+                    markers: {
+                        size: [0, 0, 0] // Remove markers for a clean look
+                    },
+                    legend: {
+                        labels: {
+                            colors: '#FFFFFF' // Set legend text color to white
+                        }
+                    },
+                    tooltip: {
+                        theme: 'dark', // Dark theme for tooltip
+                        style: {
+                            fontSize: '16px', // Increase tooltip font size for better readability
+                            fontFamily: 'Arial, sans-serif',
+                            color: '#FFFFFF' // Set tooltip text color to white
+                        },
+                        marker: {
+                            fillColors: ['#00E6FF', '#FF6B6B', '#66FF66'] // Match tooltip marker colors to series colors
+                        },
+                        y: {
+                            formatter: function(value) {
+                                return value ? value.toLocaleString() : ''; // Format tooltip values
+                            },
+                            title: {
+                                formatter: (seriesName) => seriesName,
+                                style: {
+                                    color: '#CCCCCC' // Set tooltip title color to light gray
+                                }
+                            }
+                        },
+                        x: {
+                            formatter: function(value) {
+                                return value; // Format x-axis tooltip value
+                            },
+                            style: {
+                                color: '#CCCCCC' // Set x-axis label color to light gray in tooltip
+                            }
+                        }
+                    },
+                    grid: {
+                        borderColor: '#444444' // Set grid line color to dark gray
+                    }
+                };
+
+                // Render chart
+                var chart = new ApexCharts(document.querySelector("#chart"), options);
+                chart.render();
+            })
+            .catch(error => console.error('Error fetching data:', error));
+
+    </script>
+
+</body>
+</html>
