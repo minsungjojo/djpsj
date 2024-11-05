@@ -6,14 +6,13 @@
     <title>공급량 예측 차트</title>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <style>
-        /* Ensure the chart fills the entire screen */
         html, body {
             height: 100%;
             margin: 0;
             padding: 0;
             background-color: black;
             color: white;
-            overflow: hidden; /* Prevent scrolling */
+            overflow: hidden;
         }
         #chart {
             width: 100vw;
@@ -35,7 +34,8 @@
     fetchData().then(data => {
         const issuedData = data
             .filter(d => d.category === 'Issued')
-            .map(d => ({ x: new Date(d.time).getTime(), y: d.supply }));
+            .map(d => ({ x: new Date(d.time).getTime(), y: d.supply }))
+            .sort((a, b) => a.x - b.x); // Sort dates in ascending order
 
         const lastIssuedDate = new Date(issuedData[issuedData.length - 1].x);
 
@@ -50,21 +50,24 @@
         var options = {
             chart: {
                 type: 'area',
-                height: '100%', // Fill the vertical space
-                width: '100%', // Fill the horizontal space
+                height: '100%',
+                width: '100%',
                 stacked: true,
                 toolbar: {
                     show: false
                 },
                 background: '#000000'
             },
-            series: [{
-                name: 'Issued',
-                data: issuedData
-            }, {
-                name: 'Forecasted',
-                data: forecastedData
-            }],
+            series: [
+                {
+                    name: 'Issued',
+                    data: issuedData
+                },
+                {
+                    name: 'Forecasted',
+                    data: forecastedData
+                }
+            ],
             xaxis: {
                 type: 'datetime',
                 title: {
