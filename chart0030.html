@@ -93,6 +93,9 @@
                         labels: {
                             style: {
                                 colors: 'lightgray' // y축 레이블을 연한 회색으로 설정
+                            },
+                            formatter: function(value) {
+                                return Math.round(value); // 소수점 없이 반올림하여 정수로 표시
                             }
                         }
                     },
@@ -104,6 +107,11 @@
                         style: {
                             fontSize: '14px', // 툴팁 글꼴 크기 설정
                             padding: 10 // 툴팁 패딩 설정
+                        },
+                        y: {
+                            formatter: function(value) {
+                                return Math.round(value); // 툴팁에서도 소수점 없이 표시
+                            }
                         }
                     },
                     fill: {
