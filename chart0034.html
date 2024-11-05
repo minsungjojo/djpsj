@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공급량 예측 차트</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <style>
+        /* Ensure the chart fills the entire screen */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+            overflow: hidden; /* Prevent scrolling */
+        }
+        #chart {
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+
+<div id="chart"></div>
+
+<script>
+    async function fetchData() {
+        const response = await fetch('b34.json');
+        const data = await response.json();
+        return data;
+    }
+
+    fetchData().then(data => {
+        const issuedData = data
+            .filter(d => d.category === 'Issued')
+            .map(d => ({ x: new Date(d.time).getTime(), y: d.supply }));
+
+        const lastIssuedDate = new Date(issuedData[issuedData.length - 1].x);
+
+        const forecastedData = [
+            { x: new Date(lastIssuedDate).getTime(), y: issuedData[issuedData.length - 1].y },
+            { x: new Date("2030-01-01").getTime(), y: 19500000 },
+            { x: new Date("2040-01-01").getTime(), y: 20000000 },
+            { x: new Date("2050-01-01").getTime(), y: 21000000 },
+            { x: new Date("2100-01-01").getTime(), y: 21000000 }
+        ];
+
+        var options = {
+            chart: {
+                type: 'area',
+                height: '100%', // Fill the vertical space
+                width: '100%', // Fill the horizontal space
+                stacked: true,
+                toolbar: {
+                    show: false
+                },
+                background: '#000000'
+            },
+            series: [{
+                name: 'Issued',
+                data: issuedData
+            }, {
+                name: 'Forecasted',
+                data: forecastedData
+            }],
+            xaxis: {
+                type: 'datetime',
+                title: {
+                    text: '날짜',
+                    style: {
+                        color: '#FFFFFF'
+                    }
+                },
+                labels: {
+                    style: {
+                        colors: '#FFFFFF'
+                    },
+                    formatter: function(value) {
+                        var date = new Date(value);
+                        var year = date.getFullYear();
+                        var month = ('0' + (date.getMonth() + 1)).slice(-2);
+                        var day = ('0' + date.getDate()).slice(-2);
+                        return year + '-' + month + '-' + day;
+                    }
+                },
+                axisBorder: {
+                    color: '#555555'
+                },
+                axisTicks: {
+                    color: '#555555'
+                }
+            },
+            yaxis: {
+                title: {
+                    text: '공급량',
+                    style: {
+                        color: '#FFFFFF'
+                    }
+                },
+                labels: {
+                    style: {
+                        colors: '#FFFFFF'
+                    }
+                },
+                axisBorder: {
+                    color: '#555555'
+                },
+                axisTicks: {
+                    color: '#555555'
+                }
+            },
+            grid: {
+                borderColor: '#444444'
+            },
+            fill: {
+                type: 'solid',
+                opacity: 1
+            },
+            stroke: {
+                width: 0
+            },
+            dataLabels: {
+                enabled: false
+            },
+            colors: ['#008000', '#FFA500'],
+            legend: {
+                position: 'top',
+                horizontalAlign: 'right',
+                labels: {
+                    colors: '#FFFFFF'
+                }
+            },
+            tooltip: {
+                theme: 'dark',
+                style: {
+                    fontSize: '14px',
+                    fontFamily: 'Arial, sans-serif'
+                },
+                x: {
+                    show: true,
+                    format: 'yyyy-MM-dd',
+                    formatter: undefined
+                },
+                y: {
+                    formatter: function(value) {
+                        return value.toLocaleString();
+                    },
+                    title: {
+                        formatter: (seriesName) => seriesName,
+                        style: {
+                            fontSize: '14px',
+                            fontWeight: 'bold'
+                        }
+                    }
+                },
+                marker: {
+                    show: true,
+                    width: 8,
+                    height: 8,
+                }
+            }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart"), options);
+        chart.render();
+    });
+</script>
+
+</body>
+</html>
