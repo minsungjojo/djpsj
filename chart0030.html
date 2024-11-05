@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binance 출금 금액 차트</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <style>
+        /* 페이지 전체를 채우도록 설정 */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-color: black; /* 배경을 검은색으로 설정 */
+            color: white; /* 기본 글씨 색상 흰색으로 설정 */
+        }
+
+        /* 차트가 화면을 꽉 채우도록 설정 */
+        #chart {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="chart"></div>
+
+    <script>
+        // 차트 데이터 가져오는 함수
+        fetch('b30.json')  // 파일 경로가 맞는지 확인 필요
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('네트워크 응답에 문제가 있습니다.');
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (!Array.isArray(data)) {
+                    throw new Error('JSON 형식이 올바르지 않습니다.');
+                }
+
+                // 데이터를 날짜별로 정렬하고 가장 마지막 데이터를 선택
+                let sortedData = data.sort((a, b) => new Date(a.day) - new Date(b.day));
+                let lastOccurrences = [];
+                let seenDays = new Set();
+                
+                // 각 날짜의 마지막 출금 데이터를 필터링
+                for (let i = sortedData.length - 1; i >= 0; i--) {
+                    if (!seenDays.has(sortedData[i].day)) {
+                        lastOccurrences.push({
+                            x: sortedData[i].day,
+                            y: sortedData[i].withdraw_amount
+                        });
+                        seenDays.add(sortedData[i].day);
+                    }
+                }
+                
+                // 차트에 사용할 데이터
+                lastOccurrences.reverse(); // 날짜 순으로 정렬
+
+                var options = {
+                    series: [{
+                        name: '출금 금액',
+                        data: lastOccurrences
+                    }],
+                    chart: {
+                        type: 'area',
+                        height: '100%', // 차트 높이를 100%로 설정하여 화면에 꽉 차도록 설정
+                        background: 'black' // 차트 배경을 검은색으로 설정
+                    },
+                    xaxis: {
+                        type: 'datetime',
+                        labels: {
+                            format: 'yyyy-MM-dd',
+                            style: {
+                                colors: 'lightgray' // x축 레이블을 연한 회색으로 설정
+                            }
+                        },
+                        title: {
+                            text: '날짜',
+                            style: {
+                                color: 'lightgray' // x축 제목을 연한 회색으로 설정
+                            }
+                        }
+                    },
+                    yaxis: {
+                        title: {
+                            text: '출금 금액 (USD)',
+                            style: {
+                                color: 'lightgray' // y축 제목을 연한 회색으로 설정
+                            }
+                        },
+                        labels: {
+                            style: {
+                                colors: 'lightgray' // y축 레이블을 연한 회색으로 설정
+                            }
+                        }
+                    },
+                    tooltip: {
+                        x: {
+                            format: 'yyyy-MM-dd'
+                        },
+                        theme: 'dark',
+                        style: {
+                            fontSize: '14px', // 툴팁 글꼴 크기 설정
+                            padding: 10 // 툴팁 패딩 설정
+                        }
+                    },
+                    fill: {
+                        type: 'solid',
+                        opacity: 0.7,
+                        colors: ['#3498db'] // 영역을 밝은 파란색으로 설정
+                    },
+                    stroke: {
+                        width: 2,
+                        colors: ['#3498db'] // 선의 색상을 밝은 파란색으로 설정
+                    },
+                    dataLabels: {
+                        enabled: false
+                    },
+                    colors: ['#3498db'] // 차트 기본 색상 (선 및 영역을 밝은 파란색으로 설정)
+                };
+
+                var chart = new ApexCharts(document.querySelector("#chart"), options);
+                chart.render();
+            })
+            .catch(error => {
+                console.error('차트 데이터를 가져오는 중 오류가 발생했습니다: ', error);
+            });
+    </script>
+</body>
+</html>
