@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>비트코인 일별 가치</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <style>
+        /* Make the body take up the full viewport height and remove default margin */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-color: black;
+            color: white;
+        }
+        
+        /* Set the chart container to take up full height and width */
+        #chart {
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div id="chart"></div>
+
+    <script>
+        // JSON 파일에서 데이터를 가져오는 함수
+        async function fetchData() {
+            const response = await fetch('b21.json');  // b21.json 파일 경로
+            const data = await response.json();
+
+            // JSON 데이터를 ApexCharts 형식에 맞게 변환하고, 소숫점 1자리까지 반올림
+            const seriesData = data.map(entry => ({
+                x: new Date(entry.day),
+                y: parseFloat(entry.value.toFixed(1))  // 소숫점 1자리까지 반올림
+            }));
+
+            // 날짜 순서대로 정렬
+            seriesData.sort((a, b) => a.x - b.x);
+
+            return seriesData;
+        }
+
+        // 차트를 렌더링하는 함수
+        async function renderChart() {
+            const seriesData = await fetchData();
+
+            var options = {
+                chart: {
+                    type: 'line',
+                    height: '100%',  // Full height of viewport
+                    width: '100%',   // Full width of viewport
+                    background: '#000000'
+                },
+                stroke: {
+                    width: 3,
+                    curve: 'smooth',
+                    colors: ['#ffcc00']
+                },
+                series: [{
+                    name: '비트코인 가치',
+                    data: seriesData
+                }],
+                xaxis: {
+                    type: 'datetime',
+                    labels: {
+                        style: {
+                            colors: '#ffffff'
+                        },
+                        format: 'yyyy-MM-dd'
+                    },
+                    title: {
+                        text: '날짜',
+                        style: {
+                            color: '#ffffff'
+                        }
+                    }
+                },
+                yaxis: {
+                    title: {
+                        text: '가치 (BTC)',
+                        style: {
+                            color: '#ffffff'
+                        }
+                    },
+                    labels: {
+                        style: {
+                            colors: '#ffffff'
+                        }
+                    }
+                },
+                tooltip: {
+                    theme: 'dark',
+                    style: {
+                        fontSize: '16px',
+                        fontFamily: 'Arial',
+                        background: '#333333',
+                        color: '#ffcc00'
+                    },
+                    x: {
+                        format: 'yyyy-MM-dd'
+                    },
+                    y: {
+                        formatter: value => `${value} BTC`,
+                        title: {
+                            formatter: () => '가치'
+                        }
+                    },
+                    marker: {
+                        show: true,
+                        fillColors: ['#ffcc00'],
+                    },
+                    custom: function({ series, seriesIndex, dataPointIndex, w }) {
+                        return '<div style="padding: 10px; font-size: 16px;">' +
+                               '날짜: ' + w.globals.labels[dataPointIndex] + '<br>' +
+                               '가치: ' + series[seriesIndex][dataPointIndex] + ' BTC</div>';
+                    }
+                },
+                grid: {
+                    borderColor: '#333333'
+                },
+                dataLabels: {
+                    enabled: false
+                }
+            };
+
+            var chart = new ApexCharts(document.querySelector("#chart"), options);
+            chart.render();
+        }
+
+        // 페이지가 로드되면 차트를 렌더링
+        renderChart();
+    </script>
+</body>
+</html>
