@@ -87,6 +87,9 @@
                         labels: {
                             style: {
                                 colors: '#FFFFFF' // Set y-axis label color to white
+                            },
+                            formatter: function(value) {
+                                return value.toFixed(1); // Format y-axis labels to one decimal place
                             }
                         },
                         axisBorder: {
