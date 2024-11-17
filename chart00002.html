@@ -6,13 +6,28 @@
     <title>비트코인 차트</title>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <style>
-        /* Custom tooltip styling */
+        /* 화면에 차트를 꽉 차게 설정 */
+        body, html {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+            height: 100%; /* 세로 100% */
+            width: 100%; /* 가로 100% */
+            overflow: hidden; /* 스크롤바 숨김 */
+        }
+
+        #chart {
+            height: 100%; /* 차트를 화면 높이에 맞춤 */
+            width: 100%; /* 차트를 화면 너비에 맞춤 */
+        }
+
         .apexcharts-tooltip {
             font-size: 22px; /* 툴팁 폰트 크기 */
         }
     </style>
 </head>
-<body style="background-color: black; color: white;">
+<body>
     <div id="chart"></div>
 
     <script>
@@ -39,7 +54,8 @@
             var options = {
                 chart: {
                     type: 'line',
-                    height: 700, // 차트 높이 설정
+                    height: '100%', // 차트 높이를 화면에 맞게 설정
+                    width: '100%', // 차트 너비를 화면에 맞게 설정
                     background: '#000', // 차트 배경을 검은색으로 설정
                     toolbar: {
                         tools: {
