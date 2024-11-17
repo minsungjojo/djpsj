@@ -6,20 +6,17 @@
     <title>스택형 영역 차트 - TVL 데이터</title>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <style>
-        /* 툴팁 스타일 조정 */
-        .apexcharts-tooltip {
-            font-size: 16px; /* 폰트 크기를 키워 툴팁을 더 크게 보이도록 설정 */
-            padding: 10px; /* 툴팁 내부 여백 설정 */
-        }
+        /* 기본 스타일 */
         body {
             margin: 0; /* 여백 제거 */
             padding: 0;
             background-color: black;
             color: white;
+            overflow: hidden; /* 스크롤 제거 */
         }
         #chart {
-            width: 100vw; /* 화면 너비 전체 */
-            height: 100vh; /* 화면 높이 전체 */
+            width: 100vw; /* 화면 너비 */
+            height: 100vh; /* 화면 높이 */
         }
     </style>
 </head>
@@ -32,7 +29,7 @@
         // JSON 데이터를 가져오고 차트를 생성하는 함수
         async function getDataAndRenderChart() {
             try {
-                // b1515.json 파일을 불러옴
+                // b13.json 파일을 불러옴
                 const response = await fetch('b13.json');
                 const data = await response.json();
 
@@ -62,17 +59,17 @@
                 }));
 
                 // 차트 옵션 설정
-                var options = {
+                const options = {
                     chart: {
                         type: 'area',
                         stacked: true,
                         height: '100%',
                         width: '100%',
-                        background: '#000000' // 차트 배경색을 검은색으로 설정
+                        background: '#000000' // 차트 배경색 설정
                     },
                     fill: {
                         type: 'solid',
-                        opacity: 1  // 불투명하게 설정
+                        opacity: 1
                     },
                     colors: ['#1E90FF', '#FF6347', '#3CB371', '#FFD700', '#FF4500', '#32CD32', '#6A5ACD', '#FF69B4', '#00CED1', '#FF8C00', '#8A2BE2'],
                     series: series,
@@ -80,51 +77,51 @@
                         type: 'datetime',
                         labels: {
                             format: 'yyyy-MM-dd',
-                            style: { colors: '#FFFFFF' }  // x축 레이블 색상 설정
+                            style: { colors: '#FFFFFF' }
                         },
                         axisBorder: {
-                            color: '#666666' // x축 경계선 색상 설정
+                            color: '#666666'
                         },
                         axisTicks: {
-                            color: '#666666' // x축 눈금 색상 설정
+                            color: '#666666'
                         }
                     },
                     yaxis: {
                         labels: {
-                            style: { colors: '#FFFFFF' }  // y축 레이블 색상 설정
+                            style: { colors: '#FFFFFF' }
                         },
                         axisBorder: {
-                            color: '#666666' // y축 경계선 색상 설정
+                            color: '#666666'
                         },
                         axisTicks: {
-                            color: '#666666' // y축 눈금 색상 설정
+                            color: '#666666'
                         }
                     },
                     legend: {
                         position: 'right',
                         labels: {
-                            colors: '#FFFFFF' // 범례 색상 설정
+                            colors: '#FFFFFF'
                         },
                         title: {
                             text: '발행자',
-                            style: { color: '#FFFFFF' }  // 범례 제목 색상 설정
+                            style: { color: '#FFFFFF' }
                         }
                     },
                     tooltip: {
                         shared: true,
                         intersect: false,
                         x: {
-                            format: 'yyyy-MM-dd'  // 툴팁 날짜 형식을 'YYYY-MM-DD'로 설정
+                            format: 'yyyy-MM-dd'
                         },
-                        theme: 'dark' // 툴팁 테마를 어두운 색상으로 설정
+                        theme: 'dark'
                     },
                     dataLabels: {
-                        enabled: false // 차트 위에 숫자가 표시되지 않도록 설정
+                        enabled: false
                     }
                 };
 
                 // 차트 렌더링
-                var chart = new ApexCharts(document.querySelector("#chart"), options);
+                const chart = new ApexCharts(document.querySelector("#chart"), options);
                 chart.render();
             } catch (error) {
                 console.error('데이터를 불러오는 중 오류가 발생했습니다:', error);
