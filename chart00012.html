@@ -96,13 +96,13 @@
                     },
                     labels: {
                         formatter: function (val) {
-                            return val.toFixed(2) + " USD";
+                            return val.toLocaleString() + " USD"; // 숫자 끝까지 표시
                         },
                         style: {
                             colors: '#FFF',
-                            fontSize: '23px'
+                            fontSize: '18px' // 폰트 크기 약간 줄임
                         },
-                        offsetX: -20 // 숫자 라벨을 더 왼쪽으로 이동
+                        offsetX: -40 // 숫자 레이블을 더 왼쪽으로 이동
                     }
                 },
                 plotOptions: {
