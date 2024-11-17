@@ -6,18 +6,17 @@
     <title>ApexCharts 예제</title>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <style>
-        body {
+        body, html {
             margin: 0;
             padding: 0;
+            width: 100%;
+            height: 100%;
             background-color: #000;
-            overflow: hidden; /* 스크롤 제거 */
+            overflow: hidden;
         }
         #chart {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100vw; /* 화면 너비 */
-            height: 100vh; /* 화면 높이 */
+            width: 100%;
+            height: 100%;
         }
     </style>
 </head>
@@ -26,26 +25,13 @@
 
     <script>
         async function fetchData() {
-            try {
-                const response = await fetch('b12.json');
-                if (!response.ok) {
-                    throw new Error(`HTTP error! Status: ${response.status}`);
-                }
-                const data = await response.json();
-                return data;
-            } catch (error) {
-                console.error("Failed to fetch data:", error);
-                return []; // 데이터 로드 실패 시 빈 배열 반환
-            }
+            const response = await fetch('b12.json');
+            const data = await response.json();
+            return data;
         }
 
         async function renderChart() {
             const data = await fetchData();
-            if (data.length === 0) {
-                console.error("No data to display on the chart.");
-                return; // 데이터가 없으면 차트를 렌더링하지 않음
-            }
-
             const filteredData = data.filter(item => item.amount_usd_net_flow !== null);
             const dateWiseData = {};
             filteredData.forEach(item => {
@@ -63,8 +49,8 @@
             var options = {
                 chart: {
                     type: 'bar',
-                    height: '100%', // CSS로 관리
-                    width: '100%',  // CSS로 관리
+                    height: '100%',
+                    width: '100%',
                     background: '#000',
                     toolbar: {
                         show: true
