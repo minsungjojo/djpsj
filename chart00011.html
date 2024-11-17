@@ -1,0 +1,71 @@
+var options = {
+    chart: {
+        type: 'bar',
+        width: '100%', // 너비를 100%로 설정
+        height: '100%', // 높이를 100%로 설정
+        background: '#000000',
+        toolbar: {
+            tools: {
+                download: false // 다운로드 버튼 제거
+            }
+        }
+    },
+    series: [{
+        name: 'MTD 성과',
+        data: mtdPerfData
+    }],
+    xaxis: {
+        categories: categories,
+        labels: {
+            style: {
+                colors: '#ffffff'
+            }
+        },
+        axisBorder: {
+            color: '#ffffff'
+        },
+        axisTicks: {
+            color: '#ffffff'
+        }
+    },
+    yaxis: {
+        labels: {
+            style: {
+                colors: '#ffffff'
+            }
+        },
+        axisBorder: {
+            color: '#ffffff'
+        },
+        axisTicks: {
+            color: '#ffffff'
+        }
+    },
+    tooltip: {
+        theme: 'dark',
+        style: {
+            fontSize: '16px',
+            color: '#ffffff'
+        },
+        y: {
+            formatter: function(value) {
+                return value + "%";
+            },
+            title: {
+                formatter: function () {
+                    return 'MTD 성과: ';
+                },
+                style: {
+                    color: '#ffffff',
+                    fontSize: '16px'
+                }
+            }
+        }
+    },
+    dataLabels: {
+        style: {
+            colors: ['#ffffff']
+        }
+    },
+    colors: ['#008FFB', '#00E396', '#FEB019']
+};
