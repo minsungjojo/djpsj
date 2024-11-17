@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>암호화폐 언급 증가율 (퍼센트)</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <style>
+        /* Set the background color for the entire page */
+        body {
+            background-color: #000;
+            color: #fff; /* Set text color to white for better readability */
+            font-family: Arial, sans-serif;
+            margin: 0; /* Remove default margin */
+            overflow: hidden; /* Prevent scrolling */
+        }
+
+        /* Make the chart container fill the entire viewport */
+        #chart {
+            width: 100vw;
+            height: 100vh;
+            background-color: #000;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="chart"></div>
+
+    <script>
+        // JSON 파일에서 데이터를 로드하는 함수
+        async function fetchData() {
+            const response = await fetch('b16.json');  // b16.json 파일 로드
+            const data = await response.json();
+            return data;
+        }
+
+        // 데이터를 가져와서 차트를 그리는 함수
+        fetchData().then(function(data) {
+            // mention_growth 값을 100 곱하고 소수점 1자리로 변환한 배열 생성
+            var mentionGrowthData = data.map(function(item) {
+                return (item.mention_growth * 100).toFixed(1);  // 100을 곱하고 소수점 1자리까지 반올림
+            }).reverse();  // 데이터 순서 뒤집기
+
+            // 암호화폐 심볼 배열 생성
+            var categories = data.map(function(item) {
+                return item.symbol;
+            }).reverse();  // 카테고리 순서 뒤집기
+
+            var options = {
+                chart: {
+                    type: 'bar',
+                    background: '#000', // Chart background color set to black
+                    width: '100%',
+                    height: '100%',
+                    toolbar: {
+                        tools: {
+                            download: false // Disable the download button
+                        }
+                    }
+                },
+                series: [{
+                    name: '언급 증가율 (%)',
+                    data: mentionGrowthData
+                }],
+                xaxis: {
+                    categories: categories,
+                    labels: {
+                        style: {
+                            colors: Array(categories.length).fill('#FFFFFF'), // Ensure all X-axis labels are white
+                            fontSize: '12px'
+                        }
+                    },
+                    axisBorder: {
+                        color: '#777' // Border color for x-axis
+                    },
+                    axisTicks: {
+                        color: '#777' // Ticks color for x-axis
+                    }
+                },
+                yaxis: {
+                    labels: {
+                        style: {
+                            colors: '#FFFFFF' // Y-axis labels color set to white
+                        }
+                    },
+                    axisBorder: {
+                        color: '#777' // Border color for y-axis
+                    },
+                    axisTicks: {
+                        color: '#777' // Ticks color for y-axis
+                    }
+                },
+                tooltip: {
+                    theme: 'dark', // Tooltip color theme set to dark
+                    style: {
+                        fontSize: '16px', // Increased font size for tooltip
+                        color: '#FFFFFF' // Set tooltip text color to white
+                    },
+                    marker: {
+                        fillColors: ['#FFFFFF'] // Tooltip marker color set to white to match bars
+                    },
+                    y: {
+                        formatter: function(val) {
+                            return val + "%";  // 툴팁에 % 추가
+                        }
+                    }
+                },
+                colors: ['#FFFFFF'],  // White color for bars
+                plotOptions: {
+                    bar: {
+                        distributed: true // 각각의 바에 색상 적용 가능
+                    }
+                },
+                dataLabels: {
+                    enabled: true,
+                    style: {
+                        colors: ['#000'] // Data label color set to black for contrast
+                    },
+                    formatter: function(val) {
+                        return val + "%"; // Data label format with "%"
+                    }
+                }
+            };
+
+            var chart = new ApexCharts(document.querySelector("#chart"), options);
+            chart.render();
+        }).catch(function(error) {
+            console.error('JSON 파일을 로드하는 중 오류 발생:', error);
+        });
+    </script>
+
+</body>
+</html>
