@@ -58,7 +58,15 @@
                     height: '100%',
                     background: '#000000',
                     toolbar: {
-                        show: false // Chart Context Menu 제거
+                        show: true, // 툴바는 유지
+                        tools: {
+                            download: false, // 메뉴 아이콘 제거
+                            zoom: true,
+                            zoomin: true,
+                            zoomout: true,
+                            pan: true,
+                            reset: true
+                        }
                     }
                 },
                 series: [{
