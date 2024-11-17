@@ -53,7 +53,16 @@
                     width: '100%',
                     background: '#000',
                     toolbar: {
-                        show: true
+                        show: true,
+                        tools: {
+                            download: false, // 다운로드 버튼 제거
+                            selection: true,
+                            zoom: true,
+                            zoomin: true,
+                            zoomout: true,
+                            pan: true,
+                            reset: true
+                        }
                     },
                     animations: {
                         enabled: false
