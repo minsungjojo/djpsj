@@ -16,8 +16,8 @@
             position: absolute;
             top: 0;
             left: 0;
-            width: 100vw;
-            height: 100vh;
+            width: 100vw; /* 화면 너비 */
+            height: 100vh; /* 화면 높이 */
         }
     </style>
 </head>
@@ -26,13 +26,26 @@
 
     <script>
         async function fetchData() {
-            const response = await fetch('b12.json');
-            const data = await response.json();
-            return data;
+            try {
+                const response = await fetch('b12.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                const data = await response.json();
+                return data;
+            } catch (error) {
+                console.error("Failed to fetch data:", error);
+                return []; // 데이터 로드 실패 시 빈 배열 반환
+            }
         }
 
         async function renderChart() {
             const data = await fetchData();
+            if (data.length === 0) {
+                console.error("No data to display on the chart.");
+                return; // 데이터가 없으면 차트를 렌더링하지 않음
+            }
+
             const filteredData = data.filter(item => item.amount_usd_net_flow !== null);
             const dateWiseData = {};
             filteredData.forEach(item => {
@@ -50,8 +63,8 @@
             var options = {
                 chart: {
                     type: 'bar',
-                    height: '100%', // 화면 높이에 맞춤
-                    width: '100%',  // 화면 너비에 맞춤
+                    height: '100%', // CSS로 관리
+                    width: '100%',  // CSS로 관리
                     background: '#000',
                     toolbar: {
                         show: true
