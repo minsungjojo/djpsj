@@ -5,9 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ApexCharts 예제</title>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            overflow: hidden; /* 스크롤 제거 */
+        }
+        #chart {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
 </head>
-<body style="background-color: #000;">
-    <div id="chart" style="width: 95%; margin-left: 2%;"></div>
+<body>
+    <div id="chart"></div>
 
     <script>
         async function fetchData() {
@@ -35,8 +50,8 @@
             var options = {
                 chart: {
                     type: 'bar',
-                    height: 700,
-                    width: '100%',
+                    height: '100%', // 화면 높이에 맞춤
+                    width: '100%',  // 화면 너비에 맞춤
                     background: '#000',
                     toolbar: {
                         show: true
