@@ -65,7 +65,12 @@
                         stacked: true,
                         height: '100%',
                         width: '100%',
-                        background: '#000000' // 차트 배경색 설정
+                        background: '#000000', // 차트 배경색 설정
+                        toolbar: {
+                            tools: {
+                                download: false // 다운로드 아이콘 비활성화
+                            }
+                        }
                     },
                     fill: {
                         type: 'solid',
