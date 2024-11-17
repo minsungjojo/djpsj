@@ -17,10 +17,11 @@
             padding: 0;
             background-color: black;
             color: white;
+            overflow: hidden; /* 스크롤 방지 */
         }
         #chart {
-            width: 100%;
-            height: 100%;
+            width: 100vw; /* 뷰포트 너비에 맞춤 */
+            height: 100vh; /* 뷰포트 높이에 맞춤 */
         }
     </style>
 </head>
@@ -47,8 +48,8 @@
             var options = {
                 chart: {
                     type: 'line',
-                    width: '100%',
-                    height: '100%',
+                    width: '100%',  // 차트의 너비를 100%로 설정
+                    height: '100%', // 차트의 높이를 100%로 설정
                     background: '#000000',
                     toolbar: {
                         tools: {
@@ -113,6 +114,12 @@
             // 차트를 렌더링합니다.
             var chart = new ApexCharts(document.querySelector("#chart"), options);
             chart.render();
+        });
+
+        // 창 크기 변경 시 차트 크기를 다시 조정
+        window.addEventListener('resize', () => {
+            document.querySelector("#chart").style.width = `${window.innerWidth}px`;
+            document.querySelector("#chart").style.height = `${window.innerHeight}px`;
         });
     </script>
 </body>
