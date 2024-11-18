@@ -1,0 +1,67 @@
+var options = {
+    chart: {
+        type: 'bar',
+        height: '100%',
+        width: '100%',
+        background: '#000', // 차트 영역 배경을 검은색으로 유지
+        toolbar: {
+            tools: {
+                download: false // 다운로드 버튼 비활성화
+            }
+        }
+    },
+    series: [{
+        name: '모금액',
+        data: sortedAmounts
+    }],
+    colors: ['#fff'], // Set bar color to white
+    xaxis: {
+        categories: dates,
+        title: {
+            text: '월',
+            style: {
+                color: '#fff' // White color for title
+            }
+        },
+        labels: {
+            rotate: -45,
+            maxHeight: 100,
+            style: {
+                colors: '#ccc', // Light gray for x-axis labels
+                fontSize: '12px'
+            }
+        },
+        tickAmount: Math.min(dates.length, 10) // Show up to 10 evenly spaced labels
+    },
+    yaxis: {
+        title: {
+            text: '모금액 (USD)',
+            style: {
+                color: '#fff' // White color for y-axis title
+            }
+        },
+        labels: {
+            style: {
+                colors: '#ccc', // Light gray for y-axis labels
+                fontSize: '12px'
+            }
+        }
+    },
+    plotOptions: {
+        bar: {
+            dataLabels: {
+                position: 'top'
+            }
+        }
+    },
+    dataLabels: {
+        enabled: false // Disable numbers on top of each bar
+    },
+    tooltip: {
+        theme: 'dark', // Dark theme for tooltip
+        style: {
+            fontSize: '16px', // Larger font size for tooltip text
+            padding: 10 // Add padding for a more spacious tooltip
+        }
+    }
+};
