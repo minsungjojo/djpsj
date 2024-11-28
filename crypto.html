@@ -36,17 +36,18 @@
             );
         }
 
-        // JSON 파일에서 암호화된 데이터를 가져오기
+        // JSON 파일에서 Base64로 암호화된 데이터 가져오기
         fetch('crypto.json')
-            .then(response => response.text()) // 파일의 내용을 텍스트로 가져옵니다.
+            .then(response => response.text()) // 파일 내용을 텍스트로 가져옵니다 (Base64 형식).
             .then(base64Data => {
                 // Base64 데이터를 디코딩하여 JSON으로 파싱
                 const jsonData = JSON.parse(decodeBase64(base64Data));
 
                 // 날짜, BTC 잔액, USD 잔액을 배열로 분리
-                let days = jsonData.map(entry => entry.date);
-                let btcBalances = jsonData.map(entry => entry.btc_usd);
-                let usdBalances = jsonData.map(entry => entry.spy);
+                jsonData.sort((a, b) => new Date(a.day) - new Date(b.day));
+                let days = jsonData.map(entry => entry.day);
+                let btcBalances = jsonData.map(entry => entry.BTC_Balance);
+                let usdBalances = jsonData.map(entry => entry.USD_Balance);
 
                 var options = {
                     chart: {
@@ -85,6 +86,55 @@
                                 colors: '#FFFFFF',
                                 fontSize: '20px'
                             }
+                        },
+                        axisBorder: {
+                            color: '#FFFFFF'
+                        },
+                        axisTicks: {
+                            color: '#FFFFFF'
+                        }
+                    },
+                    yaxis: [{
+                        labels: {
+                            formatter: function (value) {
+                                return value.toFixed(1);
+                            },
+                            style: {
+                                colors: '#FFFFFF',
+                                fontSize: '20px'
+                            }
+                        }
+                    }, {
+                        opposite: true,
+                        labels: {
+                            formatter: function (value) {
+                                return value.toFixed(1);
+                            },
+                            style: {
+                                colors: '#FFFFFF',
+                                fontSize: '20px'
+                            }
+                        }
+                    }],
+                    grid: {
+                        borderColor: '#444444'
+                    },
+                    tooltip: {
+                        enabled: true,
+                        shared: true,
+                        intersect: false,
+                        theme: 'dark',
+                        x: {
+                            format: 'yyyy-MM-dd'
+                        },
+                        style: {
+                            fontSize: '20px'
+                        }
+                    },
+                    legend: {
+                        labels: {
+                            colors: '#FFFFFF',
+                            fontSize: '20px'
                         }
                     }
                 };
