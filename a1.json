@@ -1,0 +1,5787 @@
+[
+    {
+        "eth_amount_usd": -164.09597326613516,
+        "symbol": "WETH",
+        "time": "2022-11-29 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 17565.02820019191,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -24470.042975958037,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -167857.78885482415,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 637648.0400612055,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -297.27464498958363,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 12886738.35487652,
+        "symbol": "FTT",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1290390.7915332185,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 118143.52678482154,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -54219.919966795125,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -4975.379102937509,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 7855.396454937502,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -220032.8866213885,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1009570.8929937478,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -934.6658661427998,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -44970.26568701741,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -540172.1928186849,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -412703.46477777767,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -10504.729033333359,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -959420.6119773611,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 8911.735155482615,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -6471.095121527809,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1424850.7681802558,
+        "symbol": "WETH",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2075.7986419659474,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -26308.366541410476,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 3942.841874354168,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -21962.448108076776,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -8231.762935389052,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -743629.9082606253,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -12513244.948543245,
+        "symbol": "MATIC",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -23291.495382941943,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 106391.16596715142,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 17169.36452205483,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 243570.7050878763,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -405063.7686137209,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -67976.36256183784,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -43765.37819374752,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -204910.2205983701,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -48964.319374645114,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 761.0644773504235,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -523711.6464934428,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1772.4456597222227,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -172710.1199213009,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -10119.102880289216,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -962.6962269463697,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 276173.9992333082,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1311.786540230123,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 6749.322147300271,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -35292.27174476768,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 230.55342013888955,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 21261.7625623086,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -99.927916686778,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 26921.959375499653,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 295810.7559209192,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -175319.75824413105,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -3626796.346185611,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 15.569518947366461,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -36504.936535476656,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 21042.868585754903,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -80732515.16391204,
+        "symbol": "USDT",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 32336.002819415833,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -3698.174554593453,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -406778.12674860976,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1247036.6092937996,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1561.97900700696,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -6387.90482955419,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -84013.87262641465,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 18383.297054025894,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 28547.00103331757,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -22443.619369975902,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -10709.82453151793,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -77864.49554143795,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -278838.9028846743,
+        "symbol": "LINK",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 2026.8795702928603,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 104.39213795892496,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 7996.921390690168,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -7297409.095717218,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2984.9411718750425,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 222039.13977221484,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -7686695.010368849,
+        "symbol": "WBTC",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1007292.8477196321,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -24009886.91836274,
+        "symbol": "USDC",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2984072.098662642,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -147341.749597716,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -8598770.897674084,
+        "symbol": "stETH",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 13969343.420001542,
+        "symbol": "BUSD",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -13.2430352949991,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1448812.6049738487,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 9375.923256625229,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -11.746583333333373,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2199830.217254765,
+        "symbol": "DAI",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -6366.352897008029,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -113110.02444904178,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -10606.090460454867,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1055654.5948485015,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -8061.430629535344,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 8528.544216948356,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -371862.0265653972,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -47677.10151219518,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 932.354893033842,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 11140679.302057512,
+        "symbol": "TUSD",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 26547.670081409644,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 49052.90842258483,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 11252.799059652745,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -8317.577346084609,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 91014.52913429549,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 6452.481098267478,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 4169.44369474197,
+        "symbol": "OTHERS",
+        "time": "2022-11-03 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 5228.537210287773,
+        "symbol": "OTHERS",
+        "time": "2022-11-11 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 55.74520972222231,
+        "symbol": "OTHERS",
+        "time": "2022-11-11 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -3540701.191956769,
+        "symbol": "USDC",
+        "time": "2022-11-11 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 2887.204715482428,
+        "symbol": "OTHERS",
+        "time": "2022-11-11 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -60.681666718749845,
+        "symbol": "OTHERS",
+        "time": "2022-11-11 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 109.76216539548598,
+        "symbol": "OTHERS",
+        "time": "2022-11-11 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -23.525867100774224,
+        "symbol": "OTHERS",
+        "time": "2022-11-11 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -159.22286584375024,
+        "symbol": "OTHERS",
+        "time": "2022-11-11 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -25146817.504634026,
+        "symbol": "USDT",
+        "time": "2022-11-11 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 88.81821323115126,
+        "symbol": "OTHERS",
+        "time": "2022-11-11 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -31.791863888888972,
+        "symbol": "OTHERS",
+        "time": "2022-11-11 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 691.7065984925925,
+        "symbol": "FTT",
+        "time": "2022-11-11 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 112.22811938888914,
+        "symbol": "OTHERS",
+        "time": "2022-11-11 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 5.341726242679333,
+        "symbol": "OTHERS",
+        "time": "2022-11-11 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 3.152990222222223,
+        "symbol": "OTHERS",
+        "time": "2022-11-11 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2359.083819739585,
+        "symbol": "OTHERS",
+        "time": "2022-11-11 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -121.14010416666675,
+        "symbol": "OTHERS",
+        "time": "2022-11-11 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 6475.249643718133,
+        "symbol": "OTHERS",
+        "time": "2022-11-11 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -590.3712004595435,
+        "symbol": "LINK",
+        "time": "2022-11-11 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1206970.0031228883,
+        "symbol": "WETH",
+        "time": "2022-11-11 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -125.94647731250014,
+        "symbol": "OTHERS",
+        "time": "2022-11-11 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -6056244.838994593,
+        "symbol": "BUSD",
+        "time": "2022-11-11 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 92817.48296171917,
+        "symbol": "OTHERS",
+        "time": "2022-11-11 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 2741.821964433609,
+        "symbol": "OTHERS",
+        "time": "2022-11-11 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 119.31579193250117,
+        "symbol": "OTHERS",
+        "time": "2022-11-11 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 5.670765187013885,
+        "symbol": "OTHERS",
+        "time": "2022-11-11 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 19247.659530473986,
+        "symbol": "OTHERS",
+        "time": "2022-11-11 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -391.3343077143292,
+        "symbol": "OTHERS",
+        "time": "2022-11-11 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -80833.61115837043,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1378383.8568982552,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -3920.081516057072,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -29444.4584212606,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 2436.785857124471,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -36653.95427338784,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 12471.997344363612,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 3910.6414525905375,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -9176.349666190237,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 11073.659802147311,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2688730.708387859,
+        "symbol": "WBTC",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -4826.1917947542515,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -65910423.1863851,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -87694.84736953361,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -55910.49909396469,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -3010.2532527200256,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 259275.7688875774,
+        "symbol": "LINK",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2601.459582002151,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1647.3017361386217,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 16476.04902142174,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 604130.3842046984,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 2296733.7250732468,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 18254.748731681266,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -242.22808097887116,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -30645.486946470486,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -7128642.931368812,
+        "symbol": "OTHERS",
+        "time": "2022-11-20 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 805.0950490624986,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1916318.3258723735,
+        "symbol": "DAI",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -76267120.87062629,
+        "symbol": "USDC",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 238797.87069927418,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1214399.064761314,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 7962.173269583306,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 4691.605810518736,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 32677.478674738617,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 15408.461710484833,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -54291.702637991395,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 59672.584777483156,
+        "symbol": "MATIC",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -54631.106016288926,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -19636.995305762648,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -185092.40731508797,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -41198147.09192043,
+        "symbol": "TUSD",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -7.281893899457695,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 46665.580538508744,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -361.4000696103336,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 863859.200602894,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 89498.36837099561,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -673247.4728790018,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -43654.835879541126,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -36628.287218184465,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -96977.47340284928,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1.545417434166663e-13,
+        "symbol": "OTHERS",
+        "time": "2022-11-20 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -70228937.02670035,
+        "symbol": "USDT",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -166230.69503610273,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -10336.037970104993,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 77068268.11032985,
+        "symbol": "WETH",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 2005.3190918428193,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1723.262009816782,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -42643.56759553803,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 27135308.217997525,
+        "symbol": "BUSD",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -56418.96746762554,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 128736.26893805088,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -34842.80163187921,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 910.9501388888876,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 2204.9633836915123,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -5006.791473312317,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 6834.553703751521,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1166064.9765008138,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2036.8779994349516,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 9492389.103824947,
+        "symbol": "stETH",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -22910.37996302542,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -201570.818447664,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -25.536884618124954,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -15350.77621337483,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -78264.6273183708,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 12598.466003901647,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 2307.6789858374264,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 31559.12826584962,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -86805.92013055133,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 98.31438777232376,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -391510.58533486456,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1699.7992622624968,
+        "symbol": "OTHERS",
+        "time": "2022-11-11 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 85.97734027777783,
+        "symbol": "OTHERS",
+        "time": "2022-11-11 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 724.1834100155487,
+        "symbol": "OTHERS",
+        "time": "2022-11-11 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 98062.49470581765,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 50528.2351223842,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -4863.794897942331,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 16014.86716479855,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -11523.126147366602,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -35494.91510951239,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 84580.28168957545,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 203778.9581551306,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 8535.458869946651,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -76293444.41246858,
+        "symbol": "FTT",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1717.8782906854726,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 175017.25669899047,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -564427.5321398409,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 103.52246501041645,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -4195.382957511887,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -856253.6125955177,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 36358.760639316264,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -11027.407730164801,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -804.2674806322923,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 101.78605916666675,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 155380.50453598853,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1287.0673821919079,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 9929.305242581628,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -68699.34844407409,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 9767.14766489554,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -90996.88262307395,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 15866.918231417909,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -119836.3779942048,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 9616.757413447554,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -113141.44011884555,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1802.5413912183712,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -437212.2047153319,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 5805643.036252077,
+        "symbol": "WETH",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -177951253.8624587,
+        "symbol": "FTT",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -3072.4276284553753,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -191153.24525558244,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 62245.64546699278,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 230.1611978087508,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 32295.959414340054,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 48866.03970782851,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -35786.46042541101,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 158488.9163263638,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 15109.897589656124,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1314.4705527777783,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -7160.907298832036,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 4340.441514933312,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1860.6011304979695,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1148599.9589737302,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 5797769.6391594075,
+        "symbol": "MATIC",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 3952.1433265416777,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 803488.256836467,
+        "symbol": "USDT",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 4542.51348298221,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 927352.9550459955,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -6332.272278641911,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -632844.7889785653,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 235462.22340769216,
+        "symbol": "USDC",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -7853.142254891207,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -31448.22170848778,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 3774.660239287863,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 3011.1700556063856,
+        "symbol": "TUSD",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 6.645031077277796,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 67416.99548624181,
+        "symbol": "FTT",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -69743.19317515922,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -84347.24827184927,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -541923.5699718602,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -49022.39522885316,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1480.3929761198194,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 4421.133288899991,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 568248.6805825157,
+        "symbol": "DAI",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 4101.343304413332,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -326698.2035799557,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 35560.85806242369,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -717416.0835387573,
+        "symbol": "WBTC",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 97327.59390198853,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 782046.8448598093,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -234533.2020656533,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 11558.453249099248,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 308759.2881948536,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 236.61024294968755,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -3548.86467083172,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -344355.11686908285,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 109318.05389887506,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 6130.670012814373,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -214324.82074480018,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1734216.3871847778,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 10823206.80118669,
+        "symbol": "USDC",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 3365.8913884753197,
+        "symbol": "MATIC",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -3709.099617681943,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 962.5792246933604,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -43.58162971249999,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -484.78548007337747,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -82963.4748274437,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -55849.76382791169,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 10223.842765251493,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -11670.518642732446,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -49155.653098258925,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -25640.90432262437,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -60557.086542797166,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1867997.353018023,
+        "symbol": "LINK",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 2554.786159521367,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -26163.571056895256,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 5033.285216942036,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -4982098.397457179,
+        "symbol": "stETH",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 27182.246794000992,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 247.77971721928483,
+        "symbol": "stETH",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -6724409.9506724775,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -233146.3019216079,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1570.1888978320974,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -5044.644695007231,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 47994.64291521994,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 24641.999653125014,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 321.60223674568044,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -444356.29968422913,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1004897.4936323079,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -23364.72962538642,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 3290.4947916666806,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -30323.166619274692,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -6550.917597085065,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 5122.351511018422,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 18.18457176073161,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 10715.295811435839,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -6776.645407021729,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 2358.7075835868163,
+        "symbol": "LINK",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -98959.59111727295,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -30417.791111153503,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2356.671357556838,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -13465.618701218731,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -16809.434168147087,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 2703.073179464624,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 345712.6110186825,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -47550.739119103884,
+        "symbol": "TUSD",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -16308.1439031149,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 698576.7732529921,
+        "symbol": "BUSD",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 18551.798248346935,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -54407.2687580776,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -432525.2467258324,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -34338999.57875833,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -121469.86500019311,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -29485.94094901019,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 468387.0740734943,
+        "symbol": "WETH",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -573454.7190743242,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -393914.4219454822,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1.9105669642986092,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 93.93558666666686,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 916.0180169127813,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 709.4309201388886,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 220394.42803667288,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 802234.9392795503,
+        "symbol": "BUSD",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 115.22267600527465,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 10.016483055555568,
+        "symbol": "DAI",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -49237.52265634252,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -372884.50724797504,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 151.23680045996278,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 45573.451554883366,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 29.774295834401777,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -17249.845488476756,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -12203.765585843128,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 38452058.13767998,
+        "symbol": "USDT",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -103779.50529828633,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 65879.9060732403,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 17043.216729226093,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -45816.62802948508,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -998812.1714209546,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -40803.8530330898,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -419851.5563306948,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -73.9137274425968,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 103754.80605098215,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 583.974506961808,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -7413.826208793551,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 67.42977148918723,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -192835.73266486137,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1559.1442983505433,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -14898.321827005324,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -58.62944413320227,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 162459.11431888852,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -6420.275115447335,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -149623.72287642263,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 25452.063909993296,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -15491541.196878683,
+        "symbol": "BUSD",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -606.6064573373238,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -73081.16515646722,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2172984.8067739196,
+        "symbol": "stETH",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -20203.299651836016,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1162628.0025748552,
+        "symbol": "FTT",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 55016.71296204335,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 7109.214626362457,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -399237.2284544536,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 22240629.70698191,
+        "symbol": "USDT",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 267404.8877792186,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 2374761.819309058,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -11763.4344039738,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -18778.960417951435,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 18223.854635811724,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -68614.54272720312,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 53822.836735889025,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 9966.116627580133,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 149985.86733285114,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -895.078655972113,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -64473.79935812397,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 3944337.329625577,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1446945.2946129066,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 397180.43843668135,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 258500.9696918097,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1500959.7485068513,
+        "symbol": "WBTC",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -208505.55184706225,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 95795.96101060399,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 456.2655789078757,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 115.17661844721029,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1527.0679575467404,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -269282.7983952878,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -21376.94146717629,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 105.9373532160413,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1406.0131885420087,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -8632.39060926654,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -3283.0334652093816,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -479854.3243517716,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -6084.020771678665,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -160802.60565258158,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 23878.54555852811,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 23202842.167414095,
+        "symbol": "WETH",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1449808.140683974,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 12179.941878921652,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 549908.7908023746,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 9842.36805019991,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 27917.79859556261,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 302433.67025104375,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -472.0527243055572,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1244.0294349375006,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 151148.05614771854,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 118975.160836734,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -3798.170997200574,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 64873.24808012998,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 71623.48396321785,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 239766.1884532248,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -6794.730067750935,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -108096.19166662882,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -5799.308745363027,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -83307.7330719088,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -148321.9939880401,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1.9290924157445875,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -389656.8315376061,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 11996.276199428554,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1368.540804726262,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -356656.29571365623,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 64154.102715361085,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -6506.949373590269,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 16533.875811538033,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -47572.20039206796,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -174735.2726787385,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 2572.904191285908,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -4340.84384525551,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -64856.31088234616,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -366825.02290897723,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -53851.34983666938,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -386015.48324971856,
+        "symbol": "DAI",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 6974.3508171329495,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 2139.566531995433,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 276443.14080908324,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -6669.578974057525,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -123829.87010325256,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 28154.843676536122,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1586221.2658023657,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 86.20170672741902,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 3660.31824205606,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 7064.155454424022,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -5874.923468192312,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 14382.840096818169,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 9172.165736846102,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1668.7073826312485,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -22921.69199100009,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -5708.605824760617,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 22777.925625000025,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 3050934.5711187343,
+        "symbol": "LINK",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -4849088.879102129,
+        "symbol": "TUSD",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -26644.857146201295,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -425917.11983980413,
+        "symbol": "MATIC",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 2933894.699909405,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 13.33913197187497,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 756.0983362560263,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 23735.459250411488,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -9273.792181581466,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 80.16736284277455,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -86029.88001014324,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -6772.902160361242,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 128021.89546418162,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 145.50378412037296,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -10903.67789027784,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -28391.73067423264,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -694.5725243246089,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -80068.6299724305,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 110303311.49481973,
+        "symbol": "USDC",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 468917.68275752786,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 55048.95057853514,
+        "symbol": "OTHERS",
+        "time": "2022-11-04 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 2692.4383087470333,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -447556.8870324278,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 13970.038239841711,
+        "symbol": "OTHERS",
+        "time": "2022-11-01 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1178.968016765295,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -51.21554659241335,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -34.676838463836184,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 16969.058750000026,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 29999.112428076784,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 3898.9094872500073,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -17194.743161671176,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -37563.80505694211,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 18718.190495177136,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 382772.3297848491,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -9219.832981802294,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 118.57343593531456,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -4889.732918095647,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -12168.622308845726,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 5516.725975741958,
+        "symbol": "OTHERS",
+        "time": "2022-11-09 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -27011.597697459852,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -61221.61892295408,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 25915.46656640056,
+        "symbol": "OTHERS",
+        "time": "2022-11-08 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -490.84290297381807,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 13.618908333333293,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -302.5137636074644,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -724.5259457441912,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2408371.40672223,
+        "symbol": "WETH",
+        "time": "2022-11-13 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2846655.7700677947,
+        "symbol": "WETH",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -125726.70661078396,
+        "symbol": "DAI",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 306.1183437500005,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -51.50311293382149,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -133.96047200833567,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -13143.146660416653,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 146.1952017468404,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -7550771.892742049,
+        "symbol": "USDC",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -0.1425649062499995,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 100.32226936979227,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2012.582916666666,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -45857.04755217596,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -27.036629124087366,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 158.13194444444335,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -31520.946780615788,
+        "symbol": "LINK",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 170.18785324015906,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -247682.99239803106,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 3225.519011099903,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2131.436343993054,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -23552.84990597215,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 631.2938604065205,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 5305518.140036756,
+        "symbol": "BUSD",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 2.1327611874999945,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -670.4200986975981,
+        "symbol": "MATIC",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 163839.1496934343,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 105.1023749999999,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -55005.96926947932,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -3920.288037058762,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 37.190589954861196,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -72583.878677694,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -734.2186718059507,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 25059.320601063722,
+        "symbol": "FTT",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 3330316.0423506363,
+        "symbol": "USDT",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 19.344097222222267,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 421.92627451571576,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -23651.04522190093,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1883.4360811246652,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 143614.62832748264,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1334.6211340447858,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 407.0191706813559,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -146630.70067222253,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 4.746528647743051,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 26.49445924999995,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1938.324549190124,
+        "symbol": "OTHERS",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 50808.26999197264,
+        "symbol": "WBTC",
+        "time": "2022-11-10 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -459040.3158460146,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1365504.0972837908,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -445594.44818068476,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -266471.0919129992,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -23224951.602729734,
+        "symbol": "LINK",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -331628.195449824,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -344653.5988335454,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -387385.67590059567,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -40446.894127439824,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -13613678.245542875,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1101545.8117374256,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1.623089736666669e-13,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1192022.0920871254,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -43271.155805649876,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -280489.58054446377,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -99332406.45526235,
+        "symbol": "FTT",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -13389989.826842155,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1095105.3506375137,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -375097.9243570709,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1112713.7686027198,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -598.9833501676535,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -473377.704763337,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -203453.37076938117,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2530668.3506062105,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -697071.6034042058,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -7716081.152504297,
+        "symbol": "DAI",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1006573.603456309,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2448501.6097010486,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -797347.2476005926,
+        "symbol": "BUSD",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -504709.42650112684,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -8425353.397909984,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -10864965.444780122,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -3565515.5535754706,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -58705090.92070205,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -43419363.59629269,
+        "symbol": "stETH",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -5042286.575755006,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -12865.219071622081,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2283.869398234576,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -7958860.520999217,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -4472511.716567659,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -499335.5178843612,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -26174967.354410898,
+        "symbol": "USDT",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -119170.16710828686,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -328132.7902058943,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1160535.872342306,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1984128.9204452422,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -28199.391887520414,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -915766.9597225279,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -283243.72390473745,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -433755.29666985956,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -5253304.896331461,
+        "symbol": "MATIC",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -208630.07842030856,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -205499.88173911057,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -679725.7104492508,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -160385.73806112015,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -3202955.2125966023,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -4176873.525866784,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -13777611.827626498,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2922736.6046386394,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -103175.24183676626,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -949022.4196156575,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -173.31754509675386,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -424014.1770523104,
+        "symbol": "WBTC",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -702814.3035524741,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -4139975.8353405455,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -15573.666447224672,
+        "symbol": "USDC",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -710083.5619640062,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -488225.13584293885,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2634637.589150365,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -315649.8336956828,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -703229.5294406886,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2100204.935402366,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -261287.6964241301,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1418664.3142371867,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -8766717.03711799,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -34506.23801808034,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -200.54346138157197,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -945526.054079976,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1014010.831423385,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1021797.2347428519,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -112553.85156738441,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2538949.669640692,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -12018659.967725199,
+        "symbol": "WETH",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -507481.1310263657,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -82140.39998457901,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -118162.4693161237,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -503837.1133789971,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -12284163.428687584,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -144746.37365123763,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -10480805.50972908,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -559571.8093606057,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1745.109886687318,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -821417.8433581251,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -3820611.51610008,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1219187.4023833284,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -942444.0431389961,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -363616.2031634892,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -804965.153366436,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -7318.772190355298,
+        "symbol": "TUSD",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -75651.82998659652,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -11696077.122373104,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -6325365.243374125,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -112491.11422815204,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1315491.8968835797,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1033514.7127248853,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -689.4215549710881,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -171017.20377296326,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -17682653.462328203,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -162985.87685281437,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -376546.45651495276,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -862015.8643824804,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1223088.7053515648,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -420779.73115164385,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -30950890.238614373,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -8.960555555555606,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1695268.3664664095,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -36614.37541087549,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2034092.1421972804,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1132892.8224109132,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -832921.756734687,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -3615738.1932043754,
+        "symbol": "OTHERS",
+        "time": "2022-11-12 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -7168584.840260293,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1206215.5009387601,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1095790.1799049666,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -17685.535297938044,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -18791.518700452663,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -8945.341574750244,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -23341840.06999749,
+        "symbol": "stETH",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -66888.3956793099,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 47406.03066917584,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 3087624.475826407,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -241936.0008604571,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -72517.57311659536,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -3459637.328861182,
+        "symbol": "DAI",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -169073.47983373137,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -3188.50930044791,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -121.62084281514315,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1748444.9610283088,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -38843234.33553804,
+        "symbol": "USDC",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1394721.1539005612,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -3136817.5130177294,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -315180.65412415745,
+        "symbol": "MATIC",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 2744792.1673681177,
+        "symbol": "FTT",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -19026.496724919525,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -324856150.3089301,
+        "symbol": "WETH",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -22861.26887731246,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1356484.6124063875,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 72264.10794442912,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -91497.27280485061,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -6543.388194628582,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -457110.0757357199,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 3378.88411672646,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -38158.16981634132,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -5075.679799436701,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -271098.35552677844,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -118777596.49958594,
+        "symbol": "USDT",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2051.6237835332176,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -213451.58571128128,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -32146.10698927371,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -43410.26948527277,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2078.7232625000097,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1735.3163303672957,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -24.32522752209539,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -10047131.364806633,
+        "symbol": "BUSD",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -3236.3109068532704,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -180048.14085153854,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -33780.302671296566,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -426620.5194010421,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -481591.6240805284,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -3589.4368748699303,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -384869.3087766304,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -3374.796484301021,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -14091.122429999961,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -107665.67042109977,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -7958.846776999718,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 15123.339679171291,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -459621.97125239985,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -283135.4099775056,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -35766.171750001595,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -374990.38813258853,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 8211.095225483941,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2042871.028903284,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -220425.76156542907,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -27220.660526194337,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -116025.11169581447,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -852127.3235867361,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -253808.94860615817,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -15730.29868555906,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -12879.307882841842,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -8091.962888347961,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -12218386.281145785,
+        "symbol": "WBTC",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1367465.4692345965,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -344920.0709756445,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -3514593.526255328,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -127511.78130665174,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -383468.29167179076,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -87853.62024842075,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -173.41291076306683,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2702292.2467525234,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -40660.84445181663,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -167210.07314691818,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -291.572137333333,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -357086.75092818186,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -29685.740647244544,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -30081.048206063922,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -128482.81921961908,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1183370.084036078,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -112153.71350042844,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -19914.16808522162,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -592187.4361144161,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -4121397.23285103,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -4294913.961069832,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -154523.95999873226,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -4099.183817320472,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1853.431491392898,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -76835.09364783378,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 118942.06570184173,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -919.4603418910284,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 18823.40030363968,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1191.9998146875012,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -52244.09896376354,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -114430.66305106458,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1758479.2402011796,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -130285.08797909768,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -44858.4346853392,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -198085.28912573235,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -10323208.588854266,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -18615.02253119343,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1579336.0073827547,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1567.9186125035042,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -14310444.97595971,
+        "symbol": "LINK",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2821.5676508951956,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1084455.6648543617,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -66747.43185551147,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -7769.156956864933,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -131270.32358577047,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -16562009.016610792,
+        "symbol": "TUSD",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -9265.437322394291,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -10702.29666949997,
+        "symbol": "OTHERS",
+        "time": "2022-11-06 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -52924.128840768775,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -927518.7463696239,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -9814.73755864204,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -234849.38336555116,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -157189.09369434573,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -364890.61751534033,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -4087634.667055843,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -16081228.355091227,
+        "symbol": "LINK",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -19939604.393450778,
+        "symbol": "stETH",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -190293.88321078836,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -201189.1382844717,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2878022.821529465,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -142541.78683609696,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -6053.626084247903,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -19320.92193839291,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -35854.36618149931,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -36822.893043520984,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -112577.89618100882,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -24259.219209923685,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1007.432183466884,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -253420.2946084907,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 399.1847443281514,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 43101.90360232804,
+        "symbol": "BUSD",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -140339.54233462363,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -680542.1329814806,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -57276.93821704167,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 144930.62767148687,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 7635.743328359757,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -867012.651038917,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2208651.216571216,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 2293746.786225399,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -4889455.585539386,
+        "symbol": "USDC",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -51864.71085365617,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -195.74731627412862,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -612.5999941606094,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1432523.1067352057,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -109808.83181146922,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -30039488.90796238,
+        "symbol": "WBTC",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -9140433.575022127,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -11129565.577517455,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -73815.22409090881,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -7318.185265426439,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -480686.278917172,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1153145.3103415258,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -263870.55791254796,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -962.3670908463359,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -340276.00873779727,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -190993.4138449908,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -33212.4142312958,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -351980.1002559934,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1882.051019351453,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -9001.123254004102,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -134738.04427331444,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -815327.5944753516,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1167626.6431534109,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -310978.3570654482,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -200563.3099524954,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -58513.786971812115,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -716792.0540429173,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -683839.1655264364,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -88091.08409299997,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1224167.807898097,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -177283.09804303147,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -545230.8486369011,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -24669.838965294475,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -631615.9218024913,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -131820.69902195936,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1453174.3072480715,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 23448.049496070333,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -75246.21361616084,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -146759.18025977907,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -52356.721323888174,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -29823.27286950175,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -249785280.93951273,
+        "symbol": "WETH",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1043110.9479645788,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1728776.2414983967,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -495797.58796410577,
+        "symbol": "TUSD",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2702596.9987900937,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -4074121.0347478837,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1572.7508254734746,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -647538.0636868195,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2483.229020790662,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1856839.2199973802,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -6287306.959368585,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1305541.9171575892,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -8585.608763291768,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 60294.9008903929,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -65715.70806705438,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -171550.9864307781,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1915075.8693368286,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -208323.5474076809,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1117.3506663657215,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2279912.1235024477,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2537937.841062197,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 7092112.140996083,
+        "symbol": "USDT",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -13351684.66414843,
+        "symbol": "MATIC",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -25725.547238832525,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -51852.00742806004,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -209328.7197101247,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -6577150.495755372,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -4361.648773964926,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -6376907.073100473,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -95197.65486071951,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -585144.7042158002,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1352645.3040384063,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 198183259.31717718,
+        "symbol": "FTT",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1119552.470312462,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -115633.24983945573,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -982675.4954587326,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -102763.12691594049,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 240838.07734876618,
+        "symbol": "DAI",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1847.8284696747664,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -121077.50064305692,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -92456.94262995619,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -53529.90167484995,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -678209.928548226,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -53050.25789659252,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -7780.486672225154,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -106270.04293775982,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1304.9013241450668,
+        "symbol": "OTHERS",
+        "time": "2022-11-07 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -4544.684341983176,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 319816.6947998154,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 245513.21615488688,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -41427.11205800865,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 20665.962407840598,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -18569.63026045179,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -0.06355972178819448,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -24095.31876578807,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -142289011.8910374,
+        "symbol": "FTT",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -69591.96259148125,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -23623.806060650168,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 24181.915316649374,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -799183.7740628844,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 211113.8247613065,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -3177.0878001698043,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 3115.911994715156,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1133619.9890170777,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1.5181720376215266,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 10247.024821522456,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -24420.225332114936,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -180.84906240735734,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 8805991.081584215,
+        "symbol": "BUSD",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -26706.564194387603,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 165705.03416532328,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 5054.445143667379,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 196748.61837565547,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 248.63717890516975,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -610094.7502490651,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 192079.8311413343,
+        "symbol": "LINK",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -4899.7024122003195,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 9546.572838279695,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1309.281673282119,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 226.6661286940047,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -258142.3788583066,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 32301.760045136234,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 6673.927533902693,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1536.3423514894464,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -31.54503750645122,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2873525.1537257363,
+        "symbol": "DAI",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2624714.733964053,
+        "symbol": "stETH",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -55837.39565652712,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 27334.49542165566,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 23050.983886260932,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -256.2966531039161,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -61959.954728918376,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -3422.664734998317,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 126365.55465524542,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -48705.492821588574,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 722000.6309219344,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1804.771060314096,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 616423.5661580275,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -16251.116161365842,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 33949.33131183289,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 930006.3289228939,
+        "symbol": "WBTC",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -20586.09747692089,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 5327.712668507186,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 409568.3045831321,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -36581.617651875014,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -110713.95461361141,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1488347.6290250965,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -13537.429367036259,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -40047768.88345585,
+        "symbol": "WETH",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 10893.08844802372,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -98250672.13004129,
+        "symbol": "USDC",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 201.06748629871674,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 15186.670729015732,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -986331.6894511508,
+        "symbol": "MATIC",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 305236.69472461974,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 299.8816523236179,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -4018.021632845583,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -6167.046564187128,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 5534.084293751096,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -8020.415613908365,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -12740.728471775472,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 172683.84560483627,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -83352.20063955263,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 207.403699999999,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -6303533.881450363,
+        "symbol": "TUSD",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 2692061.4993304363,
+        "symbol": "USDT",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -26244.044025969062,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -5157.629298309555,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 246.24522184716014,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1534.5787745694504,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -77737.89866667599,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -103285.90098709636,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1698.7764892187517,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 985032.8415092659,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -41312.36179748817,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 2141.0931147495394,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 5713.773407647574,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -360074.5792377382,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 205.0604855049719,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1396.4486047686619,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -214652.48955193002,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -796.8170411703347,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 27486.41492421253,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 2382.921036603653,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 38671.92840808824,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -6329.3282757651195,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 12221.97448322809,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 22336.818996509355,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -63426.05580796345,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -9163.16243044995,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 118202.39762129996,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 51.77288967442648,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -80546.74017708347,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -4243.4683665208,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 56041.554748093185,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -81344.70170424548,
+        "symbol": "OTHERS",
+        "time": "2022-11-05 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2904.2574807538613,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1023.1795558178376,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -9032388.906910948,
+        "symbol": "USDC",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -42351.58326234016,
+        "symbol": "WETH",
+        "time": "2022-11-21 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 6918.795427580555,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -16404.962164382534,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -8587.151532717558,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -214106.41797146123,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -79899.85511287599,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -67918.96060411607,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 2056.905403503083,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -109291.64928396445,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -6053.082271086066,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1127210.4125475455,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1726.3925000000024,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 46045.96656948162,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -52139.03710883853,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 387355.97822151124,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1869817.7308842174,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 410.20871451427,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1843860.9348751057,
+        "symbol": "WBTC",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2381.2174570555558,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 4865.250771980991,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -12226.356277173561,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 196794.07479777708,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 8605301.62195444,
+        "symbol": "WETH",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1961.1479825376664,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 108715.3997867096,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -0.00558231270790653,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 31280.11666830176,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 583.1864168704166,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -6638.127903334192,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 8935.59283770442,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -8333.5272769991,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 316025.4053144335,
+        "symbol": "LINK",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1698369.9817765814,
+        "symbol": "stETH",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -4259.9275198958385,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 57582.876200397266,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -12715.43214352166,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 3107.175736446117,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -152692.76142171124,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 119752.53206077636,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 2725.4205611110983,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -17489.47985806556,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 983247.1470295922,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -63175.77927025488,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 167343.50554657713,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -39463.83322347352,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -2168889.737275618,
+        "symbol": "MATIC",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -6166.953891880512,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -26268.157179205893,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 4688.91845833083,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1703.219190953901,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 41108.744032707546,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1913.6203333333356,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -853.3069822055363,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 632.1237835654803,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -4672582.267443861,
+        "symbol": "DAI",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 389.6968059906333,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 150543.59891267263,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -693.178583603333,
+        "symbol": "OTHERS",
+        "time": "2022-11-21 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -42903349.50115068,
+        "symbol": "BUSD",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 353007.3915244389,
+        "symbol": "FTT",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 497462.0630458296,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 22495.383247618433,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 4.9419386840277815,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -14804.472634903024,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -4387.274110312468,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 2497.7250408611158,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 105675.72998860142,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -114890.46996982252,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -109227.81946603727,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -456265.8543466526,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -180.0415677083327,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -5347.835898125015,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 15947.695765624327,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -388.2406300052989,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -459.63975517375667,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -169557.00747626714,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 66624.78831047988,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 36528.53882736466,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 11744.178789297772,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1807.4452904260322,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 1665.5912812916702,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 119962.66587579012,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 16575.045645631046,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 103009.16359662208,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -84439.68365727192,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -12516.975166666678,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 585906.3890667604,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 170634.0992420361,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 31663.8652502713,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -1288751.7123203056,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -7415.068321095128,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -27239.100800603126,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -98409.08521538455,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -94032.42557067219,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 57150426.951168425,
+        "symbol": "USDT",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -678.0936784995697,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -7471.224660246928,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -26425.714715197693,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -36903.1113432182,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 2333844.0848579616,
+        "symbol": "TUSD",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": -4482136.697594714,
+        "symbol": "OTHERS",
+        "time": "2022-11-21 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 180.63559846331893,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    },
+    {
+        "eth_amount_usd": 60595.21084270161,
+        "symbol": "OTHERS",
+        "time": "2022-11-02 00:00:00.000 UTC"
+    }
+]

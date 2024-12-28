@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FTX Inflow Outflow Breakdown</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+    <div id="chart"></div>
+
+    <script>
+        async function fetchData() {
+            const response = await fetch('a1.json');
+            const data = await response.json();
+
+            const groupedData = {};
+            data.forEach(entry => {
+                const date = entry.time.split(' ')[0];
+                if (!groupedData[date]) groupedData[date] = {};
+                if (!groupedData[date][entry.symbol]) {
+                    groupedData[date][entry.symbol] = 0;
+                }
+                groupedData[date][entry.symbol] += entry.eth_amount_usd;
+            });
+
+            const categories = Object.keys(groupedData).sort();
+            const seriesData = {};
+
+            for (const date in groupedData) {
+                for (const symbol in groupedData[date]) {
+                    if (!seriesData[symbol]) seriesData[symbol] = [];
+                    seriesData[symbol].push(groupedData[date][symbol]);
+                }
+            }
+
+            const series = Object.keys(seriesData).map(symbol => ({
+                name: symbol,
+                data: seriesData[symbol]
+            }));
+
+            const options = {
+                chart: {
+                    type: 'bar',
+                    stacked: true,
+                    height: 500
+                },
+                series: series,
+                xaxis: {
+                    categories: categories
+                },
+                title: {
+                    text: 'FTX Inflow Outflow Breakdown Before Going Bankrupt'
+                },
+                yaxis: {
+                    labels: {
+                        formatter: function (val) {
+                            return val.toFixed(0);
+                        }
+                    },
+                    title: {
+                        text: 'USD Amount'
+                    }
+                },
+                legend: {
+                    position: 'right'
+                }
+            };
+
+            const chart = new ApexCharts(document.querySelector("#chart"), options);
+            chart.render();
+        }
+
+        fetchData();
+    </script>
+</body>
+</html>
