@@ -43,48 +43,47 @@
                 chart: {
                     type: 'bar',
                     stacked: true,
-                    height: 500
+                    height: 500,
+                    background: '#000'  // 배경색을 검은색으로 설정
                 },
                 series: series,
                 xaxis: {
                     categories: categories
                 },
                 title: {
-                    text: 'FTX Inflow Outflow Breakdown Before Going Bankrupt'
+                    text: 'FTX Inflow Outflow Breakdown Before Going Bankrupt',
+                    style: {
+                        color: '#fff'  // 제목 색상도 흰색으로
+                    }
                 },
                 yaxis: {
                     labels: {
                         formatter: function (val) {
-                            return val.toLocaleString();
+                            return val.toFixed(0);
+                        },
+                        style: {
+                            colors: '#fff'  // Y축 레이블을 흰색으로
                         }
                     },
                     title: {
-                        text: 'USD Amount'
-                    },
-                    min: function (min) {
-                        return min < -20000000 ? min : -20000000;  // 과도한 음수 방지
+                        text: 'USD Amount',
+                        style: {
+                            color: '#fff'  // Y축 제목 색상
+                        }
+                    }
+                },
+                xaxis: {
+                    categories: categories,
+                    labels: {
+                        style: {
+                            colors: '#fff'  // X축 레이블을 흰색으로
+                        }
                     }
                 },
                 legend: {
-                    position: 'right'
-                },
-                dataLabels: {
-                    enabled: false  // 바 안의 숫자 제거
-                },
-                plotOptions: {
-                    bar: {
-                        distributed: false,
-                        borderRadiusApplication: 'end',
-                        borderRadius: 5,
-                        horizontal: false,
-                        barHeight: '90%'
-                    }
-                },
-                tooltip: {
-                    y: {
-                        formatter: function (val) {
-                            return val.toLocaleString() + " USD";
-                        }
+                    position: 'right',
+                    labels: {
+                        colors: '#fff'  // 범례 색상도 흰색으로
                     }
                 }
             };
