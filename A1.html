@@ -55,26 +55,36 @@
                 yaxis: {
                     labels: {
                         formatter: function (val) {
-                            return val.toFixed(0);
+                            return val.toLocaleString();
                         }
                     },
                     title: {
                         text: 'USD Amount'
+                    },
+                    min: function (min) {
+                        return min < -20000000 ? min : -20000000;  // 과도한 음수 방지
                     }
                 },
                 legend: {
                     position: 'right'
                 },
                 dataLabels: {
-                    enabled: false  // 바 안의 숫자를 없앱니다
+                    enabled: false  // 바 안의 숫자 제거
                 },
                 plotOptions: {
                     bar: {
                         distributed: false,
-                        borderRadiusApplication: 'end',  // 부드럽게 처리
+                        borderRadiusApplication: 'end',
                         borderRadius: 5,
                         horizontal: false,
                         barHeight: '90%'
+                    }
+                },
+                tooltip: {
+                    y: {
+                        formatter: function (val) {
+                            return val.toLocaleString() + " USD";
+                        }
                     }
                 }
             };
